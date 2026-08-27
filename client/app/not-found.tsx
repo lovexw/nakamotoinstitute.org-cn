@@ -6,7 +6,7 @@ import { RootLayout } from "./components/RootLayout";
 const generateHref = (loc: Locale) => urls(loc).home;
 
 export default function NotFound() {
-  const locale: Locale = "en";
+  const locale: Locale = "zh-cn";
 
   return (
     <RootLayout locale={locale}>

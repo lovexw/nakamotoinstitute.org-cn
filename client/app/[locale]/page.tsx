@@ -147,7 +147,7 @@ export default async function HomePage(props: LocaleParams) {
               </h3>
               <Link
                 className="text-cardinal font-semibold hover:underline"
-                href={urls("en").library.doc("gradually-then-suddenly")}
+                href={urls(locale).library.doc("gradually-then-suddenly")}
               >
                 {t("read_more")}
               </Link>

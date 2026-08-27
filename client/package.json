@@ -11,7 +11,10 @@
     "typecheck": "tsc --noEmit",
     "translate:extract": "i18next-cli extract",
     "translate:types": "i18next-cli types",
-    "generate-api": "openapi-ts && bun scripts/fix-generated-dates.ts"
+    "generate-api": "openapi-ts && bun scripts/fix-generated-dates.ts",
+    "preview": "opennextjs-cloudflare build && wrangler dev",
+    "deploy": "opennextjs-cloudflare build && wrangler deploy",
+    "cf-typegen": "wrangler types"
   },
   "dependencies": {
     "@floating-ui/react": "^0.27.20",
@@ -44,6 +47,7 @@
   "devDependencies": {
     "@eslint/eslintrc": "^3.3.6",
     "@hey-api/openapi-ts": "0.99.0",
+    "@opennextjs/cloudflare": "^1.20.4",
     "@tailwindcss/postcss": "^4.3.2",
     "@tailwindcss/typography": "^0.5.20",
     "@trivago/prettier-plugin-sort-imports": "^6.0.2",
@@ -58,6 +62,7 @@
     "prettier": "^3.9.5",
     "prettier-plugin-tailwindcss": "^0.8.0",
     "tailwindcss": "^4.3.2",
-    "typescript": "6.0.3"
+    "typescript": "6.0.3",
+    "wrangler": "^4.127.0"
   }
 }

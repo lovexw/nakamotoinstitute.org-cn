@@ -14,7 +14,7 @@ export default function GlobalError({
   reset,
 }: GlobalErrorProps) {
   return (
-    <html lang="en" className="bg-cream text-dark font-serif">
+    <html lang="zh-CN" className="bg-cream text-dark font-serif">
       <body className="flex min-h-screen flex-col">
         <ErrorFallback reset={reset} />
       </body>

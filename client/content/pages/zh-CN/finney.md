@@ -1,0 +1,1 @@
+Hal Finney（哈尔·芬尼）是一名软件工程师，也是密码朋克（Cypherpunks）的早期成员。芬尼是密码学与数字隐私的著名倡导者。他曾任职于 PGP Corporation，编写了最早的一批 PGP 代码。他还构建了第一个[匿名中继邮件系统](https://en.wikipedia.org/wiki/Anonymous_remailer#Cypherpunk_remailers.2C_also_called_Type_I)、第一个基于工作量证明的数字现金系统 RPOW（可重用工作量证明），并收到了中本聪发出的第一笔比特币转账。2014 年，Hal 因渐冻症（肌萎缩侧索硬化症，ALS）去世，遗体由 Alcor 生命延续基金会进行了低温保存。

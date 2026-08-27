@@ -1,4 +1,4 @@
-import { canonicalLocales, defaultLocale } from "@/i18n";
+import { canonicalLocales } from "@/i18n";
 
 export const fallbackLng = "en";
 export const defaultNS = "common";
@@ -13,7 +13,7 @@ export function getOptions(
     // debug: true,
     supportedLngs: canonicalLocales,
     keySeparator: false as KeySeparator,
-    fallbackLng: defaultLocale,
+    fallbackLng,
     lng,
     fallbackNS: defaultNS,
     returnEmptyString: false,

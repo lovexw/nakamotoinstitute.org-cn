@@ -38,7 +38,7 @@ export const canonicalLocales = locales.map(
   (l) => Intl.getCanonicalLocales(l)[0],
 );
 
-export const defaultLocale = "en";
+export const defaultLocale = "zh-cn";
 
 export function isLocale(value: string): value is (typeof locales)[number] {
   return (locales as readonly string[]).includes(value);
