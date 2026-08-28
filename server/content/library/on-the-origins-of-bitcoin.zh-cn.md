@@ -1,14 +1,15 @@
 ---
 title: 论比特币的起源
 authors:
-  - pierre-rochard
-date: 2013-08-26
-display_date: 2013年8月26日
+  - konrad-s-graf
+date: 2013-10-23
+formats:
+  - pdf
 categories:
-  - bitcoin
   - economics
+  - bitcoin
 doctype: essay
-external: https://nakamotoinstitute.org/mempool/on-the-origins-of-bitcoin/
+external: http://konradsgraf.com/storage/On%20the%20Origins%20of%20Bitcoin%20Graf%2003.11.13.pdf
 ---
 
 ---
