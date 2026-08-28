@@ -1,6 +1,6 @@
 import { canonicalLocales, defaultLocale } from "@/i18n";
 
-export const fallbackLng = "en";
+export const fallbackLng = "zh-cn";
 export const defaultNS = "common";
 
 type KeySeparator = string | false | undefined;
