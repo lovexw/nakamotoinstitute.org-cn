@@ -1,0 +1,127 @@
+[
+  {
+    "slug": "micropayments",
+    "name": "Micropayments",
+    "name_zh": "微支付"
+  },
+  {
+    "slug": "bitcoin-economics",
+    "name": "Bitcoin Economics",
+    "name_zh": "比特币经济学"
+  },
+  {
+    "slug": "cryptocurrency",
+    "name": "Cryptocurrency",
+    "name_zh": "加密货币"
+  },
+  {
+    "slug": "transactions",
+    "name": "Transactions",
+    "name_zh": "交易"
+  },
+  {
+    "slug": "mining",
+    "name": "Mining",
+    "name_zh": "挖矿"
+  },
+  {
+    "slug": "releases",
+    "name": "Releases",
+    "name_zh": "版本发布"
+  },
+  {
+    "slug": "bitcoin-design",
+    "name": "Bitcoin Design",
+    "name_zh": "比特币设计"
+  },
+  {
+    "slug": "double-spending",
+    "name": "Double Spending",
+    "name_zh": "双重支付"
+  },
+  {
+    "slug": "proof-of-work",
+    "name": "Proof-of-Work",
+    "name_zh": "工作量证明"
+  },
+  {
+    "slug": "motives",
+    "name": "Motives",
+    "name_zh": "动机"
+  },
+  {
+    "slug": "difficulty",
+    "name": "Difficulty",
+    "name_zh": "难度"
+  },
+  {
+    "slug": "fees",
+    "name": "Fees",
+    "name_zh": "手续费"
+  },
+  {
+    "slug": "government",
+    "name": "Government",
+    "name_zh": "政府"
+  },
+  {
+    "slug": "p2p-networks",
+    "name": "P2P Networks",
+    "name_zh": "P2P网络"
+  },
+  {
+    "slug": "identity",
+    "name": "Identity",
+    "name_zh": "身份"
+  },
+  {
+    "slug": "encryption",
+    "name": "Encryption",
+    "name_zh": "加密"
+  },
+  {
+    "slug": "banks",
+    "name": "Banks",
+    "name_zh": "银行"
+  },
+  {
+    "slug": "privacy",
+    "name": "Privacy",
+    "name_zh": "隐私"
+  },
+  {
+    "slug": "economics",
+    "name": "Economics",
+    "name_zh": "经济学"
+  },
+  {
+    "slug": "general",
+    "name": "General",
+    "name_zh": "综合"
+  },
+  {
+    "slug": "scalability",
+    "name": "Scalability",
+    "name_zh": "可扩展性"
+  },
+  {
+    "slug": "trusted-third-parties",
+    "name": "Trusted Third Parties",
+    "name_zh": "可信第三方"
+  },
+  {
+    "slug": "nodes",
+    "name": "Nodes",
+    "name_zh": "节点"
+  },
+  {
+    "slug": "addresses",
+    "name": "Addresses",
+    "name_zh": "地址"
+  },
+  {
+    "slug": "zero-knowledge",
+    "name": "Zero-Knowledge Proofs",
+    "name_zh": "零知识证明"
+  }
+]
