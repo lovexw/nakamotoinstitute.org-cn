@@ -92,10 +92,10 @@
     "source_id": "8",
     "poster_name": "Sepp Hasslberger",
     "poster_url": "http://p2pfoundation.ning.com/profile/Sepp",
-    "subject": "Bitcoin open source implementation of P2P currency",
+    "subject": "比特币——点对点货币的开源实现",
     "url": "http://p2pfoundation.ning.com/xn/detail/2003008:Comment:9578",
     "date": "2009-02-20T08:53:00Z",
-    "text": "<div class=\"post\">So in other words, \"the early adopter finds the worm\" in this system.<br/>\n<br/>\nThis would mean that - the earlier someone gets in on the bitcoin system establishing a node, the more chance they have of becoming lucky and being able to generate coins. Nothing against that, it would work to promote adoption of the system.<br/>\n<br/>\nHowever there should also be a method of adjusting the total number of coins extant. I would propose to link the total number of coins to the number of active nods.<br/>\n<br/>\nThis way, you have two parameters that keep a balance. One is the halving of coins given per block, the other is a continual (or periodic?) adjustment of the target total of coins to the number of active users. That should self-balance the system.<br/>\n<br/>\nThe reason balance of the system is important: if it's going to be used for payments, you don't want to have large changes in the value of the coins. It would lead to distortions, I believe, by continually increasing the \"purchasing power\" of a single coin.<br/>\n<br/>\nStability of the coins' value is desirable for long term use.</div>",
+    "text": "<div class=\"post\">也就是说，在这个系统中，「早起的鸟儿有虫吃」。<br/>\n<br/>\n这就意味着——越早加入比特币系统建立节点的人，就越有机会幸运地生成币。我对此没有异议，这将有助于推动系统的普及。<br/>\n<br/>\n不过，也应该有一种调整现有币总量的方法。我建议将币的总量与活跃节点的数量挂钩。<br/>\n<br/>\n这样，你就有两个保持平衡的参数。一个是每个区块给出的币数量的减半，另一个是对币的目标总量进行持续（或周期性？）调整以匹配活跃用户的数量。这样应该能使系统自我平衡。<br/>\n<br/>\n系统平衡之所以重要，原因是：如果要用于支付，你不希望币值出现大幅波动。我认为，通过持续增加单个币的「购买力」，会导致扭曲。<br/>\n<br/>\n币值的稳定对于长期使用来说是非常重要的。</div>",
     "nested_level": 3
   },
   {
@@ -1524,10 +1524,10 @@
     "source_id": "8",
     "poster_name": "livingsoulnation",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=32",
-    "subject": "Re: We accept Bitcoins",
+    "subject": "回复：我们接受比特币",
     "url": "https://bitcointalk.org/index.php?topic=30.msg241#msg241",
     "date": "2010-02-05T06:23:14Z",
-    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=30.msg186#msg186\">Quote from: sirius-m on February 01, 2010, 10:35:06 AM</a></div><div class=\"quote\"><a href=\"http://www.livingsoulnation.org/\">http://www.livingsoulnation.org/</a> \"LivingSoulNation.org is now using Bitcoin as its currency. Use it to trade with us or use it to donate Bitcoin(s).\"<br/><br/>Not sure what they trade, though <img alt=\"Tongue\" border=\"0\" src=\"/static/img/emoticons/tongue.gif\"/><br/></div><br/>We are selling 'indulgences' just like the Roman Catholic Church used to. Just kidding.<br/><br/>Utilizing someone's exchange service would be nice. We are accepting donations to start, and if someone wanted us to link back to their site (links or banners), or promote their exchange we would certainly do that for some BitCoins. We are associated with PNNAC.ORG, a private freedom-based society that may also be interested in the same things. Their contact info is on the site.<br/><br/>Let's start some dialogue and see where it takes us. I'll check out the existing exchanges and if they look reasonable I'll contact them.</div>",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=30.msg186#msg186\">引用自：sirius-m 于 2010年2月1日 10:35:06 AM</a></div><div class=\"quote\"><a href=\"http://www.livingsoulnation.org/\">http://www.livingsoulnation.org/</a>「LivingSoulNation.org 现在正在使用比特币作为其货币。用它与我们交易，或用它来捐赠比特币。」<br/><br/>不过不确定他们在交易什么 <img alt=\"Tongue\" border=\"0\" src=\"/static/img/emoticons/tongue.gif\"/><br/></div><br/>我们卖的是「赎罪券」，就像罗马天主教会以前做的那样。开个玩笑。<br/><br/>如果能利用某人的兑换服务就好了。我们目前接受捐赠作为起步，如果有人希望我们在网站上给他们做链接（友情链接或横幅），或者推广他们的交易所，我们当然可以用比特币来做这件事。我们与 PNNAC.ORG 有关联，那是一个以自由为基础的私人社区，可能也对类似的事物感兴趣。他们的联系方式在网站上。<br/><br/>让我们开始一些对话，看看能走到哪里。我会看看现有的交易所，如果看起来靠谱的话我会联系他们。</div>",
     "nested_level": 0
   },
   {
@@ -1536,10 +1536,10 @@
     "source_id": "9",
     "poster_name": "BlueSky",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=34",
-    "subject": "Re: We accept Bitcoins",
+    "subject": "回复：我们接受比特币",
     "url": "https://bitcointalk.org/index.php?topic=30.msg253#msg253",
     "date": "2010-02-06T09:56:29Z",
-    "text": "<div class=\"post\">This will be what makes bitcoin successful, being able to exchange it for goods &amp; services(not just an exchange service).<br/><br/>Virtual currency (nothing like bitcoin) can become successfull in being accepted for real goods &amp; services, it just takes a little time. Qcoin was popular here in China but is being put down by the Chinese central bank.<br/><br/>See here <a href=\"http://en.wikipedia.org/wiki/Tencent_QQ#Q_coin\">http://en.wikipedia.org/wiki/Tencent_QQ#Q_coin</a> and here <br/><a href=\"http://online.wsj.com/public/article/SB117519670114653518-FR_svDHxRtxkvNmGwwpouq_hl2g_20080329.html\">http://online.wsj.com/public/article/SB117519670114653518-FR_svDHxRtxkvNmGwwpouq_hl2g_20080329.html</a><br/><br/>Well I'm in China, for things like getting documents translated to Chinese and maybe some goods (starting with cheaper items) I can post. I also have access to plenty of poor students who I might be able to convince to contribute their time (for programming, website design, logo design etc.) for bitcoins. <br/><br/>I myself am an English teacher so I haven't much to offer as a remote service.</div>",
+    "text": "<div class=\"post\">正是这一点将使比特币获得成功——能够用它交换商品和服务（而不仅仅是通过兑换服务）。<br/><br/>虚拟货币（与比特币完全不同）可以在被接受用于真实商品和服务方面取得成功，只是需要一些时间。Q币在中国很流行，但正在被中国央行打压。<br/><br/>参见这里 <a href=\"http://en.wikipedia.org/wiki/Tencent_QQ#Q_coin\">http://en.wikipedia.org/wiki/Tencent_QQ#Q_coin</a> 以及这里<br/><a href=\"http://online.wsj.com/public/article/SB117519670114653518-FR_svDHxRtxkvNmGwwpouq_hl2g_20080329.html\">http://online.wsj.com/public/article/SB117519670114653518-FR_svDHxRtxkvNmGwwpouq_hl2g_20080329.html</a><br/><br/>嗯，我在中国，对于比如将文件翻译成中文以及一些商品（从较便宜的物品开始），我可以邮寄。我还认识很多贫困学生，我也许能说服他们贡献时间（做编程、网站设计、logo 设计等）来换取比特币。<br/><br/>我自己是一名英语教师，所以作为远程服务我没什么太多能提供的。</div>",
     "nested_level": 0
   },
   {
@@ -2150,10 +2150,10 @@
     "source_id": "10",
     "poster_name": "satoshi",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=3",
-    "subject": "Re: Questions about Addresses",
+    "subject": "回复：关于地址的问题",
     "url": "https://bitcointalk.org/index.php?topic=34.msg222#msg222",
     "date": "2010-02-04T00:07:07Z",
-    "text": "<div class=\"post\">Port forwarding forwards a port to one computer.&nbsp; It tells the router which computer handles connections to that port.&nbsp; So that's the computer receiving.<br/><br/>If you didn't set up port forwarding, then incoming connections won't go to any computer, and attempts to send to that IP would just say it couldn't connect to the recipient and nothing is sent.&nbsp; When sending by IP, you still send to a bitcoin address, but your computer connects to that IP, gets a new bitcoin address from it, gives the transaction directly to the them and confirms that it was received and accepted.<br/><br/>Someone should post their static IP so people can try out sending by IP and also give that user free money.<br/><br/>There's a 32-bit checksum in bitcoin addresses so you can't accidentally type an invalid address.<br/><br/>If 4) you send to a recipient who has abandoned or lost their wallet.dat, then the money is lost.&nbsp; A subtle point can be made that since there is then less total money in circulation, everyone's remaining money is worth slightly more, aka \"natural deflation\".</div>",
+    "text": "<div class=\"post\">端口转发是将一个端口转发到一台电脑。它告诉路由器哪台电脑处理到该端口的连接。所以那台电脑就是接收方。<br/><br/>如果你没有设置端口转发，那么传入的连接不会到达任何电脑，向该 IP 发送的尝试只会显示无法连接到接收方，什么也不会发送。当通过 IP 发送时，你仍然是发送到一个比特币地址，但你的电脑会连接到那个 IP，从中获取一个新的比特币地址，将交易直接发送给对方，并确认交易已被接收和接受。<br/><br/>应该有人公布他们的静态 IP，这样大家就可以尝试通过 IP 发送，同时也给那个用户一些免费的钱。<br/><br/>比特币地址中有32位校验和，所以你不会不小心输入一个无效的地址。<br/><br/>如果4）你发送给的接收方已经放弃或丢失了他们的 wallet.dat，那么钱就丢失了。这里有一个微妙的点：由于流通中的总货币量因此减少了，每个人剩余的货币价值会略微上升，也就是所谓的自然通缩。</div>",
     "nested_level": 0
   },
   {
@@ -2323,10 +2323,10 @@
     "source_id": "7",
     "poster_name": "satoshi",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=3",
-    "subject": "Re: Proof-of-work difficulty increasing",
+    "subject": "回复：工作量证明难度增加",
     "url": "https://bitcointalk.org/index.php?topic=43.msg376#msg376",
     "date": "2010-02-16T17:36:40Z",
-    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=43.msg361#msg361\">Quote from: Suggester on February 16, 2010, 02:15:49 AM</a></div><div class=\"quote\">Satoshi, I figured it will take my modern core 2 duo about 20 hours of nonstop work to create ฿50.00! With older PCs it will take forever. People like to feel that they \"own\" something as soon as possible, is there a way to make the generation more divisible? So say, instead of making ฿50 every 20 hours, make ฿5 every 2 hours? <br/></div>I thought about that but there wasn't a practical way to do smaller increments. &nbsp;The frequency of block generation is balanced between confirming transactions as fast as possible and the latency of the network.<br/><br/>The algorithm aims for an average of 6 blocks per hour. &nbsp;If it was 5 bc and 60 per hour, there would be 10 times as many blocks and the initial block download would take 10 times as long. &nbsp;It wouldn't work anyway because that would be only 1 minute average between blocks, too close to the broadcast latency when the network gets larger.</div>",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=43.msg361#msg361\">引用自 Suggester 于 2010年2月16日 02:15:49 AM</a></div><div class=\"quote\">Satoshi，我发现用我的酷睿2双核大约需要不间断运行20个小时才能生成 ฿50.00！用更老的电脑则需要无尽的时间。人们喜欢尽快感受到自己拥有某样东西，有没有办法让生成更可分割？比如，不是每20小时生成 ฿50，而是每2小时生成 ฿5？<br/></div>我考虑过这个问题，但没有实际的方法实现更小的增量。&nbsp;区块生成的频率是在尽快确认交易和网络延迟之间取得平衡。<br/><br/>该算法的目标是平均每小时生成6个区块。&nbsp;如果改为 5 比特币和每小时60个区块，区块数量将是10倍，初始区块下载时间也将是10倍。&nbsp;而且这根本行不通，因为那样区块之间的平均间隔只有1分钟，当网络规模变大时，这与广播延迟太接近了。</div>",
     "nested_level": 0
   },
   {
@@ -2348,10 +2348,10 @@
     "source_id": "9",
     "poster_name": "satoshi",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=3",
-    "subject": "Re: Proof-of-work difficulty increasing",
+    "subject": "回复：工作量证明难度增加",
     "url": "https://bitcointalk.org/index.php?topic=43.msg388#msg388",
     "date": "2010-02-17T17:58:03Z",
-    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=43.msg372#msg372\">Quote from: Sabunir on February 16, 2010, 08:51:51 AM</a></div><div class=\"quote\">. Perhaps it has to do with my connection's very high latency (2000ms or more on average) <br/></div>2 seconds of latency in both directions should reduce your generation success by less than 1%.<br/><br/><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=43.msg372#msg372\">Quote from: Sabunir on February 16, 2010, 08:51:51 AM</a></div><div class=\"quote\">and/or my high packet loss (sometimes up to 10% loss)?<br/></div>Probably OK, but I'm not sure.&nbsp; The protocol is designed to resync to the next message, and messages get re-requested from all the other nodes you're connected to until received.&nbsp; If you miss a block, it'll also keep requesting it every time another blocks comes in and it sees there's a gap.&nbsp; Before the original release I did a test dropping 1 out of 4 random messages under heavy load until I could run it overnight without any nodes getting stuck.</div>",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=43.msg372#msg372\">引用自 Sabunir 于 2010年2月16日 08:51:51 AM</a></div><div class=\"quote\">。也许这与我网络连接非常高的延迟有关（平均2000毫秒以上）<br/></div>双向各2秒的延迟应该会使你的生成成功率降低不到1%。<br/><br/><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=43.msg372#msg372\">引用自 Sabunir 于 2010年2月16日 08:51:51 AM</a></div><div class=\"quote\">以及/或者我的高丢包率（有时丢包率高达10%）？<br/></div>大概没问题，但我不敢确定。&nbsp;协议设计为可以重新同步到下一条消息，并且消息会向你连接的所有其他节点重新请求直到收到。&nbsp;如果你错过了一个区块，每当另一个区块到来并且它发现有空缺时，它也会不断请求该区块。&nbsp;在最初发布之前，我做过一个测试，在高负载下随机丢弃四分之一的消息，直到能够整夜运行而没有任何节点卡住。</div>",
     "nested_level": 0
   },
   {
@@ -3333,10 +3333,10 @@
     "source_id": "1",
     "poster_name": "BlueSky",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=34",
-    "subject": "Simple to implement feature requests",
+    "subject": "简单易实现的功能请求",
     "url": "https://bitcointalk.org/index.php?topic=46.msg281#msg281",
     "date": "2010-02-08T09:00:02Z",
-    "text": "<div class=\"post\">First request:<br/>Optional connect to IP dialog.<br/><br/>Explanation:<br/>BitCoin connects to the network(of peers) by getting one of a number of IP's from IRC at present, once connected to a single peer other connections can be made, so if only 1 IP on the list are available then you can connect to the network &amp; make connections to other IP's(this is my assumption, please correct me if I am wrong).<br/><br/>This is somewhat similar to how Tor works, when you first start it up it attempts to connect to a public list of IP's(public bridge nodes). This list being public is accessible to organisations that want to prevent the use of Tor(for example the Chinese or Iranian government). And so as a consequence these IP's are blocked, and you cannot connect from these countries.<br/><br/>However there is the option to connect to the ip of a bridge (if you know one, a friend in a free country running Tor in bridge mode perhaps) and so this circumvents regime blocking attempts and is very robust.<br/><br/>Adding this feature will allow Bitcoin to function despite regime efforts to prevent it.</div>",
+    "text": "<div class=\"post\">第一个请求：<br/>可选的连接 IP 对话框。<br/><br/>说明：<br/>BitCoin 目前通过从 IRC 获取 IP 列表中的一个来连接到（对等节点）网络，一旦连接到一个对等节点，就可以建立其他连接，所以如果列表中只有1个 IP 可用，你仍然可以连接到网络并建立到其他 IP 的连接（这是我的假设，如果我理解有误请纠正我）。<br/><br/>这在某种程度上类似于 Tor 的工作方式，当你首次启动它时，它会尝试连接到一个公共 IP 列表（公共桥接节点）。这个列表是公开的，想要阻止使用 Tor 的组织（例如中国政府或伊朗政府）可以访问它。因此，这些 IP 被封锁，你无法从这些国家连接。<br/><br/>然而，有一个选项可以连接到一个桥接节点的 IP（如果你知道一个的话，比如一个在自由国家的朋友以桥接模式运行 Tor），这样就绕过了政权的封锁企图，非常稳健。<br/><br/>添加这个功能将使 Bitcoin 能够在政权试图阻止它的情况下仍然正常运行。</div>",
     "nested_level": 0
   },
   {
@@ -4093,10 +4093,10 @@
     "source_id": "12",
     "poster_name": "NewLibertyStandard",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=26",
-    "subject": "Re: Current Bitcoin economic model is unsustainable",
+    "subject": "回复：当前的比特币经济模型不可持续",
     "url": "https://bitcointalk.org/index.php?topic=57.msg402#msg402",
     "date": "2010-02-18T22:42:03Z",
-    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=57.msg400#msg400\">Quote from: Suggester on February 18, 2010, 09:19:23 PM</a></div><div class=\"quote\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=57.msg398#msg398\">Quote from: sirius-m on February 18, 2010, 01:31:50 PM</a></div><div class=\"quote\">Maybe some people will not buy today, but they'll buy tomorrow when the price is lower and they want to enjoy their finite lifetime. <br/></div>They won't buy tomorrow when the price is lower because it will never be lower as we approach the \"next four years limit\".<br/></div>He was referring to the price of goods decreasing as value of a bitcoin increases. Eventually the value of bitcoins will go high enough and the price of the goods will go low enough that the person will feel rich enough to spend his bitcoins. To take it to an extreme, if a person has ten thousand bitcoins and can buy the TV of his dreams for one bitcoin, the value of having the TV now is greater than the future potential increased value of the one 10,000th of his total bitcoins.</div>",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=57.msg400#msg400\">引用：Suggester 于 2010年2月18日 下午09:19:23</a></div><div class=\"quote\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=57.msg398#msg398\">引用：sirius-m 于 2010年2月18日 下午01:31:50</a></div><div class=\"quote\">也许有些人今天不会买，但当价格更低时他们明天会买，而且他们想在有限的生命中享受生活。 <br/></div>当价格更低时他们明天也不会买，因为随着我们接近”下一个四年极限”，价格绝不会更低。<br/></div>他说的是商品价格随着比特币价值上升而下降。最终比特币的价值会涨得足够高，商品价格会降得足够低，以至于那个人会觉得足够富有去消费他的比特币。极端地说，如果一个人有一万枚比特币，而他可以用一枚比特币买到他梦寐以求的电视，那么现在拥有电视的价值就超过了他总比特币中那一万分之一未来的潜在增值价值。</div>",
     "nested_level": 0
   },
   {
@@ -4990,10 +4990,10 @@
     "source_id": "20",
     "poster_name": "ShadowOfHarbringer",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=1775",
-    "subject": "Re: New icon/logo",
+    "subject": "回复：新图标/Logo",
     "url": "https://bitcointalk.org/index.php?topic=64.msg19670#msg19670",
     "date": "2010-11-02T10:46:19Z",
-    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=64.msg19658#msg19658\">Quote from: ArrowJ on November 02, 2010, 06:21:14 AM</a></div><div class=\"quote\">Is this the \"official\" logo? I understand how difficult it can be to make something truly professional when you don't have the skills (which I don't) or the software (which I also don't) so I'm not trying to be rude, but wouldn't it be better if we adopted something...better? I really am not trying to be mean...I really have struggled trying to figure out how to do the stuff that a lot of the artists on deviant do. <br/></div><br/>Stop complaining. The current logo is just good enough.<br/>It has all the properties a good logo should have.<br/><br/>PS.<br/>After bitcoin goes mainstream, satoshi will be incredibly rich and he can afford some professional artist to polish it more <img alt=\"Wink\" border=\"0\" src=\"/static/img/emoticons/wink.gif\"/><br/><br/>PS2.<br/>After some consideration, i think that the logo could be easily polished a little by adding some more 3D-effect to the coin borders, so it would actually look like a real coin. But the rest is 100% OK.<br/></div>",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=64.msg19658#msg19658\">引用自：ArrowJ 于 2010年11月02日，06:21:14 AM</a></div><div class=\"quote\">这是”官方的”Logo 吗？我知道当你没有技能（我没有）或者没有软件（我也没有）时，要做出真正专业的东西有多难，所以我不是想冒犯，但我们采用一个更好的 Logo 不是更好吗？我真的不是想刻薄……我也一直在苦苦琢磨怎么做出 deviant 上很多艺术家做的那种东西。<br/></div><br/>别抱怨了。现在的这个 Logo 已经足够好了。<br/>它具备了一个好 Logo 应有的所有特质。<br/><br/>PS.<br/>当 bitcoin 成为主流之后，satoshi 会变得无比富有，届时他可以请得起专业艺术家来进一步打磨它 <img alt=\"Wink\" border=\"0\" src=\"/static/img/emoticons/wink.gif\"/><br/><br/>PS2.<br/>经过一番考虑，我觉得这个 Logo 可以轻松地稍加改进，在硬币边缘添加一些 3D 效果，让它看起来更像一枚真正的硬币。但其余部分百分之百没问题。<br/></div>",
     "nested_level": 0
   },
   {
@@ -5026,10 +5026,10 @@
     "source_id": "23",
     "poster_name": "ArrowJ",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=605",
-    "subject": "Re: New icon/logo",
+    "subject": "回复：新图标/Logo",
     "url": "https://bitcointalk.org/index.php?topic=64.msg19725#msg19725",
     "date": "2010-11-02T20:51:30Z",
-    "text": "<div class=\"post\"><div class=\"quoteheader\">Quote</div><div class=\"quote\">Oh sorry, was i offensive again ? That's weird, i didn't feel it at all.<br/><br/>You're right, actually the logo from my signature (designed by bitboy and improved by myself) may be better than the official one.<br/>However i don't know if Satoshi will like the license (cc by-sa).<br/><br/>IMHO perhaps Satoshi should either ask the author or pay the author some BTC to release the works into public domain.</div><br/>I'll be honest with you, I thought I had offended with the suggestion.<br/><br/>I hadn't thought of the license issue, but of course your right, whatever logo is used it should probably be public domain. IF the community decided to adopt Bitboy's logo I'd contribute 5 btc to \"buy out\" his license and turn it over to the public domain.<br/><br/>Can this sort of thing be settled with a vote or does it not work that way? I mean we can say it's open source and whatever people use will win, but you have to admit Satoshi's logo has a little bit of an advantage...nobody wants to offend the originator of the awesome idea...I don't want to anyhow...hope I haven't!</div>",
+    "text": "<div class=\"post\"><div class=\"quoteheader\">引用</div><div class=\"quote\">哦抱歉，我又冒犯了吗？奇怪，我完全没有那种感觉。<br/><br/>你说得对，实际上我签名里的 logo（由 bitboy 设计、我改进的）可能比官方的更好。<br/>不过我不知道 Satoshi 是否会喜欢那个许可证（cc by-sa）。<br/><br/>在我看来，也许 Satoshi 应么要么向作者索取，要么付给作者一些 BTC，将这些作品发布到公共领域。</div><br/>坦白说，我以为我的建议冒犯了你。<br/><br/>我没想过许可证的问题，但当然你说得对，无论使用哪个 logo，都应该大概是公共领域的。如果社区决定采用 bitboy 的 logo，我会出资 5 个 BTC 来「买断」他的许可证并将其转为公共领域。<br/><br/>这种事情可以通过投票来解决吗，还是说不是这样运作的？我的意思是，我们可以说这是开源的，大家用什么什么就赢了，但你得承认，Satoshi 的 logo 有一点优势……没人想冒犯这个绝佳创意的创造者……反正我不想……希望我没有冒犯到谁！</div>",
     "nested_level": 0
   },
   {
@@ -5868,10 +5868,10 @@
     "source_id": "13",
     "poster_name": "The Madhatter",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=14",
-    "subject": "Re: Exchange Methods",
+    "subject": "回复：兑换方式",
     "url": "https://bitcointalk.org/index.php?topic=87.msg789#msg789",
     "date": "2010-03-20T23:03:40Z",
-    "text": "<div class=\"post\">Epassporte is kinda scammy. It is ran by the same folks who run Paycom/Epoch Billing (adult billing). I personally know a handful of people who were ripped off, had their accounts frozen for various non-issues (see: PayPal).<br/><br/>When I had signed up for a physical card when they first opened I never received anything in the mail, they charged my CC, my bank called me asking me if it was fraudulent. They told me that those epassporte charges had caused a lot of disputes at my bank. I explained to the guy on the phone what I had ordered online and that I hadn't received anything. (It wasn't my intention to chargeback or cause any \"friendly fraud\", people do that to me all the time so I know how it feels. It is aggravating.) My money was refunded by epassporte after I called them in California (they claim to be in Antigua).<br/><br/>When people ask me to pay them with Epassporte, I usually just laugh.<br/><br/>Anyone want to hear my stories about PayPal? lol I have a few.<br/><br/>How about with Visa International? Or MasterCard's broken securecode system?<br/><br/><img alt=\"Tongue\" border=\"0\" src=\"/static/img/emoticons/tongue.gif\"/><br/></div>",
+    "text": "<div class=\"post\">Epassporte 有点骗人的味道。它由运营 Paycom/Epoch Billing（成人计费）的那帮人运营。我个人认识好几个人被坑过，账户因各种莫名其妙的原因被冻结（参见：PayPal）。<br/><br/>当初他们刚开业时我申请了一张实体卡，结果什么邮件都没收到，他们倒是刷了我的信用卡，我的银行还打电话问我这是不是欺诈性消费。银行的人告诉我，那些 epassporte 的扣款在我的银行引发了大量争议。我向电话那头的人解释了我在网上订购了什么，但什么都没收到。（我并不是想退款或搞什么”友好欺诈”，别人老对我干这种事，所以我知道那是什么感受。很让人恼火。）我打电话给他们在加利福尼亚的办公室后，epassporte 退了我的钱（他们自称在安提瓜）。<br/><br/>当别人要求我用 Epassporte 付款时，我通常直接笑笑就过了。<br/><br/>有人想听听我跟 PayPal 的故事吗？哈哈，我有好几个。<br/><br/>跟 Visa International 的呢？或者 MasterCard 那个破烂的 securecode 系统的？<br/><br/><img alt=\"Tongue\" border=\"0\" src=\"/static/img/emoticons/tongue.gif\"/><br/></div>",
     "nested_level": 0
   },
   {
@@ -6744,10 +6744,10 @@
     "source_id": "9",
     "poster_name": "satoshi",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=3",
-    "subject": "Re: Bitcoin in Ubuntu 10.04",
+    "subject": "回复：在 Ubuntu 10.04 上运行比特币",
     "url": "https://bitcointalk.org/index.php?topic=149.msg1646#msg1646",
     "date": "2010-06-21T17:20:21Z",
-    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=149.msg1203#msg1203\">Quote from: NewLibertyStandard on May 23, 2010, 04:28:12 PM</a></div><div class=\"quote\">Bitcoin looks ugly in Ubuntu's new default theme. It seems that some, but not all of the theme settings are being picked up. The unselected file menu should have light text with a dark background, but it incorrectly has light text with a light background. They're similar enough that it's unreadable on my display. It should be fixed before the next stable release.<br/></div>This is now fixed in the SVN version.<br/>1) Menu bar default color.<br/>2) Balance bar not a different color.<br/>3) Background behind bitcoin address and balance now the same color as toolbar.<br/><br/>I checked all the standard themes and it seems reasonable with all of them.<br/><br/>Ubuntu minimize,maximize,close buttons to the right:<br/>gconf-editor<br/>apps-&gt;metacity-&gt;general<br/>button_layout=menu:minimize,maximize,close<br/><br/>They've got it awfully buried considering 9 out of 10 users are used to having it on the right.</div>",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=149.msg1203#msg1203\">引用：NewLibertyStandard 于 2010年5月23日 下午04:28:12</a></div><div class=\"quote\">比特币在Ubuntu的新默认主题下看起来很糟糕。似乎一部分主题设置被应用了，但不是全部。未选中的文件菜单应该是浅色文字配深色背景，但错误地变成了浅色文字配浅色背景。两者太接近了，在我的屏幕上根本看不清。在下一个稳定版本发布前应该修复这个问题。<br/></div>这个问题现在已在SVN版本中修复了。<br/>1) 菜单栏默认颜色。<br/>2) 余额栏不再是不同的颜色。<br/>3) 比特币地址和余额后面的背景现在与工具栏颜色一致。<br/><br/>我检查了所有标准主题，在所有主题下看起来都还算合理。<br/><br/>Ubuntu的最小化、最大化、关闭按钮移到右边：<br/>gconf-editor<br/>apps-&gt;metacity-&gt;general<br/>button_layout=menu:minimize,maximize,close<br/><br/>考虑到十有八九的用户习惯于把它放在右边，他们把这个设置藏得太深了。</div>",
     "nested_level": 0
   },
   {
@@ -8092,10 +8092,10 @@
     "source_id": "6",
     "poster_name": "satoshi",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=3",
-    "subject": "Re: Tracing a coin's lineage",
+    "subject": "回复：追踪一个比特币的 lineage",
     "url": "https://bitcointalk.org/index.php?topic=154.msg1254#msg1254",
     "date": "2010-05-26T18:51:04Z",
-    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=154.msg1242#msg1242\">Quote from: Xunie on May 26, 2010, 12:50:04 AM</a></div><div class=\"quote\">Can't we force a user to use a new address for receiving payments?<br/>Every time a payment is received display another Bitcoin address in the address bar. (only transactions via Bitcoin addresses, NOT IPs of course, since that'd be useless, right?)<br/>The actual key would still be kept to ensure that the user would still receive payments of people sending to the same address.<br/></div>This is on my list.&nbsp; I will soon make the \"Your Bitcoin Address:\" window automatically change whenever you receive anything to the address displayed.<br/><br/>I'm also recommending this approach for the implementation of web apps.&nbsp; I just posted some sample code showing a suggested way of implementing this.<br/><br/>Versions on SVN since 0.2.4 already have a \"New...\" button next to the address bar to encourage changing it manually too.<br/><br/>@theymos: If nothing else, we can fall back on that solution in the future.</div>",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=154.msg1242#msg1242\">引用：Xunie 于 2010年5月26日 上午12:50:04</a></div><div class=\"quote\">我们不能强制用户每次接收付款时使用新地址吗？<br/>每次收到付款时，在地址栏显示另一个比特币地址。（当然只限通过比特币地址的交易，不包括IP，因为那没意义，对吧？）<br/>实际的密钥仍然会保留，以确保用户仍能收到发往同一地址的付款。<br/></div>这已经在我的计划清单上了。&nbsp; 我很快会做到让「你的比特币地址：」窗口在收到任何发往该地址的款项后自动更换地址。<br/><br/>我也推荐Web应用采用这种方式。&nbsp; 我刚发布了一些示例代码，展示了实现这一功能的建议方式。<br/><br/>SVN上0.2.4之后的版本已经在地址栏旁边添加了一个「新建...」按钮，鼓励用户手动更换地址。<br/><br/>@theymos：如果其他方法不行，我们将来至少可以回退到这个方案。</div>",
     "nested_level": 0
   },
   {
@@ -8505,10 +8505,10 @@
     "source_id": "2",
     "poster_name": "laszlo",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=143",
-    "subject": "Re: Building BitCoin Client completely Headless",
+    "subject": "回复：完全无头模式构建比特币客户端",
     "url": "https://bitcointalk.org/index.php?topic=171.msg1414#msg1414",
     "date": "2010-06-08T16:58:46Z",
-    "text": "<div class=\"post\"><br/><a href=\"http://heliacal.net/~solar/bitcoin/bitcoin-linuxbuild.pdf\">http://heliacal.net/~solar/bitcoin/bitcoin-linuxbuild.pdf</a><br/><br/>If you follow these instructions and build 'bitcoind' it's all linked statically to wxWidgets, boost, openssl and libdb.. for me it looks like this:<br/><br/><div class=\"codeheader\">Code:</div><div class=\"code\">$ ldd bitcoind<br/>&nbsp; &nbsp; &nbsp; &nbsp; linux-vdso.so.1 =&gt;&nbsp; (0x00007fff31dff000)<br/>&nbsp; &nbsp; &nbsp; &nbsp; libdl.so.2 =&gt; /lib/libdl.so.2 (0x00007ff1a0a78000)<br/>&nbsp; &nbsp; &nbsp; &nbsp; libstdc++.so.6 =&gt; /usr/lib/libstdc++.so.6 (0x00007ff1a0768000)<br/>&nbsp; &nbsp; &nbsp; &nbsp; libm.so.6 =&gt; /lib/libm.so.6 (0x00007ff1a04e4000)<br/>&nbsp; &nbsp; &nbsp; &nbsp; libgcc_s.so.1 =&gt; /lib/libgcc_s.so.1 (0x00007ff1a02cd000)<br/>&nbsp; &nbsp; &nbsp; &nbsp; libpthread.so.0 =&gt; /lib/libpthread.so.0 (0x00007ff1a00b1000)<br/>&nbsp; &nbsp; &nbsp; &nbsp; libc.so.6 =&gt; /lib/libc.so.6 (0x00007ff19fd41000)<br/>&nbsp; &nbsp; &nbsp; &nbsp; /lib64/ld-linux-x86-64.so.2 (0x00007ff1a0c7c000)<br/></div></div>",
+    "text": "<div class=\"post\"><br/><a href=\"http://heliacal.net/~solar/bitcoin/bitcoin-linuxbuild.pdf\">http://heliacal.net/~solar/bitcoin/bitcoin-linuxbuild.pdf</a><br/><br/>如果你按照这些说明构建 'bitcoind'，它会静态链接 wxWidgets、boost、openssl 和 libdb。对我来说看起来是这样的：<br/><br/><div class=\"codeheader\">代码:</div><div class=\"code\">$ ldd bitcoind<br/>&nbsp; &nbsp; &nbsp; &nbsp; linux-vdso.so.1 =&gt;&nbsp; (0x00007fff31dff000)<br/>&nbsp; &nbsp; &nbsp; &nbsp; libdl.so.2 =&gt; /lib/libdl.so.2 (0x00007ff1a0a78000)<br/>&nbsp; &nbsp; &nbsp; &nbsp; libstdc++.so.6 =&gt; /usr/lib/libstdc++.so.6 (0x00007ff1a0768000)<br/>&nbsp; &nbsp; &nbsp; &nbsp; libm.so.6 =&gt; /lib/libm.so.6 (0x00007ff1a04e4000)<br/>&nbsp; &nbsp; &nbsp; &nbsp; libgcc_s.so.1 =&gt; /lib/libgcc_s.so.1 (0x00007ff1a02cd000)<br/>&nbsp; &nbsp; &nbsp; &nbsp; libpthread.so.0 =&gt; /lib/libpthread.so.0 (0x00007ff1a00b1000)<br/>&nbsp; &nbsp; &nbsp; &nbsp; libc.so.6 =&gt; /lib/libc.so.6 (0x00007ff19fd41000)<br/>&nbsp; &nbsp; &nbsp; &nbsp; /lib64/ld-linux-x86-64.so.2 (0x00007ff1a0c7c000)<br/></div></div>",
     "nested_level": 0
   },
   {
@@ -9760,10 +9760,10 @@
     "source_id": "25",
     "poster_name": "satoshi",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=3",
-    "subject": "Re: 0.3 almost ready",
+    "subject": "回复：0.3版本即将就绪",
     "url": "https://bitcointalk.org/index.php?topic=199.msg1760#msg1760",
     "date": "2010-06-25T02:17:41Z",
-    "text": "<div class=\"post\">I don't know. &nbsp;Maybe someone with more Linux experience knows how to install the library it needs.<br/><br/>I built it on Ubuntu 10.04. &nbsp;I hope that wasn't a mistake. &nbsp;Maybe it should have been built on an older version for more backward compatibility. &nbsp;Is this a problem on Linux, that if you build on the latest version, then it has trouble working on older versions?&nbsp; Is there any way I can downgrade to an older version of GCC on 10.04?<br/><br/>The 64-bit version shouldn't be any faster than the 32-bit version, but it would be great if someone could do a side-by-side comparison of the two linux versions and check. &nbsp;SHA-256 is a 32-bit algorithm and nothing in BitcoinMiner uses 64-bit at all.<br/><br/>We don't need to bother with a 64-bit version for Windows. &nbsp;32-bit programs work on all versions of Windows. &nbsp;It's not like Linux where the 64-bit OS wants 64-bit programs.<br/><br/>I'm also curious if it's a little faster on linux than windows.<br/><br/>Do you think I should make the directories:<br/>/bin32/<br/>/bin64/<br/>instead of<br/>/bin/32/<br/>/bin/64/</div>",
+    "text": "<div class=\"post\">我不太确定。&nbsp;也许有更多Linux经验的人知道怎么安装它需要的库。<br/><br/>我是在Ubuntu 10.04上编译的。&nbsp;希望这不是个错误。&nbsp;也许应该在更旧的版本上编译以获得更好的向后兼容性。&nbsp;在Linux上这是个问题吗——如果在最新版本上编译，在旧版本上就难以运行？&nbsp;有什么办法可以在10.04上降级到旧版本的GCC吗？<br/><br/>64位版本不应该比32位版本更快，但如果有人能对两个Linux版本做一个并排对比测试就太好了。&nbsp;SHA-256是一个32位算法，BitcoinMiner中没有任何地方用到64位。<br/><br/>我们不需要为Windows做64位版本。&nbsp;32位程序可以在所有Windows版本上运行。&nbsp;不像Linux那样64位系统需要64位程序。<br/><br/>我也很好奇在Linux上是否比Windows快一些。<br/><br/>你们觉得我应该把目录改成：<br/>/bin32/<br/>/bin64/<br/>还是保持<br/>/bin/32/<br/>/bin/64/</div>",
     "nested_level": 0
   },
   {
@@ -10021,10 +10021,10 @@
     "source_id": "4",
     "poster_name": "Max Stirner",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=247",
-    "subject": "The evolution of digital currencies",
+    "subject": "数字货币的演进",
     "url": "https://bitcointalk.org/index.php?topic=202.msg1747#msg1747",
     "date": "2010-06-24T15:06:07Z",
-    "text": "<div class=\"post\">It is strange that is has taken such a long time to create a digital fiat currency. And who<br/>says that Bitcoin is the one and only digital currency that will exist in the future?<br/>Right now, if there is a flaw in the bitcoin algorithm the people dealing with it will lose their trust<br/>in the currency and the bitcoins will lose their value. If there are several digital currencies in the future<br/>you will just sell your bitcoins and buy more secure (or more useful)&nbsp; digital coins instead. I think that there will be a tendency to swap from one digital money system to another, once people see an advantage of a new system. Like an evolutionary process. <br/>I find it funny that some people still cling to the idea that there has to be some kind of \"agency\" that regulates the economy.&nbsp; I mean when you don't want your old money anymore you just .. eh .. sell it?<br/>You are not forced by anyone to use bitcoins, right? And nobody can stop you from using another digital<br/>currency.&nbsp; So the best way to keep your wealth is to invest in different assets - as always in life.</div>",
+    "text": "<div class=\"post\">奇怪的是，创建一种数字法币竟然花了这么长时间。而且谁说比特币是未来唯一存在的数字货币？<br/>现在，如果比特币算法存在缺陷，参与交易的人就会对这种货币失去信任，比特币也会失去价值。如果未来存在多种数字货币，你只需卖掉比特币，购买更安全（或更实用）的数字货币即可。我认为，一旦人们看到新系统的优势，就会倾向于从一种数字货币系统切换到另一种，就像一个进化过程一样。<br/>我觉得有趣的是，有些人仍然执着于必须有某种机构来监管经济的想法。&nbsp;我的意思是，当你不想要你的旧货币时，你只需……呃……卖掉它？<br/>没有人强迫你使用比特币，对吧？也没有人能阻止你使用另一种数字货币。&nbsp;所以保持财富最好的方式就是投资不同的资产——就像生活中一贯的那样。</div>",
     "nested_level": 0
   },
   {
@@ -10764,10 +10764,10 @@
     "source_id": "5",
     "poster_name": "llama",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=270",
-    "subject": "Re: Slashdot Submission for 1.0",
+    "subject": "回复：1.0 版的 Slashdot 提交",
     "url": "https://bitcointalk.org/index.php?topic=234.msg1973#msg1973",
     "date": "2010-07-05T19:24:56Z",
-    "text": "<div class=\"post\">Good revisions so far. <br/><br/>More suggestions:<br/><br/>1) How about mentioning bittorrent instead of hashcash?&nbsp; Bittorrent is a huge buzz word and could grab some attention.&nbsp; As a completely distributed and anonymous network, I'd say that Bitcoin is similar enough to justify the comparison.<br/><br/>2) \"...clients burn CPU cycles...\" --&gt; \"...nodes burn CPU cycles...\"<br/><br/>3)&nbsp; Throw in \"decentralized\" and \"proof-of-work based\" somewhere<br/><br/>4) Personally, I'm still not fully satisfied with the mention of energy-backing.&nbsp; Maybe you could replace it with something about the time-stamped transaction history being voted on / secured by the majority of CPU power?&nbsp; <br/><br/>5) Not to be a smartass, but watch out for passive voice (e.g. \"It is expected that over time...\").&nbsp; Headlines and news articles usually try to grab readers' attention by using the more exciting active voice.<br/><br/>Feel free to take all, none, or somewhere in between.&nbsp; We're critical because we care&nbsp; <img alt=\"Wink\" border=\"0\" src=\"/static/img/emoticons/wink.gif\"/></div>",
+    "text": "<div class=\"post\">到目前为止的修订都不错。<br/><br/>更多建议：<br/><br/>1）提到 bittorrent 而不是 hashcash 怎么样？&nbsp;Bittorrent 是个很大的热词，能吸引一些注意力。&nbsp;作为一个完全分布式和匿名的网络，我认为比特币与之有足够的相似之处来证明这种比较是合理的。<br/><br/>2）「……客户端消耗 CPU 周期……」——>「……节点消耗 CPU 周期……」<br/><br/>3）&nbsp;在某个地方加上去中心化和基于工作量证明<br/><br/>4）就我个人而言，我对能源背书的提及仍然不太满意。&nbsp;也许你可以换成类似时间戳交易历史由大多数算力投票/保护的说法？&nbsp;<br/><br/>5）不是要显摆，但注意被动语态（例如「预计随着时间的推移……」）。&nbsp;标题和新闻文章通常试图通过使用更令人兴奋的主动语态来吸引读者的注意力。<br/><br/>你可以全部采纳、全部不采纳或酌情选择。&nbsp;我们吹毛求疵是因为我们在乎&nbsp;<img alt=\"Wink\" border=\"0\" src=\"/static/img/emoticons/wink.gif\"/></div>",
     "nested_level": 0
   },
   {
@@ -11408,10 +11408,10 @@
     "source_id": "18",
     "poster_name": "Insti",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=336",
-    "subject": "Re: Scalability",
+    "subject": "回复：可扩展性",
     "url": "https://bitcointalk.org/index.php?topic=286.msg2678#msg2678",
     "date": "2010-07-13T23:34:03Z",
-    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=286.msg2663#msg2663\">Quote from: knightmb on July 13, 2010, 10:08:58 PM</a></div><div class=\"quote\">Given that the formula for coin generation should be known somewhere, can't someone just calculate how much disk space X amount of coins will take given XYZ transactions, etc.<br/>I'm curious myself to how much space it will take.&nbsp; <img alt=\"Smiley\" border=\"0\" src=\"/static/img/emoticons/smiley.gif\"/><br/></div><br/>From the <a href='http://\"http://www.bitcoin.org/sites/default/files/bitcoin.pdf'>pdf</a>: <br/>\"A block header with no transactions would be about 80 bytes.\"<br/>and<br/>\"Once the latest transaction in a coin is buried under enough blocks, the spent transactions before <br/>it can be discarded to save disk space.\"<br/><br/>so 80 x number of blocks + average transaction size * number of transactions.<br/><br/>Practically, from my disk:<br/>77428 transactions in 66663 blocks is about 46,752,464 bytes.<br/>which works out to about 600 bytes per transaction (including block headers + database overheads)<br/><br/><br/><br/></div>",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=286.msg2663#msg2663\">引用：knightmb 于 2010年7月13日 下午10:08:58</a></div><div class=\"quote\">既然硬币生成的公式应该是已知的，难道不能直接计算出在XYZ笔交易下X数量的币需要多少磁盘空间吗？<br/>我自己也很好奇它会占用多少空间。&nbsp;<img alt=\"Smiley\" border=\"0\" src=\"/static/img/emoticons/smiley.gif\"/><br/></div><br/>来自<a href='http://\"http://www.bitcoin.org/sites/default/files/bitcoin.pdf'>白皮书</a>：<br/>「一个不含交易的区块头大约为80字节。」<br/>还有<br/>「一旦一个币中最近的交易被足够多的区块覆盖，它之前的已花费交易就可以被丢弃以节省磁盘空间。」<br/><br/>所以是 80 × 区块数量 + 平均交易大小 × 交易数量。<br/><br/>实际上，从我的磁盘来看：<br/>66663个区块中的77428笔交易大约占用了46,752,464字节。<br/>折算下来每笔交易大约600字节（包括区块头 + 数据库开销）<br/><br/><br/><br/></div>",
     "nested_level": 0
   },
   {
@@ -11901,10 +11901,10 @@
     "source_id": "21",
     "poster_name": "throughput",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=574",
-    "subject": "Re: Flood attack 0.00000001 BC",
+    "subject": "回复：洪水攻击 0.00000001 BC",
     "url": "https://bitcointalk.org/index.php?topic=287.msg5270#msg5270",
     "date": "2010-07-23T13:39:41Z",
-    "text": "<div class=\"post\">Hi.<br/><br/><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=287.msg5200#msg5200\">Quote from: nenolod on July 23, 2010, 05:03:00 AM</a></div><div class=\"quote\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=287.msg2314#msg2314\">Quote from: llama on July 12, 2010, 02:23:46 PM</a></div><div class=\"quote\">That pretty much ruins the possibility of using bitcoin for true micropayments.&nbsp;<br/></div><br/>I do not see how it does that.&nbsp; 1 BTC will likely always be smaller than USD/EUR/etc, thus meaning that it can be used for micropayments.<br/></div><br/>Micropayment is less that 0.01 $, I suppose.<br/>Having an (economically) effective implementation of micropayment system will affect the way current economics works.<br/>For example, it may make the media producer's business unprofitable in some areas, I suppose.<br/><br/>So, the economics may be interested in payments with less that 0.001 $ volume and with more than millions transaction per day numbers.<br/>But that system still does not exists <img alt=\"Sad\" border=\"0\" src=\"/static/img/emoticons/sad.gif\"/></div>",
+    "text": "<div class=\"post\">嗨。<br/><br/><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=287.msg5200#msg5200\">引用：nenolod 于 2010年7月23日 上午05:03:00</a></div><div class=\"quote\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=287.msg2314#msg2314\">引用：llama 于 2010年7月12日 下午02:23:46</a></div><div class=\"quote\">这基本上毁了使用比特币进行真正微支付的可能性。&nbsp;<br/></div><br/>我不明白怎么会这样。&nbsp; 1 BTC很可能始终比美元/欧元等更小的单位，因此它可以用于微支付。<br/></div><br/>我想微支付是小于0.01美元的支付。<br/>拥有一个（经济上）高效的微支付系统实现将会影响当前经济学运作的方式。<br/>例如，它可能使媒体生产者在某些领域的业务变得无利可图，我想是这样的。<br/><br/>所以，经济学可能会对那些金额小于0.001美元、每天交易数量超过数百万的支付感兴趣。<br/>但那样的系统目前还不存在 <img alt=\"Sad\" border=\"0\" src=\"/static/img/emoticons/sad.gif\"/></div>",
     "nested_level": 0
   },
   {
@@ -15175,10 +15175,10 @@
     "source_id": "27",
     "poster_name": "RHorning",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=344",
-    "subject": "Re: 0.3.1 release candidate, please test",
+    "subject": "回复：0.3.1 发布候选版本，请测试",
     "url": "https://bitcointalk.org/index.php?topic=383.msg3311#msg3311",
     "date": "2010-07-15T22:29:28Z",
-    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=383.msg3274#msg3274\">Quote from: knightmb on July 15, 2010, 08:15:46 PM</a></div><div class=\"quote\">I'm not exactly sure what the \"Start BitCoin on window system startup\" is suppose to do?<br/></div><br/>In Windows, it should put Bitcoin.exe into \"HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\" for the system registry... or as an alternative into \"HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run\"<br/><br/>I don't see either happening, although it did get put into the \"Startup\" folder. &nbsp;That is so Windows 95ish (just kidding..... Microsoft has so screwed this up that it isn't even funny). &nbsp;I would recommend the registry settings for a number of reasons including the fact that most software puts the startup in that location, even though I personally find the startup folder to be more attractive and how most software on Windows <i>should behave</i>.<br/><br/>I haven't done a full forensics with this new version in Windows, but the install seemed to go without a hitch for me... using the Windows install.</div>",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=383.msg3274#msg3274\">引用自：knightmb 于 2010年7月15日，08:15:46 PM</a></div><div class=\"quote\">我不太确定”在窗口系统启动时运行 BitCoin“应该做什么？<br/></div><br/>在 Windows 中，它应该将 Bitcoin.exe 写入系统注册表的”HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Run“中……或者作为替代方案写入”HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run“<br/><br/>我没看到这两种情况发生，虽然它确实被放进了”启动”文件夹。这太 Windows 95 风格了（开个玩笑……微软把这块搞得一塌糊涂，简直不好笑）。我建议使用注册表设置，原因有很多，包括大多数软件都把启动项放在那个位置，尽管我个人觉得启动文件夹更有吸引力，也是大多数 Windows 软件<i>应该遵循</i>的做法。<br/><br/>我还没有对这个新版本在 Windows 上做完整的取证分析，但安装过程似乎没有问题……用的是 Windows 安装方式。</div>",
     "nested_level": 0
   },
   {
@@ -15667,10 +15667,10 @@
     "source_id": "7",
     "poster_name": "gould",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=348",
-    "subject": "Re: Request: expected bitcoins per day display",
+    "subject": "回复：请求：显示每日预期比特币数量",
     "url": "https://bitcointalk.org/index.php?topic=397.msg3507#msg3507",
     "date": "2010-07-16T15:26:04Z",
-    "text": "<div class=\"post\"><div class=\"quoteheader\">Quote</div><div class=\"quote\">what one could \"expect\" depends on luck and how much of it you expect to have on our block lottery. <img alt=\"Cheesy\" border=\"0\" src=\"/static/img/emoticons/cheesy.gif\"/><br/>i guess that's pretty hard to calculate.</div><br/>I think of my machines running bitcoin as slot machines. I put in CPU time and energy costs in at a regular rate, and once in a while I get money back. If I'm to treat bitcoin as part of a business, then I need to be able to calculate my expected return on investment, just as a casino owner needs to be able to calculate how much money she's making off of her slot machines. I know that the bitcoin generation difficulty will stabilize at some point in the future, but at this point it would be useful to me to be able to calculate my ROI quickly and easily.<br/><br/>So, if nobody else is going to do it, I'll probably make a patch for this. Bitcoin donations appreciated, of course, and would help motivate me to make it available quickly. <img alt=\"Smiley\" border=\"0\" src=\"/static/img/emoticons/smiley.gif\"/></div>",
+    "text": "<div class=\"post\"><div class=\"quoteheader\">引用</div><div class=\"quote\">一个人能「期望」得到什么，取决于运气以及你期望在我们的区块抽奖中拥有多少运气。<img alt=\"Cheesy\" border=\"0\" src=\"/static/img/emoticons/cheesy.gif\"/><br/>我想这很难计算。</div><br/>我把运行比特币的机器当作老虎机。我以固定的速率投入 CPU 时间和能源成本，偶尔就能收回一些钱。如果我要把比特币当作商业的一部分来经营，那我就需要能够计算预期投资回报率，就像赌场老板需要能够计算她从老虎机上赚了多少钱一样。我知道比特币生成的难度在未来的某个时刻会趋于稳定，但在目前这个阶段，能够快速、简便地计算投资回报率对我来说很有用。<br/><br/>所以，如果没人愿意做的话，我可能会自己写个补丁。当然，欢迎比特币捐赠，这也会激励我尽快把它做出来。<img alt=\"Smiley\" border=\"0\" src=\"/static/img/emoticons/smiley.gif\"/></div>",
     "nested_level": 0
   },
   {
@@ -16348,10 +16348,10 @@
     "source_id": "17",
     "poster_name": "BitcoinFX",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=30",
-    "subject": "Re: Nenolod, the guy that wants to prove Bitcoin doesn't work.",
+    "subject": "回复：Nenolod，那个想证明比特币不靠谱的人",
     "url": "https://bitcointalk.org/index.php?topic=431.msg3811#msg3811",
     "date": "2010-07-17T21:59:52Z",
-    "text": "<div class=\"post\">Nenolod is a highly talented individual, coder and open source developer according to <a href=\"http://nenolod.net/about/\">http://nenolod.net/about/</a> where he indicates he has \"highly functional autism.\"<br/><br/>With the up most respect I welcome his 'actions' to openly challenge Bitcoin. As the technical director of <a href=\"http://www.systeminplace.net/\">http://www.systeminplace.net/</a> he certainly has the processing power to back-up the claims.<br/><br/>I cannot imagine that a founding member of <a href=\"http://atheme.org/\">http://atheme.org/</a> has malicious intent against Bitcoin. I'm sure Nenolod is just 'testing' Bitcoin and will find a good use for all those Bitcoins !<br/><br/><br/>~ Anyone who destroys 'money' in the name of art or otherwise will always regret it...<br/><br/>See: K Foundation Burn a Million Quid - <a href=\"http://en.wikipedia.org/wiki/K_Foundation_Burn_a_Million_Quid\">http://en.wikipedia.org/wiki/K_Foundation_Burn_a_Million_Quid</a>&nbsp; <img alt=\"Cry\" border=\"0\" src=\"/static/img/emoticons/cry.gif\"/></div>",
+    "text": "<div class=\"post\">根据 <a href=\"http://nenolod.net/about/\">http://nenolod.net/about/</a> 的介绍，Nenolod 是一个非常有才华的人、程序员和开源开发者，他在该页面上表示自己有高度功能性自闭症。<br/><br/>带着最崇高的敬意，我欢迎他公开挑战比特币的行为。作为 <a href=\"http://www.systeminplace.net/\">http://www.systeminplace.net/</a> 的技术总监，他确实拥有足够的算力来支持他的论断。<br/><br/>我无法想象 <a href=\"http://atheme.org/\">http://atheme.org/</a> 的创始成员会对比特币怀有恶意。我相信 Nenolod 只是在测试比特币，并且会为那些比特币找到一个好的用途！<br/><br/><br/>~ 任何人以艺术或其他名义销毁金钱，最终都会后悔的……<br/><br/>参见：K Foundation 焚烧一百万英镑 — <a href=\"http://en.wikipedia.org/wiki/K_Foundation_Burn_a_Million_Quid\">http://en.wikipedia.org/wiki/K_Foundation_Burn_a_Million_Quid</a>&nbsp; <img alt=\"Cry\" border=\"0\" src=\"/static/img/emoticons/cry.gif\"/></div>",
     "nested_level": 0
   },
   {
@@ -17617,10 +17617,10 @@
     "source_id": "31",
     "poster_name": "Gavin Andresen",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=224",
-    "subject": "Re: JSON-RPC password",
+    "subject": "回复：JSON-RPC 密码",
     "url": "https://bitcointalk.org/index.php?topic=461.msg5390#msg5390",
     "date": "2010-07-23T21:18:05Z",
-    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=461.msg5383#msg5383\">Quote from: satoshi on July 23, 2010, 08:39:03 PM</a></div><div class=\"quote\">BTW, I haven't tested it, but I hope having rpcpassword= &nbsp;in the conf file is valid. &nbsp;It's only if you use -server or -daemon or bitcoind that it should fail with a warning. &nbsp;If it doesn't need the password, it should be fine. &nbsp;Is that right?<br/></div>Yes, that's right, rpcpassword is only required if you use -server or -daemon or bitcoind (I just tested to be sure).<br/><br/>RE: what if the programmer can't figure out how to make their legacy COBOL code do HTTP authentication?<br/>Then I think another config file setting to explicitly turn off RPC authentication would be better than a magical \"if you set a blank rpcpassword then that turns off authentication.\"&nbsp; &nbsp;But I wouldn't implement that until somebody really does have a problem or until we have more than one way of doing the authentication (maybe https someday...).<br/><br/>lachesis: is supporting HTTP Basic Authentication a problem for you?<br/></div>",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=461.msg5383#msg5383\">引用自：satoshi 于 2010年7月23日 08:39:03 PM</a></div><div class=\"quote\">顺便说一下，我还没有测试过，但我希望在配置文件中设置 rpcpassword= 是合法的。 &nbsp;只有当你使用 -server 或 -daemon 或 bitcoind 时，它才应该报错并给出警告。 &nbsp;如果不需要密码，应该就没问题。 &nbsp;是这样吗？<br/></div>是的，没错，rpcpassword 只有在你使用 -server 或 -daemon 或 bitcoind 时才是必需的（我刚刚测试确认了）。<br/><br/>关于：如果程序员搞不清楚怎么让他们的老旧 COBOL 代码做 HTTP 认证怎么办？<br/>那我觉得用另一个配置项来显式关闭 RPC 认证，会比「设置一个空的 rpcpassword 就关闭认证」这种魔法逻辑更好。&nbsp; &nbsp;但在真的有人遇到问题之前，或者在我们有不止一种认证方式（也许有一天会用 https……）之前，我不会去实现这个功能。<br/><br/>lachesis：对你来说，支持 HTTP 基本认证是个问题吗？<br/></div>",
     "nested_level": 0
   },
   {
@@ -17629,10 +17629,10 @@
     "source_id": "32",
     "poster_name": "lachesis",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=237",
-    "subject": "Re: JSON-RPC password",
+    "subject": "回复：JSON-RPC 密码",
     "url": "https://bitcointalk.org/index.php?topic=461.msg5434#msg5434",
     "date": "2010-07-24T02:46:23Z",
-    "text": "<div class=\"post\">Gavin, no. I know my way around urllib2 so that's not a problem. I would like to see the option to disable password authentication in the bitcoin.conf. We really shouldn't be protecting (advanced) users from themselves.<br/><br/>I was just annoyed that to even start -server (albeit on my test client), I had to edit the config file and insert a password. I can always hack my version of Bitcoin to not require a password by default if that's what I want, but I don't like the fact that bitcoin completely fails to start when I put in \"rpcpassword=\" with -server. I think the right way to do it would be to warn users (perhaps with a popup box if the GUI is starting) but still start the other stuff, even if the RPC server won't start.<br/><br/>Running with a password only marginally improves the security for a lot of applications anyway, since that password will have to sit in an httpd-readable file for my web server to execute JSON-RPC commands. The only user that's ever been hacked on my server? httpd. It is an important step for machines with multiple users, though, as is allowing the port number to be changed.</div>",
+    "text": "<div class=\"post\">Gavin，不是的。我对urllib2很熟悉，那不是问题。我希望能在bitcoin.conf中添加禁用密码认证的选项。我们不应该把（高级）用户保护得太过分。<br/><br/>我只是觉得烦，因为哪怕只是启动-server（虽然是在我的测试客户端上），我都不得不编辑配置文件并插入一个密码。我完全可以修改我自己的Bitcoin版本使其默认不需要密码，但我不喜欢的是当我在-server模式下设置「rpcpassword=」时，bitcoin完全无法启动。我认为正确的做法应该是警告用户（如果GUI启动的话也许弹出一个提示框），但其他功能仍然正常启动，即使RPC服务器不启动。<br/><br/>反正对于很多应用来说，使用密码只是略微提升了安全性，因为那个密码必须放在一个httpd可读取的文件里，我的Web服务器才能执行JSON-RPC命令。我的服务器上唯一被黑过的用户就是httpd。不过，对于多用户机器来说，这确实是重要的一步，同样重要的还有允许更改端口号。</div>",
     "nested_level": 0
   },
   {
@@ -19122,10 +19122,10 @@
     "source_id": "99",
     "poster_name": "knightmb",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=345",
-    "subject": "Re: Bitcoin x64 for Windows",
+    "subject": "Re: 比特币 Windows x64 版",
     "url": "https://bitcointalk.org/index.php?topic=501.msg5863#msg5863",
     "date": "2010-07-26T14:06:53Z",
-    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=501.msg5815#msg5815\">Quote from: Olipro on July 26, 2010, 06:39:17 AM</a></div><div class=\"quote\">OK, now for some absolutely incredible performance.<br/><br/>Credit to tcatm for the caching part of the SHA context - this offers absolutely brilliant performance. Additionally, the Intel compiler really comes into its own here as its parallelisation abilities give a massive performance boost over Visual Studio.<br/><br/>Performance: 4700khash/s on 4 cores, I think that speaks for itself.<br/><br/>I've included both the VS and Intel build, but there's really no comparison, the Intel build craps all over VS.<br/><br/><span style=\"font-size: 20pt !important; line-height: 1.3em;\"><a href=\"http://www.4shared.com/file/VpSQm9oo/Bitcoin_SHA_state_caching_opt.html\">Grab SHA state caching Bitcoin here</a></span><br/></div>Wow, this is the biggest jump I've ever seen. Nearly a 250% increase in speed from the stock version, amazing. &nbsp;Now let's see how stable it is &nbsp;<img alt=\"Smiley\" border=\"0\" src=\"/static/img/emoticons/smiley.gif\"/><br/><br/></div>",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=501.msg5815#msg5815\">引用自：Olipro 于 2010年7月26日，上午6:39:17</a></div><div class=\"quote\">好了，现在来看看绝对惊人的性能表现。<br/><br/>感谢 tcatm 对SHA上下文缓存部分的贡献——它带来了极其出色的性能。此外，Intel编译器在这里真正发挥了优势，它的并行化能力比Visual Studio带来了巨大的性能提升。<br/><br/>性能：4核达到4700khash/s，我想这足以说明一切。<br/><br/>我同时附上了VS版本和Intel版本，但说实话完全没有可比性，Intel版本完胜VS。<br/><br/><span style=\"font-size: 20pt !important; line-height: 1.3em;\"><a href=\"http://www.4shared.com/file/VpSQm9oo/Bitcoin_SHA_state_caching_opt.html\">在此下载SHA状态缓存版比特币</a></span><br/></div>哇，这是我见过的最大幅度的提升。比原版快了将近250%，太惊人了。现在来看看它的稳定性如何 <img alt=\"微笑\" border=\"0\" src=\"/static/img/emoticons/smiley.gif\"/><br/><br/></div>",
     "nested_level": 0
   },
   {
@@ -21158,10 +21158,10 @@
     "source_id": "7",
     "poster_name": "Bitquux",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=511",
-    "subject": "Re: *** ALERT *** Upgrade to 0.3.5 ASAP",
+    "subject": "回复：*** 警报 *** 请尽快升级到 0.3.5",
     "url": "https://bitcointalk.org/index.php?topic=626.msg6461#msg6461",
     "date": "2010-07-29T19:39:46Z",
-    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=626.msg6459#msg6459\">Quote from: knightmb on July 29, 2010, 07:34:22 PM</a></div><div class=\"quote\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=626.msg6457#msg6457\">Quote from: andy_3_913 on July 29, 2010, 07:30:42 PM</a></div><div class=\"quote\">are satoshi and Olipro working together?<br/>if not, any chance you could? <img alt=\"Smiley\" border=\"0\" src=\"/static/img/emoticons/smiley.gif\"/><br/><br/>i'm well pleased with the speed enhancements Olipro is making, but i would like bc to be secure!<br/></div>So far, the new build (stock) has given a 100% speed increase on my Celeron Machines that couldn't run those custom builds before. I'll compare the new release to the older *optimized* builds to see what the speed difference is just out of curiosity.&nbsp; <img alt=\"Grin\" border=\"0\" src=\"/static/img/emoticons/grin.gif\"/><br/></div><br/>So far I'm seeing a comparable hashing rate to the most recent of the Olipro 32-bit binaries. It might even be slightly faster.</div>",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=626.msg6459#msg6459\">引用自 knightmb 于 2010年7月29日 19:34:22</a></div><div class=\"quote\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=626.msg6457#msg6457\">引用自 andy_3_913 于 2010年7月29日 19:30:42</a></div><div class=\"quote\">satoshi 和 Olipro 是在合作吗？<br/>如果不是，你们有没有可能合作？<img alt=\"Smiley\" border=\"0\" src=\"/static/img/emoticons/smiley.gif\"/><br/><br/>我对 Olipro 带来的速度提升感到非常高兴，但我希望比特币是安全的！<br/></div>到目前为止，新版本（原生版）在我的赛扬机器上带来了100%的速度提升，这些机器之前无法运行那些自定义构建版本。出于好奇，我会将新版本与之前的优化版本进行比较，看看速度差异。&nbsp; <img alt=\"Grin\" border=\"0\" src=\"/static/img/emoticons/grin.gif\"/><br/></div><br/>到目前为止，我看到的哈希率与最近的 Olipro 32位版本相当。甚至可能稍微快一点。</div>",
     "nested_level": 0
   },
   {
@@ -21511,10 +21511,10 @@
     "source_id": "36",
     "poster_name": "satoshi",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=3",
-    "subject": "Re: *** ALERT *** Upgrade to 0.3.6 ASAP!",
+    "subject": "回复：*** 警报 *** 请尽快升级到 0.3.6！",
     "url": "https://bitcointalk.org/index.php?topic=626.msg6542#msg6542",
     "date": "2010-07-29T23:12:12Z",
-    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=626.msg6515#msg6515\">Quote from: lachesis on July 29, 2010, 10:14:36 PM</a></div><div class=\"quote\">On Debian testing 32-bit, I get a few build errors, all resembling:<br/><div class=\"codeheader\">Code:</div><div class=\"code\">script.cpp:114: error: OP_NOP1 was not declared in this scope</div>I got these when attempting to \"make bitcoind\" without \"make clean\" or \"make\" first. It looks like the bitcoind build instructions don't compile the headers first, but they also don't delete the headers.h.gch, so the old headers are used if present.<br/><br/>If anyone else gets this error, the simplest solution is to \"make clean\" and retry the build.<br/></div>We don't really need pre-compiled header.&nbsp; It only makes it compile slightly faster.&nbsp; I think I'll just get rid of it.&nbsp; Even still, you'd still need to remember to \"make -f makefile.unix clean\" or delete headers.h.gch one more time to get rid of the leftover file.<br/><br/>Damn that GLIBC_2.11.&nbsp; I thought I'd been careful not to accept any of the updates.</div>",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=626.msg6515#msg6515\">引用：lachesis 于 2010年7月29日 下午10:14:36</a></div><div class=\"quote\">在Debian testing 32位上，我遇到了一些编译错误，都类似于：<br/><div class=\"codeheader\">Code:</div><div class=\"code\">script.cpp:114: error: OP_NOP1 was not declared in this scope</div>这是我在没有先执行”make clean“或”make“的情况下直接尝试”make bitcoind“时遇到的。看起来bitcoind的编译指令没有先编译头文件，但也没有删除headers.h.gch，所以如果旧的头文件存在就会被使用。<br/><br/>如果其他人也遇到这个错误，最简单的解决方案是执行”make clean“然后重新编译。<br/></div>我们其实并不真的需要预编译头文件。&nbsp;它只是让编译稍微快一点。&nbsp;我想我会直接去掉它。&nbsp;即便如此，你仍然需要记住执行”make -f makefile.unix clean“或再删除一次headers.h.gch来清理残留文件。<br/><br/>该死的GLIBC_2.11。&nbsp;我以为我已经小心地不接受任何更新了。</div>",
     "nested_level": 0
   },
   {
@@ -21850,10 +21850,10 @@
     "source_id": "6",
     "poster_name": "RHorning",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=344",
-    "subject": "Re: Protocol Buffers for Bitcoin",
+    "subject": "回复：比特币的 Protocol Buffers",
     "url": "https://bitcointalk.org/index.php?topic=632.msg6650#msg6650",
     "date": "2010-07-30T14:13:27Z",
-    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=632.msg6636#msg6636\">Quote from: martin on July 30, 2010, 11:37:59 AM</a></div><div class=\"quote\">The encoded protocol buffer is just 55 bytes, wheras the bitcoin version is 85 0x00 sets (each one representing 2 bytes each I assume). This means that my badly designed protocol buffer is half the size of the hand built layout!</div><br/>I realize that you are evangelizing for protocol buffers (and you seem to be doing a very good job of it too, I might add), but I will challenge that hand built data layouts are always bad.<br/><br/>Still, I hope this does give some food for thought and on a practical basis any improvement in the network protocol that shaves off a few bytes is always better.&nbsp; This doesn't seem to sacrifice too much in terms of the overhead either.&nbsp; More significantly, you are calling attention to an area of efficiency that needs to be addressed and is very helpful to the project.&nbsp; Thank you for doing that.&nbsp; I'm hoping to get caught up to where you are at now on this protocol business.</div>",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=632.msg6636#msg6636\">引用自 martin 于 2010年7月30日 11:37:59 AM</a></div><div class=\"quote\">编码后的 protocol buffer 只有 55 字节，而比特币版本是 85 个 0x00 集合（我假设每个代表 2 个字节）。这意味着我随手设计的 protocol buffer 是手工构建布局的一半大小！</div><br/>我知道你在为 protocol buffer 做推广（而且我得说，你做得相当出色），但我要挑战一下手工构建数据布局总是很糟糕这一说法。<br/><br/>不过，我希望这确实能给大家一些启发，在实际操作层面上，网络协议中任何能减少几个字节的改进总是好的。&nbsp;这似乎在开销方面也没有牺牲太多。&nbsp;更重要的是，你引起了对需要解决的效率问题的关注，这对项目非常有帮助。&nbsp;感谢你所做的。&nbsp;我希望能尽快跟上你在这个协议方面的工作进度。</div>",
     "nested_level": 0
   },
   {
@@ -21898,10 +21898,10 @@
     "source_id": "10",
     "poster_name": "lachesis",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=237",
-    "subject": "Re: Protocol Buffers for Bitcoin",
+    "subject": "回复：Bitcoin 的 Protocol Buffers",
     "url": "https://bitcointalk.org/index.php?topic=632.msg6811#msg6811",
     "date": "2010-07-31T13:45:23Z",
-    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=632.msg6636#msg6636\">Quote from: martin on July 30, 2010, 11:37:59 AM</a></div><div class=\"quote\">The encoded protocol buffer is just 55 bytes, wheras the bitcoin version is 85 0x00 sets (each one representing 2 bytes each I assume). This means that my badly designed protocol buffer is over half the size of the hand built layout!<br/></div>The \"0x00\" groups each represent one byte. The length of the standard version packet is 87 bytes plus 20 for the header. The header could be massively optimized as well:<br/><div class=\"codeheader\">Code:</div><div class=\"code\">message start \"magic bytes\" - 0xF9 0xBE 0xB4 0xD9<br/>command - name of command, 0 padded to 12 bytes \"version\\0\\0\\0\\0\\0\"<br/>size - 4 byte int<br/>checksum (absent for messages without data and version messages) - 4 bytes<br/></div>Obviously using proto buffers here, while absolutely a breaking change, would save a fair bit of space, especially because the \"I've created a transaction\" packet has the name \"tx\" meaning that there's at least 10 bytes of overhead in every one of those packets.</div>",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=632.msg6636#msg6636\">引用自：martin 于 2010年7月30日，11:37:59 AM</a></div><div class=\"quote\">编码后的 protocol buffer 只有 55 字节，而 bitcoin 版本是 85 组 0x00（我假设每组代表 2 个字节）。这意味着我设计得不太好的 protocol buffer 还不到手工设计的布局的一半大小！<br/></div>那些”0x00“组每组代表一个字节。标准版本数据包的长度是 87 字节，加上 20 字节的头部。头部本身也可以大幅优化：<br/><div class=\"codeheader\">代码：</div><div class=\"code\">消息起始 “magic bytes“ - 0xF9 0xBE 0xB4 0xD9<br/>命令 - 命令名称，用 0 填充到 12 字节 “version\\0\\0\\0\\0\\0“<br/>大小 - 4 字节整数<br/>校验和（没有数据的数据包和 version 消息没有此字段）- 4 字节<br/></div>显然，在这里使用 proto buffers，虽然绝对是一个破坏性变更，但可以节省相当多的空间，特别是因为”我创建了一笔交易”这个数据包的名字叫”tx“，意味着每个这样的数据包至少有 10 字节的开销。</div>",
     "nested_level": 0
   },
   {
@@ -23084,10 +23084,10 @@
     "source_id": "72",
     "poster_name": "satoshi",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=3",
-    "subject": "Re: 4 hashes parallel on SSE2 CPUs for 0.3.6",
+    "subject": "回复：0.3.6版本在SSE2 CPU上的4路并行哈希",
     "url": "https://bitcointalk.org/index.php?topic=648.msg8929#msg8929",
     "date": "2010-08-12T22:07:23Z",
-    "text": "<div class=\"post\">That big of a difference in speed, by a factor of 4 or 6, feels like it's likely to be some quirky weak spot or instruction that the old chip is slow with. &nbsp;Unless it's a touted feature of the i5 that they made SSE2 six times faster.<br/><br/>A quick summary:<br/>Xeon Quad &nbsp; &nbsp; &nbsp; &nbsp;41% slower<br/>Core 2 Duo &nbsp; &nbsp; &nbsp; &nbsp;55% slower<br/>Core 2 Duo&nbsp; &nbsp; &nbsp; &nbsp; same (vess)<br/>Core 2 Quad &nbsp; &nbsp; &nbsp;50% slower<br/>Core i5 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;200% faster (nelisky)<br/>Core i5&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 100% faster (vess)<br/>AMD Opteron &nbsp; &nbsp;105% faster<br/><br/>aceat64:<br/>My system went from ~7100 to ~4200.<br/>This particular system has dual Intel Xeon Quad-Core CPUs (E5335) @ 2.00GHz.<br/><br/>impossible7:<br/>on an Intel Core 2 Duo T7300 running x86_64 linux it was 55% slower compared to the stock version (r121)<br/><br/>nelisky:<br/>My Core2Quad (Q6600) slowed down 50%, <br/>my i5 improved ~200%, <br/><br/>impossible7:<br/>on an AMD Opteron 2374 HE running x86_64 linux I got a 105% improvement (!)<br/></div>",
+    "text": "<div class=\"post\">如此大的速度差异，4到6倍的差距，感觉像是某个古怪的薄弱点或旧芯片处理慢的某条指令造成的。&nbsp;除非这是i5的一项宣传卖点，说他们把SSE2速度提高了六倍。<br/><br/>快速总结：<br/>Xeon 四核&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;慢了41%<br/>Core 2 Duo&nbsp; &nbsp; &nbsp; &nbsp; 慢了55%<br/>Core 2 Duo&nbsp; &nbsp; &nbsp; &nbsp; 相同（vess）<br/>Core 2 四核&nbsp; &nbsp; &nbsp; 慢了50%<br/>Core i5&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;快了200%（nelisky）<br/>Core i5&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;快了100%（vess）<br/>AMD Opteron&nbsp; &nbsp; &nbsp;快了105%<br/><br/>aceat64：<br/>我的系统从约7100降到了约4200。<br/>这个系统配备双路Intel Xeon四核CPU（E5335）@ 2.00GHz。<br/><br/>impossible7：<br/>在Intel Core 2 Duo T7300上运行x86_64 Linux，比标准版本（r121）慢了55%<br/><br/>nelisky：<br/>我的Core2Quad（Q6600）慢了50%，<br/>我的i5提升了约200%，<br/><br/>impossible7：<br/>在AMD Opteron 2374 HE上运行x86_64 Linux，我获得了105%的提升（！）<br/></div>",
     "nested_level": 0
   },
   {
@@ -23486,10 +23486,10 @@
     "source_id": "17",
     "poster_name": "NewLibertyStandard",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=26",
-    "subject": "Re: BitCoin Wikipedia page DELETED!!!",
+    "subject": "Re: 比特币维基百科页面被删除了！！！",
     "url": "https://bitcointalk.org/index.php?topic=652.msg7130#msg7130",
     "date": "2010-08-03T01:54:41Z",
-    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=652.msg7102#msg7102\">Quote from: omegadraconis on August 02, 2010, 11:02:40 PM</a></div><div class=\"quote\">Wanted to add another reference here that I found via <a href=\"http://scholar.google.com/\">http://scholar.google.com/</a> <a href=\"http://yuumei.co.uk/files/dissertation.pdf\">http://yuumei.co.uk/files/dissertation.pdf</a>. It is a paper Titled \"The Impact of Decentralization on Networked Computer Games\" Written by Ashley Vaughan Smith of School of Computing, University of Derby. The paper mentions bitcoins as a good currency for online games. It is only about a paragraph but, I think a research paper for a University would count as an independent 3rd party and may be more of what Wikipedia would like to see.<br/></div><a href=\"http://bitcointalk.org/index.php?topic=342.msg5152#msg5152\">I beat ya to it by almost two weeks.</a> <img alt=\"Grin\" border=\"0\" src=\"/static/img/emoticons/grin.gif\"/> Not that anyone looks through my rambling lists. <img alt=\"Cry\" border=\"0\" src=\"/static/img/emoticons/cry.gif\"/></div>",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=652.msg7102#msg7102\">引用自：omegodraconis 于 2010年8月2日，晚上11:02:40</a></div><div class=\"quote\">想在这里添加另一个参考资料，我是通过 <a href=\"http://scholar.google.com/\">http://scholar.google.com/</a> 找到的 <a href=\"http://yuumei.co.uk/files/dissertation.pdf\">http://yuumei.co.uk/files/dissertation.pdf</a>。这是一篇题为《去中心化对网络游戏的影响》的论文，作者是德比大学计算学院的 Ashley Vaughan Smith。论文提到比特币是网络游戏中的良好货币。虽然只有大约一段话，但我认为大学的研究论文可以算作独立的第三方来源，可能更符合维基百科的要求。<br/></div><a href=\"http://bitcointalk.org/index.php?topic=342.msg5152#msg5152\">我比你早了将近两周。</a> <img alt=\"咧嘴笑\" border=\"0\" src=\"/static/img/emoticons/grin.gif\"/> 不过没人会去看我那些啰嗦的列表。 <img alt=\"哭\" border=\"0\" src=\"/static/img/emoticons/cry.gif\"/></div>",
     "nested_level": 0
   },
   {
@@ -24005,10 +24005,10 @@
     "source_id": "26",
     "poster_name": "FreeMoney",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=381",
-    "subject": "Re: What happens when network is split for prolonged time and reconnected?",
+    "subject": "回复：当网络长时间分裂后重新连接会发生什么？",
     "url": "https://bitcointalk.org/index.php?topic=661.msg7174#msg7174",
     "date": "2010-08-03T07:13:54Z",
-    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=661.msg7152#msg7152\">Quote from: knightmb on August 03, 2010, 04:56:25 AM</a></div><div class=\"quote\">I have a definitive answer for you all.<br/><br/>I built a test network on 5 computers, each running the client stock (fresh install) and had them all network to each other. They generated blocks all day (it's easy when the difficulty is 1.000), and after some transactions between them all (built up to 50 blocks doing this), I then connected them back to the \"outside\" world and as soon as they got in sync with the network, all the generated coin and transactions were wiped out and replaced by what is current on the network now.<br/><br/>So to answer your question, if the network is split and merges days/weeks/years later, whoever has the longest block chain (most CPU time) will win and the previous block chain will be wiped.<br/></div><br/>Cool. I guess you aren't seeing the transactions being redone because the accounts had no valid coins at all, right?</div>",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=661.msg7152#msg7152\">引用自 knightmb 于 2010年8月3日 04:56:25</a></div><div class=\"quote\">我给大家一个明确的答案。<br/><br/>我在5台电脑上搭建了一个测试网络，每台都运行原生客户端（全新安装），让它们互相连接。它们整天都在生成区块（当难度为1.000时很容易），在它们之间进行了一些交易后（这样做累积到了50个区块），然后我将它们重新连接到外部世界，一旦它们与网络同步，所有生成的币和交易都被清除，并被当前网络上的内容所取代。<br/><br/>所以回答你的问题，如果网络分裂后在几天/几周/几年后合并，拥有最长区块链（最多CPU时间）的一方将获胜，之前的区块链将被清除。<br/></div><br/>很酷。我猜你没有看到交易被重新执行，因为这些账户根本没有任何有效的币，对吧？</div>",
     "nested_level": 0
   },
   {
@@ -24137,10 +24137,10 @@
     "source_id": "37",
     "poster_name": "MoonShadow",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=643",
-    "subject": "Re: What happens when network is split for prolonged time and reconnected?",
+    "subject": "Re: 当网络长时间分裂后重新连接会发生什么？",
     "url": "https://bitcointalk.org/index.php?topic=661.msg7314#msg7314",
     "date": "2010-08-03T20:01:22Z",
-    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=661.msg7230#msg7230\">Quote from: throughput on August 03, 2010, 01:33:08 PM</a></div><div class=\"quote\"><br/>Yes...<br/>But what you describe is only possible after someone have noticed and prooved the network split is happening.<br/>Do you propose any method to detect the beginning of the network split?<br/><br/></div><br/>I started another thread along this line elsewhere, but for an individual vendor, a simple watchdog daemon that tracks the average time between blocks since the last official change in difficulty and alerts the vendor if a single block takes more than twice as long as the average, perhaps suspending the acceptance of new coins until the vendor checks to see what is happening.&nbsp; Each block in a row that takes longer than the average increases confidence against a false positive.&nbsp; So if one block takes twice as long as average, followed by a series of blocks that take 75% longer than average, then you can be fairly certain that you are no longer on the majority network.<br/><br/></div>",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=661.msg7230#msg7230\">引用自：throughput 于 2010年8月3日，下午1:33:08</a></div><div class=\"quote\"><br/>是的……<br/>但你描述的情况只有在有人注意到并证明网络分裂正在发生后才有可能处理。<br/>你有什么方法可以检测网络分裂的开始吗？<br/><br/></div><br/>我在别处开了另一个帖子讨论这个方向，但对于个人商户来说，一个简单的看门狗守护进程就可以跟踪自上次官方难度调整以来区块之间的平均时间间隔，如果单个区块的生成时间超过平均值的两倍，就向商户发出警报，也许在商户检查发生了什么之前暂停接受新货币。连续出现的每个超过平均时间的区块都会增加判断的置信度，减少误判。所以如果一个区块的生成时间是平均值的两倍，紧接着又是一系列比平均值慢75%的区块，那你就可以相当确定你已经不在主网络上了。<br/><br/></div>",
     "nested_level": 0
   },
   {
@@ -24355,10 +24355,10 @@
     "source_id": "16",
     "poster_name": "satoshi",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=3",
-    "subject": "Re: Multiple Wallets, one computer",
+    "subject": "回复：一台电脑，多个钱包",
     "url": "https://bitcointalk.org/index.php?topic=665.msg18349#msg18349",
     "date": "2010-10-24T19:17:51Z",
-    "text": "<div class=\"post\">I have the beginning of something like this. &nbsp;It's mostly like what Gavin described.<br/><br/>Some more rpc interface:<br/><br/>move &lt;fromaccount&gt; &lt;toaccount&gt; &lt;amount&gt;<br/>&nbsp;&nbsp; Move from one internal account to another. &nbsp;I think blank account name (\"\") will be your default account. &nbsp;If you sell something to a user, you could do move \"theiraccount\" \"\" 123.45.<br/>&nbsp;&nbsp; Is \"move\" the best name for this? &nbsp;I shied away from \"transfer\" because that sounds too close to sending a transaction.<br/><br/>I'm thinking a new function getaccountaddress instead of overloading getnewaddress:<br/><br/>getaccountaddress &lt;account&gt;<br/>&nbsp;&nbsp; Gives you an address allocated from getnewaddress &lt;account&gt;. &nbsp;It'll keep giving the same address until something is received on the address, then it allocates a new address. &nbsp;(It automatically does what the sample code I posted some time ago did)<br/><br/>Would these commands make it possible in simple cases to implement your website without needing a database of your own?<br/></div>",
+    "text": "<div class=\"post\">我已经有了类似功能的初步实现。 &nbsp;基本上和 Gavin 描述的一样。<br/><br/>更多 RPC 接口：<br/><br/>move &lt;fromaccount&gt; &lt;toaccount&gt; &lt;amount&gt;<br/>&nbsp;&nbsp; 从一个内部账户转移到另一个。 &nbsp;我觉得空的账户名（\"\")会是你的默认账户。 &nbsp;如果你向某个用户出售了东西，你可以执行 move \"theiraccount\" \"\" 123.45。<br/>&nbsp;&nbsp; 「move」是这个操作的最佳名称吗？ &nbsp;我避开了「transfer」，因为那听起来太像发送一笔交易了。<br/><br/>我在考虑新增一个函数 getaccountaddress，而不是重载 getnewaddress：<br/><br/>getaccountaddress &lt;account&gt;<br/>&nbsp;&nbsp; 返回一个通过 getnewaddress &lt;account&gt; 分配的地址。 &nbsp;在收到该地址的付款之前，它会一直返回同一个地址，然后再分配一个新地址。 &nbsp;（它自动完成了我之前发布的示例代码所做的事情）<br/><br/>这些命令是否能让你在简单场景下实现网站功能，而不需要自己的数据库？<br/></div>",
     "nested_level": 0
   },
   {
@@ -25067,10 +25067,10 @@
     "source_id": "5",
     "poster_name": "jgarzik",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=541",
-    "subject": "Content-Length header and 500 (was Re: Authentication, JSON RPC and Python)",
+    "subject": "Content-Length头与500错误（原为 回复：认证、JSON RPC和Python）",
     "url": "https://bitcointalk.org/index.php?topic=689.msg7288#msg7288",
     "date": "2010-08-03T18:09:08Z",
-    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=689.msg7287#msg7287\">Quote from: vess on August 03, 2010, 06:02:00 PM</a></div><div class=\"quote\">Thanks for the pointer, interesting, but not what seems to be affecting me.<br/><br/>Here's my current code (running on Google App Engine)<br/><tt><br/>postdata = jsonrpc.dumps({\"method\": 'getbalance', \"params\":'','id':'jsonrpc'})<br/>req = urllib2.Request('<a href=\"http://127.0.0.1:8332\">http://127.0.0.1:8332</a>', postdata)<br/>userpass = 'user:a'.encode('base64')[:-1]<br/>authheader =&nbsp; \"Basic %s\" % userpass<br/>req.add_header(\"Authorization\",authheader)<br/>handle = urllib2.urlopen(req)<br/>json_response = handle.read()<br/>self.response.out.write (json_response)<br/><tt><br/>This yields a <tt>HTTPError: HTTP Error 500: Internal Server Error</tt><br/></tt></tt></div><br/>This is a verified bug in bitcoin.<br/><br/>bitcoin requires the Content-Length header, but several JSON-RPC libraries do not provide it.&nbsp; When the Content-Length header is absent, bitcoin returns 500 Internal Server Error.<br/></div>",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=689.msg7287#msg7287\">引用：vess 于 2010年8月3日 下午06:02:00</a></div><div class=\"quote\">谢谢提示，很有趣，但似乎不是影响我的问题。<br/><br/>这是我当前的代码（运行在Google App Engine上）<br/><tt><br/>postdata = jsonrpc.dumps({\"method\": 'getbalance', \"params\":'','id':'jsonrpc'})<br/>req = urllib2.Request('<a href=\"http://127.0.0.1:8332\">http://127.0.0.1:8332</a>', postdata)<br/>userpass = 'user:a'.encode('base64')[:-1]<br/>authheader =&nbsp; \"Basic %s\" % userpass<br/>req.add_header(\"Authorization\",authheader)<br/>handle = urllib2.urlopen(req)<br/>json_response = handle.read()<br/>self.response.out.write (json_response)<br/><tt><br/>这导致了 <tt>HTTPError: HTTP Error 500: Internal Server Error</tt><br/></tt></tt></div><br/>这是bitcoin中已确认的bug。<br/><br/>bitcoin需要Content-Length头，但一些JSON-RPC库不提供它。&nbsp;当Content-Length头缺失时，bitcoin返回500 Internal Server Error。<br/></div>",
     "nested_level": 0
   },
   {
@@ -25188,10 +25188,10 @@
     "source_id": "4",
     "poster_name": "throughput",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=574",
-    "subject": "Re: Bitcoin Watchdog Service",
+    "subject": "回复：比特币看门狗服务",
     "url": "https://bitcointalk.org/index.php?topic=691.msg8897#msg8897",
     "date": "2010-08-12T15:28:43Z",
-    "text": "<div class=\"post\">Definitively, we need some overall network hps meter in every node.<br/><br/>And at last I've found that article:<br/><a href=\"http://www.informit.com/articles/article.aspx?p=1237179\">http://www.informit.com/articles/article.aspx?p=1237179</a><br/><br/>Network splits are easier to produce, and happen more often, than many users on this forum think.<br/>You don't really need to cut any cable, nor hack into ISP's router to plug that ISP off Internet.<br/>You don't need to hack his peers either. All you need is BGP router in any AS (and some unwary BGP peers).<br/>I have one&nbsp; <img alt=\"Grin\" border=\"0\" src=\"/static/img/emoticons/grin.gif\"/><br/><br/>So, it is possible to talk about a short (1 - 3 hours) and controlled network split.<br/>Not just split in half, but split into ASes. After an hour or three-four most of ISPs will recover, but that<br/>really depends on work hours. Weekend attack may have more prolonged effect.<br/>Perhaps in the future that will be fixed and no BGP router will be vulnerable, but<br/>anyway, nobody should count on Internet stability and persistent connectivity.</div>",
+    "text": "<div class=\"post\">毫无疑问，每个节点都需要一个整体网络的哈希率仪表。<br/><br/>终于找到了那篇文章：<br/><a href=\"http://www.informit.com/articles/article.aspx?p=1237179\">http://www.informit.com/articles/article.aspx?p=1237179</a><br/><br/>网络分裂比这个论坛上许多用户认为的更容易发生，也更频繁。<br/>你不需要真的剪断任何光缆，也不需要黑进 ISP 的路由器来让该 ISP 断开互联网。<br/>你也不需要黑它的对等节点。你只需要在任何自治系统中有一台 BGP 路由器（以及一些疏忽大意的 BGP 对等节点）。<br/>我就有一台&nbsp;<img alt=\"Grin\" border=\"0\" src=\"/static/img/emoticons/grin.gif\"/><br/><br/>所以，讨论短暂（1-3小时）且可控的网络分裂是可能的。<br/>不只是对半分裂，而是按自治系统分裂。一两个小时或三四个小时后大多数 ISP 会恢复，但这确实取决于工作时间。周末的攻击可能有更持久的效果。<br/>也许将来这会被修复，没有 BGP 路由器会有漏洞，但无论如何，谁都不应该指望互联网的稳定性和持续连接性。</div>",
     "nested_level": 0
   },
   {
@@ -25263,10 +25263,10 @@
     "source_id": "1",
     "poster_name": "satoshi",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=3",
-    "subject": "Please upgrade to 0.3.8!",
+    "subject": "请升级到 0.3.8！",
     "url": "https://bitcointalk.org/index.php?topic=696.msg7364#msg7364",
     "date": "2010-08-03T23:40:18Z",
-    "text": "<div class=\"post\">Version 0.3.8 adds an important security improvement.&nbsp; Everyone should upgrade to get this change.<br/><br/>The new safety feature displays a warning message in the status bar and locks down RPC if it detects a problem that may require an upgrade.<br/><br/>If it sees a longer chain, but it can't process it, then it knows something is wrong.&nbsp; It displays \"WARNING: Displayed transactions may not be correct!&nbsp; You may need to upgrade.\" and makes most RPC commands return an error.&nbsp; It still keeps generating as normal, which is necessary for the stability of the network.<br/><br/>There were important security updates in the versions before this too, so if you haven't upgraded recently, it's extremely important that you upgrade now!<br/><br/>Also, don't forget, we recently added 2.4x faster generating thanks to tcatm's mid-state caching optimisation and BlackEye's help getting ASM SHA-256 working.<br/><br/>Download:<br/><a href=\"http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.3.8/\">http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.3.8/</a></div>",
+    "text": "<div class=\"post\">版本 0.3.8 增加了一项重要的安全改进。&nbsp;每个人都应该升级以获得此更改。<br/><br/>新的安全功能会在状态栏显示警告消息，并在检测到可能需要升级的问题时锁定 RPC。<br/><br/>如果它看到一条更长的链，但无法处理它，就知道出了问题。&nbsp;它会显示「警告：显示的交易可能不正确！&nbsp;您可能需要升级。」并使大多数 RPC 命令返回错误。&nbsp;它仍然保持正常的挖矿，这对于网络的稳定性是必要的。<br/><br/>在此之前的版本中也有重要的安全更新，所以如果你最近没有升级，现在升级极其重要！<br/><br/>此外，别忘了，我们最近借助 tcatm 的中间状态缓存优化和 BlackEye 帮助实现 ASM SHA-256，将生成速度提高了 2.4 倍。<br/><br/>下载：<br/><a href=\"http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.3.8/\">http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.3.8/</a></div>",
     "nested_level": 0
   },
   {
@@ -25663,10 +25663,10 @@
     "source_id": "9",
     "poster_name": "gridecon",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=692",
-    "subject": "Re: Bitcoin minting is thermodynamically perverse",
+    "subject": "Re: 比特币铸币在热力学上是荒谬的",
     "url": "https://bitcointalk.org/index.php?topic=721.msg7817#msg7817",
     "date": "2010-08-06T09:24:47Z",
-    "text": "<div class=\"post\">I understand the bitcoin is not INTENDED to be about the minting. The essence of my criticism is that a digital currency SHOULD NOT be \"about the minting\" but the current bitcoin system works against that goal! My argument is that the current minting system limits the utility of the currency largely because entirely too much attention is focused on \"winning the block generation lottery\" and the process of choosing these winners is highly inefficient and resource intensive. If potential users of the currency believe that bitcoin is simply a way for botnet herders to convert spare cpu cycles into cash, they are unlikely to participate in the emergence of the economy. The current system could easily result in the perception that bitcoin is basically being used as a vector for the indirect monetization of the theft of electricity via compromised computer systems. I assume most people interested in bitcoin understand that self-interested individuals will obviously seek to exploit opportunities like this, and the design of a popular currency has to prioritize how a prospective user will evaluate its fairness.</div>",
+    "text": "<div class=\"post\">我理解比特币的本意并不是关于铸币。我批评的核心在于，一种数字货币不应该是关于铸币的，但当前的比特币系统却与这个目标背道而驰！我的论点是，当前的铸币系统在很大程度上限制了货币的实用性，因为人们把太多注意力集中在赢得区块生成彩票上，而选择这些中奖者的过程极其低效且耗费资源。如果潜在用户认为比特币只是僵尸网络控制者将空闲CPU周期变现的手段，他们就不太可能参与到这个新兴经济体中来。当前的系统很容易让人觉得比特币基本上就是通过入侵计算机系统窃取电力来间接变现的工具。我假设大多数对比特币感兴趣的人都明白，逐利的个人显然会试图利用这样的机会，而一种流行货币的设计必须将潜在用户如何评估其公平性作为优先考虑。</div>",
     "nested_level": 0
   },
   {
@@ -26133,10 +26133,10 @@
     "source_id": "9",
     "poster_name": "mkrogh",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=696",
-    "subject": "Re: latency and locality",
+    "subject": "回复：延迟与局部性",
     "url": "https://bitcointalk.org/index.php?topic=723.msg7861#msg7861",
     "date": "2010-08-06T15:12:18Z",
-    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=723.msg7855#msg7855\">Quote from: Insti on August 06, 2010, 02:30:50 PM</a></div><div class=\"quote\">Every transaction <b>is</b> monitored in the bitcoin system.<br/></div><br/>But you can make it anonymous. Why are you bringing this up?This is a point, were I thought we agreed.<br/>When I said monitoring, I meant including identification of the payer and payee. <br/><br/><div class=\"quoteheader\">Quote</div><div class=\"quote\"><br/>That is your requirement for trust, not mine. You can trust a transaction as soon as you see it if you like.<br/>And people are going to shop with those who will give them speedy transactions.<br/></div><br/>Yes, that is my requirement, and will be most others as well. You will see almost no companies that sell without a guarantee against double spending.<br/><br/><br/><div class=\"quoteheader\">Quote</div><div class=\"quote\">Anyone who currently uses PayPal for a start.<br/></div><br/>Most of those will prefer a fast issuer based system over a slow decentralized system, I will claim.<br/>But they might prefer bitcoin over paypal.</div>",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=723.msg7855#msg7855\">引用：Insti 于 2010年8月6日 下午02:30:50</a></div><div class=\"quote\">在比特币系统中，每一笔交易<b>都</b>会被监控。<br/></div><br/>但你可以让它变得匿名。你为什么要提这个？这正是我认为我们已经达成共识的地方。<br/>当我提到监控时，我指的是包括识别付款方和收款方身份。<br/><br/><div class=\"quoteheader\">Quote</div><div class=\"quote\"><br/>那是你对信任的要求，不是我的。你可以在看到交易后立即信任它，如果你愿意的话。<br/>而且人们会选择那些能提供快速交易的商家。<br/></div><br/>是的，这是我的要求，也会是大多数其他人的要求。你几乎找不到哪家企业在没有双重支付保障的情况下还愿意售卖商品。<br/><br/><br/><div class=\"quoteheader\">Quote</div><div class=\"quote\">任何目前使用PayPal的人都是如此。<br/></div><br/>我敢说，他们中的大多数人会偏好一个快速的基于发行方的系统，而非缓慢的去中心化系统。<br/>但他们可能会比paypal更偏好比特币。</div>",
     "nested_level": 0
   },
   {
@@ -27271,10 +27271,10 @@
     "source_id": "6",
     "poster_name": "Insti",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=336",
-    "subject": "Re: Not a suggestion",
+    "subject": "回复：不是建议",
     "url": "https://bitcointalk.org/index.php?topic=770.msg8542#msg8542",
     "date": "2010-08-10T15:06:16Z",
-    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=770.msg8534#msg8534\">Quote from: Red on August 10, 2010, 02:22:09 PM</a></div><div class=\"quote\">By the way, this is the way most digital notary services work. You send them a hash of a signed document and they log it permanently. Then they create a hash chain like bitcoin does. They periodically publish the current hash chain value in a newspaper or other offline redundant record.<br/><br/>You don't have to send your private documents/transaction to the notary for them to be time stamped and recorded. The notary is just certifying that something that matched this hash existed at this point in time.<br/><br/></div><br/>You also don't have to prove to the notary that you have X BTC in your account to spend.<br/><br/>Although I was recently reading about <a href=\"http://en.wikipedia.org/wiki/Zero-knowledge_proof\">Zero-knowledge proofs</a> if you could use something like that to prove that your account had X BTC in it without revealing anything else it might be what you're looking for.<br/><br/>I'm just worried what you want is theoretically impossible.</div>",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=770.msg8534#msg8534\">引用自：Red 于 2010年8月10日 02:22:09 PM</a></div><div class=\"quote\">顺便说一下，这就是大多数数字公证服务的运作方式。你把已签名文档的哈希发送给他们，他们会永久记录下来。然后他们会像比特币一样创建哈希链。他们会定期在报纸或其他离线冗余记录中公布当前的哈希链值。<br/><br/>你不需要把你的私人文件/交易发送给公证方就能获得时间戳和记录。公证方只是证明，在某个时间点存在一个与此哈希匹配的东西。<br/><br/></div><br/>你也不需要向公证方证明你账户里有 X 个 BTC 可以花费。<br/><br/>不过我最近在读关于<a href=\"http://en.wikipedia.org/wiki/Zero-knowledge_proof\">零知识证明</a>的内容，如果你能用类似的方法证明你账户里有 X 个 BTC 而不透露任何其他信息，那可能正是你想要的。<br/><br/>我只是担心你想要的东西在理论上是不可能的。</div>",
     "nested_level": 0
   },
   {
@@ -27419,10 +27419,10 @@
     "source_id": "3",
     "poster_name": "Insti",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=336",
-    "subject": "Re: Lost large number of bitcoins",
+    "subject": "回复：丢失大量比特币",
     "url": "https://bitcointalk.org/index.php?topic=782.msg8625#msg8625",
     "date": "2010-08-10T23:23:11Z",
-    "text": "<div class=\"post\">It sounds like they are lost for good.<br/><br/><img alt=\"Sad\" border=\"0\" src=\"/static/img/emoticons/sad.gif\"/><br/><br/>Lesson to other people: Remember you need to back your wallet up after every transaction!<br/>(The wallet metaphor is actually a bad one, because it makes problems like this more common than they should be.)<br/><br/>Edit: (more explaination)<br/><br/>When you do a transaction you always spend ALL of the coins in that address, part of the money goes to whoever you're paying, and there rest is returned to you an a new 'change' address. (This helps your anonymity as someone watching cannot tell which amount you spent and which amount you kept.)<br/><br/>Before transaction:<br/>Address1: 9000<br/>Address2: 0<br/><br/>After transaction:<br/>Address1: 0<br/>Address2: 1<br/>Address3: 8999<br/><br/>It sounds like you have wallet.dat that contains the private keys for Address1 and Address2, but not Address3.<br/>(Although the numbers in your story don't add up.)<br/>What were the Bitcoin addresses? (If we know these we can do some more in-depth block chain research)<br/><br/><br/><br/></div>",
+    "text": "<div class=\"post\">听起来它们已经永久丢失了。<br/><br/><img alt=\"Sad\" border=\"0\" src=\"/static/img/emoticons/sad.gif\"/><br/><br/>给其他人的教训：记住每次交易后都要备份你的钱包！<br/>（钱包这个比喻其实不太好，因为它让这类问题比本应该的更频繁。）<br/><br/>编辑：（更多解释）<br/><br/>当你进行一笔交易时，你总是会花费该地址中的所有币，一部分钱付给收款方，其余的部分会退还到你的一个新「找零」地址。（这有助于保护你的匿名性，因为旁观者无法分辨你花了多少、留了多少。）<br/><br/>交易前：<br/>地址1：9000<br/>地址2：0<br/><br/>交易后：<br/>地址1：0<br/>地址2：1<br/>地址3：8999<br/><br/>听起来你的wallet.dat包含了地址1和地址2的私钥，但不包含地址3的。<br/>（虽然你故事中的数字对不上。）<br/>比特币地址是什么？（如果我们知道这些地址，可以做更深入的区块链研究）<br/><br/><br/><br/></div>",
     "nested_level": 0
   },
   {
@@ -27881,10 +27881,10 @@
     "source_id": "3",
     "poster_name": "aceat64",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=430",
-    "subject": "Re: Bugfixes in SVN rev 130",
+    "subject": "回复：SVN rev 130 中的 Bug 修复",
     "url": "https://bitcointalk.org/index.php?topic=795.msg8957#msg8957",
     "date": "2010-08-13T02:42:16Z",
-    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=795.msg8941#msg8941\">Quote from: jgarzik on August 12, 2010, 11:39:12 PM</a></div><div class=\"quote\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=795.msg8920#msg8920\">Quote from: satoshi on August 12, 2010, 09:20:31 PM</a></div><div class=\"quote\">-paytxfee switch, e.g. -paytxfee=0.01<br/></div><br/>So, -paytxfee sets nTransactionFee.<br/><br/>Can someone explain how nTransactionFee causes a client to behave?<br/><br/>And more specifically, what happens when node A sets 1000.0 and all other nodes use 0.01?<br/><br/><br/></div><br/>From what I understand a node will not include transactions in it's blocks unless the transaction includes a fee that meets the node's requirements. So in the case of a node setting the fee to 1,000 it would likely never include any transactions in blocks it generates, which means it will miss out on any transaction fees other nodes would have gotten. There really isn't a reason to set a nodes requirements higher then the rest of the network since you are basically just pricing yourself out of the market.</div>",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=795.msg8941#msg8941\">引用自：jgarzik 于 2010年8月12日，11:39:12 PM</a></div><div class=\"quote\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=795.msg8920#msg8920\">引用自：satoshi 于 2010年8月12日，09:20:31 PM</a></div><div class=\"quote\">-paytxfee 开关，例如 -paytxfee=0.01<br/></div><br/>所以，-paytxfee 设置的是 nTransactionFee。<br/><br/>有人能解释一下 nTransactionFee 会影响客户端的什么行为吗？<br/><br/>更具体地说，如果节点 A 设置为 1000.0，而其他所有节点都用 0.01，会发生什么？<br/><br/><br/></div><br/>据我理解，如果一个交易包含的费用不满足节点的要求，节点就不会在其生成的区块中包含该交易。所以如果一个节点把费用要求设为 1000，那它生成的区块中几乎不会包含任何交易，这意味着它将错失其他节点本可以获得的交易费。没有理由把节点的费用要求设得比网络中其他节点更高，因为那基本上等于把自己排除在市场之外。</div>",
     "nested_level": 0
   },
   {
@@ -28233,10 +28233,10 @@
     "source_id": "14",
     "poster_name": "FreeMoney",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=381",
-    "subject": "Re: Potential disaster scenario",
+    "subject": "回复：潜在的灾难情景",
     "url": "https://bitcointalk.org/index.php?topic=813.msg9263#msg9263",
     "date": "2010-08-14T20:50:12Z",
-    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=813.msg9262#msg9262\">Quote from: gebler on August 14, 2010, 08:48:57 PM</a></div><div class=\"quote\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=813.msg9254#msg9254\">Quote from: FreeMoney on August 14, 2010, 08:21:51 PM</a></div><div class=\"quote\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=813.msg9249#msg9249\">Quote from: gebler on August 14, 2010, 08:06:01 PM</a></div><div class=\"quote\">I understand that the 4x limit to the difficulty adjustment was added quite recently, so there is some precedent in fixing problematic aspects of the algorithm. <br/></div><br/>Really? Source?<br/></div><br/>Sorry, I was wrong about that.&nbsp; I though I had read something on the forum to that effect, but now I can't find it.&nbsp; Looking at old sources, I see that the 4x cap was there as early as bitcoin-0.1.0.rar, so this is definitely not a new modification.<br/></div><br/>I thought so, but still, some changes can be made. What is the change that solves this problem?</div>",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=813.msg9262#msg9262\">引用自：gebler 于 2010年8月14日 08:48:57 PM</a></div><div class=\"quote\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=813.msg9254#msg9254\">引用自：FreeMoney 于 2010年8月14日 08:21:51 PM</a></div><div class=\"quote\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=813.msg9249#msg9249\">引用自：gebler 于 2010年8月14日 08:06:01 PM</a></div><div class=\"quote\">我知道难度调整的 4 倍限制是最近才加上的，所以在修复算法中存在的问题方面是有先例的。<br/></div><br/>真的吗？有出处吗？<br/></div><br/>抱歉，我搞错了。&nbsp;我以为我在论坛上看到过类似的说法，但现在找不到了。&nbsp;查看早期源代码后，我发现 4 倍上限在 bitcoin-0.1.0.rar 中就已经存在了，所以这绝对不是新的修改。<br/></div><br/>我也这么觉得，不过有些改动还是可以做的。能解决这个问题的改动是什么呢？</div>",
     "nested_level": 0
   },
   {
@@ -28646,10 +28646,10 @@
     "source_id": "17",
     "poster_name": "aceat64",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=430",
-    "subject": "Re: tcatm's 4-way SSE2 for Linux 32/64-bit 0.3.9 rc2",
+    "subject": "回复：tcatm 的 4-way SSE2 Linux 32/64位 0.3.9 rc2 版本",
     "url": "https://bitcointalk.org/index.php?topic=820.msg9640#msg9640",
     "date": "2010-08-16T02:13:28Z",
-    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=820.msg9630#msg9630\">Quote from: NewLibertyStandard on August 16, 2010, 01:49:01 AM</a></div><div class=\"quote\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=820.msg9613#msg9613\">Quote from: aceat64 on August 16, 2010, 12:37:54 AM</a></div><div class=\"quote\">I created a wiki page so we can keep track of the results: <a href=\"http://www.bitcoin.org/wiki/doku.php?id=4-way_sse2\">http://www.bitcoin.org/wiki/doku.php?id=4-way_sse2</a><br/></div>You might want to add columns for whether hyper-threading is enabled, number of physical cores and how many cores Bitcoin is using. Without 4way, I get very slightly better results when I have half of my virtual cores hashing. With 4way, I get significantly better performance when I have all my virtual cores enabled. I think I get about the same amount of hashes when hyper threading is turned off with or without 4way.<br/></div><br/>I've updated the page with your suggestions, I've also added footnotes to explain some of the fields.</div>",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=820.msg9630#msg9630\">引用：NewLibertyStandard 于 2010年8月16日 上午01:49:01</a></div><div class=\"quote\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=820.msg9613#msg9613\">引用：aceat64 于 2010年8月16日 上午12:37:54</a></div><div class=\"quote\">我创建了一个wiki页面，方便我们记录测试结果：<a href=\"http://www.bitcoin.org/wiki/doku.php?id=4-way_sse2\">http://www.bitcoin.org/wiki/doku.php?id=4-way_sse2</a><br/></div>你可能需要添加几列：是否启用了超线程、物理核心数量以及比特币使用了多少个核心。不用4way时，我只用一半虚拟核心进行哈希计算会得到略好一些的结果。用4way时，开启所有虚拟核心性能显著提升。我觉得关闭超线程后，用不用4way的哈希数量差不多。<br/></div><br/>我已经根据你的建议更新了页面，还添加了一些脚注来解释部分字段。</div>",
     "nested_level": 0
   },
   {
@@ -28817,10 +28817,10 @@
     "source_id": "31",
     "poster_name": "jgarzik",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=541",
-    "subject": "Re: tcatm's 4-way SSE2 for Linux 32/64-bit is in 0.3.10",
+    "subject": "回复：tcatm 的 4-way SSE2 Linux 32/64位版本已包含在 0.3.10 中",
     "url": "https://bitcointalk.org/index.php?topic=820.msg9689#msg9689",
     "date": "2010-08-16T05:33:56Z",
-    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=820.msg9676#msg9676\">Quote from: satoshi on August 16, 2010, 04:36:59 AM</a></div><div class=\"quote\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=820.msg9665#msg9665\">Quote from: jgarzik on August 16, 2010, 03:35:28 AM</a></div><div class=\"quote\"><div class=\"codeheader\">Code:</div><div class=\"code\">cpu family<span style=\"white-space: pre;\"> </span>: 6<br/>model<span style=\"white-space: pre;\"> </span><span style=\"white-space: pre;\"> </span>: 26<br/>model name<span style=\"white-space: pre;\"> </span>: Genuine Intel(R) CPU&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;000&nbsp; @ 3.20GHz<br/>stepping<span style=\"white-space: pre;\"> </span>: 4</div></div>cpu family 6 model 26 stepping 4 is an Intel Core i7.<br/>That's a 23% speedup with -4way, 63% total speedup with -4way + hyperthreading.<br/>33% faster with hyperthreading than without it.<br/></div><br/><br/>Does bitcoin perform any self-tests at startup, to verify that hashing is working?<br/><br/><br/></div>",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=820.msg9676#msg9676\">引用：satoshi 于 2010年8月16日 上午04:36:59</a></div><div class=\"quote\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=820.msg9665#msg9665\">引用：jgarzik 于 2010年8月16日 上午03:35:28</a></div><div class=\"quote\"><div class=\"codeheader\">代码：</div><div class=\"code\">cpu family<span style=\"white-space: pre;\"> </span>: 6<br/>model<span style=\"white-space: pre;\"> </span><span style=\"white-space: pre;\"> </span>: 26<br/>model name<span style=\"white-space: pre;\"> </span>: Genuine Intel(R) CPU&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;000&nbsp; @ 3.20GHz<br/>stepping<span style=\"white-space: pre;\"> </span>: 4</div></div>cpu family 6 model 26 stepping 4 是 Intel Core i7。<br/>使用 -4way 获得了23%的加速，加上超线程总共获得了63%的加速。<br/>开启超线程比不开启快33%。<br/></div><br/><br/>bitcoin在启动时是否会执行自检，来验证哈希是否正常工作？<br/><br/><br/></div>",
     "nested_level": 0
   },
   {
@@ -29574,10 +29574,10 @@
     "source_id": "41",
     "poster_name": "knightmb",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=345",
-    "subject": "Re: overflow bug SERIOUS",
+    "subject": "Re: 溢出漏洞 严重",
     "url": "https://bitcointalk.org/index.php?topic=823.msg9587#msg9587",
     "date": "2010-08-15T23:37:40Z",
-    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=823.msg9576#msg9576\">Quote from: satoshi on August 15, 2010, 11:17:24 PM</a></div><div class=\"quote\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=823.msg9574#msg9574\">Quote from: knightmb on August 15, 2010, 10:59:04 PM</a></div><div class=\"quote\"><b>[edit]</b> Just saw your post, I'll build one to less than 74,000 then, should at least save you technical people a few minutes of downloading the new chain. &nbsp;<img alt=\"Wink\" border=\"0\" src=\"/static/img/emoticons/wink.gif\"/><br/></div>Just leave the old one alone! &nbsp;Older is better. &nbsp;What block number is it? &nbsp;Anywhere from 60000-74000 is good.&nbsp; The one that you've had available for a while has been vetted and is the best choice.<br/></div>I've put the block number with the file, so you'll know exactly where each stops at.&nbsp; <br/><br/>BitCoinBlocks_Linux_67309.zip<br/>BitCoinBlocks_Windows_67300.zip<br/><br/>I've leave them be. Glad to know I could help&nbsp; <img alt=\"Smiley\" border=\"0\" src=\"/static/img/emoticons/smiley.gif\"/><br/><br/></div>",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=823.msg9576#msg9576\">引用自：satoshi 于 2010年8月15日，晚上11:17:24</a></div><div class=\"quote\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=823.msg9574#msg9574\">引用自：knightmb 于 2010年8月15日，晚上10:59:04</a></div><div class=\"quote\"><b>[编辑]</b> 刚看到你的帖子，那我就构建一个不到74000的版本，至少能帮你们技术人员省下几分钟下载新区块链的时间。 <img alt=\"眨眼\" border=\"0\" src=\"/static/img/emoticons/wink.gif\"/><br/></div>旧的不要动！越旧越好。区块号是多少？60000到74000之间都行。你之前提供的那份已经经过了验证，是最佳选择。<br/></div>我把区块号标在了文件名旁边，这样你就能确切知道每个文件到哪个区块结束。<br/><br/>BitCoinBlocks_Linux_67309.zip<br/>BitCoinBlocks_Windows_67300.zip<br/><br/>我就把它们留在那里不动。很高兴能帮上忙 <img alt=\"微笑\" border=\"0\" src=\"/static/img/emoticons/smiley.gif\"/><br/><br/></div>",
     "nested_level": 0
   },
   {
@@ -29819,10 +29819,10 @@
     "source_id": "61",
     "poster_name": "NewLibertyStandard",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=26",
-    "subject": "Re: overflow bug SERIOUS",
+    "subject": "回复：溢出 Bug 严重",
     "url": "https://bitcointalk.org/index.php?topic=823.msg9657#msg9657",
     "date": "2010-08-16T03:09:52Z",
-    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=823.msg9649#msg9649\">Quote from: bdonlan on August 16, 2010, 02:39:55 AM</a></div><div class=\"quote\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=823.msg9642#msg9642\">Quote from: satoshi on August 16, 2010, 02:16:10 AM</a></div><div class=\"quote\">The bad chain is also slowed down as more nodes upgrade.<br/><br/>We've already generated 14 blocks since 74638. &nbsp;The builds of 0.3.10 were uploaded about 2 and 3 hours ago. &nbsp;Of the nodes I'm connected to, more than half are already 0.3.10. &nbsp;I would say we probably already have more power than the bad chain.<br/><br/></div>I think it'd probably be a good idea still to come out with another version that rejects connections from older versions - otherwise the network might remain rather fragmented for a while. :/<br/></div>We want to keep the older clients connected so that when the correct chain overtakes the incorrect chain, they will switch back to the correct chain. Although I don't know the specifics of how far back in the chain the old chain will accept a branched chain.</div>",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=823.msg9649#msg9649\">引用自：bdonlan 于 2010年8月16日，02:39:55 AM</a></div><div class=\"quote\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=823.msg9642#msg9642\">引用自：satoshi 于 2010年8月16日，02:16:10 AM</a></div><div class=\"quote\">随着更多节点升级，错误的链也在放缓。<br/><br/>自 74638 以来，我们已经生成了 14 个区块。0.3.10 的构建版本大约在 2 到 3 小时前上传。在我连接的节点中，超过一半已经是 0.3.10 了。我想说我们的算力可能已经超过了错误链。<br/><br/></div>我认为再发布一个拒绝旧版本连接的版本可能还是个好主意——否则网络可能会在一段时间内保持相当碎片化的状态。:/<br/></div>我们希望保持旧客户端的连接，这样当正确的链超过错误的链时，它们会切换回正确的链。不过我不清楚旧链在接受分叉链回溯的具体细节。</div>",
     "nested_level": 0
   },
   {
@@ -29918,10 +29918,10 @@
     "source_id": "1",
     "poster_name": "satoshi",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=3",
-    "subject": "Version 0.3.10 - block 74638 overflow PATCH!",
+    "subject": "版本 0.3.10 — 区块 74638 溢出补丁！",
     "url": "https://bitcointalk.org/index.php?topic=827.msg9590#msg9590",
     "date": "2010-08-15T23:48:22Z",
-    "text": "<div class=\"post\">Version 0.3.10 patches the block 74638 overflow bug. &nbsp; <a href=\"http://bitcointalk.org/index.php?topic=823\">http://bitcointalk.org/index.php?topic=823</a><br/><br/>The Linux version includes tcatm's 4-way SSE2 SHA-256 that makes generating faster on i5, i7 (with hyperthreading) and AMD CPU's. &nbsp;Try the \"-4way\" switch to enable it and check if it's faster for you.&nbsp; <br/><br/>Download from sourceforge:<br/><a href=\"http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.3.10/\">http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.3.10/</a><br/><br/>SHA1 16645ec5fcdb35bc54bc7195309a1a81105242bb bitcoin-0.3.10-win32-setup.exe<br/>SHA1 4f35ad7711a38fe8c880c6c9beab430824c426d3 bitcoin-0.3.10-win32.zip<br/>SHA1 e3fda1ddb31b0d5c35156cacd80dee6ea6ae6423 bitcoin-0.3.10-linux.tar.gz<br/>SHA1 b812ccff4881778b9090f7c0b0255bcba7b078ac bitcoin-0.3.10-macosx.zip<br/><br/>It is no longer necessary to delete blk*.dat.&nbsp; The good block chain has overtaken the bad block chain, so you can just upgrade and it'll automatically reorg away the bad block chain.</div>",
+    "text": "<div class=\"post\">版本 0.3.10 修复了区块 74638 的溢出漏洞。 &nbsp; <a href=\"http://bitcointalk.org/index.php?topic=823\">http://bitcointalk.org/index.php?topic=823</a><br/><br/>Linux 版本包含了 tcatm 的 4 路 SSE2 SHA-256 优化，可以在 i5、i7（启用超线程）和 AMD CPU 上更快地生成区块。 &nbsp;试试「-4way」开关来启用它，看看对你来说是否更快。 &nbsp;<br/><br/>从 sourceforge 下载：<br/><a href=\"http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.3.10/\">http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.3.10/</a><br/><br/>SHA1 16645ec5fcdb35bc54bc7195309a1a81105242bb bitcoin-0.3.10-win32-setup.exe<br/>SHA1 4f35ad7711a38fe8c880c6c9beab430824c426d3 bitcoin-0.3.10-win32.zip<br/>SHA1 e3fda1ddb31b0d5c35156cacd80dee6ea6ae6423 bitcoin-0.3.10-linux.tar.gz<br/>SHA1 b812ccff4881778b9090f7c0b0255bcba7b078ac bitcoin-0.3.10-macosx.zip<br/><br/>不再需要删除 blk*.dat 文件了。&nbsp;好的区块链已经超越了坏的区块链，所以你只需升级，它会自动重组掉那条坏的区块链。</div>",
     "nested_level": 0
   },
   {
@@ -29992,10 +29992,10 @@
     "source_id": "1",
     "poster_name": "bdonlan",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=359",
-    "subject": "[PATCH] Automatic block validation",
+    "subject": "[补丁] 自动区块验证",
     "url": "https://bitcointalk.org/index.php?topic=832.msg9654#msg9654",
     "date": "2010-08-16T02:57:55Z",
-    "text": "<div class=\"post\">I've written a patch to help automatically validate cached blocks after validation fixes such as the one that was pushed out today. You can find it at<br/><br/><a href=\"http://fushizen.net/~bd/blockverify.patch\">http://fushizen.net/~bd/blockverify.patch</a><br/><br/>or<br/><br/><a href=\"http://github.com/bdonlan/bitcoin/commit/b205251959448ca99123f2bc95b088bf06d4ef3b\">http://github.com/bdonlan/bitcoin/commit/b205251959448ca99123f2bc95b088bf06d4ef3b</a><br/><br/>Upon first run with this patch, all blocks will be verified, and any invalid blocks, as well as blocks orphaned by removal of such blocks, will be removed from the block index. A version stamp<br/>(BLOCK_VERIFY_TOKEN in db.cpp) will be then written to the db; this will cause the next run to skip the verification pass. Any future validation fixes can then simply bump BLOCK_VERIFY_TOKEN to force a revalidation of the block chain.<br/><br/>Note that I may be missing some important steps when deleting the old blocks - in particular, no attempt is made to update the wallet, or to prune stored uncommitted transactions. Review would be helpful.</div>",
+    "text": "<div class=\"post\">我写了一个补丁，用于在验证修复（比如今天推送的那个）之后自动验证缓存的区块。你可以在以下地址找到它：<br/><br/><a href=\"http://fushizen.net/~bd/blockverify.patch\">http://fushizen.net/~bd/blockverify.patch</a><br/><br/>或<br/><br/><a href=\"http://github.com/bdonlan/bitcoin/commit/b205251959448ca99123f2bc95b088bf06d4ef3b\">http://github.com/bdonlan/bitcoin/commit/b205251959448ca99123f2bc95b088bf06d4ef3b</a><br/><br/>首次运行此补丁时，所有区块都将被验证，任何无效的区块以及因移除这些区块而变成孤块的区块，都将从区块索引中删除。然后会在数据库中写入一个版本标记（db.cpp中的BLOCK_VERIFY_TOKEN）；这将使下次运行时跳过验证步骤。未来任何验证修复只需提高BLOCK_VERIFY_TOKEN的值，即可强制重新验证区块链。<br/><br/>请注意，我在删除旧区块时可能遗漏了一些重要步骤——特别是，我没有尝试更新钱包，也没有清理已存储的未提交交易。希望能有人帮忙review一下。</div>",
     "nested_level": 0
   },
   {
@@ -30456,10 +30456,10 @@
     "source_id": "15",
     "poster_name": "fresno",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=507",
-    "subject": "Re: Bitcoins are most like shares of common stock",
+    "subject": "Re: 比特币最像普通股股票",
     "url": "https://bitcointalk.org/index.php?topic=845.msg10050#msg10050",
     "date": "2010-08-18T14:06:49Z",
-    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=845.msg10042#msg10042\">Quote from: nelisky on August 18, 2010, 10:41:02 AM</a></div><div class=\"quote\"><br/>I compare Bitcoins to beans... when we played cards as kids we used beans as measure of wins / losses. We didn't trade it for money, we didn't play for \"make believe money\", we played for beans. It worked because we all agreed that beans where the game measure, and because there was a limited supply of them (in our game table, that is).<br/><br/>If we had some special engineered beans instead of Bitcoins, that took a full hour to produce a batch and for some quantic weirdness could only be produced one batch at a time in the whole universe, but anyone could try and grow them, we could use those instead of BTCs, with the obvious caveat of not being virtual, of course... They wouldn't be money, they would pretty much not have any value except for what you and your peers agree it had...<br/></div><br/>You could trade beans for marbles or baseball cards, but they would be totally independent of the bean thing, right?<br/><br/></div>",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=845.msg10042#msg10042\">引用自：nelisky 于 2010年8月18日，上午10:41:02</a></div><div class=\"quote\"><br/>我把比特币比作豆子……小时候我们打牌时用豆子来衡量输赢。我们不拿它换钱，不玩用假钱的游戏，我们玩的是豆子。之所以行得通，是因为我们都同意豆子是游戏的计量单位，而且供应量有限（在我们的牌桌上是这样）。<br/><br/>如果我们用某种特制的豆子代替比特币，生产一批需要整整一个小时，而且出于某种量子级别的诡异原因，整个宇宙一次只能生产一批，但任何人都可以尝试种植它们，我们就可以用这些豆子代替BTC，唯一的区别是它们不是虚拟的，当然……它们不是货币，它们基本上没有任何价值，除了你和同伴们公认的价值……<br/></div><br/>你可以用豆子换弹珠或棒球卡，但这些都跟豆子的事完全无关，对吧？<br/><br/></div>",
     "nested_level": 0
   },
   {
@@ -30552,10 +30552,10 @@
     "source_id": "23",
     "poster_name": "ichi",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=316",
-    "subject": "Re: Bitcoins are most like shares of common stock",
+    "subject": "回复：比特币最像普通股的股份",
     "url": "https://bitcointalk.org/index.php?topic=845.msg10365#msg10365",
     "date": "2010-08-20T03:51:34Z",
-    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=845.msg10307#msg10307\">Quote from: fresno on August 19, 2010, 09:13:34 PM</a></div><div class=\"quote\">I say the best way not to get shot at is to not be a target, and certainly not to donate the ammo. Don't claim to be money. It's that easy.</div>I can't imagine that governments would ignore Bitcoin just because it didn't claim to be money. &nbsp;It's the fact that it can anonymously mediate exchanges (including exchanges with currencies) that makes it a threat.<br/><br/>The solution, IMHO, is careful design and implementation, not semantics (or pleading).<br/><br/><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=845.msg10307#msg10307\">Quote from: fresno on August 19, 2010, 09:13:34 PM</a></div><div class=\"quote\">ichi: Why should I do your work for you? If you want to argue, then bring something to the table.</div>OK, would one of y'all be so kind as to post a forum URL for the prior proposal?<br/><br/>Re anonymity, many Bitcoin users seem far too unconcerned, IMHO.</div>",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=845.msg10307#msg10307\">引用自 fresno 于 2010年8月19日 09:13:34 PM</a></div><div class=\"quote\">我说避免被枪指着最好的办法就是别当靶子，更别给别人递子弹。别自称是货币。就这么简单。</div>我无法想象政府仅仅因为比特币不自称是货币就会忽略它。&nbsp;正是因为它可以匿名地媒介交换（包括与各种法币的兑换），才使它成为一种威胁。<br/><br/>在我看来，解决方案在于精心设计与实现，而非玩弄文字游戏（或苦苦哀求）。<br/><br/><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=845.msg10307#msg10307\">引用自 fresno 于 2010年8月19日 09:13:34 PM</a></div><div class=\"quote\">ichi：我为什么要替你干活？你要辩论，就拿出点真东西来。</div>好吧，哪位好心人能贴一下之前那个提案的论坛链接？<br/><br/>关于匿名性，在我看来，许多比特币用户似乎太不把这当回事了。</div>",
     "nested_level": 0
   },
   {
@@ -30857,10 +30857,10 @@
     "source_id": "1",
     "poster_name": "mizerydearia",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=338",
-    "subject": "Convert Bitcoin to GTK: Yes?  No?  wx is better?",
+    "subject": "将比特币转换为 GTK：好？不好？wx 更好？",
     "url": "https://bitcointalk.org/index.php?topic=867.msg10216#msg10216",
     "date": "2010-08-19T07:23:53Z",
-    "text": "<div class=\"post\">Who is skilled enough to convert official Linux Bitcoin client to use GTK instead of wx?<br/><br/>Is this development worthy or desirable enough to pursue or is wx acceptable?<br/><br/>q: let me get this straight. You're asking if someone will put up a bounty for a conversion that you want? (bounty idea dismissed due to seeming weird/strange to some)<br/>a: I don't want it. Is GTK better than QT or anytihng else? &nbsp;I'm not familiar.<br/><br/>\"I would like it if Bitcoin used GTK instead of wxWidgets but I won't pretend that I have a clue about how hard or easy that change might be\"<br/><br/>someone: wx seems to work now as far as I can tell<br/>someone else: wx is an utter nightmare<br/><br/>q: why \"convert\" Satoshi's front end? Why not just build a new one that uses the rpc calls?<br/><br/>there actually isn't much that needs to be done to make bitcoind's methods useful enough to do the same things the GUI does:<br/>in particular:<br/>&nbsp;* list sending addresses<br/>&nbsp;* show unaccepted blocks in listtransactions (maybe)<br/>&nbsp;* select a range of transactions to show</div>",
+    "text": "<div class=\"post\">谁有足够的能力把官方 Linux 比特币客户端从 wx 转换为使用 GTK？<br/><br/>这个开发方向值得追求或者足够令人向往吗，还是说 wx 可以接受？<br/><br/>问：让我直说吧。你是问是否有人愿意悬赏做一个你想要的转换？（悬赏的想法因为对一些人来说显得奇怪而被否决了）<br/>答：我不想要它。GTK 比 QT 或其他任何东西更好吗？&nbsp;我不太了解。<br/><br/>「我希望比特币用 GTK 而不是 wxWidgets，但我不会假装我了解这个改动有多难或多容易」<br/><br/>某人：就我所知，wx 现在似乎能用<br/>另一个人：wx 简直是噩梦<br/><br/>问：为什么要「转换」Satoshi 的前端？为什么不直接做一个新的前端，通过 rpc 调用来操作？<br/><br/>实际上，要让 bitcoind 的方法变得足以完成 GUI 所做的同样的事情，并没有太多需要做的：<br/>具体来说：<br/>&nbsp;* 列出发送地址<br/>&nbsp;* 在 listtransactions 中显示未被接受的区块（也许）<br/>&nbsp;* 选择要显示的交易范围</div>",
     "nested_level": 0
   },
   {
@@ -30954,10 +30954,10 @@
     "source_id": "9",
     "poster_name": "satoshi",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=3",
-    "subject": "Re: Convert Bitcoin to GTK: Yes?  No?  wx is better?",
+    "subject": "回复：将 Bitcoin 转换为 GTK：好？不好？wx 更好？",
     "url": "https://bitcointalk.org/index.php?topic=867.msg10272#msg10272",
     "date": "2010-08-19T18:44:36Z",
-    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=867.msg10226#msg10226\">Quote from: BioMike on August 19, 2010, 08:05:18 AM</a></div><div class=\"quote\">WxWidgets is not really a problem. My problem is the version that is used (2.9), which is considered unstable by many distro packagers (although the WxWidgets devs say it isn't). On the other side, as far as I know WxWidgets uses gtk under Linux for drawing the whole stuff and makes it for the bitcoins devs easy to make things cross platform.<br/></div>wxWidgets 2.9 is their first UTF-8 version.&nbsp; We are UTF-8 on all platforms including Windows.<br/><br/>The distro packages of 2.8 are UTF-16, so they just trip people up.&nbsp; People had endless build problems with 2.8 and its wxString UTF-16/ANSI conditional build options until we standardized on 2.9.&nbsp; Also, to use 2.8, we were using ANSI, which was just a temporary stopgap until wxWidgets supported UTF-8.<br/><br/>This is a problem that will solve itself.&nbsp; With time, 2.9 will become a more mainline release.</div>",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=867.msg10226#msg10226\">引用自 BioMike 于 2010年8月19日 08:05:18</a></div><div class=\"quote\">WxWidgets 其实不是什么大问题。我的问题是它使用的版本（2.9），许多发行版打包者认为它不稳定（尽管 WxWidgets 的开发者说并非如此）。另一方面，据我所知，WxWidgets 在 Linux 下使用 gtk 来绘制所有内容，这让比特币的开发者可以轻松实现跨平台。<br/></div>wxWidgets 2.9 是他们第一个 UTF-8 版本。我们在所有平台上都使用 UTF-8，包括 Windows。<br/><br/>2.8 的发行版包是 UTF-16 的，所以会让人们踩坑。在使用 2.9 统一之前，人们在使用 2.8 及其 wxString 的 UTF-16/ANSI 条件构建选项时遇到了无尽的构建问题。而且，为了使用 2.8，我们当时用的是 ANSI，那只是一个临时过渡方案，直到 wxWidgets 支持 UTF-8。<br/><br/>这个问题会自然解决。随着时间的推移，2.9 会成为一个更主流的版本。</div>",
     "nested_level": 0
   },
   {
@@ -31177,10 +31177,10 @@
     "source_id": "3",
     "poster_name": "mizerydearia",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=338",
-    "subject": "Re: Development of alert system",
+    "subject": "Re: 警报系统的开发",
     "url": "https://bitcointalk.org/index.php?topic=898.msg10740#msg10740",
     "date": "2010-08-23T05:04:50Z",
-    "text": "<div class=\"post\"><table style=\"font: inherit; color: inherit;\"><tr><td style=\"font: inherit; color: inherit;\" valign=\"top\">On a side note, lfm,<br/>it seems a bit<br/>repetitive, your post<br/>being the first reply<br/>yet you quote<br/>entirety of first post.<br/>Of course you were<br/>replying to that<br/>post!&nbsp; Perhaps you<br/>wanted your<br/>post to look<br/>more full? ^_^</td><td style=\"font: inherit; color: inherit;\" valign=\"top\">I do not think it is good idea to forcefully turn off block generation.&nbsp; I think it is better to maintain generating blocks until the owner/user specifically disables it themselves.&nbsp; In most cases it may be perceived helpful to disable generating blocks automatically, but there may be some cases where it is not so helpful.<br/><br/>I believe there is a precedence of backlash from other communities in which implementations of remote control were produced and hindered or interfered with communities expectations.&nbsp; I am not certain that implementing a remote disable for block generation would be perceived similarly, but it is something to keep into consideration.</td></tr></table></div>",
+    "text": "<div class=\"post\"><table style=\"font: inherit; color: inherit;\"><tr><td style=\"font: inherit; color: inherit;\" valign=\"top\">顺便说一句，lfm，<br/>看起来有点<br/>重复，你的帖子<br/>是第一条回复<br/>却引用了<br/>原帖的全部内容。<br/>你当然是在<br/>回复那个帖子！<br/>也许你<br/>想让你的帖子<br/>看起来更充实？^_^</td><td style=\"font: inherit; color: inherit;\" valign=\"top\">我不认为强制关闭区块生成是个好主意。我认为应该维持区块生成直到所有者/用户主动禁用它。在大多数情况下，自动禁用区块生成可能被认为是有帮助的，但也有一些情况下这样做并不合适。<br/><br/>我相信其他社区曾有過这样的教训：当远程控制功能被实现后，它们妨碍或干扰了社区的期望，引发了强烈反弹。我不确定实现区块生成的远程禁用功能是否会产生类似的观感，但这是需要考虑的事情。</td></tr></table></div>",
     "nested_level": 0
   },
   {
@@ -32384,10 +32384,10 @@
     "source_id": "27",
     "poster_name": "satoshi",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=3",
-    "subject": "Re: Bitcoin Blogger: Is It Better To Buy Or Generate Bitcoins?",
+    "subject": "回复：比特币博主：买比特币还是自己挖更好？",
     "url": "https://bitcointalk.org/index.php?topic=955.msg12248#msg12248",
     "date": "2010-09-08T20:27:39Z",
-    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=955.msg12189#msg12189\">Quote from: BitLex on September 07, 2010, 08:10:54 PM</a></div><div class=\"quote\">AMD X3 @2.8ghz<br/>-&gt;stock client<br/>~3800khs ~150Watt<br/></div>Did you try -4way?<br/><br/><div class=\"quoteheader\">Quote</div><div class=\"quote\">How many hashes can I expect with a 24 core machine? I have a quad-core generating 4,300 hashes-per-second, so I am estimating a 24-core machine could mine bitcoins at 25,000 hashes-per-second.<br/></div>AMD Phenom (I think 4-core) CPUs are doing about 11,000khps with -4way, about 100% speedup. &nbsp;24 cores should get 66,000khps. &nbsp;AMD is the best choice because it has the best SSE2 implementation. (or maybe because tcatm had an AMD and optimised his code for that)<br/><br/>There's been so much else to do that I haven't had time to make -4way automatic. &nbsp;For now you still have to do it manually.<br/><a href=\"http://bitcointalk.org/index.php?topic=820.0\">http://bitcointalk.org/index.php?topic=820.0</a><br/></div>",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=955.msg12189#msg12189\">引用：BitLex 于 2010年9月7日 下午08:10:54</a></div><div class=\"quote\">AMD X3 @2.8ghz<br/>-&gt;原版客户端<br/>~3800khs ~150Watt<br/></div>你试过 -4way 吗？<br/><br/><div class=\"quoteheader\">引用</div><div class=\"quote\">一台24核的机器能跑多少哈希？我有一台四核机器能产生4,300哈希每秒，所以我估计一台24核的机器能以25,000哈希每秒的速度挖矿。<br/></div>AMD Phenom（我记得是4核）CPU使用 -4way 大约能跑11,000khps，约100%的提升。&nbsp;24核应该能达到66,000khps。&nbsp;AMD是最好的选择，因为它有最好的SSE2实现。（也可能是因为tcatm用的就是AMD，所以他的代码针对AMD做了优化）<br/><br/>有太多其他事情要做，我一直没来得及让 -4way 自动启用。&nbsp;目前你仍然需要手动设置。<br/><a href=\"http://bitcointalk.org/index.php?topic=820.0\">http://bitcointalk.org/index.php?topic=820.0</a><br/></div>",
     "nested_level": 0
   },
   {
@@ -32701,10 +32701,10 @@
     "source_id": "5",
     "poster_name": "omegadraconis",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=597",
-    "subject": "Re: Switch to GPL",
+    "subject": "回复：切换到GPL",
     "url": "https://bitcointalk.org/index.php?topic=989.msg12078#msg12078",
     "date": "2010-09-06T04:25:40Z",
-    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=989.msg12076#msg12076\">Quote from: theymos on September 06, 2010, 03:44:50 AM</a></div><div class=\"quote\">The GPL doesn't force you to release your source if you don't publish the software publicly. Even the AGPL wouldn't force you to release the source in this case, since you're not really allowing people to interface with your software.<br/><br/>MIT-style licensing is the only way to ensure widespread adoption. Companies won't touch GPLed software.<br/></div><br/>I did realize this is true on both accounts. I'm not by any mean saying switching to GPL is a super great idea I was just wondering what everyone thought about it. As has been pointed out it would do nothing to stop someone from making a private client which is fine. If someone spends the time to optimize a client and use it to there own gain then that fine so long as they don't control the whole generation of coins. I would compare that make your own client to capitalism, where as if we were to force everyone to release everything so the field was completely level would be loosely like communism.</div>",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=989.msg12076#msg12076\">引用：theymos 于 2010年9月6日 上午03:44:50</a></div><div class=\"quote\">GPL不会强迫你在不公开发布软件的情况下开源。即使是AGPL在这种情况下也不会强迫你开源，因为你并没有真正让人们与你的软件进行交互。<br/><br/>MIT风格的许可才是确保广泛采用的唯一途径。公司不会碰GPL许可的软件。<br/></div><br/>我确实认识到这两点都是对的。我并不是说切换到GPL是一个超级棒的主意，我只是想知道大家怎么看。正如已经指出的那样，它并不能阻止某人制作私有客户端，这没问题。如果有人花时间优化一个客户端并将其用于自身利益，那没问题，只要他们不控制整个货币的生成。我会把自制客户端比作资本主义，而如果强迫所有人公开一切使竞争环境完全平坦，那就像共产主义。</div>",
     "nested_level": 0
   },
   {
@@ -33543,10 +33543,10 @@
     "source_id": "17",
     "poster_name": "Anonymous",
     "poster_url": null,
-    "subject": "Re: Message Encryption as a built-in feature?",
+    "subject": "回复：将消息加密作为内置功能？",
     "url": "https://bitcointalk.org/index.php?topic=1032.msg12944#msg12944",
     "date": "2010-09-16T02:08:50Z",
-    "text": "<div class=\"post\">Something like this combined with the pay it forward project <a href=\"http://bitcointalk.org/index.php?topic=922.msg12917#msg12917\">http://bitcointalk.org/index.php?topic=922.msg12917#msg12917</a> would really increase the hardness of the network to attacks? Half your fee would go to the person you sent the message to and the other half would go to 3 randomn people -or split equally to increase anonymity <img alt=\"Cheesy\" border=\"0\" src=\"/static/img/emoticons/cheesy.gif\"/><br/><br/><br/>As an extra security measure you could also send 3 dummy messages or however many you decided so the real message was hidden.The fee you sent would then be divided by however many security splits you decided on.&nbsp; This could mean you might get randomn bitcoin payments all day just for having a bitcoin message address. Think of twitter crossed with hashcash and email. To the outside world there would be no difference from a message to a payment you made.<br/><br/>19tq9NYFsSCMRUkc12v363tHgAeUokoVam just made a peanut butter sandwich!<br/><br/>&nbsp;<img alt=\"Cheesy\" border=\"0\" src=\"/static/img/emoticons/cheesy.gif\"/><br/><br/></div>",
+    "text": "<div class=\"post\">把这个和爱心传递项目 <a href=\"http://bitcointalk.org/index.php?topic=922.msg12917#msg12917\">http://bitcointalk.org/index.php?topic=922.msg12917#msg12917</a> 结合起来，真的能大幅提升网络抵抗攻击的能力？你的一半手续费会发给你发消息的人，另一半会发给3个随机的人——或平均分配以增强匿名性 <img alt=\"Cheesy\" border=\"0\" src=\"/static/img/emoticons/cheesy.gif\"/><br/><br/><br/>作为额外的安全措施，你还可以发送3条虚假消息或任何你决定的数量，这样真正的消息就被隐藏了。你发送的手续费将按照你决定的安全拆分数量进行分配。&nbsp;这意味着你可能整天都会收到随机的比特币付款，仅仅因为拥有一个比特币消息地址。想象一下 Twitter 加上 hashcash 再加上电子邮件的混合体。对外部世界来说，一条消息和你发出的一笔付款没有任何区别。<br/><br/>19tq9NYFsSCMRUkc12v363tHgAeUokoVam 刚做了一个花生酱三明治！<br/><br/>&nbsp;<img alt=\"Cheesy\" border=\"0\" src=\"/static/img/emoticons/cheesy.gif\"/><br/><br/></div>",
     "nested_level": 0
   },
   {
@@ -35006,10 +35006,10 @@
     "source_id": "21",
     "poster_name": "mizerydearia",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=338",
-    "subject": "Re: Version 0.3.13",
+    "subject": "回复：版本 0.3.13",
     "url": "https://bitcointalk.org/index.php?topic=1327.msg15141#msg15141",
     "date": "2010-10-03T21:24:48Z",
-    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1327.msg15102#msg15102\">Quote from: satoshi on October 03, 2010, 06:17:06 PM</a></div><div class=\"quote\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1327.msg14997#msg14997\">Quote from: ShadowOfHarbringer on October 02, 2010, 01:00:07 PM</a></div><div class=\"quote\">That's nice, however the automatic 4way detection is not working on my Gentoo AMD 64 version client.<br/><br/>I still have to add the \"-4way\" switch.<br/></div>Forgot to say, I suspected the detect might not work on 64-bit AMD.&nbsp; I found it hard to believe but AMD reports a different model number in 64-bit mode.<br/><br/>Could you grep CPUID your debug.log and tell me what it says?&nbsp; (and anyone else with 64-bit AMD)&nbsp; And what AMD chip do you have?<br/><br/>Do all AMDs that support 64-bit have the better SSE2 hardware also?<br/></div><br/><div class=\"codeheader\">Code:</div><div class=\"code\">$ grep -i cpuid debug.log <br/>CPUID 444d4163 family 16, model 5, stepping 2, fUseSSE2=0</div><br/><a href=\"http://pastebin.com/mkis0AsC\">/proc/cpuinfo</a></div>",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1327.msg15102#msg15102\">引用：satoshi 于 2010年10月3日 下午06:17:06</a></div><div class=\"quote\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1327.msg14997#msg14997\">引用：ShadowOfHarbringer 于 2010年10月2日 下午01:00:07</a></div><div class=\"quote\">不错，但是自动4way检测在我的Gentoo AMD 64版本客户端上不起作用。<br/><br/>我仍然需要添加”-4way“开关。<br/></div>忘了说，我怀疑检测可能在64位AMD上不起作用。&nbsp;我很难相信，但AMD在64位模式下报告的型号编号不同。<br/><br/>你能grep一下你的debug.log中的CPUID然后告诉我输出是什么吗？&nbsp;（以及其他拥有64位AMD的人也看看）&nbsp;你用的是什么AMD芯片？<br/><br/>所有支持64位的AMD芯片是否也都拥有更好的SSE2硬件？<br/></div><br/><div class=\"codeheader\">Code:</div><div class=\"code\">$ grep -i cpuid debug.log <br/>CPUID 444d4163 family 16, model 5, stepping 2, fUseSSE2=0</div><br/><a href=\"http://pastebin.com/mkis0AsC\">/proc/cpuinfo</a></div>",
     "nested_level": 0
   },
   {
@@ -35091,10 +35091,10 @@
     "source_id": "28",
     "poster_name": "lfm",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=466",
-    "subject": "Re: Version 0.3.13",
+    "subject": "Re: 0.3.13版本",
     "url": "https://bitcointalk.org/index.php?topic=1327.msg15166#msg15166",
     "date": "2010-10-03T23:44:39Z",
-    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1327.msg15055#msg15055\">Quote from: nanotube on October 03, 2010, 01:24:27 AM</a></div><div class=\"quote\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1327.msg14788#msg14788\">Quote from: satoshi on October 01, 2010, 12:34:35 AM</a></div><div class=\"quote\">Version 0.3.13 is now available.<br/>- Only accept transactions sent by IP address if -allowreceivebyip is specified.<br/>- Option -rpcallowip= to accept json-rpc connections from another machine.<br/></div><br/>I notice that these options are not showing up in --help output... Shouldn't --help have a comprehensive listing of these options in it? (Especially given that there's no manpage or other help docs distributed in the official-release tarball?)<br/><br/>Just an idle question, whose result I hope makes its way into the next release. <img alt=\"Smiley\" border=\"0\" src=\"/static/img/emoticons/smiley.gif\"/><br/></div><br/>The command line switches are listed in \"bitcoind -?\" instead of \"bitcoind help\". You are still right tho, those options are missing from \"-?\" too.</div>",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1327.msg15055#msg15055\">引用自：nanotube 于 2010年10月3日，凌晨1:24:27</a></div><div class=\"quote\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1327.msg14788#msg14788\">引用自：satoshi 于 2010年10月1日，凌晨12:34:35</a></div><div class=\"quote\">0.3.13版本现已发布。<br/>- 只有指定了-allowreceivebyip参数时才接受通过IP地址发送的交易。<br/>- 新增-rpcallowip=选项，用于接受来自其他机器的json-rpc连接。<br/></div><br/>我注意到这些选项没有出现在--help输出中……--help不应该包含这些选项的完整列表吗？（尤其是考虑到官方发布包中没有manpage或其他帮助文档？）<br/><br/>只是随便问问，希望这个建议能进入下个版本。 <img alt=\"微笑\" border=\"0\" src=\"/static/img/emoticons/smiley.gif\"/><br/></div><br/>命令行开关是在bitcoind -?中列出的，而不是bitcoind help。不过你说得对，那些选项在-?中也没有列出。</div>",
     "nested_level": 0
   },
   {
@@ -35200,10 +35200,10 @@
     "source_id": "8",
     "poster_name": "theymos",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=35",
-    "subject": "Re: How to overthrow the GPU Oligarchs",
+    "subject": "回复：如何推翻GPU寡头",
     "url": "https://bitcointalk.org/index.php?topic=1332.msg14854#msg14854",
     "date": "2010-10-01T15:30:19Z",
-    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1332.msg14838#msg14838\">Quote from: chickenado on October 01, 2010, 11:31:46 AM</a></div><div class=\"quote\">But now, it seems that an increasingly small and exclusive elite has taken charge of coin/block generation. It's dominated by specialists who have access to wholesale means of production and secret, proprietary GPU code.<br/><br/>The average user no longer has a fighting chance and has given up generating blocks altogether.<br/></div><br/>It's always been the plan for block generation to not be profitable for most people. It's supposed to be done mainly by dedicated \"backbone\" entities. What's stronger: a thousand people producing 1 Gh/s with hardly any individual economic interest in preserving the network's integrity, or five businesses producing the same Gh/s that <i>will fail</i> if they or someone else destabilizes the network?<br/><br/>I'm not saying that GPU code shouldn't be made, but it's not fair to say that GPU generators are \"taking without giving back\". People dedicated to generating deserve a head-start on new technologies.</div>",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1332.msg14838#msg14838\">引用：chickenado 于 2010年10月1日 上午11:31:46</a></div><div class=\"quote\">但现在看来，似乎是一个越来越小、越来越排他的精英群体掌控了货币/区块的生成。它被那些拥有批发生产手段和秘密专有GPU代码的专家所主导。<br/><br/>普通用户再也没有竞争的机会了，已经完全放弃了生成区块。<br/></div><br/>区块生成对大多数人来说不赚钱，这一直都是计划中的安排。它本应主要由专门的”骨干”实体来完成。哪个更强：一千个人以1 Gh/s的算力运行，几乎没有任何维护网络完整性的个人经济利益；还是五家企业以相同的Gh/s运行，如果它们或其他人破坏了网络的稳定性，它们就<i>会失败</i>？<br/><br/>我不是说不应该开发GPU代码，但说GPU矿工”只索取不回报”是不公平的。致力于生成的人理应在新技术上获得先发优势。</div>",
     "nested_level": 0
   },
   {
@@ -35476,10 +35476,10 @@
     "source_id": "31",
     "poster_name": "gebler",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=661",
-    "subject": "Re: How to overthrow the GPU Oligarchs",
+    "subject": "回复：如何推翻GPU寡头",
     "url": "https://bitcointalk.org/index.php?topic=1332.msg15101#msg15101",
     "date": "2010-10-03T18:03:50Z",
-    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1332.msg14966#msg14966\">Quote from: theymos on October 02, 2010, 06:11:11 AM</a></div><div class=\"quote\">If you have a lot of computers and they're all working on the same block with the same public key, then they're all very likely to be hashing the same block at the same time, which is pointless. To fix this, each computer is given a unique extraNonce modifier value. This might be very large to prevent collisions, and it therefore slows down hashing.<br/></div><br/>In a centralized system, the server could simply keep a list of extraNonces in active use and give out the lowest free one.&nbsp; Then you would avoid collisions without requiring more than one unique extraNonce per client.&nbsp; A 3-byte extraNonce would be sufficient for millions of clients.&nbsp; Note that clients of realistic performance do not really need the extraNonce to handle nonce overflow today, since such overflows happen less frequently than the periodic nTime updates (but this is not considered by the standard client today, which updates the extraNonce more liberally).</div>",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1332.msg14966#msg14966\">引用：theymos 于 2010年10月2日 上午06:11:11</a></div><div class=\"quote\">如果你有很多台计算机，它们都在使用相同的公钥处理同一个区块，那么它们很可能在同一时间都在对同一个区块进行哈希运算，这是毫无意义的。为了解决这个问题，每台计算机被分配了一个唯一的extraNonce修饰值。这个值可能非常大以防止冲突，因此它会拖慢哈希速度。<br/></div><br/>在一个中心化系统中，服务器可以简单地维护一个正在使用的extraNonce列表，并分配最小的可用值。&nbsp;这样你就可以避免冲突，而不需要每个客户端拥有超过一个唯一的extraNonce。&nbsp;一个3字节的extraNonce就足以支持数百万个客户端。&nbsp;请注意，性能现实中的客户端如今并不真的需要extraNonce来处理nonce溢出，因为这种溢出的发生频率低于周期性的nTime更新（但标准客户端目前没有考虑到这一点，它会更频繁地更新extraNonce）。</div>",
     "nested_level": 0
   },
   {
@@ -36197,10 +36197,10 @@
     "source_id": "57",
     "poster_name": "jimbobway",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=325",
-    "subject": "Re: OpenCL miner for the masses",
+    "subject": "回复：面向大众的 OpenCL 挖矿程序",
     "url": "https://bitcointalk.org/index.php?topic=1334.msg16781#msg16781",
     "date": "2010-10-13T01:09:45Z",
-    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1334.msg16738#msg16738\">Quote from: davidonpda on October 12, 2010, 07:48:27 PM</a></div><div class=\"quote\">I completely misunderstood you sorry.<br/><br/>So you did not compile the dll's yourself for boost? So you might have a problem with your boost path. <br/><br/>What happens when you run the bootstrap in the boost directory?<br/><br/>Then here is what I used to build the boost libraries after bootstrapping:<br/><br/><div class=\"codeheader\">Code:</div><div class=\"code\">bjam.exe toolset=msvc --with-python --with-date_time --with-thread threading=multi link=shared</div><br/>That then created a directory starting from c:/boost called C:\\boost\\stage\\lib that had the dll's in it, and is how I pointed it inside my site.conf <br/><br/>Then I copied those dll's over. I am wondering if the dll's you downloaded aren't the right ones or don't have all the right flags or something. <br/></div><br/><br/>I believe I have the right flags.&nbsp; In the installer I picked msvc 2008, python, date time, and thread.&nbsp; There is no option for threading or link.</div>",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1334.msg16738#msg16738\">引用自：davidonpda 于 2010年10月12日，07:48:27 PM</a></div><div class=\"quote\">我完全误解你了，抱歉。<br/><br/>所以你没有自己编译 boost 的 dll？那你的 boost 路径可能有问题。<br/><br/>你在 boost 目录下运行 bootstrap 时发生了什么？<br/><br/>以下是我在 bootstrap 之后用来编译 boost 库的命令：<br/><br/><div class=\"codeheader\">代码：</div><div class=\"code\">bjam.exe toolset=msvc --with-python --with-date_time --with-thread threading=multi link=shared</div><br/>这会在 c:/boost 下创建一个名为 C:\\boost\\stage\\lib 的目录，里面就是那些 dll，我就是这样在我的 site.conf 中指定路径的。<br/><br/>然后我把那些 dll 复制了过去。我怀疑你下载的 dll 可能不对，或者没有设置正确的编译选项。<br/></div><br/><br/>我相信我的选项是对的。在安装器里我选了 msvc 2008、python、date time 和 thread。没有 threading 或 link 的选项。</div>",
     "nested_level": 0
   },
   {
@@ -37217,10 +37217,10 @@
     "source_id": "142",
     "poster_name": "BitLex",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=292",
-    "subject": "Re: OpenCL miner for the masses",
+    "subject": "回复：面向大众的 OpenCL 挖矿程序",
     "url": "https://bitcointalk.org/index.php?topic=1334.msg19267#msg19267",
     "date": "2010-10-30T01:46:16Z",
-    "text": "<div class=\"post\">i usually start 'em all using addnode, these <i>getblock-lags</i> just happened quite often lately, so i tried using the connect-switch,<br/><a href=\"http://bitlex.co.cc/static/img/screen_connect-switch.jpg\">here's a screeny</a>* of 2 nodes seem to be connected to forwarded-node,&nbsp; both show only 1 connection, the higher blockcount is, the lower isn't, it sometimes even tells me, drops to 0connections for a sec, then back to 1, but still doesnt get any new blocks.<br/><br/>same happens when both are <i>addnode</i>'d and showing 8connections, connections drop below 8 and no more blocks are downloaded, mining doesnt stop though, lots of wasted energy, at least it's green.<br/><br/>* from front to back<br/>- GPU mining to (addnode'd) remote node (not on screen)<br/>- HD-miner-node -connect=&lt;ip&gt; (idle)<br/>- a random node -connect=&lt;ip&gt; (idle, running in VM)<br/><br/>about half an hour after the shot was taken, the random node still hasnt loaded any blocks,<br/>it's not that it's always the VM that lags blocks though, sometimes it's the other way around.<br/><br/></div>",
+    "text": "<div class=\"post\">我通常使用 addnode 来启动它们，这些<i>区块同步延迟</i>最近经常发生，所以我尝试使用 connect 开关，<br/><a href=\"http://bitlex.co.cc/static/img/screen_connect-switch.jpg\">这里有一张截图</a>*，显示两个节点似乎连接到了转发节点，两个都只显示1个连接，区块数较高的那个没问题，较低的那个不行，它有时甚至告诉我连接数降到0，然后又回到1，但仍然获取不到任何新区块。<br/><br/>当两个都被 <i>addnode</i> 并且显示8个连接时，同样的问题也会发生，连接数降到8以下后就不再下载新区块了，不过挖矿不会停止，浪费了大量能源，至少它是绿色的。<br/><br/>* 从前到后：<br/>- GPU 挖矿连接到（addnode 的）远程节点（截图中未显示）<br/>- HD 挖矿节点 -connect=&lt;ip&gt;（空闲）<br/>- 一个随机节点 -connect=&lt;ip&gt;（空闲，运行在虚拟机中）<br/><br/>截图大约半小时后，随机节点仍然没有加载任何区块，<br/>并不是说总是虚拟机出现区块延迟，有时候情况恰恰相反。<br/><br/></div>",
     "nested_level": 0
   },
   {
@@ -38533,10 +38533,10 @@
     "source_id": "21",
     "poster_name": "satoshi",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=3",
-    "subject": "Re: ERROR - PLEASE HELP ME!",
+    "subject": "回复：错误 - 请帮帮我！",
     "url": "https://bitcointalk.org/index.php?topic=1530.msg18241#msg18241",
     "date": "2010-10-23T18:22:49Z",
-    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1530.msg17955#msg17955\">Quote from: theymos on October 21, 2010, 10:00:26 PM</a></div><div class=\"quote\">his block count remains \"stuck\" at 1698.<br/></div>He was generating invalid blocks at difficulty 1.0. &nbsp;He must have a corrupted entry in his blk0001.dat or blkindex.dat file. &nbsp;He just needs to delete blk*.dat and let it redownload.<br/><br/>The safety lockdown detected the problem and was displaying \"WARNING: Displayed transactions may not be correct!\" because it saw a longer chain existed that it was unable to accept. &nbsp;The safety lockdown cannot stop generation or it would create an attack possibility.<br/><br/><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1530.msg18074#msg18074\">Quote from: gavinandresen on October 22, 2010, 02:25:14 PM</a></div><div class=\"quote\">The Bitcoin client really shouldn't allow coin generation until you have all of the blocks up to the last block checkpoint.<br/></div>Good idea, I made a change to make sure it won't generate before checkpoint block 74000.<br/></div>",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1530.msg17955#msg17955\">引用自：theymos 于 2010年10月21日，10:00:26 PM</a></div><div class=\"quote\">他的区块数量一直”卡”在 1698。<br/></div>他在难度 1.0 时生成的区块是无效的。他的 blk0001.dat 或 blkindex.dat 文件中一定有损坏的条目。他只需要删除 blk*.dat 然后重新下载即可。<br/><br/>安全锁定机制检测到了这个问题，并显示了”警告：显示的交易可能不正确！”，因为它检测到存在一条更长的、但无法接受的链。安全锁定无法停止生成，否则会创造一种攻击可能性。<br/><br/><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1530.msg18074#msg18074\">引用自：gavinandresen 于 2010年10月22日，02:25:14 PM</a></div><div class=\"quote\">Bitcoin 客户端在拥有最后一个区块检查点之前的所有区块之前，确实不应该允许生成比特币。<br/></div>好主意，我做了改动，确保在检查点区块 74000 之前不会生成。</div>",
     "nested_level": 0
   },
   {
@@ -38740,10 +38740,10 @@
     "source_id": "8",
     "poster_name": "grondilu",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=1663",
-    "subject": "Re: Suggestion: Allow short messages to be sent together with bitcoins ?",
+    "subject": "回复：建议：允许在发送比特币时附带短消息？",
     "url": "https://bitcointalk.org/index.php?topic=1545.msg18237#msg18237",
     "date": "2010-10-23T18:07:41Z",
-    "text": "<div class=\"post\">I also wonder if the message has to be taken into account for the hash computation.&nbsp; Not doing so would allow to delete it later.<br/><br/>I very much don't like this idea of a message.&nbsp; Since it is not necessary to the protocol, I'm not sure if it would be easy to find a place where it really fits.&nbsp; I'm not a programmer though.&nbsp; I'd be curious to have Satoshi's thought on this.<br/><br/>Edit.&nbsp; I have a funny idea.&nbsp; Imagine that numeric precision is increased way beyond 8 decimals, say 128 decimals for instance.<br/><br/>What about using those decimals to code your message ?&nbsp; Somehow you would have a \"natural fee\" for this service, and we won't have to modify anything from the protocol.<br/><br/>Edit #2.&nbsp; Gosh I LOVE this idea <img alt=\"Smiley\" border=\"0\" src=\"/static/img/emoticons/smiley.gif\"/><br/><br/>Edit #3.&nbsp; We don't need 128 decimals.&nbsp; Correct me if I'm wrong, but with 32 decimals you can code a 17 characters-longed uncompressed message in a 64 characters set.&nbsp; (32*log(10)/log(64)&nbsp; = 7.717)<br/></div>",
+    "text": "<div class=\"post\">我也在想，消息是否需要纳入哈希计算。&nbsp;如果不纳入的话，以后就可以将其删除。<br/><br/>我很不喜欢消息这个想法。&nbsp;既然它对协议来说不是必需的，我不确定是否能轻易找到一个它真正适合的位置。&nbsp;不过我不是程序员。&nbsp;我很想听听 Satoshi 对此的看法。<br/><br/>编辑。&nbsp;我有一个有趣的想法。&nbsp;假设数值精度被增加到远超 8 位小数，比如说 128 位小数。<br/><br/>用这些小数来编码你的消息怎么样？&nbsp;这样你就有了这项服务的「天然手续费」，而且我们不需要对协议做任何修改。<br/><br/>编辑 #2。&nbsp;天哪，我太喜欢这个想法了<img alt=\"Smiley\" border=\"0\" src=\"/static/img/emoticons/smiley.gif\"/><br/><br/>编辑 #3。&nbsp;我们不需要 128 位小数。&nbsp;如果我没错的话，用 32 位小数你可以在 64 字符集中编码一条 17 个字符长的未压缩消息。&nbsp;（32*log(10)/log(64)&nbsp; = 7.717）<br/></div>",
     "nested_level": 0
   },
   {
@@ -38886,10 +38886,10 @@
     "source_id": "10",
     "poster_name": "ByteCoin",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=490",
-    "subject": "Re: Some testing that I did on the testnetwork, my findings.",
+    "subject": "Re: 我在测试网络上做的一些测试，我的发现。",
     "url": "https://bitcointalk.org/index.php?topic=1668.msg21899#msg21899",
     "date": "2010-11-13T23:55:11Z",
-    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1668.msg21896#msg21896\">Quote from: satoshi on November 13, 2010, 11:25:26 PM</a></div><div class=\"quote\">In support of the priority feature, SelectCoins only uses your own 0 conf transactions only as a last resort if that's all you have left. &nbsp;This helps keep you from turning your coins over rapidly unless you're forcing it by actually turning all your coins over rapidly.<br/></div><br/>Of course, if the network is not being flooded and you're not overly concerned about the current transaction getting held up then it's probably worth preferring to use your 0 conf transactions so that you can \"save\" the higher priority coins for when the network <b>is</b> being flooded.<br/><br/>Unless I misunderstand, it looks to me like the current logic is more likely to spend the accumulated priority of older transactions. It's a minor point however.<br/><br/>Gaming the system&nbsp; by including 1000 or so recently turned over BTC to bump the priority as described in my post above still works of course! <br/><br/>ByteCoin</div>",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1668.msg21896#msg21896\">引用自：satoshi 于 2010年11月13日，晚上11:25:26</a></div><div class=\"quote\">为了支持优先级功能，SelectCoins只有在万不得已时才会使用你自己的0确认交易。这有助于防止你快速周转货币，除非你确实在强制快速周转所有货币。<br/></div><br/>当然，如果网络没有拥堵，而且你不太关心当前交易被延迟，那么可能更值得优先使用你的0确认交易，这样就能为网络确实拥堵的时候保留高优先级的货币。<br/><br/>除非我理解有误，在我看来当前的逻辑更可能消耗旧交易积累的优先级。不过这只是一个小问题。<br/><br/>像我上面帖子中描述的那样，通过包含大约1000个最近周转的BTC来提高优先级的系统博弈当然还是有效的！<br/><br/>ByteCoin</div>",
     "nested_level": 0
   },
   {
@@ -39211,10 +39211,10 @@
     "source_id": "26",
     "poster_name": "farmer_boy",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=2334",
-    "subject": "Re: Wikileaks contact info?",
+    "subject": "回复：维基解密的联系方式？",
     "url": "https://bitcointalk.org/index.php?topic=1735.msg25237#msg25237",
     "date": "2010-11-28T23:48:16Z",
-    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1735.msg21412#msg21412\">Quote from: da2ce7 on November 10, 2010, 11:50:34 PM</a></div><div class=\"quote\">I was thinking about this overnight, Wikileaks has in-house cryptology and security experts; they could do an audit on the Bitcoin security and we could donate bitcon to pay for it scratch my back and Ill scratch yours.<br/>I dont know about the feasibility, but on the surface it sounds like it would be beneficial to both wikileaks and bitcoin.<br/></div>There is nothing to be audited as far as an academic cryptographer would be concerned. For that to happen, the specification of Bitcoin would have to be of better quality. That needs to happen first and only when that is done, there is a chance someone will want to take a serious look. <br/><br/>Only the author or a volunteer could publish a specification of sufficient quality. It's not acceptable as a Master thesis subject on a respectable university, because there is no research involved, it's just \"work\". The \"coolness\" factor is of no interest there. </div>",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1735.msg21412#msg21412\">引用自 da2ce7 于 2010年11月10日 11:50:34 PM</a></div><div class=\"quote\">我昨晚在想这个问题，维基解密有内部的密码学和安全专家；他们可以对比特币的安全性进行审计，我们可以捐赠比特币来支付费用……互相帮忙嘛。<br/>我不知道可行性如何，但表面上看，这似乎对维基解密和比特币都有益处。<br/></div>从学术密码学家的角度来看，没有什么可审计的。要做到这一点，比特币的规范必须要有更好的质量。这需要首先完成，只有在完成之后，才有可能有人愿意认真审视。<br/><br/>只有作者或志愿者才能发布足够质量的规范。这不能作为一所正规大学的硕士论文题目，因为其中不涉及研究工作，仅仅是干活而已。所谓酷不酷的因素在学术界毫无意义。</div>",
     "nested_level": 0
   },
   {
@@ -39319,10 +39319,10 @@
     "source_id": "35",
     "poster_name": "bitcoinex",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=577",
-    "subject": "Re: Wikileaks contact info?",
+    "subject": "Re: 维基解密的联系方式？",
     "url": "https://bitcointalk.org/index.php?topic=1735.msg25373#msg25373",
     "date": "2010-11-29T14:43:42Z",
-    "text": "<div class=\"post\"><div class=\"quoteheader\">Quote</div><div class=\"quote\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1735.msg25360#msg25360\">Quote from: bitcoinex on November 29, 2010, 01:29:32 PM</a></div><div class=\"quote\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1735.msg25177#msg25177\">Quote from: em3rgentOrdr on November 28, 2010, 07:54:13 PM</a></div><div class=\"quote\">I think we should try again to get WikiLeaks to accept bitcoin donation, as a thanks for their latest leak.&nbsp; Should we pool some money together to include with a letter?<br/></div><br/>Currently all intelligence services are working to smash wikileaks. I would not want to suddenly posthumously come into Al-Qaeda.<br/></div><br/>So far they have failed. I hope it stays that way.<br/></div><br/>As I understand the problem of state right now is that if wikileaks crew a long time does not appear in the network automation will send the AES key to wikileaks insurance file.<br/><br/>But damaging torture can not be withstand. I'm curious why they is still free and may be freely interviewed.</div>",
+    "text": "<div class=\"post\"><div class=\"quoteheader\">引用</div><div class=\"quote\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1735.msg25360#msg25360\">引用自：bitcoinex 于 2010年11月29日，下午1:29:32</a></div><div class=\"quote\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1735.msg25177#msg25177\">引用自：em3rgentOrdr 于 2010年11月28日，下午7:54:13</a></div><div class=\"quote\">我认为我们应该再次尝试让维基解密接受比特币捐款，以感谢他们最新的泄露。我们是否应该凑一些钱连同信件一起发送？<br/></div><br/>目前所有情报机构都在设法摧毁维基解密。我可不想死后突然被归入基地组织。<br/></div><br/>到目前为止他们还没有得逞。我希望情况继续如此。<br/></div><br/>据我所知，目前的问题是如果维基解密团队成员长时间没有出现在网络上，自动化系统就会将AES密钥发送给维基解密的保险文件。<br/><br/>但是酷刑造成的伤害是无法承受的。我很好奇为什么他们仍然自由，还可以接受自由采访。</div>",
     "nested_level": 0
   },
   {
@@ -39355,10 +39355,10 @@
     "source_id": "38",
     "poster_name": "bitcoinex",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=577",
-    "subject": "Re: Wikileaks contact info?",
+    "subject": "回复：Wikileaks 联系方式？",
     "url": "https://bitcointalk.org/index.php?topic=1735.msg25380#msg25380",
     "date": "2010-11-29T15:28:39Z",
-    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1735.msg25376#msg25376\">Quote from: ShadowOfHarbringer on November 29, 2010, 02:58:36 PM</a></div><div class=\"quote\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1735.msg25373#msg25373\">Quote from: bitcoinex on November 29, 2010, 02:43:42 PM</a></div><div class=\"quote\">But damaging torture can not be withstand. I'm curious why they is still free and may be freely interviewed.<br/></div><br/>That's probably because USA is not Soviet Russia (yet).<br/>They started censorship, but there is still long way from that to becoming a true totalitarian country like Russia.<br/></div><br/>Come on, kill a few people to save tens or hundreds? Trifling matter, since all countries do.<br/><br/><div class=\"quoteheader\">Quote</div><div class=\"quote\">If they torture or murder somebody from wikileaks, they really risk getting their asses kicked on the international arena.<br/></div><br/>Again, remember the tortures at Guantanamo? The end justifies the means. Nobody stops reckon with the U.S. due to a couple of dead geeks.<br/><br/>Sad but true.</div>",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1735.msg25376#msg25376\">引用自：ShadowOfHarbringer 于 2010年11月29日，02:58:36 PM</a></div><div class=\"quote\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1735.msg25373#msg25373\">引用自：bitcoinex 于 2010年11月29日，02:43:42 PM</a></div><div class=\"quote\">但酷刑的伤害是无法承受的。我很好奇为什么他们仍然自由，还能被自由采访。<br/></div><br/>那大概是因为美国还不是苏俄（至少目前还不是）。<br/>他们开始了审查，但要成为像俄罗斯那样真正的极权国家还有很长的路要走。<br/></div><br/>得了吧，杀几个人来拯救几十个甚至几百个？小事一桩，所有国家都这么干。<br/><br/><div class=\"quoteheader\">引用</div><div class=\"quote\">如果他们折磨或杀害 wikileaks 的人，他们就真的有在国际舞台上挨揍的风险了。<br/></div><br/>再说一遍，想想关塔那摩的酷刑？目的证明手段的正当性。没人会因为几个死掉的极客而跟美国计较。<br/><br/>可悲但真实。</div>",
     "nested_level": 0
   },
   {
@@ -39379,10 +39379,10 @@
     "source_id": "40",
     "poster_name": "bitcoinex",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=577",
-    "subject": "Re: Wikileaks contact info?",
+    "subject": "回复：维基解密的联系方式？",
     "url": "https://bitcointalk.org/index.php?topic=1735.msg25384#msg25384",
     "date": "2010-11-29T15:43:56Z",
-    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1735.msg25382#msg25382\">Quote from: ShadowOfHarbringer on November 29, 2010, 03:37:19 PM</a></div><div class=\"quote\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1735.msg25380#msg25380\">Quote from: bitcoinex on November 29, 2010, 03:28:39 PM</a></div><div class=\"quote\">Again, remember the tortures at Guantanamo? The end justifies the means. Nobody stops reckon with the U.S. due to a couple of dead geeks.<br/><br/>Sad but true.<br/></div><br/>If that was so easy as You said, they would have done so long ago. Wikileaks is not here since yesterday.<br/></div><br/>But the pain in the ass it inflicts with the exponential progression.<br/><br/><div class=\"quoteheader\">Quote</div><div class=\"quote\">Also, wikileaks has the encrypted insurance file already distrubuted among people long ago (God knows what it may contain ? perhaps 9/11 inside job proof ?). USA may be also afraid of that.<br/><br/></div><br/>File without the key is garbage. State can find out who have the key and find out what conditions it will be published.</div>",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1735.msg25382#msg25382\">引用：ShadowOfHarbringer 于 2010年11月29日 下午03:37:19</a></div><div class=\"quote\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1735.msg25380#msg25380\">引用：bitcoinex 于 2010年11月29日 下午03:28:39</a></div><div class=\"quote\">再想想关塔那摩的酷刑？目的证明手段的正当性。没人会因为死几个极客就停止和美国算账。<br/><br/>悲哀但真实。<br/></div><br/>如果真像你说的那么容易，他们早就这么做了。维基解密可不是昨天才出现的。<br/></div><br/>但它造成的麻烦却在以指数级速度增长。<br/><br/><div class=\"quoteheader\">Quote</div><div class=\"quote\">而且，维基解密早在很久以前就已经把加密的保险文件分发给了人们（天知道里面包含什么？也许是9/11内部作案的证据？）。美国可能也害怕这一点。<br/><br/></div><br/>没有密钥的文件就是垃圾。国家可以找到谁持有密钥，并查明在什么条件下它会被公布。</div>",
     "nested_level": 0
   },
   {
@@ -40579,10 +40579,10 @@
     "source_id": "140",
     "poster_name": "em3rgentOrdr",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=535",
-    "subject": "Re: Wikileaks contact info?",
+    "subject": "回复：维基解密的联系方式？",
     "url": "https://bitcointalk.org/index.php?topic=1735.msg26989#msg26989",
     "date": "2010-12-05T08:11:37Z",
-    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1735.msg26988#msg26988\">Quote from: kiba on December 05, 2010, 08:02:58 AM</a></div><div class=\"quote\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1735.msg26987#msg26987\">Quote from: bober182 on December 05, 2010, 07:58:37 AM</a></div><div class=\"quote\">With paypal down I'm increasing my pressure upon their board of directors to get a bitcoin address up.<br/></div><br/>So you decide to ignore the long discussion and just do it?<br/><br/>Listen to reasons, and then decide if you're going to keep doing what you do.<br/></div><br/>Kiba makes some good points here...let's not be too hasty in communicating with WikiLeaks.&nbsp; Patience is key.&nbsp; There is no need to repeatedly pressure WikiLeaks in producing a bitcon donate address.&nbsp; Since you have already communicated with them once, they may either he considering it or more likely have decided that it does nor suit their needs currently.&nbsp; Don't get me wrong...I am all for wikileaks to use bitcoin, but let's not push this too hard.</div>",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1735.msg26988#msg26988\">引用自：kiba 于 2010年12月5日 08:02:58 AM</a></div><div class=\"quote\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1735.msg26987#msg26987\">引用自：bober182 于 2010年12月5日 07:58:37 AM</a></div><div class=\"quote\">PayPal 挂了，我正在加大对他们董事会的压力，让他们搞一个比特币地址。<br/></div><br/>所以你决定无视之前的长篇讨论，直接就这么干了？<br/><br/>听听理由，然后再决定你是否要继续这样做。<br/></div><br/>kiba 在这里提出了一些好的观点……我们不要太急于和 WikiLeaks 沟通。&nbsp;耐心是关键。&nbsp;没有必要反复施压 WikiLeaks 让他们设立比特币捐赠地址。&nbsp;既然你已经和他们沟通过一次了，他们可能正在考虑，或者更有可能的是，他们认为目前这不符合他们的需求。&nbsp;别误会我的意思……我非常支持 WikiLeaks 使用比特币，但我们不要把这件事推得太猛了。</div>",
     "nested_level": 0
   },
   {
@@ -41338,10 +41338,10 @@
     "source_id": "48",
     "poster_name": "kiba",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=491",
-    "subject": "Re: BitDNS and Generalizing Bitcoin",
+    "subject": "回复：BitDNS 与比特币的泛化",
     "url": "https://bitcointalk.org/index.php?topic=1790.msg26862#msg26862",
     "date": "2010-12-04T20:50:00Z",
-    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1790.msg26861#msg26861\">Quote from: RHorning on December 04, 2010, 08:44:11 PM</a></div><div class=\"quote\">ames. Of course they have to be new names that were not in earlier blocks.<br/><br/>BTW, I created a stub of a document on the wiki for this concept if anybody is interested in filling out some more details of this idea in terms of a formal spec:<br/><br/><a href=\"http://www.bitcoin.org/wiki/doku.php?id=bitdns_draft_0_1\">http://www.bitcoin.org/wiki/doku.php?id=bitdns_draft_0_1</a><br/><br/>I'll see what I can contribute to filling this out, and I'm thinking of bumping this idea up on my own priority schedule for perhaps writing an application to do this. &nbsp;It sounds like something to really get my teeth into even though I got a couple of other good ideas I'd like to try. &nbsp;Besides, it sounds like there is some real interest to get this going sooner rather than later among many in the Bitcoins community.<br/></div><br/>I am using this document as the BitDNS bounty's protocol document.</div>",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1790.msg26861#msg26861\">引用自 RHorning 于 2010年12月4日 20:44:11</a></div><div class=\"quote\">域名。当然，它们必须是之前区块中未出现过的新域名。<br/><br/>顺便说一下，我在 wiki 上为这个概念创建了一个文档草稿，如果有人有兴趣填充这个想法的更多细节，以正式规范的形式呈现：<br/><br/><a href=\"http://www.bitcoin.org/wiki/doku.php?id=bitdns_draft_0_1\">http://www.bitcoin.org/wiki/doku.php?id=bitdns_draft_0_1</a><br/><br/>我会看看能贡献些什么来完善它，我正在考虑把这个想法提升到自己的优先计划中，也许写一个应用程序来实现它。这听起来像是值得我深入投入的事情，尽管我还有几个其他好想法也想试试。此外，听起来比特币社区中有不少人都有兴趣尽早推动这个项目。<br/></div><br/>我将使用这份文档作为 BitDNS 悬赏的协议文档。</div>",
     "nested_level": 0
   },
   {
@@ -42262,10 +42262,10 @@
     "source_id": "125",
     "poster_name": "Anonymous",
     "poster_url": null,
-    "subject": "Re: BitDNS and Generalizing Bitcoin",
+    "subject": "回复：BitDNS 与比特币的泛化",
     "url": "https://bitcointalk.org/index.php?topic=1790.msg27649#msg27649",
     "date": "2010-12-07T05:03:41Z",
-    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1790.msg27645#msg27645\">Quote from: em3rgentOrdr on December 07, 2010, 04:56:51 AM</a></div><div class=\"quote\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1790.msg27629#msg27629\">Quote from: kiba on December 07, 2010, 04:30:24 AM</a></div><div class=\"quote\">At any rate, do we have enough information that's agreed so that the core hackers can develop right now?<br/></div><br/>Well before starting coding, let's make sure we have the protocol clearly written out. &nbsp;For instance, are we going to take my suggestion of using unitary, non-fractional, bitdnscoins where 1 block == 1 bitdnscoin, instead of having the number of bitdnscoins per block start at 50 and half every few years? &nbsp;Also, there is no need for fractional bitdnscoins since it doesn't make too much sense to own one-tenth of a domain name. &nbsp;And, keep in mind, people can use fiat money or even bitcoins when trading unitary bitdnscoins, incase they need to make a trade of two domain names with unequal subjective valuations.<br/></div><br/>+1 on that.</div>",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1790.msg27645#msg27645\">引用自 em3rgentOrdr 于 2010年12月7日 04:56:51 AM</a></div><div class=\"quote\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1790.msg27629#msg27629\">引用自 kiba 于 2010年12月7日 04:30:24 AM</a></div><div class=\"quote\">无论如何，我们是否已经有足够的一致信息，让核心开发者现在就可以开始开发了？<br/></div><br/>在开始写代码之前，让我们确保协议已经清晰地写出来了。&nbsp;例如，我们是否要采纳我的建议，使用单位化、不可分割的 bitdnscoin，即 1 个区块 == 1 个 bitdnscoin，而不是让每个区块的 bitdnscoin 数量从 50 开始然后每隔几年减半？&nbsp;此外，也不需要可分割的 bitdnscoin，因为拥有十分之一个域名没什么意义。&nbsp;而且要记住，人们在交易单位化 bitdnscoin 时可以使用法币甚至比特币，以防需要对两个主观估值不同的域名进行交易。<br/></div><br/>对此 +1。</div>",
     "nested_level": 0
   },
   {
@@ -42370,10 +42370,10 @@
     "source_id": "134",
     "poster_name": "kiba",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=491",
-    "subject": "Re: BitDNS and Generalizing Bitcoin",
+    "subject": "回复：BitDNS 与比特币的泛化",
     "url": "https://bitcointalk.org/index.php?topic=1790.msg27679#msg27679",
     "date": "2010-12-07T06:56:51Z",
-    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1790.msg27677#msg27677\">Quote from: RHorning on December 07, 2010, 06:46:07 AM</a></div><div class=\"quote\"><br/>The exchanges might really appreciate at least some fractional quantities to play with, although that could also be internal to the exchange itself. &nbsp;The real advantage is for some granularity in terms of competing miners which might want to snag a few additional registrations. &nbsp;It would also help in terms of setting up a per-kilobyte charge for people throwing stuff into the coin transactions too. &nbsp;Attacks on the network can also happen through filling up coin transaction information with useless junk, and charging a fee for that can help stop or at least slow down such a flood attack and at least put cost to such an attack that must be borne by the person making the transaction.&nbsp; Such a charge may require at least some fractional coins, even if it isn't nanocoins necessarily.<br/></div><br/>Let me this straight: so we use fractional coins to prevent network spamming? Or is it bitcoin?</div>",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1790.msg27677#msg27677\">引用：RHorning 于 2010年12月7日 上午06:46:07</a></div><div class=\"quote\"><br/>交易所可能确实希望至少有一些小数单位的币可以操作，尽管这也可能是交易所内部的事。&nbsp;真正的好处在于为相互竞争的矿工提供一些粒度上的灵活性，他们可能想多抢一些注册记录。&nbsp;这也有助于对那些把垃圾数据塞进coin交易的人按每千字节收费。&nbsp;对网络的攻击也可能通过用无用垃圾填满coin交易信息来实现，而对此收费可以帮助阻止或至少减缓此类洪水攻击，并让发起攻击的人承担相应的成本。&nbsp;这种收费可能至少需要一些小数单位的币，即便不一定要到纳米币的精度。<br/></div><br/>让我确认一下：所以我们是用小数单位的币来防止网络垃圾攻击？还是说这是比特币的事？</div>",
     "nested_level": 0
   },
   {
@@ -43198,10 +43198,10 @@
     "source_id": "203",
     "poster_name": "RHorning",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=344",
-    "subject": "Re: BitDNS and Generalizing Bitcoin",
+    "subject": "回复：BitDNS 与比特币的泛化",
     "url": "https://bitcointalk.org/index.php?topic=1790.msg28318#msg28318",
     "date": "2010-12-09T00:28:09Z",
-    "text": "<div class=\"post\">Asking as a general question, is the whole concept of throwing the data into transactions a dead issue now?&nbsp; With the release of Bitcoin v. 3.1.18 Satoshi has essentially thrown down the gauntlet that adding such data to transactions is considered a form of an attack on the network.&nbsp; Miners who aren't using a codebase derived from the reference implementation still may add blocks to the network involving these \"goofy\" transaction packets, but by design the reference implementation will not recognize the transactions.&nbsp; If we work around the <b>IsStandard()</b> algorithm, it is only going to change to stop whatever changes we make.<br/><br/>This is a subtle but interesting issue where essentially the only way we can guarantee that a domain transaction can be put into a block chain is to create a custom miner and compete for blocks to put those transactions into the network.&nbsp; That makes for some interesting problems in terms of latency for an effort like DomainCoin.<br/><br/>Should we move onto the forked version of Bitcoin to implement this idea again?</div>",
+    "text": "<div class=\"post\">作为一个一般性的问题，将数据嵌入交易的这个概念现在是不是已经行不通了？随着 Bitcoin v.3.1.18 的发布，Satoshi 基本上已经下了战书，表明将此类数据添加到交易中被视为对网络的一种攻击。不使用基于参考实现代码库的矿工仍然可能会将包含这些异常交易包的区块添加到网络中，但按照设计，参考实现不会识别这些交易。如果我们绕过 <b>IsStandard()</b> 算法，它也会做出改变来阻止我们做的任何修改。<br/><br/>这是一个微妙但有趣的问题，本质上，我们能保证域名交易被打入区块链的唯一方式就是创建一个自定义矿工并竞争区块来将这些交易放入网络。这对于像 DomainCoin 这样的项目来说会带来一些延迟方面的有趣问题。<br/><br/>我们是否应该转向比特币的分叉版本来重新实现这个想法？</div>",
     "nested_level": 0
   },
   {
@@ -44080,10 +44080,10 @@
     "source_id": "11",
     "poster_name": "Timo Y",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=271",
-    "subject": "Re: Transaction / spam flood attack currently under way",
+    "subject": "回复：正在进行中的交易/垃圾信息洪泛攻击",
     "url": "https://bitcointalk.org/index.php?topic=1850.msg22897#msg22897",
     "date": "2010-11-19T20:30:14Z",
-    "text": "<div class=\"post\">In a free market for transaction fees,<br/>spamming the network will have the effect of increasing transaction fees for everybody. <br/><br/>Maybe Mr Burns is more than just a common griefer. Maybe he is a miner with more rational motivations. <br/><br/>A miner has more to gain than to lose by spamming. Yes, eventually a spam equilibrium will be reached where the marginal amount you lose in your spam to the transaction fees of competing miners equals the marginal amount gained from your own transaction fees. &nbsp;But that is still a macroeconomically subobtimal situation. <br/><br/>To escape this <a href=\"http://en.wikipedia.org/wiki/Social_trap\">http://en.wikipedia.org/wiki/Social_trap</a> social trap, more than a market is needed. <br/><br/>Some simple but effective rules should be hardcoded into the Bitcion protocol/specification itself, to discourage the excesses of spamming.<br/><br/>I know that this approach probably sounds too \"top-down\" for the free market enthusiasts in this forum, but the rules should of course be purely voluntary and consensus based, like the 21M rule we have already.<br/><br/><br/></div>",
+    "text": "<div class=\"post\">在交易费自由市场中，<br/>对网络进行垃圾信息轰炸会导致所有人的交易费上涨。<br/><br/>也许 Mr Burns 不仅仅是一个普通的恶意捣乱者。也许他是一个有着更理性动机的矿工。<br/><br/>矿工从垃圾轰炸中获利大于损失。是的，最终会达到一个垃圾轰炸均衡点——你在垃圾轰炸中因竞争矿工的交易费而损失的边际成本，等于你从自己的交易费中获得的边际收益。但这仍然是一个宏观经济学上次优的局面。<br/><br/>要摆脱这个 <a href=\"http://en.wikipedia.org/wiki/Social_trap\">http://en.wikipedia.org/wiki/Social_trap</a> 社会困境，仅靠市场是不够的。<br/><br/>应该将一些简单但有效的规则硬编码到 Bitcoin 协议/规范本身中，以遏制过度的垃圾轰炸行为。<br/><br/>我知道这种方法在论坛中的自由市场爱好者听来可能太”自上而下”了，但这些规则当然应该是完全自愿且基于共识的，就像我们已经有的 2100 万枚的规则一样。<br/><br/><br/></div>",
     "nested_level": 0
   },
   {
@@ -44580,10 +44580,10 @@
     "source_id": "12",
     "poster_name": "RHorning",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=344",
-    "subject": "Re: RFC: ship block chain 1-74000 with release tarballs?",
+    "subject": "回复：RFC：是否在发布压缩包中附带区块链 1-74000？",
     "url": "https://bitcointalk.org/index.php?topic=1931.msg24679#msg24679",
     "date": "2010-11-26T19:17:25Z",
-    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1931.msg24670#msg24670\">Quote from: zipslack on November 26, 2010, 06:08:40 PM</a></div><div class=\"quote\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1931.msg24664#msg24664\">Quote from: RHorning on November 26, 2010, 05:42:17 PM</a></div><div class=\"quote\">The purpose of this is mainly so those who are updating to a new version can do so without having to also keep downloading the same block data, which by definition is going to grow over time.<br/></div><br/>I'm not sure how it is for you, but when I upgrade Bitcoin I don't have to re-download any blocks. It just picks up right where it left off before the upgrade.<br/></div><br/>That is the point.&nbsp; If the blocks are included in the update it would also by definition include blocks you already have obtained via the network.&nbsp; This is why I'm suggesting that it ought to be a separate but strongly recommended download for new users instead of something combined in the normal distros.</div>",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1931.msg24670#msg24670\">引用自 zipslack 于 2010年11月26日 18:08:40</a></div><div class=\"quote\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1931.msg24664#msg24664\">引用自 RHorning 于 2010年11月26日 17:42:17</a></div><div class=\"quote\">这样做的目的主要是让那些更新到新版本的用户不必反复下载相同的区块数据，这些数据按定义会随着时间的推移而增长。<br/></div><br/>我不清楚你的情况是怎样的，但当我升级 Bitcoin 时，我不需要重新下载任何区块。它直接从升级前的位置继续。<br/></div><br/>这正是关键所在。如果区块包含在更新中，那么按定义它也会包含你已经通过网络获取的区块。这就是为什么我建议它应该作为一个单独但强烈推荐的下载提供给新用户，而不是合并在常规发行版中。</div>",
     "nested_level": 0
   },
   {
@@ -45005,10 +45005,10 @@
     "source_id": "6",
     "poster_name": "slush",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=2167",
-    "subject": "Re: Cooperative mining",
+    "subject": "Re: 合作挖矿",
     "url": "https://bitcointalk.org/index.php?topic=1976.msg24878#msg24878",
     "date": "2010-11-27T16:20:26Z",
-    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1976.msg24858#msg24858\">Quote from: ribuck on November 27, 2010, 02:35:56 PM</a></div><div class=\"quote\">For any given difficulty level, it doesn't even matter how many other machines are generating.<br/></div><br/>You are true for long term. But I think many people with poor CPUs simply switch off their minings because they see it will take ages until they receive single bitcoin from that. When you are in cluster of cooperative miners, you will receive small amount (say 0.01 BTC if you contribute 0.02% to cluster performance) but more often. I feel that it may be a motivation for people to not shut down their miners.<br/><br/>I think it is extremely important for bitcoin economy to diversify mining across whole network and not leave mining on few lucky guys with fast GPUs.<br/><br/><div class=\"quoteheader\">Quote</div><div class=\"quote\">The only thing that counts significantly is the difficulty level and your khash/s.<br/></div><br/>Of course. The more khash/s in cluster, the more blocks found by cluster and more often payments to cluster members.</div>",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1976.msg24858#msg24858\">引用自：ribuck 于 2010年11月27日，下午2:35:56</a></div><div class=\"quote\">对于给定的难度级别，有多少其他机器在挖矿其实根本不重要。<br/></div><br/>从长期来看你是对的。但我认为很多使用较差CPU的人会直接关掉他们的矿机，因为他们看到要等很久才能收到哪怕一个比特币。当你加入合作挖矿集群时，你会收到较小的金额（比如你为集群贡献了0.02%的算力，就收到0.01 BTC），但会更频繁。我觉得这可能会激励人们不要关闭矿机。<br/><br/>我认为将挖矿分散到整个网络而不是让少数拥有快速GPU的幸运者垄断，对比特币经济极为重要。<br/><br/><div class=\"quoteheader\">引用</div><div class=\"quote\">唯一真正重要的是难度级别和你的khash/s。<br/></div><br/>当然。集群中的khash/s越高，集群发现的区块就越多，向集群成员的付款也就越频繁。</div>",
     "nested_level": 0
   },
   {
@@ -45221,10 +45221,10 @@
     "source_id": "24",
     "poster_name": "FreeMoney",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=381",
-    "subject": "Re: Cooperative mining",
+    "subject": "回复：合作挖矿",
     "url": "https://bitcointalk.org/index.php?topic=1976.msg24979#msg24979",
     "date": "2010-11-27T22:59:18Z",
-    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1976.msg24960#msg24960\">Quote from: puddinpop on November 27, 2010, 09:17:19 PM</a></div><div class=\"quote\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1976.msg24911#msg24911\">Quote from: bitcoin2 on November 27, 2010, 06:32:42 PM</a></div><div class=\"quote\">The Remote mining in the official bitcoin release has no \"send back\" - function but we are searching a pooling-miner like puddinpops.<br/></div><br/>Is there a particular reason that the pooled miner I created is not sufficient?&nbsp; It has the basics there already.&nbsp; It checks the best hash from each client to make sure the clients are doing the work they say, and it distributes the generated bitcoins based on the calculated hash rate of each connected client.&nbsp; I just updated <a href=\"https://www.bitcoin.org/smf/index.php?topic=1458.msg16906#msg16906\">this thread</a> with the latest source and binaries for pooled mining.<br/><br/></div><br/>Can't they just send all except the winning ones? Maybe I don't understand though.</div>",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1976.msg24960#msg24960\">引用：puddinpop 于 2010年11月27日 下午09:17:19</a></div><div class=\"quote\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1976.msg24911#msg24911\">引用：bitcoin2 于 2010年11月27日 下午06:32:42</a></div><div class=\"quote\">官方比特币版本中的远程挖矿没有「回传」功能，但我们正在寻找类似puddinpop那样的联合矿池方案。<br/></div><br/>我创建的联合矿池有什么特别的问题吗？&nbsp;基本功能都已经有了。&nbsp;它会检查每个客户端的最佳哈希值，以确保客户端确实在做它们声称的工作，并根据每个已连接客户端的计算哈希率来分配生成的比特币。&nbsp;我刚刚在<a href=\"https://www.bitcoin.org/smf/index.php?topic=1458.msg16906#msg16906\">这个帖子</a>中更新了联合挖矿的最新源码和二进制文件。<br/><br/></div><br/>他们难道不能只提交除中奖以外的所有哈希吗？也许我理解有误。</div>",
     "nested_level": 0
   },
   {
@@ -45475,10 +45475,10 @@
     "source_id": "5",
     "poster_name": "davout",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=1929",
-    "subject": "Re: Incompatible wallet format with latest bitcoin-git ?",
+    "subject": "回复：钱包格式与最新 bitcoin-git 不兼容？",
     "url": "https://bitcointalk.org/index.php?topic=2007.msg25471#msg25471",
     "date": "2010-11-29T21:09:06Z",
-    "text": "<div class=\"post\">Bitcoin version 3.17.1 beta<br/>Default data directory /home/david/.bitcoin<br/>Bound to port 8333<br/>bitcoin server starting<br/>Loading addresses...<br/>dbenv.open strLogDir=/home/david/.bitcoin/database strErrorFile=/home/david/.bitcoin/db.log<br/>Loaded 5017 addresses<br/>&nbsp;addresses&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;122ms<br/>Loading block index...<br/>LoadBlockIndex(): hashBestChain=00000000000013587f18&nbsp; height=94571<br/>&nbsp;block index&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 1294ms<br/>Loading wallet...<br/><br/><br/>************************<br/>EXCEPTION: NSt8ios_base7failureE&nbsp; &nbsp; &nbsp; &nbsp;<br/>CDataStream::read() : end of data&nbsp; &nbsp; &nbsp; &nbsp;<br/>bitcoin in AppInit()&nbsp; &nbsp; &nbsp; &nbsp;<br/><br/>terminate called after throwing an instance of 'std::ios_base::failure'<br/><br/><br/>************************<br/>EXCEPTION: NSt8ios_base7failureE&nbsp; &nbsp; &nbsp; &nbsp;<br/>CDataStream::read() : end of data&nbsp; &nbsp; &nbsp; &nbsp;<br/>bitcoin in AppInit()&nbsp; &nbsp; &nbsp; &nbsp;<br/><br/>&nbsp; what():&nbsp; CDataStream::read() : end of data<br/></div>",
+    "text": "<div class=\"post\">Bitcoin 版本 3.17.1 beta<br/>默认数据目录 /home/david/.bitcoin<br/>绑定到端口 8333<br/>bitcoin 服务器启动中<br/>正在加载地址...<br/>dbenv.open strLogDir=/home/david/.bitcoin/database strErrorFile=/home/david/.bitcoin/db.log<br/>已加载 5017 个地址<br/>&nbsp;地址&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;122ms<br/>正在加载区块索引...<br/>LoadBlockIndex(): hashBestChain=00000000000013587f18&nbsp; 高度=94571<br/>&nbsp;区块索引&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 1294ms<br/>正在加载钱包...<br/><br/><br/>************************<br/>异常: NSt8ios_base7failureE&nbsp; &nbsp; &nbsp; &nbsp;<br/>CDataStream::read() : 数据结束&nbsp; &nbsp; &nbsp; &nbsp;<br/>bitcoin 在 AppInit() 中&nbsp; &nbsp; &nbsp; &nbsp;<br/><br/>在抛出 'std::ios_base::failure' 实例后调用 terminate<br/><br/><br/>************************<br/>异常: NSt8ios_base7failureE&nbsp; &nbsp; &nbsp; &nbsp;<br/>CDataStream::read() : 数据结束&nbsp; &nbsp; &nbsp; &nbsp;<br/>bitcoin 在 AppInit() 中&nbsp; &nbsp; &nbsp; &nbsp;<br/><br/>&nbsp; what():&nbsp; CDataStream::read() : 数据结束<br/></div>",
     "nested_level": 0
   },
   {
@@ -45949,10 +45949,10 @@
     "source_id": "21",
     "poster_name": "jgarzik",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=541",
-    "subject": "Re: Version 0.3.18",
+    "subject": "回复：版本 0.3.18",
     "url": "https://bitcointalk.org/index.php?topic=2162.msg28387#msg28387",
     "date": "2010-12-09T03:46:06Z",
-    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=2162.msg28383#msg28383\">Quote from: da2ce7 on December 09, 2010, 03:32:39 AM</a></div><div class=\"quote\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=2162.msg28380#msg28380\">Quote from: jgarzik on December 09, 2010, 03:14:00 AM</a></div><div class=\"quote\">Currency transactions would have to fight harder -- pay more fees -- to make sure they're processed in a timely fashion, due to all the non-currency data in the block chain. &nbsp;Increasing the block size does not reduce transaction fees.<br/></div><br/>Sorry I have to disagree with you, &nbsp;the transaction fees are based upon the 'cost' to generator to include the transaction. &nbsp;The cost is directly related to the amount of data needed to be included.<br/></div><br/>This is not an opinion; read the source. &nbsp;Transaction fees vary on total block size, not just transaction size.<br/><br/>Thus, larger blocks == higher fees.<br/><br/>Thus, more data spam, or more overall network traffic (currency or not) == higher fees.<br/><br/></div>",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=2162.msg28383#msg28383\">引用自 da2ce7 于 2010年12月9日 03:32:39 AM</a></div><div class=\"quote\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=2162.msg28380#msg28380\">引用自 jgarzik 于 2010年12月9日 03:14:00 AM</a></div><div class=\"quote\">货币交易将不得不更努力地竞争——支付更多手续费——以确保能及时被处理，因为区块链中充斥着大量非货币数据。&nbsp;增大区块大小并不能降低交易手续费。<br/></div><br/>抱歉我不得不不同意你的看法，交易手续费是基于生成者包含该交易的成本。&nbsp;成本直接与需要包含的数据量相关。<br/></div><br/>这不是观点问题，请阅读源代码。&nbsp;交易手续费取决于区块总大小，而不仅仅是交易大小。<br/><br/>因此，更大的区块 == 更高的手续费。<br/><br/>因此，更多的数据垃圾或更多的整体网络流量（不管是货币还是非货币）== 更高的手续费。<br/><br/></div>",
     "nested_level": 0
   },
   {
@@ -46677,10 +46677,10 @@
     "source_id": "1",
     "poster_name": "satoshi",
     "poster_url": "https://bitcointalk.org/index.php?action=profile;u=3",
-    "subject": "Added some DoS limits, removed safe mode (0.3.19)",
+    "subject": "添加了一些DoS限制，移除了安全模式（0.3.19）",
     "url": "https://bitcointalk.org/index.php?topic=2228.msg29479#msg29479",
     "date": "2010-12-12T18:22:33Z",
-    "text": "<div class=\"post\">There's more work to do on DoS, but I'm doing a quick build of what I have so far in case it's needed, before venturing into more complex ideas. &nbsp;The build for this is version 0.3.19.<br/><br/>- Added some DoS controls<br/>As Gavin and I have said clearly before, the software is not at all resistant to DoS attack. &nbsp;This is one improvement, but there are still more ways to attack than I can count. &nbsp;<br/><br/>I'm leaving the -limitfreerelay part as a switch for now and it's there if you need it.<br/><br/>- Removed \"safe mode\" alerts<br/>\"safe mode\" alerts was a temporary measure after the 0.3.9 overflow bug. &nbsp;We can say all we want that users can just run with \"-disablesafemode\", but it's better just not to have it for the sake of appearances. &nbsp;It was never intended as a long term feature. &nbsp;Safe mode can still be triggered by seeing a longer (greater total PoW) invalid block chain.<br/><br/>Builds:<br/><a href=\"http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.3.19/\">http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.3.19/</a></div>",
+    "text": "<div class=\"post\">DoS方面还有很多工作要做，但我先快速构建了一个现有成果的版本，以防有人需要，然后再去研究更复杂的方案。这个版本是0.3.19。<br/><br/>- 添加了一些DoS控制<br/>正如Gavin和我之前明确说过的，该软件对DoS攻击几乎没有抵抗力。这是一个改进，但攻击方式仍然比我能数出来的还要多。<br/><br/>我暂时将-limitfreerelay部分保留为开关，如果你需要就可以使用。<br/><br/>- 移除了安全模式警报<br/>安全模式警报是0.3.9溢出漏洞之后的临时措施。我们可以一直说用户只需加上-disablesafemode参数运行，但从形象考虑不如直接去掉它。它从来就不是作为长期功能设计的。安全模式仍然可以通过发现更长的（总工作量证明更大的）无效区块链来触发。<br/><br/>下载：<br/><a href=\"http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.3.19/\">http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.3.19/</a></div>",
     "nested_level": 0
   }
 ]
