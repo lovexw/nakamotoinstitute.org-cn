@@ -325,6 +325,18 @@
     "nested_level": 0
   },
   {
+    "id": 35,
+    "thread_id": 8,
+    "source_id": "6",
+    "poster_name": "The Madhatter",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=14",
+    "subject": "回复：几点建议",
+    "url": "https://bitcointalk.org/index.php?topic=12.msg47#msg47",
+    "date": "2009-12-11T04:59:19Z",
+    "text": "<div class=\"post\">好，我去 SF 注册一下，然后把用户名给你。我很多年没用 SF 了，得重新熟悉一下。这样我就能访问你们正在开发的当前分支吗？（0.2）<br/><br/>我一直在琢磨后台进程需要的选项。不知道哪个更好：一长串命令行开关，还是一个配置文件。唔……<br/><br/>我在全球有很多服务器。如果能做出一个能在 FreeBSD 上运行的后台进程，我就可以跑常驻种子节点。<br/><br/>我真觉得安装包里放一份每日种子快照会改善引导过程。我见过这里一些新测试安装的实例，程序会卡在 0 连接 / 1 区块。检查 debug.log 后发现 IRC 服务器（我记得是 freenode）声称我已经连接过，拒绝让我为程序做种子引导。（举个例子。）<br/><br/>我觉得给 Nagios 写个简单的网络监控插件也会很有用。让它模拟一个正在连接的客户端，从后台进程取回有效的状态码。我有很多想法。<img alt=\"Smiley\" border=\"0\" src=\"/static/img/emoticons/smiley.gif\"/><br/><br/>无论如何，我想帮忙。我时间很多，这样一个项目非常令人兴奋。<br/><br/>谢谢让我参与其中。<img alt=\"Smiley\" border=\"0\" src=\"/static/img/emoticons/smiley.gif\"/><br/></div>",
+    "nested_level": 0
+  },
+  {
     "id": 37,
     "thread_id": 8,
     "source_id": "8",
@@ -1871,6 +1883,18 @@
     "nested_level": 0
   },
   {
+    "id": 182,
+    "thread_id": 21,
+    "source_id": "1",
+    "poster_name": "BitcoinFX",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=30",
+    "subject": "Win32 CPU 周期与「实时防护」引擎的冲突？",
+    "url": "https://bitcointalk.org/index.php?topic=35.msg189#msg189",
+    "date": "2010-02-01T18:51:53Z",
+    "text": "<div class=\"post\">我想记录一下初次安装和使用比特币软件时遇到的一个问题。<br/><br/>尽管安装和端口转发设置都正确，我发现比特币在头 24 小时有 20+ 个连接却一个币或「区块」都没生成。区块数一直停在 0。意识到比特币没有在追赶全网区块下载或生成之后，我打开任务管理器进一步排查。<br/><br/>我注意到 bitcoin.exe 进程似乎在和 MsMpEng.exe（Microsoft Security Essentials）争夺 CPU。因为我机器配置比较高，没察觉到系统变慢。把 bitcoin.exe 及相应程序目录加进「排除文件和位置」以及「排除进程」之后——比特币立刻开始生成区块，CPU 占用也恢复正常了。<br/><br/>我<b>没有</b>收到任何病毒警报，连比特币的「误报」都没有。<b>我知道这软件 100% 没问题</b>。我猜是 Microsoft Security Essentials 的「实时防护」引擎与区块生成所消耗的 CPU 周期「合不来」。<br/><br/>我还没做更多测试，不过用 Comodo Internet Security（免费版）时也遇到了同样的问题。<br/><br/>这对大量不太「懂技术」的新比特币用户显然会是个问题。还有别人遇到过类似情况吗？</div>",
+    "nested_level": 0
+  },
+  {
     "id": 183,
     "satoshi_id": 40,
     "thread_id": 21,
@@ -3402,6 +3426,18 @@
     "nested_level": 0
   },
   {
+    "id": 331,
+    "thread_id": 31,
+    "source_id": "8",
+    "poster_name": "sirius",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=4",
+    "subject": "回复：当前比特币经济模型不可持续",
+    "url": "https://bitcointalk.org/index.php?topic=57.msg398#msg398",
+    "date": "2010-02-18T13:31:50Z",
+    "text": "<div class=\"post\">比特币在供给有限和挖矿成本递增方面与黄金类似。你能用来反对比特币经济的每一条论据，同样可以用来反对黄金经济，但黄金经济依然运转良好。事实上，纵观历史，黄金货币的稳定性是任何纸币都无法比拟的。<br/><br/>「通缩是坏的，因为它会导致『通缩螺旋』——最后没人买东西，因为第二天能买到更多」是个老掉牙的凯恩斯主义论调。在实行金本位的地方并没有发生这种事。也许有些人今天不买，但价格更低时他们明天就会买，因为人生有限，人们要享受。计算机市场就是个好例子——等几年同样的价钱能买到性能翻倍的电脑，但人们今天照样买电脑。<br/><br/>另外值得注意的是，生产成本不等于价值。你也可以自己开印一种货币，但它的价值不会等于你的印刷成本。如果没人接受它作为支付手段，价值就是零；如果很多人接受它支付且流通中的票据不多，价值也可以高于印刷成本。所以我一直觉得 NewLibertyStandard 按生产成本定价的做法有点误导性，让一些人误以为比特币的<i>价值</i>以某种方式绑定在电费<i>成本</i>上。他当然可以按任何他想要的价格买卖，但如果那不是市场价格（供需决定），他迟早要么缺比特币、要么缺美元。</div>",
+    "nested_level": 0
+  },
+  {
     "id": 335,
     "thread_id": 31,
     "source_id": "12",
@@ -4393,6 +4429,18 @@
     "url": "https://bitcointalk.org/index.php?topic=69.msg611#msg611",
     "date": "2010-03-03T03:15:31Z",
     "text": "<div class=\"post\">记住 NLS<br/><br/>法律有两种……<br/><br/>一种是你能读到的，另一种是政府选择适用于你的……<br/><br/>你的律师朋友们可能是对的，但 joe stack 的朋友也是如此，他还是被起诉了……</div>",
+    "nested_level": 0
+  },
+  {
+    "id": 430,
+    "thread_id": 40,
+    "source_id": "9",
+    "poster_name": "I-am-not-anonymous",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=41",
+    "subject": "回复：资金转账监管",
+    "url": "https://bitcointalk.org/index.php?topic=69.msg612#msg612",
+    "date": "2010-03-03T03:48:33Z",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=69.msg611#msg611\">引用自：ihrhase 于 2010年3月3日 03:15:31</a></div><div class=\"quote\">记住 NLS<br/><br/>法律有两种……<br/><br/>一种是你能读到的法律，另一种是政府选择应用在你身上的法律……<br/><br/>你的律师朋友们可能是对的，但 joe stack 的律师们当年也是对的，结果他还是被起诉了……<br/></div><br/>真是令人振奋啊……你刚才告诉这个可怜的家伙，就算他什么都做对了，也可能进监狱——你这是让他感觉自己像个少数民族成员一样处境堪忧！<br/><br/>不过在大多数情况下，如果律师告诉你不会进监狱，那你很可能就不会进监狱。Newlibertstandard 用的是 PayPal，而 PayPal 本来就在执行「了解你的客户」（know-your-customer）制度，并且他操作的金额都低于 10000 美元，这才是洗钱和逃税稽查警察重点嗅探的目标。这意味着他不太可能在做什么错事，也不太可能引来执法部门的注意。<br/><br/>然而——<br/><br/>展望比特币的未来：大规模运营且不执行「了解你的客户」制度的货币兑换服务确实是违法的，因此将不得不在洋葱网络（onionverse）中运作，把比特币兑换成 PayPal 以外的货币服务（也许是以 Pecunix 那样的离岸服务为基础）。<br/><br/>另一个想法是，未来的某个加密创业者可以开一家夫妻小店，名叫「乔爷爷的现金信封店」，只接受比特币付款。哈哈。<br/></div>",
     "nested_level": 0
   },
   {
@@ -9816,6 +9864,18 @@
     "nested_level": 0
   },
   {
+    "id": 927,
+    "thread_id": 85,
+    "source_id": "10",
+    "poster_name": "spaceshaker",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=371",
+    "subject": "回复：可扩展性",
+    "url": "https://bitcointalk.org/index.php?topic=286.msg2633#msg2633",
+    "date": "2010-07-13T20:13:11Z",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=286.msg2627#msg2627\">引用自：TopSoil 于 2010年7月13日, 07:43:01 PM</a></div><div class=\"quote\">3) 我知道实际数字是 2100万*10^8 之类的。但那仍然是固定的，而比特币经济的规模（希望如此）并不固定。想法是它会增长，对吧？那就意味着比特币的价值必须随时间变化，这并不理想。0 通胀/通缩的货币才是最理想的，对吧？<br/></div><br/>我想我们需要把通胀/通缩与供给/需求区分清楚。<br/><br/><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=286.msg2627#msg2627\">引用自：TopSoil 于 2010年7月13日, 07:43:01 PM</a></div><div class=\"quote\">那就意味着比特币的价值必须随时间变化，这并不理想。<br/></div><br/>比特币的价值是什么？它的价值只在于人们认为它有价值（和任何法定货币一样）。认知随时在变。想看这如何演变，去看看今天的外汇市场。比特币的价值会随着供需的起伏而随时间浮动。关键的点是供给是固定的（一旦大部分硬币进入流通），这起到了保护比特币价值的作用。通胀侵蚀货币价值、惩罚储蓄者；它是一种税。<br/><br/>这个话题也许放在经济学版块更合适。</div>",
+    "nested_level": 0
+  },
+  {
     "id": 928,
     "thread_id": 85,
     "source_id": "11",
@@ -10225,6 +10285,18 @@
     "nested_level": 0
   },
   {
+    "id": 977,
+    "thread_id": 86,
+    "source_id": "22",
+    "poster_name": "melvster",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=545",
+    "subject": "回复：0.00000001 BC 洪水攻击",
+    "url": "https://bitcointalk.org/index.php?topic=287.msg5279#msg5279",
+    "date": "2010-07-23T14:32:12Z",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=287.msg5270#msg5270\">引用自：throughput 于 2010年7月23日, 01:39:41 PM</a></div><div class=\"quote\">你好。<br/><br/><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=287.msg5200#msg5200\">引用自：nenolod 于 2010年7月23日, 05:03:00 AM</a></div><div class=\"quote\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=287.msg2314#msg2314\">引用自：llama 于 2010年7月12日, 02:23:46 PM</a></div><div class=\"quote\">那基本毁掉了用比特币做真正微支付的可能性。&nbsp;<br/></div><br/>我不明白怎么会这样。&nbsp;1 BTC 很可能永远比 USD/EUR 等小，因此它可以用于微支付。<br/></div><br/>我想微支付是指小于 0.01 美元的支付。<br/>拥有一个（经济上）可行的微支付系统，将改变当前经济的运作方式。<br/>比如，它可能让媒体生产者在某些领域无利可图。<br/><br/>所以，经济学可能感兴趣的是金额小于 0.001 美元、且每天交易数超过百万笔的支付。<br/>但那样的系统还不存在 <img alt=\"Sad\" border=\"0\" src=\"/static/img/emoticons/sad.gif\"/><br/></div><br/>如果你有一套以比特币「提现」的微支付系统，就可以做到。&nbsp;那样一来，大多数交易都不需要经过比特币系统。</div>",
+    "nested_level": 0
+  },
+  {
     "id": 978,
     "thread_id": 86,
     "source_id": "23",
@@ -10294,6 +10366,18 @@
     "url": "https://bitcointalk.org/index.php?topic=287.msg7460#msg7460",
     "date": "2010-08-04T13:04:18Z",
     "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=287.msg7459#msg7459\">引用自 gavinandresen 于 2010年8月04日 12:55:59 PM</a></div><div class=\"quote\">规则是\"如果任何 TxOut（输出）的金额少于 0.01 比特币，则收取 0.01 的手续费\"：<br/></div>既然没有办法分辨哪个是\"找零\"交易。<br/>这倒挺酷的。<br/>&nbsp;（同时也有点可怕。）<br/></div>",
+    "nested_level": 0
+  },
+  {
+    "id": 984,
+    "thread_id": 86,
+    "source_id": "29",
+    "poster_name": "bytemaster",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=611",
+    "subject": "回复：0.00000001 BC 洪水攻击",
+    "url": "https://bitcointalk.org/index.php?topic=287.msg7468#msg7468",
+    "date": "2010-08-04T13:40:35Z",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=287.msg7459#msg7459\">引用自：gavinandresen 于 2010年8月4日, 12:55:59 PM</a></div><div class=\"quote\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=287.msg7456#msg7456\">引用自：Insti 于 2010年8月4日, 12:17:00 PM</a></div><div class=\"quote\">那笔 1 BTC 交易是一笔有 1 个输入和 2 个输出的交易，但它仍然只是一笔交易。<br/></div>规则是「如果任何 TxOut（输出）的金额小于 0.01 比特币，收取 0.01 手续费」：<br/><div class=\"codeheader\">代码：</div><div class=\"code\">main.h:<br/>foreach(const CTxOut&amp; txout, vout)<br/>&nbsp; if (txout.nValue &lt; CENT)<br/>&nbsp; &nbsp; nMinFee = CENT;<br/></div><br/><br/></div><br/>哇，这条规则必须去掉，否则微支付系统就没法做了。&nbsp;&nbsp;比如，我正在搭建一个 P2P 网络上「按数据包付费」的自动化系统。&nbsp;付款一般是预付的，比如一次 1 BTC，连接结束时退还「找零」。&nbsp;这条规则使得为一次简单的「搜索查询」付费、且不再有后续交易成为不可能。&nbsp;&nbsp;我想我只好随 P2P 程序一起发布一个不带这条规则的自有 BTC 客户端。&nbsp;交易确认会花更长时间，但理论上只要所有客户端都在挖矿，你仍有很大机会让这笔付款被打包进区块。<br/><br/></div>",
     "nested_level": 0
   },
   {
@@ -11230,6 +11314,18 @@
     "nested_level": 0
   },
   {
+    "id": 1070,
+    "thread_id": 91,
+    "source_id": "16",
+    "poster_name": "knightmb",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=345",
+    "subject": "回复：64位 BitCoin（Linux 客户端）CPU 占用失控",
+    "url": "https://bitcointalk.org/index.php?topic=299.msg2427#msg2427",
+    "date": "2010-07-12T23:49:40Z",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=299.msg2423#msg2423\">引用自：asdfman 于 2010年7月12日 11:31:22 PM</a></div><div class=\"quote\">硬编码为 19 应该可行，另外你也可以直接把 PRIO_MIN 改成 PRIO_MAX，效果基本一样（严格来说，PRIO_MAX 在 Linux 内核源码中被定义为 20）<br/><br/>我同意，原作者根据函数当前正在做的事情来动态调整优先级是有其实际考虑的，但就我个人而言，我更希望它完全不碰优先级，因为这个程序整天都待在最低优先级下也能正常工作……我不希望它无论线程在做什么，都从任何进程那里抢占任何优先级……（也许可以提议增加一个命令行参数，用来禁用/启用自动优先级调整——我敢肯定有很多人希望保留自动优先级调度，但也有很多人完全不想沾它的边）<br/></div><br/>有道理。我只是想测试一下这样做是否有区别（我怀疑会有区别）。但看了其他帖子之后，发现修复代码早已提交到 SVN，只是没赶上这次发布，所以我没必要再去尝试一个代码层面已经修复的问题了，呵呵。<br/><br/>不过我同意，它就应该*一直*以最低优先级运行。我是说，它本来就是应该靠空闲 CPU 来运行的，而 nice 级别为 2 在我看来，离「共享」CPU 时间片比离「空闲」CPU 时间片更近。</div>",
+    "nested_level": 0
+  },
+  {
     "id": 1071,
     "thread_id": 91,
     "source_id": "17",
@@ -11544,6 +11640,18 @@
     "url": "https://bitcointalk.org/index.php?topic=323.msg2597#msg2597",
     "date": "2010-07-13T17:58:08Z",
     "text": "<div class=\"post\">我记得在哪里看到过，如果他有什么连接的话，他连接到 IRC 频道是没问题的……我觉得你说的对，在没有转发 8333 端口的情况下最多只能 8 个连接。<br/><br/>我的想法是，静态 IP 的 -addnode 会有帮助，可以提供一个专门的下载源。如果还是不行的话，那我猜 laszlo 说对了，文件不断被完全重写才是罪魁祸首。</div>",
+    "nested_level": 0
+  },
+  {
+    "id": 1099,
+    "thread_id": 95,
+    "source_id": "7",
+    "poster_name": "agaumoney",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=400",
+    "subject": "回复：没有区块被下载……为什么？",
+    "url": "https://bitcointalk.org/index.php?topic=323.msg2604#msg2604",
+    "date": "2010-07-13T18:13:42Z",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=323.msg2597#msg2597\">引用自：Strofcon 于 2010年7月13日, 05:58:08 PM</a></div><div class=\"quote\">我记得在哪儿读到过，只要他有连接，他就能正常连上 IRC 频道……关于不做 8333 端口转发时的 8 连接上限，我想你是对的。<br/><br/>我的想法是，静态 IP 的 -addnode 能提供一个专门的下载源，应该有帮助。如果那还是不行，那我猜 laszlo 说到了点子上，问题出在对文件的持续全量重写。<br/></div><br/>哦对。没注意到他有 40 个连接。&nbsp;&nbsp;<img alt=\"Huh\" border=\"0\" src=\"/static/img/emoticons/huh.gif\"/><br/><br/>可是 0 个区块被下载？<br/><br/>我的 macmini 目前正在下载区块。&nbsp;大约 4 小时下到了 38xxx 块。&nbsp;靠的是局域网里两个专门源，加上它自己在网上另外发现的 6 个。&nbsp;（那是 2009 款机器，4GB 内存，500GB 7200 转 2.5 寸硬盘只用了一个 150GB 分区，以 -server 方式跑 0.30 的 .zip 版。）<br/><br/>旧 macmini 的硬盘装在一台 atom D510 机器上，是块很慢的硬盘。&nbsp;就算有专门源，下载区块也花了很长时间（18 小时以上）。&nbsp;但即便如此，它也没有在 0 区块上停留超过一分钟左右。<br/><br/>我很好奇下载到内存盘里能快多少……</div>",
     "nested_level": 0
   },
   {
@@ -13115,6 +13223,18 @@
     "nested_level": 0
   },
   {
+    "id": 1254,
+    "thread_id": 106,
+    "source_id": "35",
+    "poster_name": "knightmb",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=345",
+    "subject": "回复：0.3.1 候选版本，请测试",
+    "url": "https://bitcointalk.org/index.php?topic=383.msg3509#msg3509",
+    "date": "2010-07-16T15:27:26Z",
+    "text": "<div class=\"post\">有人注意到吗，至少对 Windows 客户端来说，当你手动把一堆其他客户端连上去（通过 -connect 选项），一旦超过 8 个，Windows 客户端最后会把「外部世界」的连接都掐掉，只保留最初那 8 个或更多的内部机器，把它们当成整个网络？<br/><br/>我从没注意到这个，因为我用一个 Linux 客户端把所有 PC 汇聚到外部世界。但我用 Windows 客户端试了试，发现起初它有大约 10 个连接，然后在我又加了 50 个直连它的内部客户端之后，数量最终掉到只剩「内部客户端」了。<br/><br/>一旦发生这种情况，区块数就不再增长了，基本等于 Windows 客户端把自己从「网络」里分裂了出去，其他所有客户端都以为自己就是整个网络。如果在 Windows 客户端上执行「netstat -a -n」，可以看到它只连着内部客户端和 IRC 引导频道，基本不再连接外部世界。你能察觉到这一点，因为区块数开始落后于你本地网络（对世界其他地方来说是互联网）之外的真实进度。<br/><br/>这算是一种自我坍缩循环？不过 Linux 客户端似乎不受影响，它们乐意连接尽可能多的节点，也乐于被尽可能多的节点连接。我想如果有人够坏，这可以算是对 Windows 客户端的一种 DoS 攻击。</div>",
+    "nested_level": 0
+  },
+  {
     "id": 1255,
     "satoshi_id": 220,
     "thread_id": 106,
@@ -13347,6 +13467,18 @@
     "url": "https://bitcointalk.org/index.php?topic=393.msg3777#msg3777",
     "date": "2010-07-17T17:28:31Z",
     "text": "<div class=\"post\">谢谢 Andrew。<br/>你所有的辛勤工作大家都看在眼里。</div>",
+    "nested_level": 0
+  },
+  {
+    "id": 1276,
+    "thread_id": 108,
+    "source_id": "11",
+    "poster_name": "AndrewBuck",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=378",
+    "subject": "回复：源码文档",
+    "url": "https://bitcointalk.org/index.php?topic=393.msg3785#msg3785",
+    "date": "2010-07-17T19:05:33Z",
+    "text": "<div class=\"post\">谢谢 Insti。&nbsp;我把 man page 写好了。&nbsp;我记录了程序支持的全部命令行开关，而不只是「bitcoin -h」用法输出里的那些。&nbsp;凡是没出现在用法输出里的开关，man page 文件里都有一条注释说明（注释行以&nbsp; &nbsp;.\"&nbsp; &nbsp;开头，即一个句点加一个双引号）。<br/><br/>我以补丁形式提供了更新，因为我还改了源码本身。&nbsp;如果你想安装这个 man page，先用 patch 程序从 diff 文件里解出它，然后把文件「bitcoin.1」复制到你 man 手册的第 1 节。&nbsp;在我的 Ubuntu 系统上，/usr/local/man/man1/ 目录是个不错的存放位置。&nbsp;实际上我在系统里放了一个指向 bitcoin/trunk/bitcoin.1 的符号链接，这样它在 SVN 里更新后就能保持同步。<br/><br/>我还用 man2html 导出了 man page，会发到 wiki 上，这样人们不用装到系统里也能查阅，也算照顾一下那些无缘体验 man page 系统真正威严的 Windows 用户。&nbsp;<img alt=\"Smiley\" border=\"0\" src=\"/static/img/emoticons/smiley.gif\"/><br/><br/>本条消息附带一个 zip 文件，里面是补丁。<br/><br/>编辑：&nbsp;wiki 好像一直不发注册邮件，我登不进去编辑，是服务器出什么问题了吗？<br/><br/>-Buck</div>",
     "nested_level": 0
   },
   {
@@ -13717,6 +13849,18 @@
     "nested_level": 0
   },
   {
+    "id": 1309,
+    "thread_id": 114,
+    "source_id": "5",
+    "poster_name": "knightmb",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=345",
+    "subject": "回复：比特币零食售货机（快速交易问题）",
+    "url": "https://bitcointalk.org/index.php?topic=423.msg3678#msg3678",
+    "date": "2010-07-17T05:10:02Z",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=423.msg3676#msg3676\">引用自：FreeMoney 于 2010年7月17日, 05:06:29 AM</a></div><div class=\"quote\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=423.msg3651#msg3651\">引用自：knightmb 于 2010年7月17日, 03:08:25 AM</a></div><div class=\"quote\">我住在美国东海岸附近，给西海岸的朋友发过比特币，只要双方客户端都良好连接到网络，几乎是即时的。<br/></div><br/>转账是即时完成的，但我想问题在于确认。哪怕你只接受 1 个确认，平均也要等 10 分钟。在这段时间里，作弊者可以去另一台售货机，让两个账户为他的一笔付款打架，而他吃两份零食。<br/><br/>我脑子里浮现的第一个解决方案是「验证即时现金」服务。你给他们发一些币，他们在一小时内或whatever完成验证，给你一张带额度的卡，可以插进售货机之类的设备。或者你可以在售货机公司开个账户。或者用某种实体货币，我们不一定只需要一种钱。<br/></div>这也许值得在测试网络上做个实验看看会发生什么。我想如果两台机器经过同一个节点，那么只要它们都先连上了那个节点，双重支付的企图应该会在第一个节点就被拦下。</div>",
+    "nested_level": 0
+  },
+  {
     "id": 1311,
     "thread_id": 114,
     "source_id": "7",
@@ -13798,6 +13942,18 @@
     "url": "https://bitcointalk.org/index.php?topic=423.msg3708#msg3708",
     "date": "2010-07-17T08:36:19Z",
     "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=423.msg3705#msg3705\">引用自：Babylon 于 2010年7月17日 08:28:22 AM</a></div><div class=\"quote\">你们所说的第三方托管听起来很像借记卡账户。<br/></div>比特币等同于冰冷的硬通货。没有什么能阻止使用比特币创建和推广借记卡、信用卡、银行、贷款和部分准备金放贷。阅读 InterArmaEnimSilin 在<a href=\"http://bitcointalk.org/index.php?topic=376.0\">这个相关帖子</a>中的发言。提醒一下，托管服务通常以骗人为目的运作，所以请确保你信任它们，如果被骗了只能怪自己，但不要太苛责自己。</div>",
+    "nested_level": 0
+  },
+  {
+    "id": 1318,
+    "thread_id": 114,
+    "source_id": "14",
+    "poster_name": "Babylon",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=454",
+    "subject": "回复：比特币零食售货机（快速交易问题）",
+    "url": "https://bitcointalk.org/index.php?topic=423.msg3709#msg3709",
+    "date": "2010-07-17T08:42:30Z",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=423.msg3708#msg3708\">引用自：NewLibertyStandard 于 2010年7月17日, 08:36:19 AM</a></div><div class=\"quote\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=423.msg3705#msg3705\">引用自：Babylon 于 2010年7月17日, 08:28:22 AM</a></div><div class=\"quote\">你们说的这个托管听起来很像借记卡账户。<br/></div>比特币等价于冷冰冰的现金。没有什么能阻止人们用比特币建立和采用借记、信贷、银行、贷款和部分准备金制度。去读读 InterArmaEnimSil 在<a href=\"http://bitcointalk.org/index.php?topic=376.0\">这个相关帖子</a>里的发言。提醒一句：托管服务常常以坑人为目的运营，所以务必确认你信任他们；就算被坑了，也只能怪自己，别太苛责自己。<br/></div><br/>嗯，部分准备金那个帖子我看懂了。&nbsp;托管我不太确定自己完全理解，我知道它通常用在大额交易里，向卖方保证现金确实到位、且会一直保持。&nbsp;据我所知，它的目的之一通常是让交易慢下来，从而更安全。&nbsp;而这里的目的似乎是在不损失安全性的前提下让交易更快，这更像借记账户而不是托管服务，不过也许我对托管服务的理解有误。</div>",
     "nested_level": 0
   },
   {
@@ -19154,6 +19310,19 @@
     "nested_level": 0
   },
   {
+    "id": 1803,
+    "satoshi_id": 308,
+    "thread_id": 147,
+    "source_id": "14",
+    "poster_name": "satoshi",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=3",
+    "subject": "回复：比特币的 Protocol Buffers",
+    "url": "https://bitcointalk.org/index.php?topic=632.msg7090#msg7090",
+    "date": "2010-08-02T20:22:08Z",
+    "text": "<div class=\"post\">我之所以没有使用 protocol buffers 或 boost 序列化，是因为它们看起来太复杂，难以做到绝对严密和安全。它们的代码量太大，无法通过通读来确信不存在某种构造输入的方式，能让程序做出意料之外的事情。<br/><br/>我讨厌重复造轮子，只是迫不得已才勉强自己编写序列化例程。我们的序列化格式尽可能做到了极简和扁平。输入流的构成方式没有任何多余的自由度。在每个位置，期望的都是数据结构中的下一个字段。给出的唯一选项就是接收方所期望的那些。它带有版本号，因此可以进行升级。<br/><br/>CAddress 差不多是唯一一个保留了大量预留空间的对象。（大约 7 字节用于标志位，12 字节用于将来可能的 IPv6 扩展）<br/><br/>像区块和交易这样较大的对象，在体积上已经没什么可优化的余地了。它们的数据主体是哈希、公钥和签名，这些都是不可压缩的。序列化的开销非常小，通常尺寸字段只占 1 字节。<br/><br/>至于 Gavin 提到的现成 P2P 广播基础设施，我怀疑根本不存在这样的东西。只有少数 P2P 系统只需要广播功能。有一些像 Chord 这样的库试图提供分布式哈希表基础设施，但那是一个我们既不需要也不想要的庞大难题。而且那些库的安装难度也远比我们自己写要大得多。</div>",
+    "nested_level": 0
+  },
+  {
     "id": 1805,
     "thread_id": 148,
     "source_id": "2",
@@ -21997,6 +22166,18 @@
     "nested_level": 0
   },
   {
+    "id": 2073,
+    "thread_id": 162,
+    "source_id": "6",
+    "poster_name": "aceat64",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=430",
+    "subject": "回复：比特币看门狗服务",
+    "url": "https://bitcointalk.org/index.php?topic=691.msg8906#msg8906",
+    "date": "2010-08-12T17:02:43Z",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=691.msg8897#msg8897\">引用自：throughput 于 2010年8月12日, 03:28:43 PM</a></div><div class=\"quote\">毫无疑问，每个节点都需要某种全网 hps（哈希速率）仪表。<br/><br/>而且我终于找到了那篇文章：<br/><a href=\"http://www.informit.com/articles/article.aspx?p=1237179\">http://www.informit.com/articles/article.aspx?p=1237179</a><br/><br/>网络分叉比这个论坛上许多用户以为的更容易制造、也更常发生。<br/>你根本不需要剪断任何光缆，也不需要黑进 ISP 的路由器把它从互联网上拔掉。<br/>你也不需要黑它的对等体。你只需要任何一个 AS 里的一台 BGP 路由器（外加几个粗心的 BGP 对等体）。<br/>我就有一台&nbsp;<img alt=\"Grin\" border=\"0\" src=\"/static/img/emoticons/grin.gif\"/><br/><br/>所以，谈论一次短暂（1-3 小时）且可控的网络分叉是成立的。<br/>不只是对半分，而是按 AS 分裂。一两个小时或三四个小时后，大多数 ISP 会恢复，但那<br/>真的很取决于工作时间。周末发动的攻击效果可能更持久。<br/>也许将来这会被修复，不再有 BGP 路由器可被利用，但<br/>无论如何，谁都不应该指望互联网的稳定性和持续连通性。<br/></div><br/>攻击者要如何在分叉期间同时连接两边来花掉那些币呢？而且如果攻击者能做到，一个或多个诚实节点跨越裂痕搭桥的可能性也相当大。</div>",
+    "nested_level": 0
+  },
+  {
     "id": 2074,
     "satoshi_id": 350,
     "thread_id": 162,
@@ -22328,6 +22509,18 @@
     "nested_level": 0
   },
   {
+    "id": 2108,
+    "thread_id": 167,
+    "source_id": "7",
+    "poster_name": "MoonShadow",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=643",
+    "subject": "回复：比特币铸造在热力学上是反常的",
+    "url": "https://bitcointalk.org/index.php?topic=721.msg7790#msg7790",
+    "date": "2010-08-06T04:51:07Z",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=721.msg7783#msg7783\">引用自：gridecon 于 2010年8月6日, 03:53:24 AM</a></div><div class=\"quote\">我明白比特币作为货币的效用与铸造方式无关——这正是我想表达的关键。我的主张是，比特币安全的那些优良特性本可以用别的铸造方式来实现，而用户会倾向于选择他们认为最公平高效的铸造体系的货币。<br/><br/></div><br/><br/>去做就是了。&nbsp;与此同时，我认为你们俩都忽略了一些基本事实。<br/><br/>1)&nbsp;这个系统的要点不在于以高能量成本「铸造」硬币，而在于以高计算成本保护系统，无论摩尔定律走到多高。&nbsp;<br/><br/>2)&nbsp;比特币的发放其实根本不算「铸造」，它是为参与加固货币体系而设立的抽奖奖励。&nbsp;那 50 个比特币从规则被构想、进程被启动的那一刻起就已经存在了。&nbsp;它们只是由最初的持有者以系统化的方式分发出去而已。<br/><br/>&nbsp;这些计算是保持系统强健、信心高涨的必要环节，而且与我们在法定货币的管理上所有人共同承担的成本相比，只是很小的代价。&nbsp;我认为这是个绝妙的想法。</div>",
+    "nested_level": 0
+  },
+  {
     "id": 2110,
     "thread_id": 167,
     "source_id": "9",
@@ -22557,6 +22750,18 @@
     "nested_level": 0
   },
   {
+    "id": 2147,
+    "thread_id": 168,
+    "source_id": "7",
+    "poster_name": "mkrogh",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=696",
+    "subject": "回复：延迟与本地性",
+    "url": "https://bitcointalk.org/index.php?topic=723.msg7850#msg7850",
+    "date": "2010-08-06T14:00:10Z",
+    "text": "<div class=\"post\">不，我的目标不是避免政府介入支付体系，而是不让政府监视每一笔交易。这是有区别的。<br/><br/>现在的纸币/硬币体系就是这样运作的。政府/央行发行货币，但不监视个体的现金支付。<br/>我觉得这样挺好。<br/><br/>你声称用比特币可以做到近乎即时的支付。怎么做到？我记得这正是大家都公认做不到的。你得等到一个或多个区块被解出才能信任一枚币。那需要几分钟。即使在最好的情况下，也受限于光速在网络中的传播速度，那很慢。唯一的解决办法是在比特币之上再造一套银行系统。那样比特币就成了银行间转账系统的骨干，而不是大众日常使用的东西。<br/>&nbsp; &nbsp;<br/>需要快速交易的不只是我。手机对手机的数字现金转账、网购、股票交易等等，对快速转账有巨大的需求。&nbsp;<br/><br/>不过，我们对数字现金系统的期待可能就是不一样。<br/><br/>有没有人清楚地说过比特币到底解决什么问题？它解决的似乎是「不需要快」的支付问题。但除了觉得这在理论上有趣的人（比如本论坛的人）之外，潜在用户还有谁？<br/><br/>大家是否同意这一点：我们仍然需要另一套数字现金系统，而那套系统大概得是基于发行方的。</div>",
+    "nested_level": 0
+  },
+  {
     "id": 2149,
     "thread_id": 168,
     "source_id": "9",
@@ -22578,6 +22783,18 @@
     "url": "https://bitcointalk.org/index.php?topic=723.msg7881#msg7881",
     "date": "2010-08-06T16:25:45Z",
     "text": "<div class=\"post\">是的，结果可能完全不同。比如，可能不会有面向大众的数字货币。取而代之的可能是一个庞大的银行 cartel，通过贿赂政客来维持现有的货币体系。</div>",
+    "nested_level": 0
+  },
+  {
+    "id": 2152,
+    "thread_id": 168,
+    "source_id": "12",
+    "poster_name": "Red",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=525",
+    "subject": "回复：延迟与局部性",
+    "url": "https://bitcointalk.org/index.php?topic=723.msg7908#msg7908",
+    "date": "2010-08-06T17:33:30Z",
+    "text": "<div class=\"post\">mkrogh：是的，你说得对。<br/><br/>在比特币系统中，完全不存在必须有这种延迟的必要。如果系统实现改成每 10 秒更新一次区块列表，而不是每 10 分钟一次，任何根本性的东西都不会改变。这只是一个设计决策，改动它丝毫不会影响货币政策。<br/><br/>实际上，根本不要求区块列表按增量方式更新。如果每笔交易都逐笔验证，系统照样能正常运作。相当于每个区块只包含一笔交易。当初那样设计只是为了更容易地构建网络共识。<br/><br/>不过，当你说「本地交易验证」时，你真正想要的是一个真正的分布式系统，而不是一个做了冗余的单体系统。目前的比特币版本属于后者。每个节点做的工作和其他每个节点完全相同，每个节点都冗余地验证每一笔交易。这是一个极其浪费资源的系统，而正因为浪费，延迟就成了它的废弃副产品。<br/><br/>通过把交易图存储在分布式哈希表中，比特币可以变成一个真正的分布式系统。这正是大多数其他 P2P 系统背后的那种魔法。实际上，每个比特币地址会被任意映射到一小部分节点，由这些节点来验证该地址的交易。在这样的系统里，不需要向每台机器广播全局状态。这可以消除大量延迟，而不需要改变任何预期的行为。<br/></div>",
     "nested_level": 0
   },
   {
@@ -22699,6 +22916,18 @@
     "url": "https://bitcointalk.org/index.php?topic=750.msg8189#msg8189",
     "date": "2010-08-08T02:55:59Z",
     "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=750.msg8148#msg8148\">引用自 jgarzik 于 2010年8月7日 下午09:25:40</a></div><div class=\"quote\">买家除了烧掉钱之外没有其他追索权，我认为这会限制其可用性。<br/></div><br/>也许我们可以想办法加入仲裁。如果买家和卖家都同意，资金可以转给第三方。那个人然后可以进行仲裁，要么把钱退给买家，要么给卖家，要么卷走（显然你会想选择一个值得信赖的仲裁员）。<br/></div>",
+    "nested_level": 0
+  },
+  {
+    "id": 2175,
+    "thread_id": 169,
+    "source_id": "5",
+    "poster_name": "jgarzik",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=541",
+    "subject": "回复：托管",
+    "url": "https://bitcointalk.org/index.php?topic=750.msg8204#msg8204",
+    "date": "2010-08-08T03:58:03Z",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=750.msg8189#msg8189\">引用自：aceat64 于 2010年8月8日, 02:55:59 AM</a></div><div class=\"quote\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=750.msg8148#msg8148\">引用自：jgarzik 于 2010年8月7日, 09:25:40 PM</a></div><div class=\"quote\">买家除了烧掉这笔钱之外没有别的追索手段，我认为这会限制实用性。<br/></div><br/>也许我们可以想办法加入仲裁。如果买家和卖家都同意，钱可以转给第三方。那个人可以进行仲裁，把钱退给买家、交给卖家，或者私吞（显然你会想选一个值得信赖的仲裁人）。<br/></div><br/>这正是如今在线托管的运作方式。&nbsp;买家和卖家同意让第三方实际保管这笔钱。&nbsp;买卖双方都同意中立的第三方将遵循的规则，用于交易的解决/赎回。&nbsp;由中立第三方决定把资金发放给哪一方。<br/><br/>这里有个不错的概览：<a href=\"https://www.escrow.com/solutions/escrow/process.asp\">https://www.escrow.com/solutions/escrow/process.asp</a><br/><br/><i>某些</i>人也许会选择使用比特币专属的签名托管方式……&nbsp;但我认为「烧掉这笔钱」这种追索手段起到的其实是<i>劝退</i>人们使用比特币托管的作用，而不是激励人们诚实地使用比特币托管。</div>",
     "nested_level": 0
   },
   {
@@ -23084,6 +23313,18 @@
     "url": "https://bitcointalk.org/index.php?topic=753.msg8388#msg8388",
     "date": "2010-08-09T18:50:41Z",
     "text": "<div class=\"post\">我发现 SSE2 只增加了大约 2% 的微小速度提升，考虑到兼容性问题，似乎不值得。我当时是想选择更安全的方案。<br/><br/>在我看来，Crypto++ 并不像是能在运行时决定是否使用 SSE2 的。有一个地方它会检测 SSE2 来决定某个块计数参数，但所有 SSE2 相关的东西都是在编译时通过 #ifdef 控制的，我看不出这怎么能在运行时切换。也许我没找对地方。<br/><br/>我们应该在所有 makefile 中启用 SSE2 吗？看来我们必须这样做，以防有人用 64 位编译。<br/><br/>我会重新编译 Linux 0.3.8 发布版本的 64 位部分。</div>",
+    "nested_level": 0
+  },
+  {
+    "id": 2210,
+    "thread_id": 170,
+    "source_id": "30",
+    "poster_name": "knightmb",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=345",
+    "subject": "回复：0.3.8 里比特币生成坏了？",
+    "url": "https://bitcointalk.org/index.php?topic=753.msg8389#msg8389",
+    "date": "2010-08-09T19:02:12Z",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=753.msg8388#msg8388\">引用自：satoshi 于 2010年8月9日, 06:50:41 PM</a></div><div class=\"quote\">我发现 SSE2 只带来很小的提速，大约 2%，似乎不值得为它牺牲兼容性。&nbsp;<br/></div>我明白这个考虑，因为在非 SSE2 机器上，客户端会崩溃？<br/><div class=\"quoteheader\">引用</div><div class=\"quote\">在我看来 Crypto++ 不可能在运行时决定是否使用 SSE2。&nbsp;有一处它在检测到 SSE2 后决定某个区块计数参数，但 SSE2 相关代码全是编译期 #ifdef，我看不出它怎么在运行时切换。&nbsp;也许我没找对地方。<br/><br/>我们要不要在所有 makefile 里启用 SSE2？&nbsp;看起来必须如此，万一有人用 64 位编译。<br/><br/>我会重新编译 Linux 0.3.8 版本的 64 位部分。<br/></div>其实取决于哪个更容易。如果你启用了会破坏兼容性的东西，承受痛苦的只有客户端的非技术用户。在他们看来，只是「不知道为什么用不了」。<br/><br/>我觉得写点编译说明更好，比如（如果在 64 位系统上编译，记得做这一步）。<br/><br/>让一份源码跨多个操作系统交叉编译，从来都是麻烦事。<img alt=\"Grin\" border=\"0\" src=\"/static/img/emoticons/grin.gif\"/></div>",
     "nested_level": 0
   },
   {
@@ -24705,6 +24946,18 @@
     "url": "https://bitcointalk.org/index.php?topic=820.msg9676#msg9676",
     "date": "2010-08-16T04:36:59Z",
     "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=820.msg9665#msg9665\">引用自：jgarzik 于 2010年8月16日 03:35:28 AM</a></div><div class=\"quote\"><div class=\"codeheader\">代码：</div><div class=\"code\">cpu family<span style=\"white-space: pre;\"> </span>: 6<br/>model<span style=\"white-space: pre;\"> </span><span style=\"white-space: pre;\"> </span>: 26<br/>model name<span style=\"white-space: pre;\"> </span>: Genuine Intel(R) CPU&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;000&nbsp; @ 3.20GHz<br/>stepping<span style=\"white-space: pre;\"> </span>: 4</div></div>cpu family 6 model 26 stepping 4 是 Intel Core i7。<br/>使用 -4way 提速 23%，加上 -4way + 超线程总共提速 63%。<br/>开启超线程比不开启快 33%。</div>",
+    "nested_level": 0
+  },
+  {
+    "id": 2369,
+    "thread_id": 184,
+    "source_id": "30",
+    "poster_name": "gridecon",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=692",
+    "subject": "回复：tcatm 的 4-way SSE2 Linux 32/64 位已进入 0.3.10",
+    "url": "https://bitcointalk.org/index.php?topic=820.msg9688#msg9688",
+    "date": "2010-08-16T05:30:15Z",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=820.msg9680#msg9680\">引用自：NewLibertyStandard 于 2010年8月16日, 05:02:31 AM</a></div><div class=\"quote\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=820.msg9659#msg9659\">引用自：gridecon 于 2010年8月16日, 03:15:44 AM</a></div><div class=\"quote\">我有两台四核 Phenom II 64 位 Linux 机器（都是 ubuntu 9.10），-4way 选项让我的哈希速度提升太多了，以至于我起疑。-4way 之前这些机器上大约 5-6khash/s。开了 -4way 超过 11khash/s！换句话说，-4way 开关让报告的哈希速度几乎翻倍。这种提升幅度超出了预期，让我怀疑机器是不是真的快了那么多，还是说运算因为某种原因被跳过了，产生了虚幻的速度并导致实际挖不出区块？<br/></div>o_O……祝你好运，你会需要它的！<br/></div>我猜那段话应该读作 mhash/s 或者「数千」khash/s……不过话说回来，朋友之间差个三个数量级算什么呢？<br/><br/>也许正是那个笔误导致没人来回答：-4way 选项带来接近 100% 的提速到底现不现实？我不太相信我桌面上这台机器真的在以 11000khash/s 的速度做加密哈希。</div>",
     "nested_level": 0
   },
   {
@@ -27140,6 +27393,19 @@
     "nested_level": 0
   },
   {
+    "id": 2597,
+    "satoshi_id": 417,
+    "thread_id": 201,
+    "source_id": "37",
+    "poster_name": "satoshi",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=3",
+    "subject": "回复：警报系统的开发",
+    "url": "https://bitcointalk.org/index.php?topic=898.msg11158#msg11158",
+    "date": "2010-08-25T17:59:30Z",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=898.msg11092#msg11092\">引用自：nelisky 于 2010年8月25日 01:28:32</a></div><div class=\"quote\">那么管理员会从 bitcoind 得到什么样的警告呢？有没有什么内容是我们可以从 debug.log 里 grep 出来的？还是说 rpc 调用会抛出某种特定的错误？有没有办法在本地强制触发这种情况，以便对服务进行单元测试？<br/></div>getinfo 增加了一个新字段，会显示任何警报消息或其他会出现在状态栏上的错误信息。<br/><br/>rpc 方法会返回一个 json-rpc 错误，错误描述为「Safe mode: 」，后跟警报指定的附加文本。<br/><br/>我为你添加了「-testsafemode」开关。SVN 版本 145。<br/><br/>这些功能还非常新，可能仍会有变动。<br/><br/><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=898.msg11079#msg11079\">引用自：mizerydearia 于 2010年8月25日 00:11:50</a></div><div class=\"quote\">我刚发现了 <a href=\"http://www.bitcoin.org/wiki/doku.php?id=man_page\">http://www.bitcoin.org/wiki/doku.php?id=man_page</a>，里面没有提到 -disablesafemode。也许应该把它加进去！另外像 -4way 之类的其他开关也应该加上。<br/></div>很多开关是故意不写入文档的，比如它们的功能还在开发中，或者我还没定下它们的名称，或者只是不打算发布的测试代码。<br/><br/>-4way 最终应该会被自动检测取代。</div>",
+    "nested_level": 0
+  },
+  {
     "id": 2598,
     "thread_id": 201,
     "source_id": "38",
@@ -27675,6 +27941,18 @@
     "url": "https://bitcointalk.org/index.php?topic=955.msg11811#msg11811",
     "date": "2010-09-01T02:17:39Z",
     "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=955.msg11801#msg11801\">引用 BitLex 于 2010年8月31日 下午08:19:23 的发言</a></div><div class=\"quote\"> <br/>我一直在想，为什么过去两个难度调整步骤中市场完全没有变化，观察和等待了一阵，但对我来说到此为止了，我不挖矿了。&nbsp; <img alt=\"Grin\" border=\"0\" src=\"/static/img/emoticons/grin.gif\"/><br/>遗憾的是，我也得等大约一个月才能从 MtGox 收到币，但至少我一次能拿到超过50个btc，我们需要尽快增加一些其他支付选项。<br/><br/><br/>好文章！<br/></div><br/>我不知道这里是不是这种情况，但市场确实会提前消化预期，我不能说难度的增加在任何方面是出乎意料的。有利可图的投机者也倾向于在时间上平滑价格。如果你真的搞清楚了如何\"低买高卖\"，你就是在提供随时间平滑价格的服务，或者在套利的情况下，是在不同地点之间平滑价格。</div>",
+    "nested_level": 0
+  },
+  {
+    "id": 2647,
+    "thread_id": 207,
+    "source_id": "12",
+    "poster_name": "MoonShadow",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=643",
+    "subject": "回复：比特币博主：买比特币还是自己生成比特币更好？",
+    "url": "https://bitcointalk.org/index.php?topic=955.msg11812#msg11812",
+    "date": "2010-09-01T02:48:12Z",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=955.msg11808#msg11808\">引用自：Ground Loop 于 2010年9月1日 01:11:37</a></div><div class=\"quote\">这篇文章通篇都在谈硬件成本，却忽略了更重要的成本：电费。<br/><br/>一旦你的耗电量超过基线的 11 千瓦时/天（任何一个极客都会超过），南加州的电力公司算上税费、输配电费等之后，边际电价约为 0.13 美元/千瓦时。<br/></div>这个计算结果高度依赖于你是什么人、住在哪里。我住的地区最近将居民电价上调了 10% 以上，涨到了大约 8 美分/千瓦时。按每英热单位（btu）计算，与使用 90% 效率的燃气取暖器相比使用 100% 效率的电取暖器，这只<b>略微</b>贵一点点。所以在取暖季——这里的取暖季肯定比南加州长——让任何一台电脑全速运转的额外成本大约是每千瓦时不到半美分。我甚至不认识任何为了省钱而在九月至五月间把电脑关掉的人。还有一点值得一提：角落里那台埋头 crunch 数字的机器，其（状态良好的）CPU 风扇发出的白噪音令人舒缓，它还能让你的卧室暖上几度，这样你夜里就可以把家里的恒温器调低到 69 度。我没法证明，但我敢打赌，我这样做实际上是在<b>节省</b>能源，因为不然的话我太太一定会坚持调高暖气。</div>",
     "nested_level": 0
   },
   {
@@ -28813,6 +29091,18 @@
     "nested_level": 0
   },
   {
+    "id": 2750,
+    "thread_id": 218,
+    "source_id": "10",
+    "poster_name": "Insti",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=336",
+    "subject": "回复：消息加密作为内置功能？",
+    "url": "https://bitcointalk.org/index.php?topic=1032.msg12883#msg12883",
+    "date": "2010-09-15T15:55:42Z",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1032.msg12873#msg12873\">引用自：teppy 于 2010年9月15日, 02:09:55 PM</a></div><div class=\"quote\">不过，有了附上消息的能力，流程就变成：<br/><br/>1. 玩家向标准 ATITD 比特币地址发送 150BTC，并在消息栏里写上自己的角色名。<br/>2. 玩家点击「我已发送比特币」。（系统随后验证并激活账号。）<br/><br/>我们已经有几个玩家用比特币付订阅费了。一个是自己挖的 BTC，另一个在某个市场上买了一些。<br/></div><br/>如果你不作弊、不漏掉步骤，流程其实是：<br/><br/>1. 玩家以某种方式找到标准 ATITD 比特币地址。（仍然需要复制/粘贴。）<br/>2. 玩家输入自己的用户名。<br/>3. 玩家发送 BTC<br/>4. 玩家点击「我已发送比特币」。（系统随后验证并激活账号。）<br/><br/>我不觉得这算什么改进。<br/><br/>（既然你的系统在监视比特币交易，两种流程里的第 4 步似乎都是多余的。）<br/><br/>编辑：<br/>我不明白让所有人都往同一个比特币地址付款有什么了不起的，因为你反正还是需要某种参考 ID。而生成单独的比特币地址轻而易举。（不过你确实在运营一项接受比特币的服务，所以你大概比我懂得多。）<br/><br/><br/></div>",
+    "nested_level": 0
+  },
+  {
     "id": 2751,
     "thread_id": 218,
     "source_id": "11",
@@ -29772,6 +30062,18 @@
     "nested_level": 0
   },
   {
+    "id": 2848,
+    "thread_id": 228,
+    "source_id": "1",
+    "poster_name": "jgarzik",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=541",
+    "subject": "优先交易与交易手续费",
+    "url": "https://bitcointalk.org/index.php?topic=1314.msg14616#msg14616",
+    "date": "2010-09-29T20:13:30Z",
+    "text": "<div class=\"post\">如<a href=\"http://www.bitcoin.org/wiki/doku.php?id=transaction_fee\">这个 wiki 页面</a>和<a href=\"http://bitcointalk.org/index.php?topic=795.msg8960#msg8960\">这篇 satoshi 的帖子</a>所述，-paytxfee 开关可以用来给你发出的交易赋予「优先级」。<br/><br/>优先交易的定义似乎是：提高一笔交易被纳入区块的概率，哪怕那个区块已经很大（无论按字节还是按交易数）。<br/><br/>考虑到 99.9% 的区块都处于不会触发交易费的范围，可以说交易费在今天基本没什么用。&nbsp;但这让我好奇……<br/><br/>比特币客户端或网络还有没有别的什么机制，可以根据交易费给交易排优先级？&nbsp;例如：<br/><ul style=\"margin-top: 0; margin-bottom: 0;\"><li>如果你有一批交易要发到网络，把优先的交易发给连接数更多的节点</li><li>优先交易到达时立刻重启挖矿工作；而免费交易到达时，继续在现有区块上干一段时间</li></ul><br/>戴上我的商人帽子来说，我认为任何比特币企业默认使用 -paytxfee=0.02 都是明智之举，以防万一——在极端网络负载下，保证在现有网络和现有客户端上的优先权。<br/><br/>欢迎就如何使用交易费提出其他意见……&nbsp;我坚信健康的交易费结构对比特币 P2P 网络的长期健康至关重要。</div>",
+    "nested_level": 0
+  },
+  {
     "id": 2849,
     "thread_id": 228,
     "source_id": "2",
@@ -30342,6 +30644,18 @@
     "url": "https://bitcointalk.org/index.php?topic=1332.msg14931#msg14931",
     "date": "2010-10-02T01:27:10Z",
     "text": "<div class=\"post\">Thash 的？<a href=\"https://web.archive.org/web/2010/http://cube20.org/\">http://cube20.org/</a></div>",
+    "nested_level": 0
+  },
+  {
+    "id": 2908,
+    "thread_id": 231,
+    "source_id": "23",
+    "poster_name": "asdf",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=1726",
+    "subject": "回复：如何推翻 GPU 寡头",
+    "url": "https://bitcointalk.org/index.php?topic=1332.msg14947#msg14947",
+    "date": "2010-10-02T04:56:08Z",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1332.msg14864#msg14864\">引用自：theymos 于 2010年10月1日, 04:22:59 PM</a></div><div class=\"quote\">矿池不会消除这个「问题」，因为矿池并不比普通挖矿更赚钱；只是发放更频繁而已。它们赢不了那些投资了专用硬件的公司。它们还把所有重要的网络决策都委托给了矿池维护者，所以没有安全上的好处。<br/></div><br/>矿池的优势在于节点可以协调各自的哈希运算，避免重复计算相同的哈希。重点不在「总哈希率」，而在「总有效哈希率」。如果矿池里每个人都被分配了一部分不重叠的哈希空间（大小按各节点的平均哈希率分配），我们就能保证没有哈希被重复计算。挖到币的那个节点可以独吞全部奖励。群体合作胜过单打独斗。矿池越大越好。实际上，如果这些矿池在哈希率上远远超过那些公司，被边缘化的就是它们了——要么加入主矿池，要么什么都得不到。<br/><br/>如果矿池变得太大，某些时刻币几乎会被瞬间挖出。这可能损害货币的稳定性。有谁能算一算，要在一分钟内找到一个币需要多少并行协作的 CPU？<br/><br/>我认为这是比特币成败的关键问题。</div>",
     "nested_level": 0
   },
   {
@@ -31053,6 +31367,18 @@
     "nested_level": 0
   },
   {
+    "id": 2972,
+    "thread_id": 232,
+    "source_id": "53",
+    "poster_name": "jimbobway",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=325",
+    "subject": "回复：面向大众的 OpenCL 矿机",
+    "url": "https://bitcointalk.org/index.php?topic=1334.msg16732#msg16732",
+    "date": "2010-10-12T19:24:20Z",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1334.msg16714#msg16714\">引用自：davidonpda 于 2010年10月12日, 02:04:13 PM</a></div><div class=\"quote\">把你的 boost 版本、siteconf 和操作系统贴出来。这样才好进一步帮你。确保你拿对了 dll，因为好几个文件名都很接近。<br/></div><br/>我用的是 Windows Vista 64 位。&nbsp;我原本用 boost 1.44，但报错了，所以我实际下载的是「boost_python-vc90-mt-1_44.dll」和「boost_thread-vc90-mt-1_44.dll」的二进制版本。为了兼容性，我全部用的 32 位安装。&nbsp;下面是 siteconf.py。&nbsp;我能够正常运行「python setup.py install」而不报错。<br/><br/><div class=\"codeheader\">代码：</div><div class=\"code\">BOOST_INC_DIR = ['C:\\\boost_1_44_0']<br/>BOOST_LIB_DIR = ['C:\\\boost_1_44_0\\\\lib']<br/>BOOST_COMPILER = 'msvc'<br/>BOOST_PYTHON_LIBNAME = ['boost_python-vc90-mt-1_44']<br/>USE_SHIPPED_BOOST = False<br/>CL_TRACE = False<br/>CL_ENABLE_GL = False<br/>CL_INC_DIR = ['C:\\\\Program Files (x86)\\\\NVIDIA GPU Computing Toolkit\\\\CUDA\\3.2\\\\include']<br/>CL_LIB_DIR = ['C:\\\\Program Files (x86)\\\\NVIDIA GPU Computing Toolkit\\\\CUDA\\3.2\\\\lib\\\\Win32']<br/>CL_LIBNAME = ['OpenCL']<br/>CXXFLAGS = ['/EHsc', '/DBOOST_PYTHON_NO_PY_SIGNATURES']<br/>LDFLAGS = ['/FORCE']<br/></div><br/>谢谢帮忙！&nbsp;<img alt=\"Smiley\" border=\"0\" src=\"/static/img/emoticons/smiley.gif\"/><br/><br/></div>",
+    "nested_level": 0
+  },
+  {
     "id": 2973,
     "thread_id": 232,
     "source_id": "54",
@@ -31122,6 +31448,18 @@
     "url": "https://bitcointalk.org/index.php?topic=1334.msg16850#msg16850",
     "date": "2010-10-13T16:51:51Z",
     "text": "<div class=\"post\">我有一块 nVidia 显卡……希望我可以安装 nVidia SDK 而不是 ATI SDK。（祈祷中）</div>",
+    "nested_level": 0
+  },
+  {
+    "id": 2979,
+    "thread_id": 232,
+    "source_id": "60",
+    "poster_name": "jimbobway",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=325",
+    "subject": "回复：面向大众的 OpenCL 矿机",
+    "url": "https://bitcointalk.org/index.php?topic=1334.msg16877#msg16877",
+    "date": "2010-10-13T19:27:21Z",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1334.msg16847#msg16847\">引用自：jimbobway 于 2010年10月13日, 04:26:08 PM</a></div><div class=\"quote\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1334.msg16839#msg16839\">引用自：m0mchil 于 2010年10月13日, 03:30:22 PM</a></div><div class=\"quote\"><a href=\"http://debian.fmi.uni-sofia.bg/~maurice/bitcoin/bitcoin-getwork-svn166-win32.7z\">bitcoin-getwork-svn166-win32.7z</a> - 支持密钥池（见 SVN）<br/><br/><a href=\"http://debian.fmi.uni-sofia.bg/~maurice/bitcoin/poclbm_py2exe.7z\">poclbm_py2exe.7z</a> - 这是用 py2exe 打包的矿机。无需安装 python、PyOpenCL、boost 等就应该能运行。只需要 ATI Stream SDK。仅限 Windows。用 -h 查看命令行选项来更改你的设置<br/><br/>矿机本身略有改进，前 3 轮 sha256 在 python 里完成。<a href=\"http://github.com/m0mchil/poclbm/\">http://github.com/m0mchil/poclbm/</a><br/></div><br/><br/>天哪！&nbsp;谢谢 david 和 momchil！&nbsp;我都要放弃了……到家就试。<br/></div><br/><br/>我遇到这个错误：<br/><br/><div class=\"codeheader\">代码：</div><div class=\"code\"><br/>C:\\Users\\Bitcoin GPU\\Desktop\\poclbm_py2exe&gt;poclbm<br/>Traceback (most recent call last):<br/>&nbsp; File \"poclbm.py\", line 40, in &lt;module&gt;<br/>pyopencl.LogicError: clGetPlatformIDs failed: invalid/unknown error code<br/><br/>[\\code]</div></div>",
     "nested_level": 0
   },
   {
@@ -33160,6 +33498,18 @@
     "nested_level": 0
   },
   {
+    "id": 3166,
+    "thread_id": 237,
+    "source_id": "17",
+    "poster_name": "joe",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=1668",
+    "subject": "回复：错误 - 请帮帮我！",
+    "url": "https://bitcointalk.org/index.php?topic=1530.msg18155#msg18155",
+    "date": "2010-10-23T08:09:17Z",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1530.msg17955#msg17955\">引用自：theymos 于 2010年10月21日, 10:00:26 PM</a></div><div class=\"quote\">Dhaw 给我发了一些他的 debug.log 文件。我看到的症状：<br/>- 大多数文件里他的区块数「卡」在 1698。<br/>- 有一个文件里他接受了之后的区块，但重启 Bitcoin 后又<i>退回</i>了 1698。<br/>- 他收到的 1698 之后的区块大概都被判定为无效了。我没有亲眼看到区块被拒（日志自动裁剪掉了），但他的 debug.log 里满是「block xxx have」消息，对应的显然是他不认可为有效的区块。<br/>- 他连接的是真实节点。IRC 连接成功，用 -addnode 也连上了我。我这边确认他成功发出了 <i>getblocks</i> 消息。<br/></div><br/>什么情况下客户端会拒绝网络传来的区块？知道了这个就能倒推他为什么拒绝每一个新区块。主链 1699 或更早的区块里，一定有一笔他的客户端不认的交易。<br/><br/>无论如何，他挖出的那成千上万个比特币都挖在了一条只有他一个人参与的链分支上，在主链上一文不值。作为分支上唯一的参与者，他应该是每 5 分钟就生成 50 个币。另一个蹊跷之处是他为什么停在 1698；照理说他重算难度之后，区块数应该最终开始每 5 分钟加 1 才对。</div>",
+    "nested_level": 0
+  },
+  {
     "id": 3167,
     "thread_id": 237,
     "source_id": "18",
@@ -33499,6 +33849,19 @@
     "url": "https://bitcointalk.org/index.php?topic=1668.msg21899#msg21899",
     "date": "2010-11-13T23:55:11Z",
     "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1668.msg21896#msg21896\">引用自：satoshi 于 2010年11月13日，晚上11:25:26</a></div><div class=\"quote\">为了支持优先级功能，SelectCoins只有在万不得已时才会使用你自己的0确认交易。这有助于防止你快速周转货币，除非你确实在强制快速周转所有货币。<br/></div><br/>当然，如果网络没有拥堵，而且你不太关心当前交易被延迟，那么可能更值得优先使用你的0确认交易，这样就能为网络确实拥堵的时候保留高优先级的货币。<br/><br/>除非我理解有误，在我看来当前的逻辑更可能消耗旧交易积累的优先级。不过这只是一个小问题。<br/><br/>像我上面帖子中描述的那样，通过包含大约1000个最近周转的BTC来提高优先级的系统博弈当然还是有效的！<br/><br/>ByteCoin</div>",
+    "nested_level": 0
+  },
+  {
+    "id": 3200,
+    "satoshi_id": 503,
+    "thread_id": 240,
+    "source_id": "11",
+    "poster_name": "satoshi",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=3",
+    "subject": "回复：我在测试网络上做的测试及发现",
+    "url": "https://bitcointalk.org/index.php?topic=1668.msg21959#msg21959",
+    "date": "2010-11-14T16:53:19Z",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1668.msg21899#msg21899\">引用自：ByteCoin 于 2010年11月13日, 11:55:11 PM</a></div><div class=\"quote\">当然，如果网络没有被洪水攻击、你也不太在意当前这笔交易被耽搁，那么优先用掉你的 0 确认交易，把高优先级的币「省」到网络<b>确实</b>被洪水攻击的时候用，可能更划算。<br/></div>你还是应该保留至少一些优先级，以防下一个区块出来之前来了场洪水。<br/><br/>只要所有依赖项都至少有 1 个确认，即使交易一开始优先级不够，依赖项会随着时间老化，直到够为止。<br/><br/><div class=\"quoteheader\">引用</div><div class=\"quote\">像我上面帖子说的，把大约 1000 个近期流转的 BTC 混进交易里抬高优先级的钻系统空子手法当然依然有效！<br/></div>或者说，管理好你在每笔交易上花掉的优先级。&nbsp;软件得知道你未来的计划，才能决定是现在花掉优先级还是留到以后。&nbsp;不过我觉得我们不需要做到那么细。&nbsp;普通用户和洪水攻击者之间的差距足够大。<br/><br/>优先级不必包办一切。&nbsp;一旦你发现洪水来了，可以加上 -paytxfee=0.01。&nbsp;有了优先级，你之前的交易最坏也只是慢，不至于卡死。</div>",
     "nested_level": 0
   },
   {
@@ -34783,6 +35146,18 @@
     "url": "https://bitcointalk.org/index.php?topic=1735.msg26934#msg26934",
     "date": "2010-12-05T02:40:38Z",
     "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1735.msg26929#msg26929\">引用：Anonymous 于 2010年12月5日 02:20:46 AM</a></div><div class=\"quote\">我们应该想办法为比特币做一次完整的安全审计。找一些第三方、与比特币没有任何关系的机构来做。那我们该联系谁来做这件事呢？<br/></div><br/>我没有钱，但我认为我们应该设立一个比特币安全悬赏基金，就像我到处建议的那样。这将是一个开始。</div>",
+    "nested_level": 0
+  },
+  {
+    "id": 3330,
+    "thread_id": 241,
+    "source_id": "130",
+    "poster_name": "em3rgentOrdr",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=535",
+    "subject": "回复：维基解密的联系方式？",
+    "url": "https://bitcointalk.org/index.php?topic=1735.msg26935#msg26935",
+    "date": "2010-12-05T02:53:33Z",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1735.msg26912#msg26912\">引用自：creighto 于 2010年12月5日 01:01:58 AM</a></div><div class=\"quote\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1735.msg26842#msg26842\">引用自：witchspace 于 2010年12月4日 07:32:52 PM</a></div><div class=\"quote\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1735.msg26838#msg26838\">引用自：brucewagner 于 2010年12月4日 07:23:51 PM</a></div><div class=\"quote\">另外，泄露军事机密可以被认定为叛国罪，在大多数国家都是非常严重的罪行。言论自由始终有法律上的边界。<br/></div>是的——泄密者可以被视为叛国者。<br/><br/><br/></div><br/>说到这里，我觉得这事有蹊跷。我为那个庞然大物工作过，一名一等兵<b>绝对不可能</b>接触到：1) 绝密通信 2) 无人监控 3) 在一台安全计算机上 4) 还带光驱 5) 还能看到不属于他本部门的机密。<br/><br/>这小子绝不可能干出这种事。<br/></div><br/>我很高兴你离开了黑暗面，creighto。你提出了一个有意思的观点：一个一等兵不可能接触到这么多机密（不过话说回来，某些政府官僚机构效率极其低下，也难说）。Bradley Manning 也许只是一个替罪羊、顶罪的，或者被真正的泄密者栽赃……而那个真正的泄密者可能永远都抓不到。总之，这一切都是猜测。&nbsp;</div>",
     "nested_level": 0
   },
   {
@@ -36253,6 +36628,18 @@
     "nested_level": 0
   },
   {
+    "id": 3483,
+    "thread_id": 244,
+    "source_id": "128",
+    "poster_name": "em3rgentOrdr",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=535",
+    "subject": "回复：BitDNS 与比特币的泛化",
+    "url": "https://bitcointalk.org/index.php?topic=1790.msg27662#msg27662",
+    "date": "2010-12-07T05:35:39Z",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1790.msg27653#msg27653\">引用自：kiba 于 2010年12月7日, 05:08:43 AM</a></div><div class=\"quote\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1790.msg27652#msg27652\">引用自：Anonymous 于 2010年12月7日, 05:06:26 AM</a></div><div class=\"quote\"><a href=\"http://www.politico.com/news/stories/1210/46003.html\">http://www.politico.com/news/stories/1210/46003.html</a><br/><br/>给你点动力<img alt=\"Smiley\" border=\"0\" src=\"/static/img/emoticons/smiley.gif\"/><br/></div><br/>我怒了。<br/></div><br/>天哪。&nbsp;我尽量不看新闻……看了就来气。<br/><br/><div class=\"quoteheader\">引用</div><div class=\"quote\">白宫知识产权事务官 Victoria Espinel 周一表示，在政府打击网络版权侵权——尤其是药品的非法复制和销售——之际，互联网社区应该「期待更多」先发制人的行动。</div><br/>于是现在，我们所有人都得为政府强加于救命药物之上的人为垄断支付租金，只为了能多活几年。&nbsp;知识产权 => 为你的身体付租。&nbsp;IP == 奴役。&nbsp;仅仅因为某人第一个为一款救命药物申请了专利，并不意味着他有权阻止他人逆向工程、独立发现并生产那款救命药物。</div>",
+    "nested_level": 0
+  },
+  {
     "id": 3484,
     "thread_id": 244,
     "source_id": "129",
@@ -37021,6 +37408,18 @@
     "nested_level": 0
   },
   {
+    "id": 3570,
+    "thread_id": 244,
+    "source_id": "215",
+    "poster_name": "ribuck",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=392",
+    "subject": "回复：BitDNS 与比特币的泛化",
+    "url": "https://bitcointalk.org/index.php?topic=1790.msg28480#msg28480",
+    "date": "2010-12-09T11:15:13Z",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1790.msg28474#msg28474\">引用自：Anonymous 于 2010年12月9日 10:19:17</a></div><div class=\"quote\">好了，光说不练的时代该结束了，行动起来吧。为 domaincoin 创建另一个创世区块。从此以后比特币将是一个纯粹的金融工具，因此它应该尽可能地精简。<br/><br/>问题解决了。为了给网络提供初始的安全保障，它需要几个用 GPU 显卡挖矿的矿工。<br/><br/>谁加入？<br/></div><br/>我不赞成创建新的创世区块。那会有损害比特币的风险。如果另一条替代区块链在商业上取得成功，就会有人往那条链上添加一种货币，进而反超比特币。<br/><br/>另外，不要以为中本聪（Satoshi）已经否决了在区块链中做域名的想法。最新的这些改动意味着：<br/><br/>1. 如果你想注册一个域名，你必须连接到一个支持该功能的矿工（因为标准客户端不会转发你的请求）。这不成问题。反正你也需要使用一个修改过的客户端（用来指定域名、IP 地址和费用），而且这个客户端可以被设计成去连接已知的、性能好的矿工（到时候大多数矿工可能都会支持）。<br/><br/>2. 标准的比特币客户端会接受这些高性能矿工生成的区块，但不会看到其中的域名交易。<br/><br/><b>那么问题到底在哪？这有什么不好呢？</b><br/><br/>我认为我们应该继续开发这些想法，然后在测试网络上试验一下。</div>",
+    "nested_level": 0
+  },
+  {
     "id": 3571,
     "thread_id": 244,
     "source_id": "216",
@@ -37598,6 +37997,19 @@
     "url": "https://bitcointalk.org/index.php?topic=1850.msg22897#msg22897",
     "date": "2010-11-19T20:30:14Z",
     "text": "<div class=\"post\">在交易费自由市场中，<br/>对网络进行垃圾信息轰炸会导致所有人的交易费上涨。<br/><br/>也许 Mr Burns 不仅仅是一个普通的恶意捣乱者。也许他是一个有着更理性动机的矿工。<br/><br/>矿工从垃圾轰炸中获利大于损失。是的，最终会达到一个垃圾轰炸均衡点——你在垃圾轰炸中因竞争矿工的交易费而损失的边际成本，等于你从自己的交易费中获得的边际收益。但这仍然是一个宏观经济学上次优的局面。<br/><br/>要摆脱这个 <a href=\"http://en.wikipedia.org/wiki/Social_trap\">http://en.wikipedia.org/wiki/Social_trap</a> 社会困境，仅靠市场是不够的。<br/><br/>应该将一些简单但有效的规则硬编码到 Bitcoin 协议/规范本身中，以遏制过度的垃圾轰炸行为。<br/><br/>我知道这种方法在论坛中的自由市场爱好者听来可能太”自上而下”了，但这些规则当然应该是完全自愿且基于共识的，就像我们已经有的 2100 万枚的规则一样。<br/><br/><br/></div>",
+    "nested_level": 0
+  },
+  {
+    "id": 3634,
+    "satoshi_id": 507,
+    "thread_id": 246,
+    "source_id": "1",
+    "poster_name": "satoshi",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=3",
+    "subject": "新版 getwork",
+    "url": "https://bitcointalk.org/index.php?topic=1901.msg23876#msg23876",
+    "date": "2010-11-23T19:50:12Z",
+    "text": "<div class=\"post\">我把重新设计的 m0mchil 的 getwork 上传到了 SVN rev 189（版本 31601）<br/><br/>m0mchil 的外部比特币挖矿器的想法解决了很多问题。GPU 编程尚不成熟且难以编译，而我不想给构建过程增加额外的依赖。getwork 让这些问题可以分开解决，针对不同硬件和操作系统使用不同的程序。另一个便利之处是，服务器集群可以只运行一个比特币节点，其余机器只运行 getwork 客户端。<br/><br/>接口有几处改动：<br/><br/>getwork [data]<br/>如果未指定 [data]，则返回用于计算的格式化哈希数据：<br/>&nbsp;&nbsp;\"midstate\" : 对数据前半部分哈希后的预计算哈希状态<br/>&nbsp;&nbsp;\"data\" : 区块数据<br/>&nbsp;&nbsp;\"hash1\" : 用于第二次哈希的格式化哈希缓冲区<br/>&nbsp;&nbsp;\"target\" : 小端序的哈希目标<br/>如果指定了 [data]，则尝试求解区块，成功则返回 true。[data] 与之前在 \"data\" 字段中返回的同样是 128 字节区块数据，只是改变了其中的 nonce。<br/><br/>注意：<br/>- 当你提交一个可能的命中结果时，它不会返回新的工作，只有不带参数调用时才会返回。<br/>- block 字段已被拆分为 data 和 hash1。<br/>- data 为 128 字节，其中包含已被 midstate 哈希过的前半部分。<br/>- hash1 始终相同，但为了方便起见一并返回。<br/>- \"ThreadRPCServer method=getwork\" 的日志记录已被禁用，否则日志里会出现太多垃圾信息。<br/></div>",
     "nested_level": 0
   },
   {
@@ -38388,6 +38800,18 @@
     "nested_level": 0
   },
   {
+    "id": 3715,
+    "thread_id": 250,
+    "source_id": "14",
+    "poster_name": "slush",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=2167",
+    "subject": "回复：合作挖矿",
+    "url": "https://bitcointalk.org/index.php?topic=1976.msg24896#msg24896",
+    "date": "2010-11-27T18:03:00Z",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1976.msg24894#msg24894\">引用自：farmer_boy 于 2010年11月27日, 05:41:35 PM</a></div><div class=\"quote\">这有根本性缺陷。我可以加入这个「协作」，摸清单个工作单元一般要花多长时间。到点之后我就发条消息说「啊，可惜我什么都没找到」。然后别人找到了答案，我坐地分钱。<br/></div><br/>你是说有人可以只领任务但不真的算哈希来作弊？这个我已经说过了——我会发送一个能命中「中奖」哈希的任务，如果工人不返回结果，我就封禁他。<br/><br/><div class=\"quoteheader\">引用</div><div class=\"quote\">而如果我自己找到了答案，我直接把它广播给网络其他节点（而不是中心服务器），你根本没法发现我出卖了你们。<br/></div><br/>这种作弊同样会被上述手段发现。你最多得手一次，然后就会被中心服务器封禁。<br/><br/><div class=\"quoteheader\">引用</div><div class=\"quote\">现在的分布式挖矿方式就挺好。也许把难度降低、每次得到的比特币少一点更好，话说回来，人们反正也在挖币。<br/></div><br/>部分同意。但只要一个区块的奖励还超过 1 BTC，对慢速电脑来说合作挖矿就仍然更划算，因为合作的回报可以小到几比特币分甚至更少。</div>",
+    "nested_level": 0
+  },
+  {
     "id": 3716,
     "thread_id": 250,
     "source_id": "15",
@@ -38601,6 +39025,19 @@
     "url": "https://bitcointalk.org/index.php?topic=1976.msg25118#msg25118",
     "date": "2010-11-28T15:58:18Z",
     "text": "<div class=\"post\">我最初误解了区块的结构，以为我们计算的哈希值与地址无关。现在我认为，我们要找的是类似sha256（比特币地址 + 金额（我不确定这个值是否是隐式的，所以可能不存在）+ &lt;答案&gt;）这样的东西，并且要满足某些期望的属性（末尾零的数量只是一个近似描述），其中+表示某种比特拼接操作符。<br/><br/>如果计算确实是这样的话，那么它可能是行得通的，但我不明白为什么有人不能只发送那些对你来说无用的哈希值，而不发送那些对你有用的。通过这种机制，他们可以让你破产。总之，我觉得仅用自然语言来讨论这些话题是不好的沟通方式。请把你打算在服务器端和客户端执行的计算过程写出来，然后我们就能看出这是一个出色的想法还是有缺陷的想法了。在计算过程中加上注解说明每一步要达到什么目标，也有助于沟通。<br/><br/>强制节点之间合作并不容易。</div>",
+    "nested_level": 0
+  },
+  {
+    "id": 3736,
+    "satoshi_id": 517,
+    "thread_id": 250,
+    "source_id": "35",
+    "poster_name": "satoshi",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=3",
+    "subject": "回复：合作挖矿",
+    "url": "https://bitcointalk.org/index.php?topic=1976.msg25119#msg25119",
+    "date": "2010-11-28T16:03:30Z",
+    "text": "<div class=\"post\">ribuck 的描述完全正确。<br/><br/>矿池运营者可以修改他们的 getwork，多接收一个参数：用来接收你份额的地址。<br/><br/>对矿池运营者来说，简单的做法是等到下一个区块被找到，然后按比例分配：<br/>用户的近似命中数/所有人的总近似命中数<br/><br/>这样起步更容易也更安全。&nbsp;它还有个好处：同一个用户的多次命中可以合并进一笔交易。&nbsp;你的命中通常会有很多来自同一批人。<br/><br/>即时满足的做法是每次近似命中立即支付固定金额，由运营者承担区块被找到之前近似命中数偏多或偏少的随机风险。<br/><br/>无论哪种方式，提交了那个解出区块的命中的用户，都应该从总额之外额外拿一笔，比如 10 BTC。<br/><br/>新用户其实根本不需要 Bitcoin 软件。&nbsp;他们可以下载一个矿机，在 mtgox 或 mybitcoin 上开个账户，把充值地址填进矿机，指向随便哪个矿池服务器。&nbsp;当矿机说它找到了什么，过一会儿就有几个币出现在他们账户里。<br/><br/>矿机开发者最好确保永远不会误报近似命中。&nbsp;用户要靠它来检查矿池运营者有没有克扣。&nbsp;如果矿机错误地说找到了什么，用户去账户里一看什么都没有，就会怪罪矿池运营者。</div>",
     "nested_level": 0
   },
   {
