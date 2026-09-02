@@ -720,6 +720,19 @@
     "nested_level": 0
   },
   {
+    "id": 83,
+    "satoshi_id": 42,
+    "thread_id": 14,
+    "source_id": "8",
+    "poster_name": "satoshi",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=3",
+    "subject": "回复：TOR与I2P",
+    "url": "https://bitcointalk.org/index.php?topic=22.msg223#msg223",
+    "date": "2010-02-04T00:30:50Z",
+    "text": "<div class=\"post\">当使用代理端口9050时，它只会尝试连接IRC一次然后放弃，因为它知道由于IRC服务器会封禁所有TOR出口节点，连接很可能会失败。如果你使用其他端口，它会假设这可能是一个普通的代理服务器，并以越来越长的时间间隔持续重试IRC。你不应该使用Polipo或Privoxy，因为它们是http过滤器和缓存，如果做了任何更改会损坏比特币的消息。比特币可能正在尝试通过重新连接来克服这个问题。你应该使用端口9050。<br/><br/>正如riX所说，「is giving Tor only an IP address. Apps that do DNS...」这些警告没什么好担心的。比特币在代理模式下完全不使用DNS。<br/><br/>由于比特币无法通过Tor连接到IRC，它不知道哪些节点当前在线，所以它必须尝试所有最近见过的节点。它尽可能节省连接尝试，但人们也希望它启动时能快速连接，断线后能快速重连。它使用一种算法，连接成功越久的IP尝试频率越低。例如，对于24小时前见过的节点，它会每隔5小时尝试连接一次。一旦它至少有2个连接，就不会尝试任何超过一周的记录；有了5个连接后就不会尝试超过24小时的记录。</div>",
+    "nested_level": 0
+  },
+  {
     "id": 84,
     "thread_id": 15,
     "source_id": "1",
@@ -1995,6 +2008,18 @@
     "nested_level": 0
   },
   {
+    "id": 196,
+    "thread_id": 22,
+    "source_id": "13",
+    "poster_name": "Suggester",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=31",
+    "subject": "回复：工作量证明难度增加",
+    "url": "https://bitcointalk.org/index.php?topic=43.msg533#msg533",
+    "date": "2010-02-25T04:34:59Z",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=43.msg425#msg425\">引用自：NewLibertyStandard 于 2010年2月21日 06:52:43 PM</a></div><div class=\"quote\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=43.msg424#msg424\">引用自：Sabunir 于 2010年2月21日 04:58:44 PM</a></div><div class=\"quote\">那这个难度到底怎么调整？（管理一个去中心化系统？）什么能防止攻击者把难度设得极低或极高来干扰系统？<br/></div>我的理解是，每个比特币客户端都内置了相同的算法（公式），每隔一定数量的区块自动调整难度。<br/></div>那它怎么跟连接到整个网络的CPU数量挂钩呢？<br/><br/><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=43.msg425#msg425\">引用自：NewLibertyStandard 于 2010年2月21日 06:52:43 PM</a></div><div class=\"quote\">不仅如此，我认为比特币不会接受以不同难度生成的区块，所以如果修改过的比特币客户端试图发送更容易生成的区块，所有正版客户端都会拒绝这些伪造区块。<br/></div>我们需要Satoshi来确认这一点，因为每当工作量证明的难度增加时，客户端一直都在接受以较低难度生成的区块。</div>",
+    "nested_level": 0
+  },
+  {
     "id": 197,
     "satoshi_id": 81,
     "thread_id": 22,
@@ -2258,6 +2283,18 @@
     "url": "https://bitcointalk.org/index.php?topic=43.msg1372#msg1372",
     "date": "2010-06-05T16:21:18Z",
     "text": "<div class=\"post\"><div class=\"quoteheader\">引用</div><div class=\"quote\">我想知道它在成功时是否会在调试日志中记录。</div><br/>BitCoin 确实会在求解出一个区块时进行提示。搜索 \"proof-of-work found\" 即可。<br/><br/><div class=\"quoteheader\">引用</div><div class=\"quote\">在比特币中，难道不是多个节点在处理同一个区块吗？</div><br/>不是。每个节点的区块都是唯一的，因为其中包含了它们各自的唯一公钥。从功能上来说，每次哈希都会给你一个介于 0 到 256 位最大值之间的完全随机数。如果这个随机数等于或小于目标值，你就赢了。所以一次哈希命中的概率是 <i>目标值</i> 除以 <i>最大值</i>。<br/><br/>因为别人赢了而开始处理另一个区块几乎不需要任何额外工作量。<br/><br/>详情请参阅 BitCoin Wiki 上的 <a href=\"http://www.bitcoin.org/wiki/doku.php?id=block\">\"区块\"（block）词条</a>以及 <a href=\"http://www.bitcoin.org/sites/default/files/bitcoin.pdf\">BitCoin 论文</a>。</div>",
+    "nested_level": 0
+  },
+  {
+    "id": 221,
+    "thread_id": 22,
+    "source_id": "38",
+    "poster_name": "fergalish",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=39",
+    "subject": "回复：工作量证明难度提升",
+    "url": "https://bitcointalk.org/index.php?topic=43.msg1426#msg1426",
+    "date": "2010-06-09T09:22:04Z",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=43.msg1371#msg1371\">引用自：lachesis，2010年6月5日 03:28:29 PM</a></div><div class=\"quote\">我考虑过这个问题。我不知道 0.5 是否有效。我会继续观察。我想知道它成功时是否会写入调试日志。<br/></div>请使用 1 而不是 0.5。假设 max=100 且 target=10，那么每 100 个哈希中会有 10 个小于等于目标值，所以你的成功率是 10% 而不是 5%。<br/><br/>目前 target/max ≈ 1.5x10^-11（target ≈ 0x000000000f，也就是 36 个零，所以基本上你需要掷一枚有 2^36 = 690 亿个面的骰子，并等待掷出 1），而你的计算速度是每天 100 万 x 86400 = 864 亿个哈希，所以你可以预期每天略多于一次成功。<br/><br/>非常重要的是要认识到，这是平均的比特币生成时间，只有在大约一周或更长的时间跨度内才有效。因为成功事件是完全随机的（我希望如此，否则哈希函数可能不安全，最终会有人破解它，进而破解比特币！），一次成功到下一次成功之间的间隔服从 n=0 的泊松分布，即指数分布（见维基百科）。因此，假设平均成功率为每天 1 次，你可以预期大约有 10% 的时间需要等待 2¼ 天或更久，有 1% 的时间需要等待 4½ 天，有 0.1% 的时间需要等待 7 天，以此类推。</div>",
     "nested_level": 0
   },
   {
@@ -2970,6 +3007,19 @@
     "nested_level": 0
   },
   {
+    "id": 286,
+    "satoshi_id": 62,
+    "thread_id": 26,
+    "source_id": "12",
+    "poster_name": "satoshi",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=3",
+    "subject": "回复：比特币客户端和网站翻译",
+    "url": "https://bitcointalk.org/index.php?topic=47.msg389#msg389",
+    "date": "2010-02-17T19:19:43Z",
+    "text": "<div class=\"post\">我更新了 SVN，加入了支持翻译的改动。&nbsp;可翻译的字符串都包在 _() 里，所有平台都使用 UTF-8。<br/><br/>程序运行时，会在 EXE 所在目录查找文件：locale\\&lt;langcode&gt;\\LC_MESSAGES\\bitcoin.mo<br/><br/>&lt;langcode&gt; 是你的操作系统所设语言的两位字母代码，比如「de」或「nl」。<br/><br/>在 Linux 上，它还会查找：<br/>/usr/share/locale/&lt;langcode&gt;/LC_MESSAGES/bitcoin.mo<br/>/usr/local/share/locale/&lt;langcode&gt;/LC_MESSAGES/bitcoin.mo<br/>（Linux 上还有其他应该查找的标准位置吗？）<br/><br/>以下是使用 poedit 制作 .po 和 .mo 文件的快速教程：<br/><br/>- 从 SVN 下载比特币源代码<br/>- 在 trunk 目录下，mkdir locale\\&lt;lang&gt;\\LC_MESSAGES<br/>- 在 poedit 中，File-&gt;New catalog-&gt;Paths 选项卡<br/>- 点击「New item」虚线框按钮<br/>- 输入「../../..」，务必按回车键确认添加路径<br/>- 点击 OK<br/>- 将文件保存为你创建的 LC_MESSAGES 目录中的「bitcoin.po」<br/>- 它会扫描源代码并找到大约 170 条字符串<br/>- 如果什么都没找到，检查 Catalog-&gt;Settings-&gt;Path 选项卡，确认「../../..」已添加<br/><br/>翻译完成后，把 bitcoin.po（可编辑的目录文件）和 bitcoin.mo（程序使用的编译数据）都提交上来。<br/></div>",
+    "nested_level": 0
+  },
+  {
     "id": 287,
     "thread_id": 27,
     "source_id": "1",
@@ -3052,6 +3102,19 @@
     "url": "https://bitcointalk.org/index.php?topic=48.msg320#msg320",
     "date": "2010-02-12T14:31:15Z",
     "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=48.msg318#msg318\">Quote from: theymos on February 12, 2010, 08:31:52 AM</a></div><div class=\"quote\">发送方客户端是否会额外发送更多比特币来支付手续费（这样接收方就能收到预期的金额）？为什么不能直接发送 1000 笔小额交易来绕过手续费？<br/></div><br/>你可以这样做，但你必须在每笔交易之间等待一个区块被生成。</div>",
+    "nested_level": 0
+  },
+  {
+    "id": 294,
+    "satoshi_id": 56,
+    "thread_id": 27,
+    "source_id": "8",
+    "poster_name": "satoshi",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=3",
+    "subject": "回复：这个奇怪的生成交易是怎么回事？",
+    "url": "https://bitcointalk.org/index.php?topic=48.msg327#msg327",
+    "date": "2010-02-14T06:28:03Z",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=48.msg318#msg318\">引用自：theymos 于 2010年2月12日, 08:31:52 AM</a></div><div class=\"quote\">发送方客户端会不会额外多发送一些比特币来支付手续费（这样接收方就能收到预期的金额）？<br/></div>是的。<br/><br/><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=48.msg319#msg319\">引用自：SmokeTooMuch 于 2010年2月12日, 01:11:09 PM</a></div><div class=\"quote\">为什么我们还需要手续费？我以为免手续费是比特币的优势之一？！<br/></div>几乎所有的交易都是免费的。&nbsp;如果一笔交易需要把你收到的最大 500 笔付款加起来才能凑够金额，那它就超过了大小限制。&nbsp;超过大小限制的交易仍然可以发送，但需要附加一小笔手续费。<br/><br/>平均大小的交易，以及比平均大 500 倍以内的交易，都是免费的。<br/><br/>只有当你发送一笔极其巨大的交易时，交易手续费才会发挥作用，而且即便如此，手续费也只相当于金额的大约 0.002%。&nbsp;这不是从系统里抽走的钱，它只是转移给了其他节点。&nbsp;如果你为付费难过，你完全可以反客为主，自己运行一个节点，说不定哪天就能收进一笔 0.44 的手续费。</div>",
     "nested_level": 0
   },
   {
@@ -3624,6 +3687,19 @@
     "nested_level": 0
   },
   {
+    "id": 367,
+    "satoshi_id": 71,
+    "thread_id": 37,
+    "source_id": "1",
+    "poster_name": "satoshi",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=3",
+    "subject": "命令行与JSON-RPC",
+    "url": "https://bitcointalk.org/index.php?topic=63.msg452#msg452",
+    "date": "2010-02-23T22:15:41Z",
+    "text": "<div class=\"post\">SVN上的0.2.6版本现在可以作为守护进程运行，并可通过命令行或JSON-RPC进行控制。<br/><br/>在Linux上需要安装libgtk2.0-0，但不需要运行GUI。希望可以在不安装窗口系统的情况下安装gtk。<br/><br/>作为守护进程启动的命令是：<br/>bitcoin -daemon [参数...]<br/><br/>或者，要正常运行UI并同时能够通过命令行或JSON-RPC控制它，使用「-server」参数。<br/>bitcoin -server [参数...]<br/><br/>使用任一参数后，它会运行一个HTTP JSON-RPC服务器，接受127.0.0.1:8332上的本地套接字连接。该端口绑定到回环地址，只能从本机访问，但可以从任何账户访问，而不仅仅是运行它的用户。<br/><br/>通过命令行控制时，接口是一个不带任何参数的命令名称，后面跟着参数（如果有的话）。<br/>bitcoin &lt;command&gt; [参数...]<br/><br/>例如：<br/>bitcoin getinfo<br/>bitcoin getdifficulty<br/>bitcoin setgenerate true<br/>bitcoin stop<br/><br/>这是一个简单的JSON-RPC客户端，会打印JSON结果。请查看rpc.cpp获取命令列表。<br/><br/>Web应用或任何自动化程序通常会直接使用JSON-RPC，而不是命令行。所有主要语言都有JSON-RPC库。在PHP和Python等脚本语言中，语法就像调用本地函数一样自然。</div>",
+    "nested_level": 0
+  },
+  {
     "id": 368,
     "thread_id": 37,
     "source_id": "2",
@@ -4127,6 +4203,18 @@
     "nested_level": 0
   },
   {
+    "id": 412,
+    "thread_id": 38,
+    "source_id": "24",
+    "poster_name": "Anonymous",
+    "poster_url": null,
+    "subject": "回复：新图标/logo",
+    "url": "https://bitcointalk.org/index.php?topic=64.msg19751#msg19751",
+    "date": "2010-11-02T23:08:16Z",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=64.msg19725#msg19725\">引用自：ArrowJ 于 2010年11月02日, 08:51:30 PM</a></div><div class=\"quote\"><div class=\"quoteheader\">引用</div><div class=\"quote\">哦抱歉，我又冒犯人了吗？奇怪，我完全没觉得。<br/><br/>你说得对，其实我签名档里的那个 logo（由 bitboy 设计、我改进的）可能比官方的更好。<br/>不过我不知道中本聪是否接受那个许可证（cc by-sa）。<br/><br/>依愚见，中本聪要么联系作者，要么付给作者一些 BTC，让作品进入公共领域。<br/></div>说实话，我以为我的建议冒犯到你了。<br/><br/>我没想到许可证的问题，不过你说得对，无论用哪个 logo，大概都应该是公共领域的。如果社区决定采用 Bitboy 的 logo，我愿意捐 5 BTC「买断」他的许可证，把它转入公共领域。<br/><br/>这种事可以通过投票解决吗，还是说没那么简单？我们可以说这是开源的，人们用哪个哪个就赢，但你得承认，中本聪的 logo 有一点优势……没人想冒犯这个绝妙创意的创始人……至少我不想……希望我没有冒犯到你！<br/></div><br/>在我看来，许可证应该和原始 logo 保持一致，因为我们确切知道那才是中本聪支持的。</div>",
+    "nested_level": 0
+  },
+  {
     "id": 413,
     "thread_id": 38,
     "source_id": "25",
@@ -4284,6 +4372,18 @@
     "nested_level": 0
   },
   {
+    "id": 428,
+    "thread_id": 40,
+    "source_id": "7",
+    "poster_name": "The Madhatter",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=14",
+    "subject": "回复：资金传输监管",
+    "url": "https://bitcointalk.org/index.php?topic=69.msg610#msg610",
+    "date": "2010-03-03T02:25:22Z",
+    "text": "<div class=\"post\">别忘了查一下各州的资金传输牌照。搞垮 Goldage 的就是这个。（他们曾是最大的 e-gold 兑换商之一。）他们没有牌照，因为认为数字黄金处于州/联邦政府管辖权之外（不是法定货币）。但州法律足够模糊，执法部门足够无知，结果他们被纽约州起诉了。<br/><br/>（参见：<a href=\"http://en.wikipedia.org/wiki/Goldage\">http://en.wikipedia.org/wiki/Goldage</a>）<br/><br/>很多人猜测他们被起诉是出于政治原因而非「法律」原因。中央银行（以及处于其债务经济统治之下的各国政府）不想要竞争性货币。这不是因为竞争（比起 FRN 纸币游戏，e-gold 实在太小了）。他们是不想让 e-gold 打开人们的思路、接受替代货币的概念。那才是更大的威胁。<br/><br/>记住，牌照是一种可以被吊销/管制的特权行为。我坚信，凡是能买到牌照的行为本质上都是合法的。（比如：你买不到犯罪许可证。没有「杀人执照」的，邦德。<img alt=\"Tongue\" border=\"0\" src=\"/static/img/emoticons/tongue.gif\"/>）<br/><br/>无照经营可以主张合法抗辩。（通过声明或公证主张权利……同样，你得清楚自己在做什么。）<br/><br/>和平！<br/></div>",
+    "nested_level": 0
+  },
+  {
     "id": 429,
     "thread_id": 40,
     "source_id": "8",
@@ -4318,6 +4418,19 @@
     "url": "https://bitcointalk.org/index.php?topic=72.msg673#msg673",
     "date": "2010-03-08T09:29:56Z",
     "text": "<div class=\"post\">你好，我在 nice 级别 20 下运行 bitcoin，以免干扰其他任务。然而，它时不时地会自动将 nice 级别调整到 2，甚至 0。这是设计如此吗？坦白说，对于一个 Linux 应用程序来说，这种事情应该是非法的……至少可以说有点奇怪。</div>",
+    "nested_level": 0
+  },
+  {
+    "id": 433,
+    "satoshi_id": 90,
+    "thread_id": 41,
+    "source_id": "2",
+    "poster_name": "satoshi",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=3",
+    "subject": "回复：比特币自动降低优先级",
+    "url": "https://bitcointalk.org/index.php?topic=72.msg717#msg717",
+    "date": "2010-03-15T18:44:12Z",
+    "text": "<div class=\"post\">它给每个线程设置了不同的优先级。&nbsp;生成线程以 PRIO_MIN 运行。&nbsp;其他线程几乎不占 CPU，以普通优先级运行。<br/><br/>#define THREAD_PRIORITY_LOWEST &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;PRIO_MIN<br/>#define THREAD_PRIORITY_BELOW_NORMAL &nbsp; &nbsp;2<br/>#define THREAD_PRIORITY_NORMAL &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;0<br/><br/>从 Windows 优先级换算来的值大概出自类似这样的表格：<br/><br/>&nbsp;&nbsp; 「下表显示了 nice 值与 Win32 优先级之间的映射。关于 Win32 优先级的更多问题，请参阅 Win32 文档中的 SetThreadPriority()。<br/><br/>nice 值 &nbsp;&nbsp;&nbsp;Win32 优先级<br/>-20 到 -16 &nbsp;&nbsp;&nbsp;THREAD_PRIORITY_HIGHEST<br/>-15 到 -6 &nbsp;&nbsp;&nbsp;THREAD_PRIORITY_ABOVE_NORMAL<br/>-5 到 +4 &nbsp;&nbsp;&nbsp;THREAD_PRIORITY_NORMAL<br/>+5 到 +14 &nbsp;&nbsp;&nbsp;THREAD_PRIORITY_BELOW_NORMAL<br/>+15 到 +19 &nbsp;&nbsp;&nbsp;THREAD_PRIORITY_LOWEST」<br/><br/>如果你有更好的值，欢迎建议。<br/><br/>另外，网上有种说法，说 Linux 上用的是 PRIO_PROCESS，因为线程就是进程。&nbsp;如果这不对，也许就能解释为什么意外地设置了整个应用的优先级。<br/><br/>&nbsp;&nbsp; &nbsp;// threads are processes on linux, so PRIO_PROCESS affects just the one thread<br/>&nbsp;&nbsp; &nbsp;setpriority(PRIO_PROCESS, getpid(), nPriority);<br/></div>",
     "nested_level": 0
   },
   {
@@ -4725,6 +4838,18 @@
     "nested_level": 0
   },
   {
+    "id": 479,
+    "thread_id": 44,
+    "source_id": "12",
+    "poster_name": "The Madhatter",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=14",
+    "subject": "回复：兑换方法",
+    "url": "https://bitcointalk.org/index.php?topic=87.msg788#msg788",
+    "date": "2010-03-20T22:56:55Z",
+    "text": "<div class=\"post\">我认为随着比特币接受度上升，越来越多只支持 LR+Pecunix 的网站会把比特币纳入备选支付方式。毕竟，已经在接受 LR/Pecunix 的人都是非常志同道合的。<br/><br/>是的，我们都在这里学习和讨论。如果我显得像个「万事通」，我道歉。我只是在支付处理行业和法律研究干了 10 多年，这方面我懂得很多。<img alt=\"Wink\" border=\"0\" src=\"/static/img/emoticons/wink.gif\"/><br/><br/>当然，你可以担心我从你寄的信封上提取你的 DNA。<img alt=\"Tongue\" border=\"0\" src=\"/static/img/emoticons/tongue.gif\"/> 准备信封时戴上手套，用水或胶带代替唾液封口就行。（你要是那么 paranoid，再戴个发网！哈！）<br/><br/>盖了邮戳的信封带有寄出地区的大致信息。对调查者来说基本没用，前提是你不用真实回信地址。或者用我提供给你的回信地址（比方说）。你还可以开车到城市的另一头寄出。或者去别的城市。或者找个朋友从他所在的城市转寄。办法多的是。<br/><br/>准备得当的「蜗牛邮件」（让信封尽量机器可读、使用正确的 5+4 位邮政编码扩展等）其实相当快。（我也有物流方面的经验。）<br/></div>",
+    "nested_level": 0
+  },
+  {
     "id": 480,
     "thread_id": 44,
     "source_id": "13",
@@ -4892,6 +5017,19 @@
     "url": "https://bitcointalk.org/index.php?topic=101.msg888#msg888",
     "date": "2010-04-10T06:12:31Z",
     "text": "<div class=\"post\">问 Satoshi 一个问题：你测试过程序钱包里有数千个自己的地址的情况吗？如果我每笔自动交易都生成一个新地址，那将会有大量的地址。或者也许我可以复用地址，只要地址池足够大。</div>",
+    "nested_level": 0
+  },
+  {
+    "id": 495,
+    "satoshi_id": 102,
+    "thread_id": 46,
+    "source_id": "3",
+    "poster_name": "satoshi",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=3",
+    "subject": "回复：删除比特币地址",
+    "url": "https://bitcointalk.org/index.php?topic=101.msg1134#msg1134",
+    "date": "2010-05-16T23:34:40Z",
+    "text": "<div class=\"post\">SheriffWoody：<br/>你生成的比特币地址会永久保留。&nbsp;必须保留比特币地址，才能证明发到该地址的任何东西的所有权。&nbsp;如果你能删除一个比特币地址，而有人往它发送，钱就丢了。&nbsp;它们每个只占大约 500 字节。<br/><br/>sirius-m：<br/>几千个自己的地址应该完全不成问题。&nbsp;如果你生成了 50000 BTC，那你就已经有 1000 个自己的地址了，每生成 50 币一个。&nbsp;那些是隐藏的，不会在界面上显示。<br/><br/>加一小段代码，让同一个 IP 总是拿到同一个地址，是个好主意。&nbsp;下面是我在 C++ 里做的，让同一个 IP 持续拿到同一个密钥（即比特币地址），直到他们使用它：<br/><br/>&nbsp;&nbsp; &nbsp;// Keep giving the same key to the same ip until they use it<br/>&nbsp;&nbsp; &nbsp;if (!mapReuseKey.count(pfrom-&gt;addr.ip))<br/>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;mapReuseKey[pfrom-&gt;addr.ip] = GenerateNewKey();<br/>&nbsp;&nbsp; &nbsp;<br/>&nbsp;&nbsp; &nbsp;...sends the key mapReuseKey[pfrom-&gt;addr.ip]<br/><br/>……稍后……<br/><br/>&nbsp;&nbsp; &nbsp;// Received something with this key<br/>&nbsp;&nbsp; &nbsp;mapReuseKey.erase(pfrom-&gt;addr.ip);<br/><br/>如果不方便知道何时收到了付款，那就每 20 分钟清空一次缓存的密钥。<br/><br/>我想给 getnewaddress 加一个参数，指定该地址在多少天内未收到付款即过期。<br/></div>",
     "nested_level": 0
   },
   {
@@ -6740,6 +6878,18 @@
     "nested_level": 0
   },
   {
+    "id": 659,
+    "thread_id": 58,
+    "source_id": "2",
+    "poster_name": "Xunie",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=10",
+    "subject": "回复：追踪一枚币的血统",
+    "url": "https://bitcointalk.org/index.php?topic=154.msg1238#msg1238",
+    "date": "2010-05-25T21:12:51Z",
+    "text": "<div class=\"post\">你提到的这些问题我非常关心（社区其他人也应该关心）。<br/>你建议把可以通过数字取证找到的信息提供给用户，这似乎对保护比特币的安全很有好处。<br/>也许可以在比特币中内置一个「偏执模式」开关，立即向用户展示所有这些信息！<br/>另外，在「首次运行对话框」中显示这个开关似乎也是个好主意，但有些人会觉得烦。（在商业环境中我也会嫌烦！）<br/>也许可以分发「家庭版」和「商业版」两个版本，前者带「首次运行对话框」，后者不带，当然按这个顺序。<br/><br/>但是，由于这些数据是可获取的，而人们会信任比特币（有时是盲目信任），我们必须警告用户注意陷阱。<br/>要有完善的文档记录一切，甚至覆盖「偏执用户」的需求。<br/>用户<span style=\"text-decoration: underline;\">必须学会</span>如何进行安全的交易，等等……<br/><br/><br/><span style=\"text-decoration: underline;\">如果有人搞砸了，因为盲目信任比特币而被司法系统坑了，他会到处说这件事，比特币的名声就毁了。</span><br/><br/>我的结论：<b>比特币社区需要小心提防那些<del>失败者</del><del>愚蠢用户</del><span style=\"text-decoration: underline;\">累人精</span>！</b></div>",
+    "nested_level": 0
+  },
+  {
     "id": 661,
     "thread_id": 58,
     "source_id": "4",
@@ -6883,6 +7033,18 @@
     "url": "https://bitcointalk.org/index.php?topic=158.msg1345#msg1345",
     "date": "2010-06-04T03:26:58Z",
     "text": "<div class=\"post\">这么来说吧；如果你（在不太遥远的将来，谁知道呢）设法在<b>表面网络上</b>*开了一家接受比特币的店铺，你可能希望：<br/><br/>» 你的客户是可识别的——知道谁付了什么款，并处理退款<br/>» 你的客户在付款时能附上备注<br/>» 你的客户有一个友好的付款地址（不是 IP，不是不可读的哈希）——除非你开的是 the nerdsshop.com 之类的店<br/>» 你的客户不会被反复打扰<br/><br/>要实现这些，TLS/SSL 功能显然会很有吸引力。想象一下这个操作流程：<br/><br/>客户端 -&gt; 向 bcpay.mysite.com 发送 50 BC<br/>bcpay.mysite.com -&gt; 发送包含店铺数据的证书，客户端弹出窗口显示该服务器的信息以供确认<br/><br/>例如：<br/>您即将向以下比特币客户端付款：<br/><br/>站点名称：mystore.com<br/>通用名称：支付网关<br/>CA 验证方：BitcoinSSL<br/><br/>客户端 -&gt; 确认？付款已发送：或付款已取消。<br/><br/><br/>* Tor 用户：就把它叫做表面网络店铺吧，它是往你家发货的，所以你反正是不会去的。既然要给你家地址，隐藏 IP 又有什么意义呢？</div>",
+    "nested_level": 0
+  },
+  {
+    "id": 678,
+    "thread_id": 60,
+    "source_id": "14",
+    "poster_name": "lachesis",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=237",
+    "subject": "回复：用主机名代替 IP 地址",
+    "url": "https://bitcointalk.org/index.php?topic=158.msg1482#msg1482",
+    "date": "2010-06-11T14:33:55Z",
+    "text": "<div class=\"post\">我不觉得这两个想法互斥，尽管我估计实现 SSL/TLS 并不是件小事。我们已经链接了 OpenSSL 库，所以不好说。<br/><br/>我个人更倾向于用一种 urn 方案来处理比特币地址。<br/><div class=\"quoteheader\">引用自：Lazslo</div><div class=\"quote\">urn:bitcoin.org:19vcWM6EEbQHVdN2W8NXv9ySgsPjbZ6gU3@12.34.56.78<br/></div>那就完美了，不过我更愿意把主机名放在右边。<br/><br/>当然，我是那种可能会去 thenerdsshop.com 购物的人 <img alt=\"Smiley\" border=\"0\" src=\"/static/img/emoticons/smiley.gif\"/><br/><br/>对普通大众来说，整个比特币概念目前还相当令人困惑。哪怕抛开所有技术细节不谈，界面上显示的还是一长串数字和字母（你的收款地址），而且目前的最佳实践要求你每次把地址给别人时都得跟这串东西打交道。<br/><br/>另一个办法是用类似 OpenID 的做法：在商家（最好是 SSL）网站上放置隐藏标签。然后你只需输入一个网站的 URL 作为收款地址。它会访问那个网站，搜索类似这样的东西：<br/><div class=\"codeheader\">代码：</div><div class=\"code\">&lt;link rel=\"bitcoin.address\" href=\"19vcWM6EEbQHVdN2W8NXv9ySgsPjbZ6gU3\"&gt;<br/>&lt;link rel=\"bitcoin.server\" href=\"12.34.56.78\"&gt;<br/></div>或者其他某种形式，然后尝试安全地发送到那里。</div>",
     "nested_level": 0
   },
   {
@@ -7770,6 +7932,18 @@
     "nested_level": 0
   },
   {
+    "id": 759,
+    "thread_id": 69,
+    "source_id": "4",
+    "poster_name": "Gavin Andresen",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=224",
+    "subject": "回复：交易与脚本：DUP HASH160 ... EQUALVERIFY CHECKSIG",
+    "url": "https://bitcointalk.org/index.php?topic=195.msg1613#msg1613",
+    "date": "2010-06-17T19:58:14Z",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=195.msg1611#msg1611\">引用自：satoshi 于 2010年6月17日 06:46:08 PM</a></div><div class=\"quote\">我不认为第二个兼容的比特币实现会是一个好主意。设计的太多部分依赖于所有节点在同步中获得完全一致的结果，因此第二个实现对网络来说将是个威胁。MIT许可证与所有其他许可证和商业用途兼容，因此从许可证的角度来看没有必要重写。<br/></div>不管是不是好主意，迟早会有人试图搞乱网络（或将其据为己有）。他们要么会黑掉现有代码，要么会编写自己的版本，成为网络的威胁。<br/><br/>我欣赏交易中脚本方案的灵活性，但我那邪恶的小脑袋立刻开始想各种滥用它的方法。我可以在TxOut脚本中编码各种有趣的信息，如果未篡改的客户端验证后忽略这些交易，它就会成为一个有用的隐蔽广播通信渠道。<br/><br/>这个功能很酷，直到它变得流行，然后有人觉得用数百万笔交易淹没支付网络来给朋友们传输最新的Lady Gaga视频会很有趣……<br/></div>",
+    "nested_level": 0
+  },
+  {
     "id": 761,
     "thread_id": 70,
     "source_id": "1",
@@ -8509,6 +8683,18 @@
     "nested_level": 0
   },
   {
+    "id": 823,
+    "thread_id": 73,
+    "source_id": "6",
+    "poster_name": "Anonymous",
+    "poster_url": null,
+    "subject": "回复：大崩盘",
+    "url": "https://bitcointalk.org/index.php?topic=202.msg1764#msg1764",
+    "date": "2010-06-25T05:30:44Z",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=202.msg1759#msg1759\">引用自：amall 于 2010年6月25日, 12:56:40 AM</a></div><div class=\"quote\">Max，<br/><br/>你的看法完全说得通，前提是当威胁迫近时还有时间切换到新货币。&nbsp;这相当合理。&nbsp;比如说，人们可能开始发现 SHA-256 的一些小缺陷，于是人们有时间在整套体系瓦解之前买入新货币。<br/><br/>然而，假设有人在 BC 广泛流通期间发现了一个重大缺陷，那个人可以在人们还没立即察觉的情况下实施大量欺诈。&nbsp;这种情况下，有某种登记机制可能就有价值了，因为人们可能想买入一种按登记财富比例分配的新货币（从博弈论角度，只有登记在册的较富有的那 50% 会偏好这种货币，但那是另一个话题了）。<br/><br/>现在看来，一个相当好的解决方案是让人人持有多种数字货币，由多种密码学方法背书。&nbsp;但这个方案本身也有诸多成本，因为市场需要支持多种货币。&nbsp;其中之一就是，绝对必须存在众多相互竞争的廉价交易所。<br/><br/><br/></div><br/>在我看来，任何带有中心化登记机构的货币体系都注定失败。</div>",
+    "nested_level": 0
+  },
+  {
     "id": 824,
     "thread_id": 73,
     "source_id": "7",
@@ -8580,6 +8766,18 @@
     "url": "https://bitcointalk.org/index.php?topic=202.msg2133#msg2133",
     "date": "2010-07-10T13:36:17Z",
     "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=202.msg1920#msg1920\">引用自：llama 于 2010年7月1日 10:21:47 PM</a></div><div class=\"quote\">然而，如果发生了某种情况导致签名被破解（也许整数分解被解决了，量子计算机？），那么即使就最后一个有效区块达成一致也没有意义。<br/></div>确实，如果这是突然发生的话。如果是渐进式发生的，我们仍然可以过渡到更强的算法。当你第一次运行升级后的软件时，它会用新的更强的签名算法对所有资金重新签名。（通过创建一笔将自己的资金发送给自己的交易来实现，使用更强的签名）</div>",
+    "nested_level": 0
+  },
+  {
+    "id": 830,
+    "thread_id": 74,
+    "source_id": "1",
+    "poster_name": "Gavin Andresen",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=224",
+    "subject": "比特币水龙头变更",
+    "url": "https://bitcointalk.org/index.php?topic=206.msg1711#msg1711",
+    "date": "2010-06-23T14:23:46Z",
+    "text": "<div class=\"post\">我一直在观察从比特币水龙头（ <a href=\"https://freebitcoins.appspot.com/\">https://freebitcoins.appspot.com/</a> ）领取5个免费比特币的人的IP地址。<br/><br/>然后我发现了一些……嗯，<i>有趣的</i>模式。比如这些成功的领币请求：<br/><br/><div class=\"codeheader\">代码：</div><div class=\"code\">79.117.152.158 - - [21/Jun/2010:12:17:02 -0700] \"POST / HTTP/1.1\" 200 1234 <br/>79.117.159.197 - - [21/Jun/2010:12:16:24 -0700] \"POST / HTTP/1.1\" 200 1234 <br/>79.117.135.236 - - [21/Jun/2010:12:10:23 -0700] \"POST / HTTP/1.1\" 200 1234<br/>79.117.163.238 - - [21/Jun/2010:12:08:50 -0700] \"POST / HTTP/1.1\" 200 1234<br/>79.117.155.23 - - [21/Jun/2010:12:08:07 -0700] \"POST / HTTP/1.1\" 200 1234 <br/></div><br/>如果确实有一批使用79.117范围IP地址的新比特币用户，我表示歉意……但我猜那里的某人拿到的免费比特币超过了其应有的份额。<br/><br/>192.38.95.*地址段也有几个可疑的请求。<br/><br/>所以我对水龙头做了一些更改。除非你尝试作弊，否则你不会注意到这些变化；如果你确实尝试作弊，你就必须完成一个验证码才能领取。<br/><br/>如果这还不能阻止作弊，我会修改代码，让它认为你在尝试作弊时要求验证码，并且只发放一个比特币镍币（0.05比特币）……<br/></div>",
     "nested_level": 0
   },
   {
@@ -9006,6 +9204,18 @@
     "url": "https://bitcointalk.org/index.php?topic=217.msg1928#msg1928",
     "date": "2010-07-02T22:03:41Z",
     "text": "<div class=\"post\">好的，那回到 0.3 版本。<br/><br/>请下载 RC4 并尽快检查一遍。我想尽快发布。<br/><br/><a href=\"http://bitcointalk.org/index.php?topic=199.msg1927#msg1927\">http://bitcointalk.org/index.php?topic=199.msg1927#msg1927</a><br/><br/>除了版本号的变更（包括 readme.txt 和 setup.nsi 中的修改）之外，我还将最大出站连接数从15减少到8，这样接受入站连接的节点就不会有太多连接了。15远远超出了需要。8对于冗余来说仍然足够了。</div>",
+    "nested_level": 0
+  },
+  {
+    "id": 866,
+    "thread_id": 77,
+    "source_id": "1",
+    "poster_name": "HarryS",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=278",
+    "subject": "IPv6、无头客户端及其他",
+    "url": "https://bitcointalk.org/index.php?topic=218.msg1820#msg1820",
+    "date": "2010-06-26T23:17:51Z",
+    "text": "<div class=\"post\">你好，我在 freenode 上听说了这个项目，我非常喜欢这个想法。<br/><br/>我在想，你们有没有可能开发一个完全无头但带控制选项的版本？也许可以做成类似 ncurses 的东西，像 rtorrent 那样？这样我们就能在无头计算机上生成和分享比特币，同时保留图形界面的便利和控制力？<br/><br/>另一个不错的建议是做一个更新模块，当你运行的是旧版本时可以提示（不知道是否已经有了，我没仔细看）。<br/><br/>除了 IRC 之外再支持其他类型的引导媒介也是一种改进。也许可以类似 Bittorrent 的 tracker？有些 ISP 屏蔽 IRC，有些人不喜欢 IRC。<br/><br/>最后，如果可能的话，IPv6 支持就太棒了。那样我想人们对 IRC 引导的担心也会少一些。<br/><br/>我也在运行 satoshi 刚发布的 bitcoind 1.3（RC?）。但我该怎么用它呢？bitcoind 的文档不多……它只显示「starting bitcoin server」，然后我的 IP 就出现在了 irc.lfnet.org 的 #bitcoin 频道。我怎么知道我的比特币地址、我有多少币、怎么给别人转账之类的？<br/><br/>我不会写 C，所以这些设想我自己实现不了，但我希望它们有实现的可能 <img alt=\"Smiley\" border=\"0\" src=\"/static/img/emoticons/smiley.gif\"/><br/><br/>先行致谢！</div>",
     "nested_level": 0
   },
   {
@@ -9663,6 +9873,18 @@
     "url": "https://bitcointalk.org/index.php?topic=286.msg2659#msg2659",
     "date": "2010-07-13T21:45:39Z",
     "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=286.msg2656#msg2656\">引用自 TopSoil 于 2010年7月13日 09:37:33 PM</a></div><div class=\"quote\">能请参与代码开发的人回答一下扩展性将如何处理吗？目前最重要的事情似乎是为为什么这个系统能够运作做出有力的论证，以说服卖家采纳它。PDF 文档中缺乏细节。<br/></div><br/>我附议这个观点。我正在调研这是否是一个值得我投入时间和精力的项目（我是专业的 C++ 开发者），因为我看到了这项革命性技术的潜力。然而，如果该方案不能扩展到每天数百万甚至更多笔交易（以及非常大量的区块），我担心这个方案注定会变成一个有趣的研究项目，而不是具有长期生命力和实用价值的东西。</div>",
+    "nested_level": 0
+  },
+  {
+    "id": 934,
+    "thread_id": 85,
+    "source_id": "17",
+    "poster_name": "knightmb",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=345",
+    "subject": "回复：可扩展性",
+    "url": "https://bitcointalk.org/index.php?topic=286.msg2663#msg2663",
+    "date": "2010-07-13T22:08:58Z",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=286.msg2656#msg2656\">引用自：TopSoil 于 2010年7月13日, 09:37:33 PM</a></div><div class=\"quote\">嗯，经济层面的讨论大概应该放到另一个帖子里，我就到此为止吧。哦，我本想开个新帖，但这位老兄把我的观点表达得更好：<a href=\"http://bitcointalk.org/index.php?topic=57.0\">http://bitcointalk.org/index.php?topic=57.0</a><br/><br/>knightmb：每区块产币数量会随时间递减，所以最终总数会比那大得多。另外你还得算上交易。前面这 6.7 万个区块期间的交易量，比起几百万人开始使用系统后的交易量要少得多。<br/><br/>有没有写代码的人能回答一下扩展性问题打算怎么解决？现在最重要的事情，似乎是为这个系统为什么能运转给出有力的论证，好让商家采纳它。那份 pdf 对细节讲得太浅了。<br/></div>谢谢你指出这一点，我不确定它随时间会怎么扩展，之前只是瞎猜。既然币生成的公式应该是已知的，能不能直接算出 X 数量的币加上 XYZ 笔交易等会占用多少磁盘空间。<br/><br/>我自己也很好奇它到底会占多少空间。&nbsp;<img alt=\"Smiley\" border=\"0\" src=\"/static/img/emoticons/smiley.gif\"/></div>",
     "nested_level": 0
   },
   {
@@ -10936,6 +11158,18 @@
     "nested_level": 0
   },
   {
+    "id": 1063,
+    "thread_id": 91,
+    "source_id": "9",
+    "poster_name": "asdfman",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=327",
+    "subject": "回复：64位 BitCoin（Linux 客户端）CPU 占用失控",
+    "url": "https://bitcointalk.org/index.php?topic=299.msg2412#msg2412",
+    "date": "2010-07-12T22:59:19Z",
+    "text": "<div class=\"post\">knightmb——只是好奇问一下，如果你不只查看主进程，而是查看所有线程进程（ps -eflL | grep bitcoin——需要加上 L 参数，否则只会显示主进程），你会看到其他线程进程在运行一段时间后改变了优先级吗？当我修改优先级或执行 renice 时，只有主进程会保持设定，但一些线程每次进入生成硬币函数时都会重新改变优先级。<br/><br/>这里可能存在一种混淆：人们如果没有使用 -L 参数列出所有线程，只会看到主进程的 PID，就以为 nice/renice 已经生效了，但实际上那些占满 CPU 的子线程正是把优先级改回去的元凶。<br/><br/>我自己直接把整个优先级修改函数删掉了，这样无论我设置什么优先级都会永久保持。<br/><br/>我关于删除优先级修改函数的帖子在这里：<a href=\"http://bitcointalk.org/index.php?topic=72.0\">http://bitcointalk.org/index.php?topic=72.0</a><br/>其中还展示了整个进程树。在那段代码粘贴中，主进程会保持你 nice/renice 设置的值，但有两个线程会改回去，直到我把那个函数删掉为止。<br/><br/>另外 <a href=\"http://bitcointalk.org/index.php?topic=285.0\">http://bitcointalk.org/index.php?topic=285.0</a> 描述了 bitcoin 将线程改为最高优先级而非最低优先级的 bug</div>",
+    "nested_level": 0
+  },
+  {
     "id": 1065,
     "thread_id": 91,
     "source_id": "11",
@@ -11371,6 +11605,18 @@
     "url": "https://bitcointalk.org/index.php?topic=325.msg2608#msg2608",
     "date": "2010-07-13T18:35:38Z",
     "text": "<div class=\"post\">我不能直接运行500个提议中有限制的客户端实例吗？&nbsp;这更多是关于交易而不是生成——生成只是为了保证供应量有限。</div>",
+    "nested_level": 0
+  },
+  {
+    "id": 1108,
+    "thread_id": 96,
+    "source_id": "5",
+    "poster_name": "laszlo",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=143",
+    "subject": "回复：为了民主而限制哈希速率",
+    "url": "https://bitcointalk.org/index.php?topic=325.msg2679#msg2679",
+    "date": "2010-07-13T23:35:05Z",
+    "text": "<div class=\"post\">不知道你说的是哪个随机数的部分，不过这里简单讲一下生成是怎么工作的：<br/><br/>准备一块按结构体组织的内存——填入某些字段，比如上一个区块的哈希、当前时间和一些其他杂项信息。&nbsp;结构体有一个整数字段和另一个自由填写数据的「扩展」字段。&nbsp;修改这个自由格式的数据（简单地递增一个数），然后对结构体做哈希。&nbsp;得到的哈希被解释为一个大整数。&nbsp;如果它小于等于当前难度函数的值，就找到了工作量证明，这个区块就会被本地添加并广播给其他节点。<br/><br/>这就像掷一个 100 面的骰子——掷出 70 以下你就赢。&nbsp;要让游戏更难，就得掷出 50 以下，然后 40 以下，以此类推。&nbsp;根本上说，从目标哈希值反推原始输入不存在已知捷径，我们只知道反方向的快速算法，所以这纯粹是一个暴力迭代过程。&nbsp;从统计上讲，目标值越低，低于目标值的数据块就越少。&nbsp;找到一个哈希低于难度值的区块，证明你在这个问题上下了功夫，或者运气爆棚一次命中，但长期来看你不可能一直走运，你得尝试大量大量不同的值。</div>",
     "nested_level": 0
   },
   {
@@ -11847,6 +12093,18 @@
     "nested_level": 0
   },
   {
+    "id": 1157,
+    "thread_id": 100,
+    "source_id": "8",
+    "poster_name": "RHorning",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=344",
+    "subject": "回复：他们想删除维基百科条目",
+    "url": "https://bitcointalk.org/index.php?topic=342.msg4317#msg4317",
+    "date": "2010-07-19T18:57:19Z",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=342.msg4303#msg4303\">引用自：Traktion 于 2010年7月19日 05:48:04 PM</a></div><div class=\"quote\">slashdot、ronpaul.com 等地方不是也有文章吗？我在Google上找到了不少链接。<br/></div><br/>这些都不被认为是维基百科上的可靠来源。ronpaul.com已经是其中最好的了，但它仍然只是网站参与者的一篇普通博客文章，而不是可靠的独立来源。<br/><br/>特别是Slashdot上的内容是由比特币粉丝发起的，在发布之前就已经在这个论坛上广泛讨论过了。这并不意味着Slashdot上的内容不好，但维基百科不是这样运作的。本质上，比特币还没有成为更大的世界文化的一部分。<br/><br/>这项要求可靠信息来源以及坚持可靠的第三方报道的工作，在一定程度上是为了防止「UFO研究者」和其他持有 fringe 理论的人接管维基百科。任何人都可以提出一些看似可信的理论，但实际上没有人真正认真对待。你需要证明你直接社区之外的其他人至少认为这个概念是可信的，至少值得批评。而目前比特币还没有出现这些情况。</div>",
+    "nested_level": 0
+  },
+  {
     "id": 1158,
     "thread_id": 100,
     "source_id": "9",
@@ -12109,6 +12367,18 @@
     "url": "https://bitcointalk.org/index.php?topic=360.msg3220#msg3220",
     "date": "2010-07-15T17:55:22Z",
     "text": "<div class=\"post\">I want some nanocomputers!</div>",
+    "nested_level": 0
+  },
+  {
+    "id": 1187,
+    "thread_id": 102,
+    "source_id": "19",
+    "poster_name": "SmokeTooMuch",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=13",
+    "subject": "回复：Hash()函数不安全",
+    "url": "https://bitcointalk.org/index.php?topic=360.msg3235#msg3235",
+    "date": "2010-07-15T18:20:38Z",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=360.msg3174#msg3174\">引用自：mcdett 于 2010年7月15日 03:56:42 PM</a></div><div class=\"quote\">如果密钥有256位，那么经过2^255次尝试后，攻击者有50%的概率找到正确的密钥，经过2^256次尝试后他已经尝试了所有可能的密钥，保证能找到正确的密钥。</div><br/>这没错，但仅在你暴力破解每个单独的哈希时成立。<br/>SHA算法还有其他已知的攻击方法，这就是为什么计划很快用SHA-3替代SHA-2系列的原因。<br/><br/>德语来源：<br/><div class=\"quoteheader\">引用</div><div class=\"quote\">Als Reaktion auf die bekanntgewordenen Angriffe gegen SHA-1 hielt das National Institute of Standards and Technology (NIST) im Oktober 2005 einen Workshop ab, in dem der aktuelle Stand kryptologischer Hashfunktionen diskutiert wurde. NIST empfiehlt den Übergang von SHA-1 zu Hashfunktionen der SHA-2-Familie (SHA-224, SHA-256, SHA-384, SHA-512). Langfristig sollen diese durch einen neuen Standard SHA-3 ersetzt werden. Dazu ruft das NIST nach Vorbild des Advanced Encryption Standard (AES) zu einem Ausschreiben auf. Die endgültige Wahl und Benennung des Hash-Standards ist für 2012 vorgesehen.</div><a href=\"http://de.wikipedia.org/wiki/Secure_Hash_Algorithm#Empfehlungen\">http://de.wikipedia.org/wiki/Secure_Hash_Algorithm#Empfehlungen</a></div>",
     "nested_level": 0
   },
   {
@@ -12681,6 +12951,18 @@
     "url": "https://bitcointalk.org/index.php?topic=383.msg3295#msg3295",
     "date": "2010-07-15T21:40:34Z",
     "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=383.msg3269#msg3269\">引用：knightmb 于 2010年7月15日 下午07:37:10</a></div><div class=\"quote\">在Windows上，比特币生成的优先级仍然是普通级别。如果你在生成比特币模式下运行比特币，然后加载一个占用所有CPU的程序（比如CPU占用工具：<a href=\"http://www.microtask.ca/cpuhog.html\">http://www.microtask.ca/cpuhog.html</a>），你会发现比特币和CPU占用工具各占50%的CPU，而不是CPU占用工具占满所有CPU而比特币只在空闲/低优先级下运行。khash/s也降低了一半，这进一步证明线程并没有在低于正常的优先级下运行。<br/></div>我无法重现这个问题。我有双处理器，所以我运行了两个内存占用程序。根据任务管理器显示，比特币获得了0%的CPU。khash/sec计数器卡住不动了，因为它根本拿不到CPU来更新数值。<br/><br/>你是双处理器吗？你确定你不是只运行了一个处理器占用程序吗？</div>",
+    "nested_level": 0
+  },
+  {
+    "id": 1241,
+    "thread_id": 106,
+    "source_id": "22",
+    "poster_name": "knightmb",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=345",
+    "subject": "回复：0.3.1 发布候选版，请测试",
+    "url": "https://bitcointalk.org/index.php?topic=383.msg3298#msg3298",
+    "date": "2010-07-15T21:48:29Z",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=383.msg3295#msg3295\">引用自：satoshi，2010年7月15日 09:40:34 PM</a></div><div class=\"quote\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=383.msg3269#msg3269\">引用自：knightmb，2010年7月15日 07:37:10 PM</a></div><div class=\"quote\">在 Windows 上，硬币生成的优先级仍然是正常（net for normal 应为 not for normal 之误，此处保留原意：优先级仍为正常）。如果你以生成硬币模式运行 BitCoin，然后加载一个吃掉全部 CPU 的程序（比如 CPU hog：<a href=\"http://www.microtask.ca/cpuhog.html\">http://www.microtask.ca/cpuhog.html</a>），你会看到 BitCoin 和 CPU hog 平分 CPU（各占 50%），而不是 CPU hog 独占 CPU、BitCoin 只在空闲/低优先级下运行。khash/s 也降低了一半，这进一步证明线程并没有在低于正常的优先级下运行。<br/></div>我无法复现这个问题。我有双处理器，所以我运行了两个内存占用程序。根据任务管理器，Bitcoin 得到了 0% 的 CPU。khash/sec 计数器卡住不动，因为它得不到任何 CPU 来更新。<br/><br/>你是双处理器吗？你确定你运行的不是单个处理器占用程序？<br/></div>哈哈，我想你说得对。我身边有太多太多台电脑了，很难分清哪台是单核、双核、四核、八核等等。我会在单处理器的电脑上再测试一次，看看结果如何。</div>",
     "nested_level": 0
   },
   {
@@ -14024,6 +14306,18 @@
     "url": "https://bitcointalk.org/index.php?topic=432.msg3769#msg3769",
     "date": "2010-07-17T16:06:12Z",
     "text": "<div class=\"post\">这一定是 getinfo 转换为浮点数返回 JSON-RPC 结果时的舍入误差。&nbsp;唯一使用浮点数表示金额的地方就是在 JSON-RPC 中返回值。<br/><br/>1.139999999999 已经超出了比特币内部能表示的精度。<br/><br/>在内部，它只能是：<br/>1.13999999 或<br/>1.14000000<br/><br/>1.139999999999 比 1.13999999 更接近 1.14000000，所以它一定是 1.14000000。<br/><br/>代码是这样的：<br/>(double)GetBalance() / (double)COIN.<br/><br/>（我暂时想不出一个简单的修复方法）</div>",
+    "nested_level": 0
+  },
+  {
+    "id": 1364,
+    "thread_id": 117,
+    "source_id": "1",
+    "poster_name": "Gavin Andresen",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=224",
+    "subject": "隐私与安全：找零的处理",
+    "url": "https://bitcointalk.org/index.php?topic=434.msg3750#msg3750",
+    "date": "2010-07-17T14:13:46Z",
+    "text": "<div class=\"post\">下面演示一下备份再恢复钱包文件是怎么弄丢币的：<br/><br/>假设你钱包里有一枚闪亮的 1000 比特币（实际上只是一笔支付给某个公钥的 1000 比特币交易，该公钥存在你钱包里）。<br/><br/>你备份了这个文件。<br/><br/>现在你花掉 1 比特币。&nbsp;你那枚闪亮的 1000 BTC 被 打成 1BTC 加上 999BTC 的找零。&nbsp;那笔找零<b>被分配了一个全新的、不同的公钥。</b><br/><br/>这时如果你恢复钱包文件，比特币客户端会看到那枚 1000BTC 已经被花掉——1BTC 发去了某处，另外 999BTC 发去了另一处。&nbsp;因为你没有那 999BTC 的密钥，客户端完全不知道那些币属于你。<br/><br/>于是它们就丢了。<br/><br/>在我看来，在测试网络上试验各种找零处理策略会是个好主意。<br/><br/>也许找零交易应该始终用同一个公钥签名，这样恢复钱包时就不会丢币……不过这会牺牲一些隐私，因为它会把你的所有交易关联到一起。<br/><br/>也许你的钱包应该预先填充 100 个「找零」地址，需要时随机选用一个。&nbsp;再配某种超级极客的方式，把它们换成另外 100 个新地址。<br/><br/>也许还有更好的办法来解决「恢复钱包丢币」的问题；有什么想法？<br/></div>",
     "nested_level": 0
   },
   {
@@ -17340,6 +17634,19 @@
     "nested_level": 0
   },
   {
+    "id": 1664,
+    "satoshi_id": 282,
+    "thread_id": 135,
+    "source_id": "15",
+    "poster_name": "satoshi",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=3",
+    "subject": "回复：Windows 版比特币 x86",
+    "url": "https://bitcointalk.org/index.php?topic=572.msg6069#msg6069",
+    "date": "2010-07-27T18:27:30Z",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=453.msg5774#msg5774\">引用自：BlackEye 于 2010年7月25日, 10:12:23 PM</a></div><div class=\"quote\">我成功把 Crypto++ 5.6.0 的 SHA256 功能整合进了比特币。&nbsp;用上 SSE2 汇编代码后，这是目前最快的 SHA256。&nbsp;由于比特币送给区块哈希函数的数据是未对齐的，我不得不把 MOVDQA 指令改成 MOVDQU。<br/><br/>我认为使用 Crypto++ 5.6.0 的 SHA256 功能是眼下正确的方向。<br/></div>我把 Crypto++ 5.6.0 库的一个子集加入了 SVN。&nbsp;我把它精简到只剩 SHA 和 11 个通用依赖文件。&nbsp;里面除了 SHA 之外不应该再有其他加密算法。<br/><br/>我把数据字段做了对齐，然后就能用了。&nbsp;ASM 版 SHA-256 快了大约 48%。&nbsp;综合加速大约比 0.3.3 版快 2.5 倍。<br/><br/>我猜它用的是 SSE2。&nbsp;它在编译时根据编译器环境自动设置构建配置。<br/><br/>看起来它在运行时也有一些 SSE2 检测，但很难判断它在 SSE2 不可用时是否真的会用它做回退。&nbsp;我希望正式发布版本默认带 SSE2。&nbsp;SSE2 从第一代 Pentium 4 就有了。&nbsp;Pentium 3 或更老的机器实在太慢，在上面生成区块纯属浪费电。<br/><br/>这是 SVN 第 114 版。</div>",
+    "nested_level": 0
+  },
+  {
     "id": 1665,
     "thread_id": 135,
     "source_id": "16",
@@ -18605,6 +18912,18 @@
     "nested_level": 0
   },
   {
+    "id": 1781,
+    "thread_id": 145,
+    "source_id": "50",
+    "poster_name": "knightmb",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=345",
+    "subject": "回复：*** 警报 *** 尽快升级到 0.3.6！",
+    "url": "https://bitcointalk.org/index.php?topic=626.msg6713#msg6713",
+    "date": "2010-07-30T20:04:19Z",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=626.msg6711#msg6711\">引用自：satoshi 于 2010年7月30日, 07:53:06 PM</a></div><div class=\"quote\">我不明白你为什么这么痛苦。&nbsp;我就是照着 build-unix.txt 的说明做的。&nbsp;我为 Boost 1.37 做了几处小修正，下次更新时会放到 SVN，如下：<br/><br/>依赖项<br/>------------<br/>sudo apt-get install build-essential<br/>sudo apt-get install libgtk2.0-dev<br/>sudo apt-get install libssl-dev<br/>sudo apt-get install libdb4.7-dev<br/>sudo apt-get install libdb4.7++-dev<br/><b>sudo apt-get install libboost-all-dev（或 libboost1.37-dev）</b><br/></div>我加粗的那行就是坑我的地方。你没法用那条命令装上所有 libboost 包（我也试过用 * 偷懒），不过部分原因是我把说明看得太死了，以为要安装和 libboost 有关的「所有东西」，哈哈。<br/><br/>其实只需要 libboost1.37-dev 这一个包，装上它所有编译错误就消失了。其余一切顺利，包括自己编译 wxWidgets、编译 Boost 1.4 等。<br/><br/>所以最后那条命令应该就是<br/><b>sudo apt-get install libboost1.37-dev</b><br/><br/>顺便说一句，我是在 Ubuntu 64 位系统上编译的，所以编译出来的程序是 64 位感知的。我正在一些 64 位系统上测试效果如何。</div>",
+    "nested_level": 0
+  },
+  {
     "id": 1782,
     "satoshi_id": 301,
     "thread_id": 145,
@@ -19802,6 +20121,19 @@
     "nested_level": 0
   },
   {
+    "id": 1890,
+    "satoshi_id": 330,
+    "thread_id": 152,
+    "source_id": "65",
+    "poster_name": "satoshi",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=3",
+    "subject": "回复：0.3.6 在 SSE2 CPU 上并行计算 4 个哈希",
+    "url": "https://bitcointalk.org/index.php?topic=648.msg8145#msg8145",
+    "date": "2010-08-07T21:16:01Z",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=648.msg7838#msg7838\">引用自：impossible7 于 2010年8月06日, 11:37:20 AM</a></div><div class=\"quote\">CRITICAL_BLOCK 是一个包含 for 循环的宏。断言失败表明循环体内调用了 break。这个块中唯一的 break 语句在第 2762 行。而在原始源文件中，这个临界块里没有 break 语句。我认为你必须删掉 2759-2762 行。原始 main.cpp 里没有这样的东西。<br/></div>抱歉，这是我的疏忽。&nbsp;CRITICAL_BLOCK 并不完美。&nbsp;你必须小心，不要在它里面 break 或 continue 跳出。&nbsp;有一个断言会捕获 break 并给出警告。&nbsp;用它是可以批评我，但没有它的话语法会臃肿得多，也更容易出错。<br/><br/>有没有可能 SSE2 代码在 Intel 上慢是因为某种可以绕过的怪异问题？&nbsp;比如说，某样东西在未对齐时虽然能工作但很慢，或者缓存颠簸，或者某类指令特别慢？&nbsp;我不确定现在还能不能找到，但我记得 Intel 以前有一个能逐条指令做性能分析的分析器。&nbsp;我想如果 tcatm 手边没有带慢处理器的系统来测试，那就没什么希望了。&nbsp;但如果这能在大多数 CPU 上正常运行，那就太好了。</div>",
+    "nested_level": 0
+  },
+  {
     "id": 1891,
     "thread_id": 152,
     "source_id": "66",
@@ -20044,6 +20376,18 @@
     "url": "https://bitcointalk.org/index.php?topic=648.msg9278#msg9278",
     "date": "2010-08-14T22:06:13Z",
     "text": "<div class=\"post\">MinGW GCC 4.5.0：<br/>Crypto++ 不工作，X86_SHA256_HashBlocks() 永远不返回<br/>我只让 test.cpp 中的4路并行工作了，但 BitcoinMiner 调用时不行<br/><br/>MinGW GCC 4.4.1：<br/>Crypto++ 工作<br/>4路并行 SIGSEGV<br/><br/>GCC 确实没有对 __m128i 进行对齐。<br/><br/>即使我们对我们自己的 __m128i 变量进行对齐，编译器也可能在幕后使用 __m128i 作为临时变量。<br/><br/>通过对我们的 __m128i 变量进行对齐，并将这些 inline 改为 define，我能够让它在4.4.1上以 -O0 工作：<br/>#define Ch(b, c, d)&nbsp;&nbsp;((b &amp; c) ^ (~b &amp; d))<br/>#define Maj(b, c, d)&nbsp;&nbsp;((b &amp; c) ^ (b &amp; d) ^ (c &amp; d))<br/>#define ROTR(x, n) (_mm_srli_epi32(x, n) | _mm_slli_epi32(x, 32 - n))<br/>#define SHR(x, n)&nbsp;&nbsp;_mm_srli_epi32(x, n)<br/><br/>但那是在 -O0 下。<br/><br/></div>",
+    "nested_level": 0
+  },
+  {
+    "id": 1911,
+    "thread_id": 152,
+    "source_id": "86",
+    "poster_name": "sgtstein",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=398",
+    "subject": "回复：0.3.6 在 SSE2 CPU 上并行计算 4 个哈希",
+    "url": "https://bitcointalk.org/index.php?topic=648.msg9353#msg9353",
+    "date": "2010-08-15T03:19:31Z",
+    "text": "<div class=\"post\">好，来汇报了。<br/><br/>我通过在 gcc 编译时加 -msse 和 -msse2 编译成功。第一次哈希速度大约 692kh/s（是 SVN r130 的 50%[1400kh/s]），重新编译后现在能达到约 ~1120kh/s。这大致相当于我两颗 CPU 关掉超线程的成绩，虽然我能确认它确实在用超线程。关掉超线程后，我得到 ~1350kh/s。已经很接近原版构建了。<br/><br/>另外，git 仓库里有打完补丁的更新代码吗？<br/><br/><div class=\"codeheader\">代码：</div><div class=\"code\">// SVN r130 使用 HT。<br/>08/14/10 19:02 hashmeter &nbsp; 4 CPUs &nbsp; 1392 khash/s<br/>08/14/10 19:32 hashmeter &nbsp; 4 CPUs &nbsp; 1387 khash/s<br/>08/14/10 20:02 hashmeter &nbsp; 4 CPUs &nbsp; 1386 khash/s<br/>08/14/10 20:32 hashmeter &nbsp; 4 CPUs &nbsp; 1380 khash/s<br/>08/14/10 21:02 hashmeter &nbsp; 4 CPUs &nbsp; 1363 khash/s<br/>// 使用 -msse -msse2，第一次运行。使用 HT。<br/>08/14/10 21:32 hashmeter &nbsp; 4 CPUs &nbsp; &nbsp;692 khash/s<br/>08/14/10 22:06 hashmeter &nbsp; 4 CPUs &nbsp; 1011 khash/s<br/>08/14/10 22:11 hashmeter &nbsp; 4 CPUs &nbsp; 1104 khash/s<br/>08/14/10 22:16 hashmeter &nbsp; 4 CPUs &nbsp; 1120 khash/s<br/>// 不使用 HT。<br/>08/14/10 22:21 hashmeter &nbsp; 2 CPUs &nbsp; 1359 khash/s<br/>08/14/10 22:26 hashmeter &nbsp; 2 CPUs &nbsp; 1340 khash/s<br/></div><br/><br/>只想讲讲我的经历，尽力提供一点信息。</div>",
     "nested_level": 0
   },
   {
@@ -21226,6 +21570,18 @@
     "url": "https://bitcointalk.org/index.php?topic=671.msg13794#msg13794",
     "date": "2010-09-23T05:06:50Z",
     "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=671.msg13789#msg13789\">引用自：Babylon 于 2010年9月23日 上午05:01:59</a></div><div class=\"quote\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=671.msg7004#msg7004\">引用自：mtgox 于 2010年8月2日 下午01:23:12</a></div><div class=\"quote\">我认为比特币扑克将真正确立 BTC 的地位。<br/></div><br/>我不同意。 用比特币玩扑克你只能赢得比特币。 赌博市场远不如色情市场那么大，而且它也不能像色情那样从微支付中获益那么多。<br/><br/>我认为比特币色情是个绝妙的主意，如果有人开始开发，我希望他们能联系我。<br/></div><br/>为什么不用一个（用户友好的）基于比特币的文件托管服务来替代 SharingMatrix/MegaUpload 等等，然后让所有「免费」色情网站（比如 adultbay）改用它。如果你不用冒着泄露个人信息和信用卡信息的风险，也不用担心那些邪恶的自动续费，我确实愿意为增加的带宽和并发下载付费。<br/><br/>这样我们就可以间接地利用色情（和音乐博客）了。</div>",
+    "nested_level": 0
+  },
+  {
+    "id": 2035,
+    "thread_id": 159,
+    "source_id": "30",
+    "poster_name": "kiba",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=491",
+    "subject": "回复：色情内容",
+    "url": "https://bitcointalk.org/index.php?topic=671.msg13826#msg13826",
+    "date": "2010-09-23T15:55:07Z",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=671.msg13794#msg13794\">引用自：thrashaholic 于 2010年9月23日, 05:06:50 AM</a></div><div class=\"quote\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=671.msg13789#msg13789\">引用自：Babylon 于 2010年9月23日, 05:01:59 AM</a></div><div class=\"quote\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=671.msg7004#msg7004\">引用自：mtgox 于 2010年8月02日, 01:23:12 PM</a></div><div class=\"quote\">我觉得比特币扑克才真正能让 BTC 站稳脚跟。<br/></div><br/>我不同意。&nbsp;玩扑克用比特币赢到的只能是比特币。&nbsp;赌博市场的规模也远远比不上色情行业，而且它从微支付可能性中获得的好处也没那么多。<br/><br/>我觉得比特币色情内容会是个绝佳的点子，如果有人开始开发这个，希望他们联系我。&nbsp;<br/></div><br/>为什么不搞一个（用户友好的）基于比特币的文件托管服务来取代 SharingMatrix/MegaUpload 等等，然后让所有「免费」色情网站（比如 adultbay）改用它。如果不用拿我的个人信息和信用卡资料去冒险，也不用受那些邪恶的自动续费之苦，我真的愿意为更高的带宽和并发下载付费。<br/><br/>这样我们就可以借道色情（和音乐博客）来曲线推广。<br/></div><br/>是啊，比特币可以当个好用的验证码。</div>",
     "nested_level": 0
   },
   {
@@ -23158,6 +23514,19 @@
     "nested_level": 0
   },
   {
+    "id": 2250,
+    "satoshi_id": 347,
+    "thread_id": 174,
+    "source_id": "13",
+    "poster_name": "satoshi",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=3",
+    "subject": "回复：这不是一个建议",
+    "url": "https://bitcointalk.org/index.php?topic=770.msg8836#msg8836",
+    "date": "2010-08-12T02:46:56Z",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=770.msg8824#msg8824\">引用自：Red 于 2010年8月12日, 01:10:19 AM</a></div><div class=\"quote\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=770.msg8798#msg8798\">引用自：satoshi 于 2010年8月11日, 09:07:59 PM</a></div><div class=\"quote\">我认为客户端将不得不保留全部历史，一直追溯到最初生成的币。&nbsp;客户端必须保留全部历史这一事实，削弱了隐私方面的好处。&nbsp;<br/></div><br/>我起初也这么想。但后来我说服了自己放弃这个想法。<br/></div>你现在说的是回到现有的比特币系统吗？<br/><br/>我说的是在我描述的那个假想系统里，如果网络不知道交易的金额和来龙去脉，它就无法验证和背书这些交易，所以客户端不得不把历史一路保留到底。<br/><br/>如果一个客户端直到最近才上线，要让它相信一笔交易的历史是有效的，有两种方式：<br/>1) 向它展示追溯到最初生成币的全部历史。<br/>2) 向它展示追溯到一个足够深的区块的历史，然后相信：既然这么多节点都认同到那时为止的历史是正确的，那它必然为真。<br/><br/>但如果网络不知道交易的全部金额和来龙去脉，我认为它就没法做 2)。<br/></div>",
+    "nested_level": 0
+  },
+  {
     "id": 2253,
     "thread_id": 175,
     "source_id": "1",
@@ -23433,6 +23802,19 @@
     "url": "https://bitcointalk.org/index.php?topic=788.msg8765#msg8765",
     "date": "2010-08-11T16:40:07Z",
     "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=788.msg8764#msg8764\">引用自：davidonpda 于 2010年8月11日，下午4:19:43</a></div><div class=\"quote\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=788.msg8761#msg8761\">引用自：gavinandresen 于 2010年8月11日，下午4:10:56</a></div><div class=\"quote\">+ 在客户端到客户端的连接过程中要求一定的工作量证明（有助于防止「女巫」攻击）。<br/></div><br/>这不是个绝妙的主意吗？就像 hashcash 那样？<br/><br/>你需要对交易字符串进行哈希运算，加上工作量证明，比如说在一台现代 PC 上大约需要5秒来计算。就像比特币中一样，验证工作量证明对接收机器来说很简单也非常快速，但如果攻击者没有无限的 CPU 算力，就能阻止随机数据的洪泛攻击。<br/></div><br/>我实际上想的是在初始连接时要求一到三分钟的工作量证明，而不是在提交交易时，但要求每笔提交到网络的交易都附带一定的工作量证明确实是一个非常有趣的想法！实现起来也应该很简单（在交易中添加一个随机数和完整或部分哈希）……<br/></div>",
+    "nested_level": 0
+  },
+  {
+    "id": 2286,
+    "satoshi_id": 344,
+    "thread_id": 177,
+    "source_id": "7",
+    "poster_name": "satoshi",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=3",
+    "subject": "回复：关于比特币可能弱点的专门讨论区在哪里。",
+    "url": "https://bitcointalk.org/index.php?topic=788.msg8804#msg8804",
+    "date": "2010-08-11T22:40:25Z",
+    "text": "<div class=\"post\">这不一定非得是一个破坏性的变更。&nbsp;新节点可以在很长时间内继续接受旧交易，直到大多数节点都完成升级后，才开始拒绝没有 PoW 的交易。&nbsp;或者，它们可以永远接受旧交易，但每个时间段内只接受有限的数量。<br/><br/>关于交易上做 PoW 我想过很多次，但通常最后我都会想，0.01 的交易费本质上既类似又更好。&nbsp;0.01 基本上就是一种工作量证明，但不浪费。&nbsp;不过，如果问题在于要验证海量的交易，那么 PoW 可以更快地完成验证。<br/><br/>一个更通用的兜底部分解决方案，是实现检测区块接收量异常下降的那个想法。&nbsp;这样攻击者仍然需要掌握网络算力的相当大一部分，才能从 DoS 攻击中获益。<br/><br/><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=788.msg8761#msg8761\">引用自：gavinandresen 于 2010年8月11日, 04:10:56 PM</a></div><div class=\"quote\">比特币的 P2P 网络面临各种类型的拒绝服务攻击。<br/><br/>好了，我把它说出来了。<br/></div>+1<br/><br/>此时进行任何演示性测试都只会证明我们已经知道的东西，并且会把本该用于强化系统的时间浪费在救火上。<br/></div>",
     "nested_level": 0
   },
   {
@@ -23812,6 +24194,18 @@
     "url": "https://bitcointalk.org/index.php?topic=813.msg9263#msg9263",
     "date": "2010-08-14T20:50:12Z",
     "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=813.msg9262#msg9262\">引用自：gebler 于 2010年8月14日 08:48:57 PM</a></div><div class=\"quote\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=813.msg9254#msg9254\">引用自：FreeMoney 于 2010年8月14日 08:21:51 PM</a></div><div class=\"quote\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=813.msg9249#msg9249\">引用自：gebler 于 2010年8月14日 08:06:01 PM</a></div><div class=\"quote\">我知道难度调整的 4 倍限制是最近才加上的，所以在修复算法中存在的问题方面是有先例的。<br/></div><br/>真的吗？有出处吗？<br/></div><br/>抱歉，我搞错了。&nbsp;我以为我在论坛上看到过类似的说法，但现在找不到了。&nbsp;查看早期源代码后，我发现 4 倍上限在 bitcoin-0.1.0.rar 中就已经存在了，所以这绝对不是新的修改。<br/></div><br/>我也这么觉得，不过有些改动还是可以做的。能解决这个问题的改动是什么呢？</div>",
+    "nested_level": 0
+  },
+  {
+    "id": 2324,
+    "thread_id": 182,
+    "source_id": "16",
+    "poster_name": "knightmb",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=345",
+    "subject": "回复：潜在的灾难场景",
+    "url": "https://bitcointalk.org/index.php?topic=813.msg9268#msg9268",
+    "date": "2010-08-14T21:04:56Z",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=813.msg9265#msg9265\">引用自：gebler 于 2010年8月14日, 08:51:14 PM</a></div><div class=\"quote\">这在我最初的帖子里就写了：<br/><br/><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=813.msg9186#msg9186\">引用自：gebler 于 2010年8月14日, 12:43:54 PM</a></div><div class=\"quote\">对算法的一个简单（？）修改是，在经过一定时间后而非在特定区块高度时应用难度调整。&nbsp;这个切换仍然可以同步为在下一个区块生效，因此客户端之间的时间同步不需要特别精确，就能让绝大多数节点就新难度何时应用达成一致。<br/><br/>另外，难度调整或许应该把每次事件铸造的比特币数量调整（现为 50 枚，每四年减半）也考虑进去。&nbsp;从盈利角度看，每次产出的比特币数量减半等价于难度翻倍，如果可以轻松避免，这种利润的急剧下降是没必要的。我不确定当前的调整算法是否已经以某种方式考虑了这一点，但我在源代码中看不出有任何对此的明显调整。<br/></div></div>那你打算怎么处理延迟和时间篡改问题呢？</div>",
     "nested_level": 0
   },
   {
@@ -25769,6 +26163,18 @@
     "nested_level": 0
   },
   {
+    "id": 2509,
+    "thread_id": 192,
+    "source_id": "20",
+    "poster_name": "Insti",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=336",
+    "subject": "回复：比特币最像普通股股票",
+    "url": "https://bitcointalk.org/index.php?topic=845.msg10273#msg10273",
+    "date": "2010-08-19T18:46:04Z",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=845.msg10268#msg10268\">引用自：fresno 于 2010年8月19日, 05:40:46 PM</a></div><div class=\"quote\">有没有人注意到，FRN 恰恰就是那个「用于记账的自定义单位」？<br/><br/>合法的美国美元在法律上定义为 371 又 4/16 格令白银。这个定义略有修改过，但从未被废除。&nbsp;「美元」其实是一个计量单位，你可以去查。赌他们没在学校教过你这个！<br/><br/>联邦储备券「以美元计价」，或者如上面 Red 所说，他们定义了自己的记账单位。给美联储写信，追问这个问题。&nbsp;他们会回复说 FRN「由美国政府的完全信用背书」。&nbsp;他们不会承认的是，FRN 并不是法律定义的美国美元。&nbsp;它之所以「以美元计价」，只是因为你接受了商业合同中的条款。<br/><br/>为什么要绕这一圈？因为它说明我们可以定义自己的术语。&nbsp;而使用他们的术语——money、cash、dollar、currency 等等一大堆——是愚蠢的。<br/><br/></div><br/>我倒觉得它证明的是：我们可以随意选用词语、随意定义它们；「他们」用「dollar」这个词指代某个东西，不代表我们就不能用拼写相同的词来指代完全不同的东西。</div>",
+    "nested_level": 0
+  },
+  {
     "id": 2510,
     "thread_id": 192,
     "source_id": "21",
@@ -26595,6 +27001,18 @@
     "url": "https://bitcointalk.org/index.php?topic=898.msg10844#msg10844",
     "date": "2010-08-23T16:39:22Z",
     "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=898.msg10836#msg10836\">引用自 nimnul 于 2010年8月23日 03:46:07 PM</a></div><div class=\"quote\">3) 通过 RSS/邮件/Jabber 通知我们<br/></div><br/>那太中心化/可被审查/可被黑客攻击了，用只有 satoshi 拥有的特定私钥签名消息的方案是理想的，因为它可以在任何节点引入并通过去中心化的方式传播。</div>",
+    "nested_level": 0
+  },
+  {
+    "id": 2582,
+    "thread_id": 201,
+    "source_id": "22",
+    "poster_name": "lfm",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=466",
+    "subject": "回复：警报系统的开发",
+    "url": "https://bitcointalk.org/index.php?topic=898.msg10961#msg10961",
+    "date": "2010-08-24T03:58:17Z",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=898.msg10783#msg10783\">引用自：mizerydearia 于 2010年8月23日, 08:50:04 AM</a></div><div class=\"quote\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=898.msg10748#msg10748\">引用自：lfm 于 2010年8月23日, 05:28:14 AM</a></div><div class=\"quote\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=898.msg10745#msg10745\">引用自：FreeMoney 于 2010年8月23日, 05:23:13 AM</a></div><div class=\"quote\">我其实连「某一个人拥有发送消息的能力」这个想法都不喜欢。哪怕我现在/我们现在是信任这个人的，以后可能就不信了，或者换人了，或者他可能被酷刑逼供/收买/敲诈。<br/></div><br/>这是开源的！如果你不信任 Satoshi，或者觉得他会被人胁迫，就用你自己的密钥替换掉他的，这样只有你才有权关闭你自己的节点。<br/><br/></div><br/>要让所有人都更换密钥或升级到新版本，需要付出大量努力。&nbsp;这一点应该被那些至今还在用旧版本（甚至早到 0.3.0，或许更早）的人认识到。<br/></div><br/>如果它只是一个简单的选项，在配置文件里或者一个命令行开关，那就不需要多大努力。它甚至可以不做成默认项，做成可选开启。有些人会把它当作一份保险而欢迎它——确保自己在紧急情况下不会制造麻烦。</div>",
     "nested_level": 0
   },
   {
@@ -27965,6 +28383,19 @@
     "nested_level": 0
   },
   {
+    "id": 2714,
+    "satoshi_id": 441,
+    "thread_id": 213,
+    "source_id": "9",
+    "poster_name": "satoshi",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=3",
+    "subject": "回复：总是支付交易费？",
+    "url": "https://bitcointalk.org/index.php?topic=994.msg12237#msg12237",
+    "date": "2010-09-08T17:30:14Z",
+    "text": "<div class=\"post\">目前，是否付费由 -paytxfee 开关手动控制。&nbsp;让软件自动检查近期区块的大小来判断是否应该付费，是很容易实现的。&nbsp;我们离阈值还远得很，暂时用不上。&nbsp;反正先看看手动控制的效果如何，也是个好主意。<br/><br/>就算到了阈值也没什么大不了的。&nbsp;免费交易只是要等更久才能进区块。<br/><br/>我对大约 74000-78000 区间的 4000 个区块做了粗略统计。&nbsp;以下不含区块奖励交易：<br/><br/>平均每区块 2 笔交易，每小时 17 笔，每天 400 笔。<br/><br/>每区块平均交易字节数为 428 字节，即每笔交易 214 字节。<br/><br/>当前阈值是每区块 200KB，约合每区块 1000 笔交易。&nbsp;我认为应该降到每区块 50KB。&nbsp;那也仍然是平均每区块交易量的 100 多倍。<br/><br/>这个阈值以后很容易改。&nbsp;到时候我们再决定调高它。&nbsp;先把它维持在较低水平作为断路器、需要时再调高，是个好策略。&nbsp;如果现在就撞上阈值，那几乎肯定是某种洪水攻击而非真实使用。&nbsp;把阈值维持得低一些，有助于在那种情况下限制浪费的磁盘空间。<br/></div>",
+    "nested_level": 0
+  },
+  {
     "id": 2715,
     "satoshi_id": 457,
     "thread_id": 213,
@@ -28184,6 +28615,18 @@
     "url": "https://bitcointalk.org/index.php?topic=1013.msg12363#msg12363",
     "date": "2010-09-10T14:02:36Z",
     "text": "<div class=\"post\">我对这些感到非常困惑。我也生成了一个区块并立即将其转出了。看看这笔交易：<br/><br/>&nbsp; &nbsp; &nbsp;\"address\" : \"1LCSXSx8sjcZKHFXbyasBsuEdJtBVRaco7\",<br/>&nbsp; &nbsp; &nbsp; &nbsp; \"label\" : \"\",<br/>&nbsp; &nbsp; &nbsp; &nbsp; \"txid\" : \"1249190d1a13b03b51c27ded2e8441d446a8ae6ef90f90db31a8267da0845685\",<br/>&nbsp; &nbsp; &nbsp; &nbsp; \"txtime\" : 1283997623,<br/>&nbsp; &nbsp; &nbsp; &nbsp; \"category\" : \"debit\",<br/>&nbsp; &nbsp; &nbsp; &nbsp; \"amount\" : 50.01000000,<br/>&nbsp; &nbsp; &nbsp; &nbsp; \"confirmations\" : 228<br/>&nbsp; &nbsp; },<br/><br/>看起来我也付了手续费。那是为什么呢？一个包含太多交易的区块，价值来自多个小额钱包（但客户端应该能看到一个满足整个交易的钱包，不是吗？）还是其他什么原因？</div>",
+    "nested_level": 0
+  },
+  {
+    "id": 2734,
+    "thread_id": 216,
+    "source_id": "8",
+    "poster_name": "theymos",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=35",
+    "subject": "回复：因为要收交易费就不让我发币？",
+    "url": "https://bitcointalk.org/index.php?topic=1013.msg12364#msg12364",
+    "date": "2010-09-10T14:31:12Z",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1013.msg12362#msg12362\">引用自：davidonpda 于 2010年9月10日, 01:45:58 PM</a></div><div class=\"quote\">所以我损失了一分钱在里面。那么我的问题是，那笔交易费，是进下一个区块了？还是进我生成之前的那个区块了？<br/></div><br/>你没有支付交易费。你的余额里有 .01000010；你只是无法花它。如果你把整个 0.01000010 发到另一个地址（不能拆开），网络是会接受的，但比特币界面不支持这么高的精度。<br/><br/><div class=\"quoteheader\">引用</div><div class=\"quote\">既然交易费适用于小于 0.01 的交易，那加上的交易费至少应该是 0.01 吧？</div> <br/><br/>这不是网络强制执行的。交易费不属于「输出」，所以不受「尘埃垃圾交易」限制的约束。<br/><br/><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1013.msg12363#msg12363\">引用自：nelisky 于 2010年9月10日, 02:02:36 PM</a></div><div class=\"quote\">看来我也付了手续费。这是为什么？是某个区块交易太多，金额来自多个小额钱包（但客户端应该能看到一个钱包就够付整笔交易，不是吗？）还是别的原因？<br/></div><br/>你收到了 0.01 的手续费。你没有支付手续费。</div>",
     "nested_level": 0
   },
   {
@@ -28587,6 +29030,19 @@
     "nested_level": 0
   },
   {
+    "id": 2773,
+    "satoshi_id": 455,
+    "thread_id": 220,
+    "source_id": "9",
+    "poster_name": "satoshi",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=3",
+    "subject": "回复：移除IP交易的理由",
+    "url": "https://bitcointalk.org/index.php?topic=1048.msg13219#msg13219",
+    "date": "2010-09-19T21:49:30Z",
+    "text": "<div class=\"post\">除非你确实打算使用，否则最好禁用通过IP接收的功能。这是一个没人使用的很大的攻击面，不需要默认开启。<br/><br/>在商店场景中，你通常只希望客户通过你的自动化系统发送付款，该系统只为特定的订单和账户分配比特币地址。自愿发送到服务器IP地址的随机未识别付款是没用的。<br/><br/>总的来说，通过IP发送的有用场景有限。如果直接连接不使用代理，中间人攻击的风险可能可以容忍，但没有隐私。如果你使用隐私代理，中间人攻击的风险会高到不可接受。如果我们花大力气实现SSL，通常只有大型商店才会去弄CA证书，但这些场景中大多数仍然最好使用比特币地址。<br/><br/>我已将此更改上传到SVN rev 156。启用的参数是「-allowreceivebyip」。<br/><br/>此版本的发送者会收到错误提示「接收方不接受通过IP地址发送的交易」。旧版本的发送者会收到「转账未被接受」。<br/><br/>我使用了不同的参数名称，因为「-allowiptransactions」听起来像也包括发送。如果有更好的参数名称，我们可以再改。</div>",
+    "nested_level": 0
+  },
+  {
     "id": 2774,
     "thread_id": 221,
     "source_id": "1",
@@ -28620,6 +29076,18 @@
     "url": "https://bitcointalk.org/index.php?topic=1063.msg13151#msg13151",
     "date": "2010-09-18T23:42:52Z",
     "text": "<div class=\"post\">我通过 SourceForge 给 Satoshi 发了消息，建议启用 MantisBT 或 Trac。&nbsp;也许他会注意到的。</div>",
+    "nested_level": 0
+  },
+  {
+    "id": 2777,
+    "thread_id": 221,
+    "source_id": "4",
+    "poster_name": "nelisky",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=601",
+    "subject": "回复：Bug？ /usr/bin/bitcoind 「」",
+    "url": "https://bitcointalk.org/index.php?topic=1063.msg13197#msg13197",
+    "date": "2010-09-19T15:16:54Z",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1063.msg13140#msg13140\">引用自：mizerydearia 于 2010年9月18日, 10:19:22 PM</a></div><div class=\"quote\">当我执行<br/><div class=\"codeheader\">代码：</div><div class=\"code\">/usr/bin/bitcoind</div>比特币守护进程正常启动。<br/><br/>当我执行<br/><div class=\"codeheader\">代码：</div><div class=\"code\">/usr/bin/bitcoind \"\"</div>报错：couldn't connect to server<br/><br/>怎么回事？&nbsp;这是个 bug 吗？<br/><br/>Satoshi：<b><span style=\"font-size: 15pt !important; line-height: 1.3em;\">我们能有一个缺陷跟踪系统吗？</span></b><br/><br/>我的 <a href=\"http://bitcointalk.org/index.php?topic=930.0\">gentoo linux init 脚本</a>的临时解决方案：<br/><div class=\"codeheader\">代码：</div><div class=\"code\">BITCOIN_OPTS=\"-min\"</div>这样就会执行为 `bitcoind \"-min\"`<br/></div><br/>这怎么算 bug？可能我理解得完全不对，但是：<br/><div class=\"codeheader\">代码：</div><div class=\"code\">/usr/bin/bitcoind</div>启动守护进程，而<br/><div class=\"codeheader\">代码：</div><div class=\"code\">/usr/bin/bitcoind \"\"</div>是在向正在运行的守护进程调用 rpc 方法「」，这个方法不存在，所以你得到连接失败。如果它存在，你会得到：<br/><div class=\"codeheader\">代码：</div><div class=\"code\">error: {\"code\":-32601,\"message\":\"Method not found\"}</div><br/></div>",
     "nested_level": 0
   },
   {
@@ -28717,6 +29185,18 @@
     "url": "https://bitcointalk.org/index.php?topic=1268.msg13914#msg13914",
     "date": "2010-09-24T05:07:49Z",
     "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1268.msg13912#msg13912\">引用：FreeMoney 于 2010年9月24日，上午5:02:42</a></div><div class=\"quote\"><br/>我在想，也许可以把这个血汗工厂去中心化以降低运营成本，并用比特币向工人支付微额报酬。<br/></div>有哪些合法的验证码破解活动呢？这对其他比特币用户有什么用处，对社区又有什么潜在的好处？<br/><br/>目前还没有人自愿去做这些利基方向中的任何一个，我认为理论上这些可以在几周内完成。（我的利基方向是为 bitpredict 编写软件）</div>",
+    "nested_level": 0
+  },
+  {
+    "id": 2790,
+    "thread_id": 222,
+    "source_id": "11",
+    "poster_name": "Babylon",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=454",
+    "subject": "回复：利基市场清单",
+    "url": "https://bitcointalk.org/index.php?topic=1268.msg13916#msg13916",
+    "date": "2010-09-24T05:12:18Z",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1268.msg13912#msg13912\">引用自：FreeMoney，2010年9月24日 05:02:42 AM</a></div><div class=\"quote\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1268.msg13911#msg13911\">引用自：kiba，2010年9月24日 04:44:51 AM</a></div><div class=\"quote\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1268.msg13910#msg13910\">引用自：FreeMoney，2010年9月24日 04:42:21 AM</a></div><div class=\"quote\">有人了解验证码破解生意吗？看起来你可以出价 0.02BTC 之类的收单，然后稍微加价批量转卖。我听说过 2-3 美元/1000 个的价格。如果人们愿意以 0.02 的价格做，那你就能把 20BTC 变成 2 美元。<br/><br/>不过我不知道细节。谁在收购？他们是要求按需破解特定验证码，还是一批已破解的验证码有什么用？<br/></div><br/>不太明白你在说什么。我把比特币本身看作一种验证码。这个理论是说比特币是有价值的东西，垃圾邮件发送者舍不得花费它。<br/></div><br/>在印度（？）、中国（？）有一些「血汗工厂」，雇人破解验证码，然后批量卖给黑客（？）。我只是想起以前读过的一篇文章的片段。<br/><br/>我在想，把这个血汗工厂去中心化或许能降低管理成本，并用比特币向工人们支付微额报酬，这可能说得通。<br/></div><br/>是垃圾邮件发送者，不是黑客。</div>",
     "nested_level": 0
   },
   {
@@ -28998,6 +29478,18 @@
     "url": "https://bitcointalk.org/index.php?topic=1291.msg14352#msg14352",
     "date": "2010-09-28T00:51:22Z",
     "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1291.msg14263#msg14263\">引用自 Marko 于 2010年9月27日 下午04:50:25</a></div><div class=\"quote\">我看了wiki，上面说接口只接受来自 127.0.0.1 的请求。现在还是这样吗？有没有设置可以覆盖这个限制？<br/></div><br/>现在还是这样，而且我不认为有设置可以覆盖它。它在源代码中是硬编码的。与其写一个”代理”应用，你可以用SSH隧道来代替。例如，如果你的比特币实例运行在 'example.com' 上，而那台机器运行着SSH服务器，你可以从另一台机器用以下命令建立隧道：<br/><br/>ssh -N example.com -L&nbsp; 9481:localhost:9481<br/><br/>现在你就可以在本地机器上通过端口9481使用RPC接口了，它会通过加密的SSH会话隧道连接到运行比特币RPC服务器的机器。<br/><br/>你需要加密这个连接，因为JSON-RPC密码是以明文方式发送的（实际上是base64编码的，但基本上等同于明文）。</div>",
+    "nested_level": 0
+  },
+  {
+    "id": 2820,
+    "thread_id": 226,
+    "source_id": "3",
+    "poster_name": "nelisky",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=601",
+    "subject": "回复：远程 RPC 访问",
+    "url": "https://bitcointalk.org/index.php?topic=1291.msg14353#msg14353",
+    "date": "2010-09-28T00:55:29Z",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1291.msg14352#msg14352\">引用自：doublec 于 2010年9月28日, 12:51:22 AM</a></div><div class=\"quote\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1291.msg14263#msg14263\">引用自：Marko 于 2010年9月27日, 04:50:25 PM</a></div><div class=\"quote\">我读了 wiki，说接口只接受来自 127.0.0.1 的请求。现在还是这样吗？有设置可以覆盖它吗？<br/></div><br/>还是这样，而且我不认为有设置能覆盖。它是硬编码在源代码里的。不用专门写一个「代理」程序，你可以用 SSH 做隧道。比如你的比特币实例跑在 example.com 上，而那台机器运行着 ssh 服务器，你就可以从另一台机器这样打通隧道：<br/><br/>ssh -N example.com -L&nbsp; 9481:localhost:9481<br/><br/>现在你就可以在本地机器上通过 9481 端口使用 RPC 接口，流量会经加密的 SSH 会话隧道传到运行比特币 RPC 服务器的那台机器。<br/><br/>之所以要加密连接，是因为 JSON-RPC 密码是明文发送的（其实是 base64 编码，但基本等同于明文）。<br/></div><br/>你能自己编译比特币吗？最新的 svn 有一个选项，允许绑定到其他网络接口，而不只是 localhost。如果不能，下一个版本（0.3.13）应该会带上这个功能。</div>",
     "nested_level": 0
   },
   {
@@ -29769,6 +30261,18 @@
     "nested_level": 0
   },
   {
+    "id": 2899,
+    "thread_id": 231,
+    "source_id": "14",
+    "poster_name": "chickenado",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=1779",
+    "subject": "回复：如何推翻GPU寡头",
+    "url": "https://bitcointalk.org/index.php?topic=1332.msg14869#msg14869",
+    "date": "2010-10-01T17:03:52Z",
+    "text": "<div class=\"post\"><div class=\"quoteheader\">引用</div><div class=\"quote\">网络最终<b>将</b>由「寡头」运营。一旦软件被优化到极致，竞争将取决于硬件、带宽，以及长期的电力生产。大多数人将无法跟上。<br/></div><br/>如果工作量证明最终归结为求解像SHA-2这样单一、定义明确、简单且可预测的哈希函数，那确实会如此。<br/><br/>如果我们想避免这种情况，就需要让工作量证明变得更加混沌和复杂。<br/><br/>SHA-2实际上被设计为计算上很容易，因为它的最初用途是数字签名，而不是工作量证明。<br/><br/>否则，结局就会如你所说。<br/><br/>想象一下2020年的景象：全世界三分之二的算力（Ghash/s）仅由三家公司控制。它们制造自己专用的HPU（哈希处理单元），并用定制建造的发电厂为它们供电。然后中国政府说服这三家公司将所有交易的10%双重支付到政府的比特币地址，作为回报，这些公司获得了它们急需的稀土元素的独家供应协议。有些人离开比特币转向没有这10%「税」的替代货币，但大多数人忍受了，因为到那时比特币几乎被普遍接受了。<br/><br/><br/><br/></div>",
+    "nested_level": 0
+  },
+  {
     "id": 2901,
     "thread_id": 231,
     "source_id": "16",
@@ -29778,6 +30282,18 @@
     "url": "https://bitcointalk.org/index.php?topic=1332.msg14873#msg14873",
     "date": "2010-10-01T17:45:40Z",
     "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1332.msg14870#msg14870\">引用：nelisky 于 2010年10月1日 05:11:49 PM</a></div><div class=\"quote\">在这种方式下，生成将越来越不具吸引力，因为每个区块的产出的比特币将减半，直到最终不再产生任何比特币，届时系统将需要由\"志愿者\"来维护——但他们并非真正的志愿者，因为如果不再生成区块，任何比特币都无法转账，从而让所有比特币失去价值……<br/></div><br/>如果生成收益不足以盈利，公司可以提高手续费。<br/><br/>每种计算都可以在硬件中实现更高效。试图阻止这一点是毫无意义的。这就像试图制作有效的 DRM 一样。</div>",
+    "nested_level": 0
+  },
+  {
+    "id": 2902,
+    "thread_id": 231,
+    "source_id": "17",
+    "poster_name": "MoonShadow",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=643",
+    "subject": "回复：如何推翻 GPU 寡头",
+    "url": "https://bitcointalk.org/index.php?topic=1332.msg14877#msg14877",
+    "date": "2010-10-01T18:35:39Z",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1332.msg14838#msg14838\">引用自：chickenado 于 2010年10月01日, 11:31:46 AM</a></div><div class=\"quote\">这个项目的优势本应在于它的分布式特性。<br/><br/>但现在，似乎一个越来越小、越来越排他的精英群体已经掌控了币/区块的生成。主导的是那些拥有大规模生产手段和保密专有 GPU 代码的专家。<br/><br/>普通用户再也没有一争之力，干脆彻底放弃生成区块了。<br/><br/>这让我想起了什么？没错，比特币正在变得像实体货币经济，一小撮中央银行把持着纸币的信用背书。<br/></div><br/>你似乎没抓住要点。&nbsp;区块生成的集中化并不会破坏比特币的分布式本质。&nbsp;因为与法币和中央银行不同，没有任何团体或个人对这种货币拥有垄断控制权，也就没人能这样操纵它。&nbsp;GPU 寡头们也不行。&nbsp;而且他们之间也在相互竞争。&nbsp;如果其中哪一个开始觉得自己锁定了区块生成的大多数，决定搞分叉偷币，其余的人就会察觉到变化，而且他们都有强烈的动机去赶超市场的领先者。</div>",
     "nested_level": 0
   },
   {
@@ -30309,6 +30825,18 @@
     "nested_level": 0
   },
   {
+    "id": 2952,
+    "thread_id": 232,
+    "source_id": "33",
+    "poster_name": "SmokeTooMuch",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=13",
+    "subject": "回复：面向大众的 OpenCL 矿机",
+    "url": "https://bitcointalk.org/index.php?topic=1334.msg15871#msg15871",
+    "date": "2010-10-07T17:32:38Z",
+    "text": "<div class=\"post\"><div class=\"codeheader\">代码：</div><div class=\"code\">BOOST_INC_DIR = [r'C:\\Program Files (x86)\\boost\\boost_1_44']<br/>BOOST_LIB_DIR = [r'C:\\Program Files (x86)\\boost\\boost_1_44\\lib']<br/>BOOST_COMPILER = 'msvc'<br/>BOOST_PYTHON_LIBNAME = ['boost_python-vc90-mt-1_44']<br/>BOOST_THREAD_LIBNAME = ['boost_thread-vc90-mt-1_44']<br/>CL_TRACE = False<br/>CL_ENABLE_GL = False<br/>SHIPPED_CL_HEADERS = False<br/>CL_INC_DIR = [r'C:\\Program Files (x86)\\ATI Stream\\include']<br/>CL_LIB_DIR = [r'C:\\Program Files (x86)\\ATI Stream\\lib\\x86']<br/>CL_LIBNAME = ['OpenCL']<br/>CXXFLAGS = ['/EHsc', '/DBOOST_PYTHON_NO_PY_SIGNATURES']<br/>LDFLAGS = ['/FORCE']</div>这是我当前的 siteconfig.py，不过我现在就试试你的配置。<br/><br/>编辑：谢了哥们，你现在是我们的英雄了 ^^<br/><div class=\"codeheader\">代码：</div><div class=\"code\">BOOST_INC_DIR = [r'C:\\Program Files (x86)\\boost\\boost_1_44']<br/>BOOST_LIB_DIR = [r'C:\\Program Files (x86)\\boost\\boost_1_44\\lib']<br/>BOOST_COMPILER = 'msvc'<br/>BOOST_PYTHON_LIBNAME = ['boost_python-vc90-mt-1_44']<br/>USE_SHIPPED_BOOST = False<br/>CL_TRACE = False<br/>CL_ENABLE_GL = False<br/>CL_INC_DIR = [r'C:\\Program Files (x86)\\ATI Stream\\include']<br/>CL_LIB_DIR = [r'C:\\Program Files (x86)\\ATI Stream\\lib\\x86']<br/>CL_LIBNAME = ['OpenCL']<br/>CXXFLAGS = ['/EHsc', '/DBOOST_PYTHON_NO_PY_SIGNATURES']<br/>LDFLAGS = ['/FORCE']</div></div>",
+    "nested_level": 0
+  },
+  {
     "id": 2953,
     "thread_id": 232,
     "source_id": "34",
@@ -30498,6 +31026,18 @@
     "url": "https://bitcointalk.org/index.php?topic=1334.msg16564#msg16564",
     "date": "2010-10-11T16:55:44Z",
     "text": "<div class=\"post\"><div class=\"quoteheader\">引用</div><div class=\"quote\">SPARKLE SX84GS256D2LDPP GeForce <b>8400 GS 256MB 64位 DDR2</b> PCI Express 2.0 x16 HDCP Ready Low Profile Ready 显卡</div>嗯……256MB……DDR2 加 64 位接口<br/>这东西上市的时候就是垃圾 ^^</div>",
+    "nested_level": 0
+  },
+  {
+    "id": 2969,
+    "thread_id": 232,
+    "source_id": "50",
+    "poster_name": "SmokeTooMuch",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=13",
+    "subject": "回复：面向大众的 OpenCL 矿机",
+    "url": "https://bitcointalk.org/index.php?topic=1334.msg16622#msg16622",
+    "date": "2010-10-11T22:16:59Z",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1334.msg16521#msg16521\">引用自：lfm 于 2010年10月11日, 07:15:45 AM</a></div><div class=\"quote\"><br/>好吧，我在 GPGPU 这块真是个新手，我运行这东西时收到了这样的报错信息：<br/><br/><br/>Traceback (most recent call last):<br/>&nbsp;&nbsp;File \"poclbm.py\", line 28, in &lt;module&gt;<br/>&nbsp;&nbsp; &nbsp;miner = cl.Program(context, kernelFile.read()).build()<br/>&nbsp;&nbsp;File \"/usr/lib/pymodules/python2.6/pyopencl/__init__.py\", line 138, in program_build<br/>&nbsp;&nbsp; &nbsp;\"Build on %s:\n\n%s\" % (dev, log) for dev, log in build_logs))<br/>pyopencl.RuntimeError: clBuildProgram failed: build program failure<br/><br/>Build on &lt;pyopencl.Device 'GeForce 8400 GS' at 0xf16c40&gt;:<br/><br/>Error: Code selection failed to select: 0x138fdc0: i32 = bswap 0x138fbc0<br/><br/>-------------------<br/>这是在 Linux 64 位系统上，「i32 = bswap」是指它需要 32 位 Linux 吗？<br/><br/>顺便说一句，我知道 8400 GS 很慢，不用你提醒我。<br/><br/></div>我在 Win7-64 位系统配 8600 GTS 上遇到了同样的错误。<br/><div class=\"codeheader\">代码：</div><div class=\"code\">Build on &lt;pyopencl.Device 'GeForce 8600 GTS' at 0x2ed2f48&gt;:<br/><br/>Error: Code selection failed to select: 0x5d57918: i32 = bswap 0x5d57808</div>看来 poclbm 在 nvidia 显卡上跑不起来。</div>",
     "nested_level": 0
   },
   {
@@ -30882,6 +31422,18 @@
     "url": "https://bitcointalk.org/index.php?topic=1334.msg17795#msg17795",
     "date": "2010-10-20T18:08:23Z",
     "text": "<div class=\"post\">啊……是的，我说之前没注意到这个&nbsp; <img alt=\"Embarrassed\" border=\"0\" src=\"/static/img/emoticons/embarrassed.gif\"/><br/>1800 * 7.5 = 13500……和我的 15200 差距不大……逻辑上其实是合理的。</div>",
+    "nested_level": 0
+  },
+  {
+    "id": 3009,
+    "thread_id": 232,
+    "source_id": "90",
+    "poster_name": "jef.blanc",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=1928",
+    "subject": "回复：面向大众的 OpenCL 矿机",
+    "url": "https://bitcointalk.org/index.php?topic=1334.msg17864#msg17864",
+    "date": "2010-10-21T07:16:26Z",
+    "text": "<div class=\"post\">你好，这是我用 poclbm_py2exe.7z 里自带的原始 OpenCL.dll 运行 poclbm 时遇到的错误。<br/><br/>那个 7z 压缩包里装的是 ATI 驱动的 dll，所以我用 nvidia 显卡时，必须把它换成我的 nvidia 驱动提供的 dll，那个在 C:\\Windows\\System32\\ 里。<br/><br/>你也是这种情况吗，用的 poclbm_py2exe.7z 这个包里的 poclbm？<br/><br/>为了用上 poclbm，我做了这些事：<br/>- 为我的系统编译 pyopencl，我从这里 <a href=\"http://developer.nvidia.com/object/cuda_3_2_toolkit_rc.html#Windows%20XP,%20Windows%20Vista%20and%20Windows7\">http://developer.nvidia.com/object/cuda_3_2_toolkit_rc.html#Windows%20XP,%20Windows%20Vista%20and%20Windows7</a> 安装了最新的 CUDA 工具包来编译 pyopencl。<br/>- 用这里 <a href=\"http://developer.nvidia.com/object/cuda_3_2_toolkit_rc.html#Windows%20XP,%20Windows%20Vista%20and%20Windows7\">http://developer.nvidia.com/object/cuda_3_2_toolkit_rc.html#Windows%20XP,%20Windows%20Vista%20and%20Windows7</a> 的最新驱动（开发者驱动），不用它的话会遇到这些错误：<br/><div class=\"codeheader\">代码：</div><div class=\"code\">ImportError: DLL load failed: La procÚdure spÚcifiÚe est introuvable.</div>- 使用 <a href=\"http://github.com/m0mchil/poclbm\">http://github.com/m0mchil/poclbm</a> 的最新版 poclbm，其中做了一个修正，让 poclbm 能在 nvidia GPU 上无错运行</div>",
     "nested_level": 0
   },
   {
@@ -31281,6 +31833,18 @@
     "nested_level": 0
   },
   {
+    "id": 3043,
+    "thread_id": 232,
+    "source_id": "124",
+    "poster_name": "bethel",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=949",
+    "subject": "回复：面向大众的 OpenCL 矿机",
+    "url": "https://bitcointalk.org/index.php?topic=1334.msg18542#msg18542",
+    "date": "2010-10-25T23:10:17Z",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1334.msg18363#msg18363\">引用自：xxmalouinxx 于 2010年10月24日, 08:52:07 PM</a></div><div class=\"quote\">640mhash/s - radeon 5970 870mhz/1305mhz - 温度：83c<br/><br/>目前跑得挺好，但我不确定会不会稳定，有新消息我会来更新。<br/><br/>Malouin<br/></div><br/>你的 -frames 和 -worksize 参数是怎么设的？还有 -askrate 间隔用的多少？<br/><br/>我确实让两块卡都跑起来了（得用 crossfirex 线并启用 crossfirex）。<br/><br/>让我困惑的是，怎么才能让两块卡一起工作时达到它们单独工作时的性能。似乎把 frames 设得很低，比如 -frames=2，我可以让一块卡的 GPU 占用率达到约 97%。但另一块卡会掉到 60-80%。把 frames 调高到 256 时倒是还行，但机器上一跑别的程序，优先级似乎就比 poclbm.exe 高，会让它变慢。<br/><br/>目前我找到的最佳折中是<br/>--frames=25 --rate=3 --worksize=256 --device=1 --askrate=30<br/><br/>在单核处理器的机器上，这样能让每块卡平均达到约 90%，但波动很大。<br/><br/>有段时间我以为问题出在主板或 CPU 喂数据不够快，但我把卡装到我的游戏机上试了，那是四核加双 x16 PCIe 插槽，结果还是差不多。<br/><br/>有什么想法吗？</div>",
+    "nested_level": 0
+  },
+  {
     "id": 3044,
     "thread_id": 232,
     "source_id": "125",
@@ -31434,6 +31998,18 @@
     "url": "https://bitcointalk.org/index.php?topic=1334.msg19243#msg19243",
     "date": "2010-10-29T23:13:40Z",
     "text": "<div class=\"post\">谁能发一个在Ubuntu上安装这个（以及所有依赖项）的教程？或者发一个Linux二进制文件？我有一块Tesla显卡，迫不及待想试试。</div>",
+    "nested_level": 0
+  },
+  {
+    "id": 3059,
+    "thread_id": 232,
+    "source_id": "140",
+    "poster_name": "BitLex",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=292",
+    "subject": "回复：面向大众的 OpenCL 矿机",
+    "url": "https://bitcointalk.org/index.php?topic=1334.msg19259#msg19259",
+    "date": "2010-10-30T00:15:13Z",
+    "text": "<div class=\"post\">我最近注意到一些奇怪的<i>断连</i>，<br/>一切看起来都正常，但它就是卡住，拿不到新区块，<br/>发生在这些情况下：<br/>未做端口转发连接（显示 8 个连接）、<br/>-connect=&lt;转发节点IP&gt;（显示 1 个连接）、<br/>-addnode=&lt;转发节点IP&gt;（显示 8 个连接）、<br/>转发节点有 50&lt;80 个连接而且看起来总是拥有全部区块，其他节点有时就是拿不到，无论我怎么连接它们。<br/>还不确定是什么原因，一个能<i>强制 getblock</i> 之类的功能有时会很有用。<br/><br/>不过这倒促使我试着在同一个节点上同时跑两个 OpenCL 矿机。<br/>用 -rcpallowip 启动（原先只跑 GTX 的）节点，连接和挖矿都正常，<br/>只是要吃掉几个 Mhash。<br/>让（远程）HD 矿机用默认设置（askrate=5）运行时，（本地）GTX 矿机平均速度从 ~45M 掉到 ~43M，把（远程）askrate 设为 10 有所改善，损失仍然可察觉但小于 1M，<br/>HD 矿机也降了 ~2%，从 300 降到 294。<br/><br/>在 100M 网络上测试的，千兆网上也许有 &lt;2% 的损失，一找到肯赞助交换机和网卡的人我就试。&nbsp;<img alt=\"Cheesy\" border=\"0\" src=\"/static/img/emoticons/cheesy.gif\"/><br/><br/>祝挖矿愉快<br/>如果有人知道或找到了那个诡异的未转发节点断连问题的解决办法，请告诉我，谢谢。<br/><br/></div>",
     "nested_level": 0
   },
   {
@@ -31809,6 +32385,18 @@
     "nested_level": 0
   },
   {
+    "id": 3092,
+    "thread_id": 232,
+    "source_id": "173",
+    "poster_name": "LobsterMan",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=1378",
+    "subject": "回复：面向大众的 OpenCL 矿机",
+    "url": "https://bitcointalk.org/index.php?topic=1334.msg21074#msg21074",
+    "date": "2010-11-09T21:12:52Z",
+    "text": "<div class=\"post\">非常棒，太感谢了 m0mchil，等我挖到区块就送些币聊表谢意&nbsp;<img alt=\"Grin\" border=\"0\" src=\"/static/img/emoticons/grin.gif\"/><br/>（目前在 win7-64 上用 2 块 gtx275 加 260.99 版 nvidia 驱动运行成功）<br/><br/>我给每块显卡启动一个 polcbm.exe 实例，用 0 或 1 指定设备：<br/><a href=\"http://i.imgur.com/uONpy.png\">http://i.imgur.com/uONpy.png</a> 比如这样<br/><br/>目前运行良好，每块卡 45-50mhash/s，而我的 i7（2.67GHz）只有大约 4.1mhash。<br/><br/><br/><br/>几个问题：<br/><br/>-我拿到了打补丁的 bitcoin.exe，用「bitcoin.exe -server」运行它，这和指定 -daemon 差不多吗？只是 daemon 没有界面？<br/><br/>-有没有「正规」的办法关闭矿机？ctrl-c 管用但会冒出一些奇怪的警告，比如：<br/><div class=\"codeheader\">代码：</div><div class=\"code\">Traceback (most recent call last):<br/>&nbsp;&nbsp;File \"poclbm.py\", line 144, in &lt;module&gt;<br/>&nbsp;&nbsp;File \"pyopencl\\__init__.pyc\", line 286, in event_wait<br/>KeyboardInterrupt</div><br/>-目前想跑这些程序同时查看哈希速率，是不是只能开着命令行窗口？我想我可以写个批处理脚本同时启动两个，但那至少也得开两个控制台窗口，每个矿机一个？<br/></div>",
+    "nested_level": 0
+  },
+  {
     "id": 3093,
     "thread_id": 232,
     "source_id": "174",
@@ -31842,6 +32430,18 @@
     "url": "https://bitcointalk.org/index.php?topic=1334.msg21219#msg21219",
     "date": "2010-11-10T09:27:05Z",
     "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1334.msg21108#msg21108\">引用：lfm 于 2010年11月10日 上午12:48:07</a></div><div class=\"quote\"><div class=\"quoteheader\">引用</div><div class=\"quote\"> 我运行的是 Linux，标准的 \"patch\" 命令报告输入是垃圾内容，而直接把补丁文件复制到主线上则根本编译不过去。有人能告诉我到底该怎么做吗？<br/></div><br/>你需要恰好正确的比特币源码版本才能使用这个补丁。我看到的大多数补丁版本都是针对比特币的 \"svn\" 开发版本的。我认为补丁的前几行应该有一个 svn 版本号，你可以用 svn 命令获取对应版本的源码。<br/>svn -r {num} http:....<br/><br/><br/>祝你好运。<br/></div><br/>进入源码根目录，然后执行：<br/>$ patch -i -p0 &lt; /path/to/the/patch</div>",
+    "nested_level": 0
+  },
+  {
+    "id": 3096,
+    "thread_id": 232,
+    "source_id": "177",
+    "poster_name": "InterArmaEnimSil",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=375",
+    "subject": "回复：面向大众的 OpenCL 矿机",
+    "url": "https://bitcointalk.org/index.php?topic=1334.msg21319#msg21319",
+    "date": "2010-11-10T16:19:51Z",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1334.msg21219#msg21219\">引用自：davout，2010年11月10日 09:27:05 AM</a></div><div class=\"quote\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1334.msg21108#msg21108\">引用自：lfm，2010年11月10日 12:48:07 AM</a></div><div class=\"quote\"><div class=\"quoteheader\">Quote</div><div class=\"quote\"> 我用的是 Linux，标准的 patch 命令提示输入是无效数据，而直接把补丁文件覆盖到主线源码上也根本编译不过。能不能有人指点一下我到底该怎么做？<br/></div><br/>你需要恰好正确的 bitcoin 源码版本才能使用补丁。我见过的大多数补丁版本都是针对 bitcoin 的「svn」开发版制作的。我想补丁的最开头几行应该有 svn 版本号，你可以用 svn 命令用它来获取正确版本的源码。<br/>svn -r {num} http:....<br/><br/><br/>祝玩得愉快。<br/></div><br/>进入源码根目录，然后：<br/>$ patch -i -p0 &lt; /path/to/the/patch<br/></div><br/>谢谢！下一个问题似乎出在 wxWidgets 上。这个版本要求 2.9.0，但我现在只能找到 2.9.1，而后者似乎不能用。有谁知道我在哪里能拿到 2.9.0 吗？还是说 2.9.1 其实可以用，只是我做错了什么？抱歉问题太多了……</div>",
     "nested_level": 0
   },
   {
@@ -31986,6 +32586,18 @@
     "url": "https://bitcointalk.org/index.php?topic=1334.msg22356#msg22356",
     "date": "2010-11-17T01:05:12Z",
     "text": "<div class=\"post\">大家好，我对生成比特币非常感兴趣，想看看我的GPU能挖到多少。我已经用”Geeks3D GPU Caps Viewer“确认了我的设备确实支持”OpenCL(GPU)“。<br/><br/>问题是，我看到唯一清晰的步骤说明就是：<br/><br/>1. 下载”(GPU patch) bitcoin-getwork-svn181-win32.7z“和”poclbm_py2exe_20101102.7z“。<br/>2. ？<br/>3. 赚钱！<br/><br/>能不能请哪位好心人写一个详细的分步教程，教大家如何在Windows 7 64位系统上运行起来？要有所有的详细步骤，包括需要下载哪些文件、从哪里下载（直接链接），以及文件应该解压/配置到什么位置。<br/><br/>当然，即使是半吊子的教程也比现在的情况好，所以任何努力都欢迎。<img alt=\"Smiley\" border=\"0\" src=\"/static/img/emoticons/smiley.gif\"/>我和很多其他人都会非常感激，我相信这对整个社区也是一大贡献。<br/><br/>如果人们试用挖比特币时能获得2000000 khash/s而不是2000 khash/s的算力，他们会留下来更久。</div>",
+    "nested_level": 0
+  },
+  {
+    "id": 3111,
+    "thread_id": 232,
+    "source_id": "192",
+    "poster_name": "BitLex",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=292",
+    "subject": "回复：面向大众的 OpenCL 矿机",
+    "url": "https://bitcointalk.org/index.php?topic=1334.msg22366#msg22366",
+    "date": "2010-11-17T03:49:22Z",
+    "text": "<div class=\"post\">其实这个帖子里都说了，你只需要好好读一遍。<br/><br/>1. 下载（打了 getwork 补丁的客户端）<b>bitcoin-getwork</b>-* 和矿机 <b>poclbm_py2exe</b>_*。<br/><br/><br/>2. 确保你有一个 <b>bitcoin.conf</b> 文件，位于<br/>C:\\Users\\[用户名]\\AppData\\Roaming\\Bitcoin\\bitcoin.conf<br/>（XP 系统则在）<br/>C:\\Documents and Settings\\[用户名]\\Application Data\\Bitcoin\\bitcoin.conf<br/><br/>内容包含<br/><div class=\"codeheader\">代码：</div><div class=\"code\">rpcuser=someone<br/>rpcpassword=secret<br/></div><br/><br/>3.a 启动 <b>bitcoin -server</b>，等待建立连接以获取最新区块<br/>3.b 启动 <b>poclbm --user=someone --pass=secret</b><br/>如果你只有一块 GPU，到这就完事了；如果有多块，就需要为矿机指定使用哪个设备，不过它会提示你的。<br/>如果你不知道怎么用命令行，就创建一个<br/>bitcoin.bat，内容为<br/><div class=\"codeheader\">代码：</div><div class=\"code\">start /DC:\\Users\\[用户名]\\Desktop\\bitcoin bitcoin.exe -server<br/></div>再创建一个 poclbm.bat，内容为<br/><div class=\"codeheader\">代码：</div><div class=\"code\">start /DC:\\Users\\[用户名]\\Desktop\\poclbm poclbm.exe --user=someone --pass=secret<br/></div>满足你的点击欲。<br/><br/><br/>4. 等待和/或祈祷 <img alt=\"Cheesy\" border=\"0\" src=\"/static/img/emoticons/cheesy.gif\"/><br/></div>",
     "nested_level": 0
   },
   {
@@ -32413,6 +33025,18 @@
     "url": "https://bitcointalk.org/index.php?topic=1530.msg17958#msg17958",
     "date": "2010-10-21T22:05:24Z",
     "text": "<div class=\"post\">我想要一个证明。几个月来我一直使用同一个比特币钱包，24小时全天候运行，现在我想出售BTC，却遇到了这个问题。恳求你们帮我解决这个问题。感谢Theymos，他试着帮了我一阵子。但请务必解决我的问题，我没有意图去偷窃，只是想卖掉我辛苦积攒的币。我不能损失13,000个BTC，我花了很长时间才生成这些币。</div>",
+    "nested_level": 0
+  },
+  {
+    "id": 3154,
+    "thread_id": 237,
+    "source_id": "5",
+    "poster_name": "Dhaw",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=1904",
+    "subject": "回复：错误——请帮帮我！",
+    "url": "https://bitcointalk.org/index.php?topic=1530.msg17959#msg17959",
+    "date": "2010-10-21T22:06:38Z",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1530.msg17956#msg17956\">引用自：nelisky，2010年10月21日 10:03:02 PM</a></div><div class=\"quote\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1530.msg17955#msg17955\">引用自：theymos，2010年10月21日 10:00:26 PM</a></div><div class=\"quote\">Dhaw 给我发了一些他的 debug.log 文件。我观察到的症状：<br/>- 在大多数文件中，他的区块计数一直「卡」在 1698。<br/>- 在一个文件中，他的区块接收到了 2933，但在他重启 Bitcoin 之后又<i>退回</i>到了 1698。<br/>- 他收到的任何 1698 之后的区块很可能都被他判定为无效。我没有看到实际的区块拒绝记录（一直被自动修剪功能删掉），但他的 debug.log 里满是他显然不认可为有效的区块的「block xxx have」消息。<br/>- 他连接的是真实节点。他成功连接到了 IRC，也能用 -addnode 连接到我。我在我这边验证了他确实在成功发送 <i>getblocks</i> 消息。<br/><br/>我几乎可以肯定 Dhaw 不是骗子，而是某个 bug 的受害者。我猜是每次他重启 Bitcoin 时，他的区块数据库都会损坏。<br/><br/>他说「葡萄牙语（巴西）」。有个翻译会很有帮助。<br/></div><br/>我可以翻译。发帖或私信即可，我会把它译成英文给大家。<br/></div><br/>谢谢你们的帮助。如果能帮到我，一切都会容易得多。</div>",
     "nested_level": 0
   },
   {
@@ -33646,6 +34270,18 @@
     "nested_level": 0
   },
   {
+    "id": 3274,
+    "thread_id": 241,
+    "source_id": "74",
+    "poster_name": "bitcoinex",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=577",
+    "subject": "回复：维基解密的联系方式？",
+    "url": "https://bitcointalk.org/index.php?topic=1735.msg25815#msg25815",
+    "date": "2010-11-30T19:43:50Z",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1735.msg25811#msg25811\">引用自：witchspace 于 2010年11月30日, 07:32:19 PM</a></div><div class=\"quote\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1735.msg25809#msg25809\">引用自：bitcoinex 于 2010年11月30日, 07:26:36 PM</a></div><div class=\"quote\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1735.msg25804#msg25804\">引用自：witchspace 于 2010年11月30日, 07:08:09 PM</a></div><div class=\"quote\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1735.msg25639#msg25639\">引用自：bitcoinex 于 2010年11月30日, 04:52:09 AM</a></div><div class=\"quote\"><a href=\"http://en.wikipedia.org/wiki/Guantanamo_Bay_detention_camp\">http://en.wikipedia.org/wiki/Guantanamo_Bay_detention_camp</a>（搜索 torture）<br/><br/>你是上街抗议了，还是宅在家里玩电脑？<br/></div>嗯，那些是在阿富汗和伊拉克抓的囚犯。&nbsp;换成我们自己国家的公民就不一样了。<br/><br/><br/></div><br/>Assange 也不是美国公民！<br/></div>我知道 <img alt=\"Smiley\" border=\"0\" src=\"/static/img/emoticons/smiley.gif\"/> 我也不是。但如果美国跑来我们这里绑架人然后施以酷刑，我们会非常震惊。<br/></div><br/>好吧，我同意你的逻辑：折磨肮脏的阿富汗人没问题，折磨澳大利亚人就叫野蛮。</div>",
+    "nested_level": 0
+  },
+  {
     "id": 3275,
     "thread_id": 241,
     "source_id": "75",
@@ -34404,6 +35040,30 @@
     "nested_level": 0
   },
   {
+    "id": 3353,
+    "thread_id": 243,
+    "source_id": "4",
+    "poster_name": "theymos",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=35",
+    "subject": "回复：需要 OP_BLOCKNUMBER 来实现「限时」交易",
+    "url": "https://bitcointalk.org/index.php?topic=1786.msg22021#msg22021",
+    "date": "2010-11-15T03:53:09Z",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1786.msg22014#msg22014\">引用自：ByteCoin 于 2010年11月15日, 02:47:30 AM</a></div><div class=\"quote\">嗯……如果客户端对当前区块数的认知不一致，那它们本来就会对某些交易是否有效产生分歧，所以你提到的问题在我的提案之前就已经存在了。<br/>请详细说明为什么这对网络有害。<br/></div><br/>这一点你可能是对的。比特币的分段修复机制应该能维持一切井然有序。<br/><br/>似乎已经计划了一个类似的功能。每笔交易都有目前未使用的「nLockTime」字段，而且用户界面里有这么一段代码（这段文字会显示在「x 次确认」的位置）：<br/><div class=\"codeheader\">代码：</div><div class=\"code\">&nbsp; &nbsp; if (!wtx.IsFinal())<br/>&nbsp; &nbsp; {<br/>&nbsp; &nbsp; &nbsp; &nbsp; if (wtx.nLockTime &lt; 500000000)<br/>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; return strprintf(_(\"Open for %d blocks\"), nBestHeight - wtx.nLockTime);<br/>&nbsp; &nbsp; &nbsp; &nbsp; else<br/>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; return strprintf(_(\"Open until %s\"), DateTimeStr(wtx.nLockTime).c_str());<br/>&nbsp; &nbsp; }</div><br/>听起来跟你想的非常像。</div>",
+    "nested_level": 0
+  },
+  {
+    "id": 3354,
+    "thread_id": 243,
+    "source_id": "5",
+    "poster_name": "theymos",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=35",
+    "subject": "回复：需要 OP_BLOCKNUMBER 来实现「限时」交易",
+    "url": "https://bitcointalk.org/index.php?topic=1786.msg22024#msg22024",
+    "date": "2010-11-15T04:16:16Z",
+    "text": "<div class=\"post\">进一步调查后，我发现 nLockTime 要发挥作用，就必须重新启用内存中的交易替换功能。<br/><br/><div class=\"codeheader\">代码：</div><div class=\"code\">if (mapNextTx.count(outpoint))<br/>&nbsp; &nbsp; &nbsp; &nbsp; {<br/>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // Disable replacement feature for now<br/>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; return false;<br/><br/>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // Allow replacing with a newer version of the same transaction<br/>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if (i != 0)<br/>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; return false;<br/>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ptxOld = mapNextTx[outpoint].ptx;<br/>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if (!IsNewerThan(*ptxOld))<br/>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; return false;<br/>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; for (int i = 0; i &lt; vin.size(); i++)<br/>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {<br/>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; COutPoint outpoint = vin[i].prevout;<br/>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if (!mapNextTx.count(outpoint) || mapNextTx[outpoint].ptx != ptxOld)<br/>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; return false;<br/>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }<br/>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; break;</div></div>",
+    "nested_level": 0
+  },
+  {
     "id": 3355,
     "satoshi_id": 504,
     "thread_id": 243,
@@ -34690,6 +35350,18 @@
     "url": "https://bitcointalk.org/index.php?topic=1790.msg26162#msg26162",
     "date": "2010-12-02T06:33:27Z",
     "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1790.msg26145#msg26145\">引用自：RHorning 于 2010年12月2日 上午05:36:46</a></div><div class=\"quote\">假设协议需要续期交易，身份认证系统（可能是公私钥哈希）将允许你在网络上创建一个新的\"交易\"，提交必要的信息并附带交易费。<br/></div><br/>我明白了。那么矿工将设定域名续期的费用。</div>",
+    "nested_level": 0
+  },
+  {
+    "id": 3383,
+    "thread_id": 244,
+    "source_id": "28",
+    "poster_name": "RHorning",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=344",
+    "subject": "回复：BitDNS 与比特币的泛化",
+    "url": "https://bitcointalk.org/index.php?topic=1790.msg26213#msg26213",
+    "date": "2010-12-02T15:29:31Z",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1790.msg26162#msg26162\">引用自：kiba 于 2010年12月02日, 06:33:27 AM</a></div><div class=\"quote\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1790.msg26145#msg26145\">引用自：RHorning 于 2010年12月02日, 05:36:46 AM</a></div><div class=\"quote\">大概可以说，如果协议要求一笔续期交易，身份验证系统（很可能是公私钥哈希）会允许你在网络上创建一笔新「交易」，提交必要信息并附上一笔交易费。<br/></div><br/>我明白了。那么矿工们就会给域名续期定价。<br/></div><br/>正是如此！&nbsp;这会成为一个市场，愿意投入资源建设这条链的人会设定他们认为最合适的费用。&nbsp;我实在不认为这条链能在某个阶段不引入费用的情况下建成。<br/><br/>这也是通货紧缩可以通过市场来化解的地方：如果交易费开始有点高，竞争就会加剧，那些收取稍低交易费的人就会挤进区块生成竞争。&nbsp;所以如果 0.01 BTC 变得值 100 美元，甚至可能有很多「矿工」只愿意收 0.001 BTC 或者更少。</div>",
     "nested_level": 0
   },
   {
@@ -34990,6 +35662,18 @@
     "url": "https://bitcointalk.org/index.php?topic=1790.msg27018#msg27018",
     "date": "2010-12-05T12:36:58Z",
     "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1790.msg27013#msg27013\">引用自：balboah 于 2010年12月5日 11:27:58 AM</a></div><div class=\"quote\">也有其他人在研究 P2P DNS 的课题，Peter Sunde（海盗湾前发言人）几天前也在谈论这个。<br/><br/>看看 <a href=\"http://techcrunch.com/2010/11/29/peter-sunde-seconds-the-idea-of-an-alternative-root-dns/\">http://techcrunch.com/2010/11/29/peter-sunde-seconds-the-idea-of-an-alternative-root-dns/</a><br/>和 <a href=\"http://dot-p2p.org/\">http://dot-p2p.org/</a><br/><br/></div><br/>是的，这就是我们在讨论的内容。当这一切被讨论时，我就在 IRC 聊天室里。我多次提到比特币，但被嘲笑了，其他也有人提到过。像往常一样，人们不从过去的错误中吸取教训，一心要创建一个 ICANN 的翻版。我只能说，搞什么鬼？<br/><br/>我甚至看到有人提到他如何在 NSA 的一个电子邮件系统上工作！而且没有人提出那个显而易见的问题——关于来自 NSA 的人是否会引导讨论走向中心化系统。<br/><br/><br/>我说我们应该证明所有人都错了，做我们自己的事情。中心化就是一个大写的失败。<br/><br/><br/></div>",
+    "nested_level": 0
+  },
+  {
+    "id": 3414,
+    "thread_id": 244,
+    "source_id": "59",
+    "poster_name": "ribuck",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=392",
+    "subject": "回复：BitDNS 与比特币的泛化",
+    "url": "https://bitcointalk.org/index.php?topic=1790.msg27033#msg27033",
+    "date": "2010-12-05T14:02:07Z",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1790.msg26962#msg26962\">引用自：Anonymous 于 2010年12月05日, 05:12:07 AM</a></div><div class=\"quote\">据我所知，反对使用比特币的理由是：如果你丢失了访问该域名的密钥，你就无法找回它们。<br/><br/>BitDNS 是如何解决这个问题的？<br/></div><br/>如果你丢失了密钥，你就不能再出售该域名或更改其 DNS 的 IP 地址，但域名本身不会立即停止工作。所以你有充足的时间选择一个新域名、完成部署，并在现有网站上设置跳转。<br/><br/>你可以通过把密钥副本留给几个信任的人来防范这种风险。这比把域名押在一个不受信任的注册商手里好得多。<br/><br/>上世纪 90 年代，土库曼斯坦在出售 .tm 域名，我注册了一个。几年后，土库曼斯坦政府认定有些 .tm 网站他们不喜欢，就撤销了对该域名的访问权。但当时还是有充足的时间去注册新域名并设置跳转。一切都运转正常。<br/><br/>归根结底，域名只是一个名字而已，丢了一个也不是世界末日。哪怕 cocacola.com 也可以换成 cocacola2.com，天不会塌下来。<br/><br/></div>",
     "nested_level": 0
   },
   {
@@ -36097,6 +36781,30 @@
     "nested_level": 0
   },
   {
+    "id": 3543,
+    "thread_id": 244,
+    "source_id": "188",
+    "poster_name": "ribuck",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=392",
+    "subject": "回复：BitDNS与比特币的泛化",
+    "url": "https://bitcointalk.org/index.php?topic=1790.msg28148#msg28148",
+    "date": "2010-12-08T16:16:39Z",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1790.msg27847#msg27847\">引用自：Hal 于 2010年12月7日 08:06:02 PM</a></div><div class=\"quote\">我担心会出现抢注热门域名的热潮。</div><br/>如果需要的话，可以通过分阶段引入来分散初始的抢注热潮。<br/><br/>例如，在第一周只接受十个字符或更长的名称进行注册。下一周接受九个字符或更长的名称。以此类推，到第十周任何长度的名称都将被接受。<br/><br/>更精细的分阶段方案是将域名哈希为一个1到1000之间的数字。在前一千天中的每一天，哈希值等于当天数字的名称将被加入可注册的行列。因此，到第42天，任何哈希值在1到42范围内的域名都可以注册。第1000天之后，任何名称都可以注册。<br/><br/>第三种可能性是简单地限制注册数量。假设每个区块将域名注册的最大数量限制为当前生成难度除以1024。目前这意味着每个区块允许8个域名注册，但这个限制会随时间上升（我认为会相当快）。<br/><br/>我不确定是否真的需要避免注册热潮，但如果有此需要，可以使用技术手段来实现。<br/></div>",
+    "nested_level": 0
+  },
+  {
+    "id": 3545,
+    "thread_id": 244,
+    "source_id": "190",
+    "poster_name": "RHorning",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=344",
+    "subject": "回复：BitDNS 与比特币的泛化",
+    "url": "https://bitcointalk.org/index.php?topic=1790.msg28151#msg28151",
+    "date": "2010-12-08T16:27:27Z",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1790.msg28146#msg28146\">引用自：kiba 于 2010年12月08日, 04:02:27 PM</a></div><div class=\"quote\">这可能会开创某种先例，让协议变更允许人们关闭某些域名。<br/><br/>我怀疑大多数域名会被投机客抢注，然后向大公司勒索赎金。搜索引擎会忽略那些违反商业标志标准的域名。<br/></div><br/>谁会被授予「移除域名」的「权限」？&nbsp;这暗示着存在某种对这个网络拥有控制权的中心化权威。<br/><br/>域名抢注本来就是历史悠久、源远流长的传统，不会因为我们运行这个系统的方式而改变。&nbsp;通过建立一个域名「除名」机制，等于树立了一个（大概掌握着某种私钥的）人或团体作为可授权移除域名的目标，他们会成为司法禁令乃至其他各种法律麻烦的靶子。&nbsp;反过来，如果你能证明从密码学上就不可能更改域名注册信息，你只需两手一摊说「我改不了，抱歉」。<br/><br/>域名注册所指向的 IP 地址的拥有者才应该是被攻击的目标，而不是域名注册系统。</div>",
+    "nested_level": 0
+  },
+  {
     "id": 3547,
     "thread_id": 244,
     "source_id": "192",
@@ -36166,6 +36874,18 @@
     "url": "https://bitcointalk.org/index.php?topic=1790.msg28295#msg28295",
     "date": "2010-12-08T22:48:14Z",
     "text": "<div class=\"post\">DomainChain wiki 在这里：<br/><a href=\"http://domainchain.org/wiki/doku.php?id=start\">http://domainchain.org/wiki/doku.php?id=start</a><br/><br/>那里内容还不多，但我明天会着手完善。<br/><br/>同时，关于将 BitDNS 与比特币区块链集成的一些更有趣的想法已经添加到了 Theymos/Nanotube 的 wiki 上。</div>",
+    "nested_level": 0
+  },
+  {
+    "id": 3557,
+    "thread_id": 244,
+    "source_id": "202",
+    "poster_name": "em3rgentOrdr",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=535",
+    "subject": "回复：BitDNS 与比特币的泛化",
+    "url": "https://bitcointalk.org/index.php?topic=1790.msg28310#msg28310",
+    "date": "2010-12-08T23:50:14Z",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1790.msg28162#msg28162\">引用自：kiba 于 2010年12月08日, 05:24:09 PM</a></div><div class=\"quote\">你忘了我之前在这个帖子里立下的规则：<br/><br/><div class=\"quoteheader\">引用</div><div class=\"quote\">拿不准时，去掉人的因素。用软件代码的确定性取代法官的不确定性。复杂的规则会招致投机取巧和滥用。</div><br/>我从来没说过要把权力交给什么人，或者为了法院/法官/混乱的人类判断而关掉 DNS 系统。<br/></div><br/>Kiba 的智慧远超他的年龄！<br/><br/>话说，我一直在跳出框框思考……在想是不是干脆把域名这个概念整个抛弃。&nbsp;我在想，能不能以某种方式把一个比特币地址、或者某笔交易的哈希，与互联网上的某个位置关联起来。&nbsp;而且，考虑到如今搜索引擎技术已经进步到这个程度，绕开域名的概念也许是可行的。<br/><br/>如果能把这个比特币地址直接与销售该商品/资源/任何东西的网页/网络位置关联起来，不是很酷吗？&nbsp;总之，让我再想想，然后写一份具体的提案。&nbsp;显然，这有点跑题了……</div>",
     "nested_level": 0
   },
   {
@@ -36371,6 +37091,18 @@
     "url": "https://bitcointalk.org/index.php?topic=1790.msg28697#msg28697",
     "date": "2010-12-09T21:05:36Z",
     "text": "<div class=\"post\">Kiba，我在 Satoshi 发帖之前就写好了这个回复。我需要一些时间来理解 Satoshi 的帖子。<br/><br/><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1790.msg28673#msg28673\">引用自 kiba 于 2010年12月9日 07:51:05 PM</a></div><div class=\"quote\"><div class=\"meaction\">* kiba 很焦虑。 </div></div><br/>别焦虑。我之前就说过，在开始编码之前需要大约两周的时间来就设计方向达成一致。<br/><br/>过去24小时取得了出色的进展。现在已经清楚，Gavin 对非标准交易处理的修改并不排除与比特币集成的域名注册。<br/><br/>也越来越清楚地看到，我的 DomainChains 构想与 theymos/nanotube 的设计之间的差距正在缩小。他们的设计并不像我之前认为的那样与域名服务器运营商有着纠缠不清的关系。<br/><br/>坚持住！在长期的结果来看，两周的时间会显得<i>微不足道</i>。</div>",
+    "nested_level": 0
+  },
+  {
+    "id": 3579,
+    "thread_id": 244,
+    "source_id": "224",
+    "poster_name": "nanotube",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=1268",
+    "subject": "回复：BitDNS 与比特币的泛化",
+    "url": "https://bitcointalk.org/index.php?topic=1790.msg28700#msg28700",
+    "date": "2010-12-09T21:20:40Z",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1790.msg28696#msg28696\">引用自：satoshi 于 2010年12月09日, 09:02:42 PM</a></div><div class=\"quote\">我认为 BitDNS 完全可以作为一个独立的网络和独立的区块链，同时与比特币共享 CPU 算力。&nbsp;唯一的重合之处在于让矿工可以同时为两个网络寻找工作量证明。<br/></div><br/>理论上听起来棒极了……<br/><br/><div class=\"quoteheader\">引用</div><div class=\"quote\">两个网络不需要任何协调。&nbsp;矿工并行订阅两个网络。&nbsp;他们扫描 SHA，一旦命中，就可能同时解出两边。&nbsp;如果其中一个网络的难度较低，解出的可能只是那一个网络。<br/><br/>我认为外部矿机可以调用两个程序的 getwork，然后把工作量合并起来。&nbsp;也许先调用 Bitcoin 拿到工作量，再交给 BitDNS 的 getwork 组合成合并工作量。<br/></div><br/>看起来矿工得额外做「额外的工作」。而如果这份额外工作（它当然会拖慢主比特币的工作）从 BitDNS 挖矿那里得不到奖励，矿工纳入 BitDNS（以及其他侧链）的动机何在？<br/><br/>非常期待你对此的进一步想法。<img alt=\"Smiley\" border=\"0\" src=\"/static/img/emoticons/smiley.gif\"/></div>",
     "nested_level": 0
   },
   {
@@ -36612,6 +37344,18 @@
     "url": "https://bitcointalk.org/index.php?topic=1790.msg28938#msg28938",
     "date": "2010-12-10T19:14:04Z",
     "text": "<div class=\"post\">Satoshi，你是否赞同这样的想法：每个额外的区块链都会创造自己类型的币，这些币可以在交易所上与比特币进行交易？这些链专属的币将用于奖励该链上的矿工，以及在该链的领域内购买某些权利或特权？</div>",
+    "nested_level": 0
+  },
+  {
+    "id": 3606,
+    "thread_id": 244,
+    "source_id": "251",
+    "poster_name": "RHorning",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=344",
+    "subject": "回复：BitDNS 与比特币的泛化",
+    "url": "https://bitcointalk.org/index.php?topic=1790.msg28946#msg28946",
+    "date": "2010-12-10T19:20:44Z",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1790.msg28937#msg28937\">引用自：creighto 于 2010年12月10日, 07:11:28 PM</a></div><div class=\"quote\">再说，一个 BitDNS 为什么非要用每 10 分钟更新一次的区块链？&nbsp;为什么不是一小时？&nbsp;或者每分钟一次？&nbsp;为什么要被另一个用途设定的周期绑死？&nbsp;从一开始这就不是最优的。<br/></div><br/>这确实是可以调整的，但问题在于网络延迟，而这与「货币」创建的目的无关。&nbsp;10 分钟是一个运转得相当不错的猜测值。&nbsp;是的，它可以更长或更短。&nbsp;更短的间隔会增加多个「矿工」之间的哈希碰撞，更长的间隔则会减少碰撞。&nbsp;对于习惯用电脑的人来说，10 分钟平均而言也是可以忍受的，尤其是如果你体验过发邮件然后等回复的话。&nbsp;域名注册的处理可能要花一天左右，取决于注册商和付款方式，所以比 10 分钟更短的间隔看起来纯属浪费力气。<br/><br/>简而言之，适用于比特币的 10 分钟间隔的理由，对任何其他使用类似原则的点对点加密货币同样适用。</div>",
     "nested_level": 0
   },
   {
@@ -37293,6 +38037,18 @@
     "nested_level": 0
   },
   {
+    "id": 3681,
+    "thread_id": 248,
+    "source_id": "21",
+    "poster_name": "jgarzik",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=541",
+    "subject": "回复：RFC：随发布压缩包附带区块链 1-74000？",
+    "url": "https://bitcointalk.org/index.php?topic=1931.msg25164#msg25164",
+    "date": "2010-11-28T18:59:49Z",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1931.msg25138#msg25138\">引用自：satoshi，2010年11月28日 05:13:01 PM</a></div><div class=\"quote\">如果有一个「验证它」的步骤，那会花和现在初始下载一样长的时间——在初始下载中，瓶颈是索引的建立，而不是数据下载。<br/>[...]<br/>初始下载的速度并不反映协议的批量数据传输速率。决定性因素是下载过程中的索引建立。<br/></div><br/>抱歉，这些用户的磁盘和 CPU 并<i>没有</i>达到 100%。很明显，对很多用户来说，瓶颈<i>不是</i>数据库或索引。<br/><br/><div class=\"quoteheader\">Quote</div><div class=\"quote\">这些数据大部分是哈希、公钥和签名，都是无法压缩的。<br/></div><br/>bzip2 能给你 33% 的压缩比，可以为下载省下许多兆字节：<br/><br/><div class=\"codeheader\">Code:</div><div class=\"code\">[jgarzik@bd data]$ tar cvf /tmp/1.tar blk0001.dat <br/>blk0001.dat<br/><br/>[jgarzik@bd data]$ tar cvf /tmp/2.tar blk*.dat<br/>blk0001.dat<br/>blkindex.dat<br/><br/>[jgarzik@bd data]$ bzip2 -9v /tmp/[12].tar<br/>&nbsp; /tmp/1.tar:&nbsp; 1.523:1,&nbsp; 5.253 bits/byte, 34.34% saved, 55439360 in, 36402074 out.<br/>&nbsp; /tmp/2.tar:&nbsp; 1.512:1,&nbsp; 5.291 bits/byte, 33.86% saved, 103690240 in, 68577642 out.<br/></div><br/>我可不会把 33% 称为「无法压缩」</div>",
+    "nested_level": 0
+  },
+  {
     "id": 3685,
     "thread_id": 248,
     "source_id": "25",
@@ -37545,6 +38301,18 @@
     "url": "https://bitcointalk.org/index.php?topic=1976.msg24878#msg24878",
     "date": "2010-11-27T16:20:26Z",
     "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1976.msg24858#msg24858\">引用自：ribuck 于 2010年11月27日，下午2:35:56</a></div><div class=\"quote\">对于给定的难度级别，有多少其他机器在挖矿其实根本不重要。<br/></div><br/>从长期来看你是对的。但我认为很多使用较差CPU的人会直接关掉他们的矿机，因为他们看到要等很久才能收到哪怕一个比特币。当你加入合作挖矿集群时，你会收到较小的金额（比如你为集群贡献了0.02%的算力，就收到0.01 BTC），但会更频繁。我觉得这可能会激励人们不要关闭矿机。<br/><br/>我认为将挖矿分散到整个网络而不是让少数拥有快速GPU的幸运者垄断，对比特币经济极为重要。<br/><br/><div class=\"quoteheader\">引用</div><div class=\"quote\">唯一真正重要的是难度级别和你的khash/s。<br/></div><br/>当然。集群中的khash/s越高，集群发现的区块就越多，向集群成员的付款也就越频繁。</div>",
+    "nested_level": 0
+  },
+  {
+    "id": 3708,
+    "thread_id": 250,
+    "source_id": "7",
+    "poster_name": "FreeMoney",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=381",
+    "subject": "回复：合作挖矿",
+    "url": "https://bitcointalk.org/index.php?topic=1976.msg24880#msg24880",
+    "date": "2010-11-27T16:26:49Z",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1976.msg24878#msg24878\">引用自：slush，2010年11月27日 04:20:26 PM</a></div><div class=\"quote\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=1976.msg24858#msg24858\">引用自：ribuck，2010年11月27日 02:35:56 PM</a></div><div class=\"quote\">对于任何给定的难度级别，有多少其他机器在生成其实完全无关紧要。<br/></div><br/>从长期来看你是对的。但我认为很多 CPU 性能较差的人会直接关掉他们的挖矿程序，因为他们看到要等很久很久才能收到一个比特币。而当你加入合作挖矿集群时，你会收到小额但更频繁的支付（比如你对集群算力贡献了 0.02%，就能收到 0.01 BTC）。我觉得这或许能激励人们不要关掉他们的矿机。<br/><br/>我认为让挖矿分散到整个网络、而不是让挖矿集中在少数拥有高速 GPU 的幸运儿手里，对比特币经济极其重要。<br/><br/><div class=\"quoteheader\">Quote</div><div class=\"quote\">真正重要的只有难度级别和你的 khash/s。<br/></div><br/>当然。集群中的 khash/s 越多，集群发现的区块就越多，给集群成员的支付也就越频繁。<br/></div><br/>我喜欢这个想法，但你的说辞很糟糕。<br/><br/>拥有 GPU 的幸运儿？你以为那些 GPU 是通过彩票分发的不成？</div>",
     "nested_level": 0
   },
   {
@@ -38102,6 +38870,19 @@
     "nested_level": 0
   },
   {
+    "id": 3764,
+    "satoshi_id": 530,
+    "thread_id": 253,
+    "source_id": "17",
+    "poster_name": "satoshi",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=3",
+    "subject": "回复：JSON-RPC 方法设想：列出晚于指定 txid 的交易",
+    "url": "https://bitcointalk.org/index.php?topic=2151.msg28640#msg28640",
+    "date": "2010-12-09T18:08:08Z",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=2151.msg28330#msg28330\">引用自：jgarzik 于 2010年12月09日, 12:58:05 AM</a></div><div class=\"quote\">我同意你和 satoshi 关于「某 txid 之后的交易」的看法。&nbsp;我的 listtransactions（现在的 xlisttransactions）补丁特意没有这个功能，从来都没有。<br/></div>只要这个接口是为「向用户展示最近 N 笔交易历史」这类场景设计的，就没问题，何况现在我们有了账户（Accounts）功能，让以正确方式做支付检测变得更容易了。<br/><br/>Gavin，能不能给 listtransactions 加一个选项，列出所有账户的交易？<br/><br/>我不确定接口应该怎么设计，也许是：<br/>listtransactions &lt;JSON null 类型&gt; [count]<br/><br/>不过从命令行做这个会挺难的。<br/><br/>我想不出接口的好方案，这就是问题所在。&nbsp;也许可以像「」空字符串那样，搞一个「*」特殊值。&nbsp;那就得确保没有用户能创建名为「*」的账户。<br/><br/><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=2151.msg28572#msg28572\">引用自：jgarzik 于 2010年12月09日, 04:13:50 PM</a></div><div class=\"quote\">当然，用交易来跟踪这个已经够容易了。<br/></div>我不明白用交易怎么「容易」跟踪这个。</div>",
+    "nested_level": 0
+  },
+  {
     "id": 3765,
     "satoshi_id": 526,
     "thread_id": 254,
@@ -38331,6 +39112,18 @@
     "nested_level": 0
   },
   {
+    "id": 3784,
+    "thread_id": 254,
+    "source_id": "20",
+    "poster_name": "da2ce7",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=1882",
+    "subject": "回复：0.3.18 版",
+    "url": "https://bitcointalk.org/index.php?topic=2162.msg28383#msg28383",
+    "date": "2010-12-09T03:32:39Z",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=2162.msg28380#msg28380\">引用自：jgarzik 于 2010年12月09日, 03:14:00 AM</a></div><div class=\"quote\">货币交易将不得不更激烈地竞争——付更多手续费——才能确保及时处理，因为区块链里塞满了非货币数据。&nbsp;增大区块并不能降低交易手续费。<br/></div><br/>抱歉我不敢苟同，交易手续费是基于生成者打包交易的「成本」来定的。&nbsp;成本与需要打包的数据量直接相关。<br/><br/>将来区块大小不会有什么「硬性上限」，只有区块因体积过大而被链拒绝、沦为孤块的风险。<br/><br/>当生成者决定打包哪些交易时，如果网络在大区块（比如 20MB+，因为里面塞了大量非货币数据）下已经有利可图，那么打包很小的「货币」交易的成本微乎其微。比如 20,000,000 对 20,000,010。<br/><br/>如果区块链只允许货币数据，那么改进大区块数据处理的动力就小得多。&nbsp;因此相对成本会大得多……500,000 对 500,010。所以在只承载货币数据的系统上，小额数据的交易手续费反而可能更高。</div>",
+    "nested_level": 0
+  },
+  {
     "id": 3785,
     "thread_id": 254,
     "source_id": "21",
@@ -38460,6 +39253,18 @@
     "url": "https://bitcointalk.org/index.php?topic=2162.msg28467#msg28467",
     "date": "2010-12-09T09:21:06Z",
     "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=2162.msg28373#msg28373\">引用自 da2ce7 于 2010年12月09日，02:51:43 AM</a></div><div class=\"quote\">你就得热爱自由市场！<br/></div><br/>我们不应该盲目信任\"自由市场\"。<br/><br/>问题在于，在区块中包含大量数据所产生的成本，不仅由包含数据的矿工承担，还会由<b>所有其他矿工</b>和<b>所有其他用户</b>承担，而且是<b>永久的</b>。<br/><br/>在当前实现中，用户将成本转嫁给矿工，矿工又将成本转嫁给网络的其他部分。然而，用户的交易费<i>仅仅</i>补偿了矿工的成本。<br/><br/>只要这个公地悲剧的问题还没有得到解决，自由市场就解决不了任何问题。</div>",
+    "nested_level": 0
+  },
+  {
+    "id": 3797,
+    "thread_id": 254,
+    "source_id": "33",
+    "poster_name": "da2ce7",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=1882",
+    "subject": "回复：0.3.18 版",
+    "url": "https://bitcointalk.org/index.php?topic=2162.msg28471#msg28471",
+    "date": "2010-12-09T10:02:32Z",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=2162.msg28467#msg28467\">引用自：forever，2010年12月9日 09:21:06 AM</a></div><div class=\"quote\">在当前的实现中，用户把成本转嫁给矿工，矿工又把成本转嫁给网络的其他部分。然而，用户的交易费<i>只</i>补偿了矿工的成本。<br/></div><br/>那是当前的实现。未来的客户端将只保留自己在意的内容。DNS 客户端会保留 DNS 相关的内容，比特币交易者会保留货币交易。<br/><br/>让生成者去操心区块链吧；如果比特币变得一文不值，他们就没有任何生成动力了！<br/><br/>我个人对自由市场非常有信心，毕竟我是个自由放任主义的资本主义者&nbsp;<img alt=\"Grin\" border=\"0\" src=\"/static/img/emoticons/grin.gif\"/>，我会用我的算力投票。我建议你投资超过全网算力的 50%（或与志同道合的人一起），如果你不认同我生成的区块里的数据，那就无视它们。这就是自由市场中的生活。<br/><br/>当我们大家买入比特币时，我们都知道这个网络是由生成算力的多数方决定的。我所有的论点只是：生成者们会维护自己的最大利益，而他们的利益恰好与比特币完美契合：一个强势的比特币货币。</div>",
     "nested_level": 0
   },
   {
@@ -38884,6 +39689,18 @@
     "url": "https://bitcointalk.org/index.php?topic=2208.msg29095#msg29095",
     "date": "2010-12-11T05:49:22Z",
     "text": "<div class=\"post\">我确信比特币的基础（即区块链）可以抵御任何非国家级资助的攻击。&nbsp; 唯一让我害怕的攻击是缓冲区溢出攻击，它窃取钱包中的私钥，但不花费它们。<br/><br/>如果对区块链发生了大规模攻击，我们总是可以创建一个不包含攻击的新分支；但私钥被盗就没有简单的恢复方案了，除非（在大规模攻击的情况下）从零开始重新启动区块链。<br/><br/>由于我不是安全专家，我不知道比特币对这类攻击的防御能力如何。&nbsp; 但以我非专业的理解，直接 IP 地址转账似乎是一个明显的攻击面。<br/><br/>两个问题：当前比特币软件有哪些攻击面可能导致比特币私钥被盗？<br/>其次，可以采取哪些措施来最小化比特币的攻击面？</div>",
+    "nested_level": 0
+  },
+  {
+    "id": 3836,
+    "thread_id": 258,
+    "source_id": "2",
+    "poster_name": "grondilu",
+    "poster_url": "https://bitcointalk.org/index.php?action=profile;u=1663",
+    "subject": "回复：比特币与缓冲区溢出攻击",
+    "url": "https://bitcointalk.org/index.php?topic=2208.msg29096#msg29096",
+    "date": "2010-12-11T05:52:40Z",
+    "text": "<div class=\"post\"><div class=\"quoteheader\"><a href=\"https://bitcointalk.org/index.php?topic=2208.msg29095#msg29095\">引用自：da2ce7 于 2010年12月11日, 05:49:22 AM</a></div><div class=\"quote\">我确信比特币的根基（即区块链）可以抵御任何非国家级资助的攻击。&nbsp;唯一让我害怕的攻击是缓冲区溢出攻击——窃取钱包里的私钥但不花掉它们。<br/><br/>如果区块链遭受一次足够大规模的攻击，我们总可以另起一条不包含攻击的新分支；但私钥被盗就没有简单的恢复办法了，除非（在大规模攻击的情况下）把区块链从零重来。<br/><br/>我不是安全专家，不知道比特币对这类攻击的抵御程度如何。&nbsp;但以我外行的理解，直接按 IP 地址转账似乎是个明显的攻击面。<br/><br/>两个问题：当前的比特币软件有哪些攻击面可能被用来窃取比特币私钥？<br/>其次，可以采取哪些措施来最小化比特币的攻击面？<br/></div><br/>我一直认为，已知的可能攻击最多让人实现双重支付或者让整个网络冻结。<br/><br/>我怀疑任何攻击能窃取私钥，除了对文件系统的常规攻击手段之外。<br/><br/>不过我完全不是专家。<br/></div>",
     "nested_level": 0
   },
   {
