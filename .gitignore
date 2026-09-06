@@ -103,3 +103,7 @@ server/.justenv
 *.zip
 
 .claude/settings.local.json
+# opennextjs-cloudflare / wrangler build artifacts
+client/.open-next/
+client/.wrangler/
+.open-next/
