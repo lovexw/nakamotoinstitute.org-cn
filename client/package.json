@@ -5,15 +5,16 @@
   "type": "module",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "rm -rf .next && next build",
     "start": "next start",
+    "cf-build": "rm -rf .next && opennextjs-cloudflare build && node scripts/copy-cache-assets.mjs",
     "lint": "eslint",
     "typecheck": "tsc --noEmit",
     "translate:extract": "i18next-cli extract",
     "translate:types": "i18next-cli types",
     "generate-api": "openapi-ts && bun scripts/fix-generated-dates.ts",
-    "preview": "opennextjs-cloudflare build && wrangler dev",
-    "deploy": "opennextjs-cloudflare build && wrangler deploy",
+    "preview": "pnpm cf-build && wrangler dev",
+    "deploy": "pnpm cf-build && wrangler deploy",
     "cf-typegen": "wrangler types"
   },
   "dependencies": {
