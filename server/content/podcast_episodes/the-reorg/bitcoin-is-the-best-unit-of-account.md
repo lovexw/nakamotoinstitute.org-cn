@@ -1,16 +1,16 @@
 ---
 episode_number: 18
-title: Bitcoin is the Best Unit of Account
+title: 比特币是最好的记账单位
 date: 2025-06-11
-summary: 'Michael Goldstein and Pierre Rochard discuss Daniel Krawisz''s 2014 article "Bitcoin is the Best Unit of Account."'
+summary: '迈克尔·戈德斯坦（Michael Goldstein）与皮埃尔·罗沙德（Pierre Rochard）讨论丹尼尔·克拉维兹（Daniel Krawisz）2014年的文章《比特币是最好的记账单位》'
 mp3_url: https://traffic.libsyn.com/forcedn/644f5696-c625-468a-a0c3-f02493f7b768/thereorg-ep018-bitcoin-is-the-best-unit-of-account.mp3
 youtube_id: Twp3vz2B5YY
 rumble_id: v6umui9-the-reorg-episode-18-bitcoin-is-the-best-unit-of-account
 ---
 
-Michael Goldstein and Pierre Rochard discuss Daniel Krawisz's 2014 article "Bitcoin is the Best Unit of Account."
+迈克尔·戈德斯坦（Michael Goldstein）与皮埃尔·罗沙德（Pierre Rochard）讨论丹尼尔·克拉维兹（Daniel Krawisz）2014年的文章《比特币是最好的记账单位》。
 
-Related links:
+相关链接：
 
-- ["Bitcoin is the Best Unit of Account"](/mempool/bitcoin-is-the-best-unit-of-account/) by Daniel Krawisz
-- [The SNI Mempool Crash Course in Bitcoin Political Economy](/crash-course/)
+- [《比特币是最好的记账单位》](/mempool/bitcoin-is-the-best-unit-of-account/) by Daniel Krawisz
+- [SNI Mempool 比特币政治经济学速成课](/crash-course/)

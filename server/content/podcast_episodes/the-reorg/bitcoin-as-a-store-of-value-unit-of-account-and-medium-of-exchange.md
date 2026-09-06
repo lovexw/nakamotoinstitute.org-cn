@@ -1,16 +1,16 @@
 ---
 episode_number: 19
-title: Bitcoin as a Store of Value, Unit of Account, and Medium of Exchange
+title: 比特币作为价值储藏、记账单位和交换媒介
 date: 2025-06-18
-summary: 'Michael Goldstein and Pierre Rochard discuss Daniel Krawisz''s 2015 article "Bitcoin as a Store of Value, Unit of Account, and Medium of Exchange."'
+summary: '迈克尔·戈德斯坦（Michael Goldstein）与皮埃尔·罗沙德（Pierre Rochard）讨论丹尼尔·克拉维兹（Daniel Krawisz）2015年的文章《比特币作为价值储藏、记账单位和交换媒介》'
 mp3_url: https://traffic.libsyn.com/forcedn/644f5696-c625-468a-a0c3-f02493f7b768/thereorg-ep019-bitcoin-as-a-store-of-value-unit-of-account-and-medium-of-exchange.mp3
 youtube_id: sqoXsbdSTs0
 rumble_id: v6uyxnf-the-reorg-episode-19-bitcoin-as-a-store-of-value-unit-of-account-and-medium-of-exchange
 ---
 
-Michael Goldstein and Pierre Rochard discuss Daniel Krawisz's 2015 article "Bitcoin as a Store of Value, Unit of Account, and Medium of Exchange."
+迈克尔·戈德斯坦（Michael Goldstein）与皮埃尔·罗沙德（Pierre Rochard）讨论丹尼尔·克拉维兹（Daniel Krawisz）2015年的文章《比特币作为价值储藏、记账单位和交换媒介》。
 
-Related links:
+相关链接：
 
-- ["Bitcoin as a Store of Value, Unit of Account, and Medium of Exchange"](/mempool/bitcoin-as-a-store-of-value-unit-of-account-and-medium-of-exchange/) by Daniel Krawisz
-- [The SNI Mempool Crash Course in Bitcoin Political Economy](/crash-course/)
+- [《比特币作为价值储藏、记账单位和交换媒介》](/mempool/bitcoin-as-a-store-of-value-unit-of-account-and-medium-of-exchange/) by Daniel Krawisz
+- [SNI Mempool 比特币政治经济学速成课](/crash-course/)

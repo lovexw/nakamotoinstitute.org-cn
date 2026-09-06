@@ -1,972 +1,972 @@
 [
   {
-    "text": "It would have been nice to get this attention in any other context.  WikiLeaks has kicked the hornet's nest, and the swarm is headed towards us.",
+    "text": "这种关注要是换在别的任何场合，本来都是件好事。维基解密捅了马蜂窝，蜂群正朝我们扑来。",
     "post_id": 542,
     "date": "2010-12-11",
     "categories": ["general"]
   },
   {
-    "text": "The project needs to grow gradually so the software can be strengthened along the way. I make this appeal to WikiLeaks not to try to use Bitcoin.  Bitcoin is a small beta community in its infancy.",
+    "text": "这个项目需要循序渐进地成长，这样软件才能在这一路上不断加固。我呼吁维基解密不要尝试使用比特币。比特币还只是一个处于起步阶段的小型测试版社区。",
     "post_id": 523,
     "date": "2010-12-05",
     "categories": ["bitcoin-design"]
   },
   {
-    "text": "I'm happy if someone with artistic skill wants to contribute alternatives.  The icon/logo was meant to be good as an icon at the 16x16 and 20x20 pixel sizes.  I think it's the best program icon, but there's room for improvement at larger sizes for a graphic for use on websites. It'll be a lot simpler if authors could make their graphics public domain.",
+    "text": "如果有具备美术功底的人愿意贡献替代方案，我很高兴。这个图标/标志的目标，是在 16x16 和 20x20 像素尺寸下当好一个图标。我认为它作为程序图标是最好的，但在更大尺寸下、作为网站上使用的图形还有改进空间。如果作者们能把自己的图形放进公有领域，事情会简单得多。",
     "post_id": 500,
     "date": "2010-11-13",
     "categories": ["bitcoin-design"]
   },
   {
-    "text": "I wish rather than deleting the article, they put a length restriction.  If something is not famous enough, there could at least be a stub article identifying what it is.  I often come across annoying red links of things that Wiki ought to at least have heard of. \nThe article could be as simple as something like: \"Bitcoin is a peer-to-peer decentralised /link/electronic currency/link/.\" \nThe more standard Wiki thing to do is that we should have a paragraph in one of the more general categories that we are an instance of, like Electronic Currency or Electronic Cash.  We can probably establish a paragraph there.  Again, keep it short.  Just identifying what it is.",
+    "text": "我倒希望他们别删条目，而是加个长度限制。如果某个东西还不够有名，至少可以有个小作品条目说明它是什么。我经常碰到烦人的红链，那些东西维基至少该有所耳闻。\n条目可以简单到就像这样：\"比特币是一种点对点去中心化的/link/电子货币/link/。\"\n更符合维基惯例的做法是，在我们所属的某个更宽泛的类别（比如电子货币或电子现金）里为我们也写上一段。我们大概可以在那里立起一段。再说一次，保持简短。只要说明它是什么。",
     "post_id": 467,
     "date": "2010-09-30",
     "categories": ["general"]
   },
   {
-    "text": "As you figured out, the root problem is we shouldn't be counting or spending transactions until they have at least 1 confirmation.  0/unconfirmed transactions are very much second class citizens.  At most, they are advice that something has been received, but counting them as balance or spending them is premature.",
+    "text": "正如你发现的，根本问题在于：交易在得到至少 1 个确认之前，我们不应该把它计入余额或花出去。0/未确认的交易是彻头彻尾的二等公民。它们充其量只是告知你收到了某笔东西的提示，把计入余额或拿来花费都为时过早。",
     "post_id": 464,
     "date": "2010-09-30",
     "categories": ["transactions"]
   },
   {
-    "text": "Bitcoin would be convenient for people who don't have a credit card or don't want to use the cards they have, either don't want the spouse to see it on the bill or don't trust giving their number to \"porn guys\", or afraid of recurring billing.",
+    "text": "对没有信用卡、或者不想用自己已有的卡的人来说，比特币会很方便：要么不想让配偶在账单上看到，要么不放心把卡号给\"色情站那伙人\"，要么害怕循环扣款。",
     "post_id": 460,
     "date": "2010-09-23",
     "categories": ["general"]
   },
   {
-    "text": "I don't know anything about any of the bug trackers.  If we were to have one, we would have to make a thoroughly researched choice. We're managing pretty well just using the forum.  I'm more likely to see bugs posted in the forum, and I think other users are much more likely to help resolve and ask follow up questions here than if they were in a bug tracker.  A key step is other users helping resolve the simple stuff that's not really a bug but some misunderstanding or confusion. I keep a list of all unresolved bugs I've seen on the forum.  In some cases, I'm still thinking about the best design for the fix.  This isn't the kind of software where we can leave so many unresolved bugs that we need a tracker for them.",
+    "text": "那些 bug 跟踪器我一个都不了解。如果要用一个，就必须做彻底的调研再选。我们光用论坛就管理得挺好。bug 发在论坛里我更容易看到，而且我觉得其他用户在论坛里也更愿意帮忙解决、追问后续，比放进 bug 跟踪器强。关键的一步是其他用户帮忙搞定那些其实算不上 bug、只是误解或困惑的简单问题。论坛上我看到的所有未解决的 bug，我都记了个清单。有些我还在琢磨最好的修复方案。这种软件不能积压那么多没解决的 bug，多到需要专门弄个跟踪器来管。",
     "post_id": 454,
     "date": "2010-09-19",
     "categories": ["bitcoin-design"]
   },
   {
-    "text": "The threshold can easily be changed in the future.  We can decide to increase it when the time comes.  It's a good idea to keep it lower as a circuit breaker and increase it as needed.  If we hit the threshold now, it would almost certainly be some kind of flood and not actual use.  Keeping the threshold lower would help limit the amount of wasted disk space in that event.",
+    "text": "这个阈值以后很容易改。到时候我们可以再决定调高。现在把它保持得低一些作为一道保险丝，需要时再调高，是个好主意。如果现在就触到阈值，那几乎肯定是某种洪泛，而不是真实使用。把阈值保持得低一些，有助于在那种情况下限制被浪费掉的磁盘空间。",
     "post_id": 441,
     "date": "2010-09-08",
     "categories": ["scalability"]
   },
   {
-    "text": "Currently, paying a fee is controlled manually with the -paytxfee switch.  It would be very easy to make the software automatically check the size of recent blocks to see if it should pay a fee.  We're so far from reaching the threshold, we don't need that yet.  It's a good idea to see how things go with controlling it manually first anyway.",
+    "text": "目前，是否支付手续费是用 -paytxfee 开关手动控制的。要让软件自动检查近期区块的大小、判断该不该付手续费，是很容易实现的。我们离阈值还远得很，暂时不需要。反正先看看手动控制的效果如何，是个好主意。",
     "post_id": 441,
     "date": "2010-09-08",
     "categories": ["fees"]
   },
   {
-    "text": "Another option is to reduce the number of free transactions allowed per block before transaction fees are required.  Nodes only take so many KB of free transactions per block before they start requiring at least 0.01 transaction fee. The threshold should probably be lower than it currently is. I don't think the threshold should ever be 0.  We should always allow at least some free transactions.",
+    "text": "另一个办法是调低每个区块在要求支付交易手续费之前允许的免费交易数量。每个区块里，节点只接受一定 KB 的免费交易，超过就开始要求至少 0.01 的交易手续费。这个阈值也许应该比现在更低。不过我认为阈值永远不该是 0，我们应当始终允许至少一些免费交易。",
     "post_id": 439,
     "date": "2010-09-07",
     "categories": ["fees", "nodes"]
   },
   {
-    "text": "As a thought experiment, imagine there was a base metal as scarce as gold but with the following properties:\n- boring grey in colour\n- not a good conductor of electricity\n- not particularly strong, but not ductile or easily malleable either\n- not useful for any practical or ornamental purpose\n\nand one special, magical property:\n- can be transported over a communications channel\n\nIf it somehow acquired any value at all for whatever reason, then anyone wanting to transfer wealth over a long distance could buy some, transmit it, and have the recipient sell it.\n\nMaybe it could get an initial value circularly as you've suggested, by people foreseeing its potential usefulness for exchange.  (I would definitely want some)  Maybe collectors, any random reason could spark it.\n\nI think the traditional qualifications for money were written with the assumption that there are so many competing objects in the world that are scarce, an object with the automatic bootstrap of intrinsic value will surely win out over those without intrinsic value.  But if there were nothing in the world with intrinsic value that could be used as money, only scarce but no intrinsic value, I think people would still take up something.\n\n(I'm using the word scarce here to only mean limited potential supply)",
+    "text": "做个思想实验：想象有一种基础金属，像黄金一样稀缺，但具有以下特性：\n- 颜色是无趣的灰色\n- 不是电的良导体\n- 不算坚固，但也不延展、不易加工\n- 没有任何实用或装饰用途\n\n以及一个特别的、神奇的属性：\n- 可以通过通信信道传输\n\n如果它出于随便什么原因获得了哪怕一点价值，那么任何想远距离转移财富的人都可以买一些、传输出去，让收款方卖掉变现。\n\n也许它可以像你说的那样循环地获得初始价值：人们预见到它作为交换工具的潜在用处。（我肯定想要一些）也许收藏家、随便什么由头都可能点燃它。\n\n我认为传统的货币资格标准，是建立在这样一个假设上的：世界上稀缺的东西多到竞争激烈，一件自带内在价值这一起跑优势的东西，必然胜过没有内在价值的。但如果世界上没有任何有内在价值的东西可当货币，只有稀缺而无内在价值的东西，我想人们照样会选用某样东西。\n\n（我在这里用\u201c稀缺\u201d一词，只是指潜在供给有限）",
     "post_id": 428,
     "date": "2010-08-27",
     "categories": ["economics"]
   },
   {
-    "text": "Bitcoins have no dividend or potential future dividend, therefore not like a stock.\n\nMore like a collectible or commodity.",
+    "text": "比特币没有分红，也没有潜在的未来分红，所以不像股票。\n\n更像是收藏品或大宗商品。",
     "post_id": 427,
     "date": "2010-08-27",
     "categories": ["bitcoin-economics"]
   },
   {
-    "text": "There is no way for the software to automatically know if one chain is better than another except by the greatest proof-of-work.  In the design it was necessary for it to switch to a longer chain no matter how far back it has to go.",
+    "text": "除了工作量证明最大者胜，软件没有办法自动判断哪条链更好。所以在设计上，无论要回退到多早，它都必须切换到更长的链。",
     "post_id": 394,
     "date": "2010-08-16",
     "categories": ["proof-of-work"]
   },
   {
-    "text": "Some places where generation will gravitate to: \n1) places where it's cheapest or free\n2) people who want to help for idealogical reasons\n3) people who want to get some coins without the inconvenience of doing a transaction to buy them\n\nThere are legitimate places where it's free.  Generation is basically free anywhere that has electric heat, since your computer's heat is offsetting your baseboard electric heating.  Many small flats have electric heat out of convenience.",
+    "text": "挖币会自然集中到这些地方：\n1) 电费最便宜或免费的地方\n2) 出于理念原因想帮忙的人\n3) 不想费事做交易购买、直接想弄到一些币的人\n\n确实有些地方用电是免费的。凡是用电取暖的地方，生成币基本上等于免费，因为电脑散的热抵掉了你电暖器的用电。很多小公寓图方便，用的就是电取暖。",
     "post_id": 364,
     "date": "2010-08-15",
     "categories": ["mining"]
   },
   {
-    "text": "Then you must also be against the common system of payment up front, where the customer loses.\nPayment up front: customer loses, and the thief gets the money.\nSimple escrow: customer loses, but the thief doesn't get the money either.\nAre you guys saying payment up front is better, because at least the thief gets the money, so at least someone gets it?\nImagine someone stole something from you.  You can't get it back, but if you could, if it had a kill switch that could be remote triggered, would you do it?  Would it be a good thing for thieves to know that everything you own has a kill switch and if they steal it, it'll be useless to them, although you still lose it too?  If they give it back, you can re-activate it.\nImagine if gold turned to lead when stolen.  If the thief gives it back, it turns to gold again.\nIt still seems to me the problem may be one of presenting it the right way.  For one thing, not being so blunt about \"money burning\" for the purposes of game theory discussion.  The money is never truly burned.  You have the option to release it at any time forever.",
+    "text": "那你应该也反对常见的预付制度，那种制度下吃亏的是客户。\n预付：客户吃亏，钱进了贼的口袋。\n简单托管：客户吃亏，但贼也拿不到钱。\n你们的意思是预付更好？因为至少贼拿到了钱，至少有人拿到了。\n想象有人偷了你的东西。你拿不回来，但假如能拿回来——假如它带一个可以远程触发的毁灭开关——你会按下去吗？小偷要是知道你所有的东西都带毁灭开关，偷到手也没用，尽管你同样会失去它，这对他们是不是件好事？他们要是还回来，你可以重新激活。\n想象黄金一被偷就变成铅。贼还回来，它又变回黄金。\n在我看来，问题也许还是出在表达方式上。比如，在博弈论讨论里，别把\u201c烧钱\u201d说得那么直白。钱从来不是真的被烧掉。你永远保有随时把它释放出来的选择权。",
     "post_id": 340,
     "date": "2010-08-11",
     "categories": ["general"]
   },
   {
-    "text": "It's hard to think of how to apply zero-knowledge-proofs in this case.",
+    "text": "很难想出在这个场景里怎么用上零知识证明。",
     "post_id": 339,
     "date": "2010-08-11",
     "categories": ["privacy", "zero-knowledge"]
   },
   {
-    "text": "The heat from your computer is not wasted if you need to heat your home.  If you're using electric heat where you live, then your computer's heat isn't a waste.  It's equal cost if you generate the heat with your computer. \nIf you have other cheaper heating than electric, then the waste is only the difference in cost.\nIf it's summer and you're using A/C, then it's twice. \nBitcoin generation should end up where it's cheapest.  Maybe that will be in cold climates where there's electric heat, where it would be essentially free.",
+    "text": "如果你本来就需要给家里供暖，电脑散的热就不算浪费。如果你住的地方用电取暖，那电脑的热就不是浪费。用电脑来产生这些热，成本是一样的。\n如果你有比电暖更便宜的取暖方式，浪费的只是差价。\n如果是夏天、你在开空调，那就是两倍。\n比特币的生成最终会流向最便宜的地方。也许那会是寒冷又用电取暖的地区，在那里它基本上等于免费。",
     "post_id": 337,
     "date": "2010-08-09",
     "categories": ["mining"]
   },
   {
-    "text": "It's the same situation as gold and gold mining.  The marginal cost of gold mining tends to stay near the price of gold.  Gold mining is a waste, but that waste is far less than the utility of having gold available as a medium of exchange. \nI think the case will be the same for Bitcoin.  The utility of the exchanges made possible by Bitcoin will far exceed the cost of electricity used.  Therefore, not having Bitcoin would be the net waste.",
+    "text": "这和黄金跟金矿开采是同一种情况。金矿开采的边际成本往往贴近金价。开采黄金是一种浪费，但这种浪费远小于让黄金作为交换媒介流通所带来的效用。\n我认为比特币也会是同样的情况。比特币促成的交换所带来的效用，将远远超过所耗电力的成本。所以，没有比特币才反而是净浪费。",
     "post_id": 327,
     "date": "2010-08-07",
     "categories": ["bitcoin-economics"]
   },
   {
-    "text": "Proof-of-work has the nice property that it can be relayed through untrusted middlemen.  We don't have to worry about a chain of custody of communication.  It doesn't matter who tells you a longest chain, the proof-of-work speaks for itself.",
+    "text": "工作量证明有个很好的性质：它可以经由不受信任的中介转发。我们不必担心通信的监管链条。告诉你最长链的是谁并不重要，工作量证明自会说明一切。",
     "post_id": 327,
     "date": "2010-08-07",
     "categories": ["proof-of-work"]
   },
   {
-    "text": "Forgot to add the good part about micropayments.  While I don't think Bitcoin is practical for smaller micropayments right now, it will eventually be as storage and bandwidth costs continue to fall.  If Bitcoin catches on on a big scale, it may already be the case by that time.  Another way they can become more practical is if I implement client-only mode and the number of network nodes consolidates into a smaller number of professional server farms.  Whatever size micropayments you need will eventually be practical.  I think in 5 or 10 years, the bandwidth and storage will seem trivial.",
+    "text": "忘了补上微支付里好的那部分。虽然我认为比特币现在还不适合更小额的微支付，但随着存储和带宽成本持续下降，它最终会变得可行。如果比特币大规模流行起来，到那时候可能就已经可以了。另一个让它更实用的途径是：等我实现纯客户端模式，网络节点整合成数量更少的专业服务器机房。无论你需要多小额的微支付，最终都会可行。我想再过 5 到 10 年，带宽和存储都会显得微不足道。",
     "post_id": 318,
     "date": "2010-08-05",
     "categories": ["micropayments"]
   },
   {
-    "text": "Bitcoin isn't currently practical for very small micropayments.  Not for things like pay per search or per page view without an aggregating mechanism, not things needing to pay less than 0.01.  The dust spam limit is a first try at intentionally trying to prevent overly small micropayments like that. \nBitcoin is practical for smaller transactions than are practical with existing payment methods.  Small enough to include what you might call the top of the micropayment range.  But it doesn't claim to be practical for arbitrarily small micropayments.",
+    "text": "比特币目前还不适合非常小额的微支付。不适合按次搜索付费、按页面浏览付费这类没有归集机制的场景，也不适合要付不到 0.01 的场景。粉尘垃圾交易限制就是第一次有意识地阻止这类过小额微支付的尝试。\n和现有支付方式相比，比特币适合更小额的交易。小到可以涵盖你或许会称为微支付区间顶部的那一段。但它并不宣称对任意小额的微支付都实用。",
     "post_id": 317,
     "date": "2010-08-04",
     "categories": ["micropayments"]
   },
   {
-    "text": "Actually, it works well to just PM me.  I'm the one who's going to be fixing it.  If you find a security flaw, I would definitely like to hear from you privately to fix it before it goes public.",
+    "text": "其实直接给我发站内私信就好。负责修复的人就是我。如果你发现安全漏洞，我非常希望你能私下告诉我，赶在它公开之前修好。",
     "post_id": 294,
     "date": "2010-07-29",
     "categories": ["bitcoin-design"]
   },
   {
-    "text": "The current system where every user is a network node is not the intended configuration for large scale.  That would be like every Usenet user runs their own NNTP server.  The design supports letting users just be users.  The more burden it is to run a node, the fewer nodes there will be.  Those few nodes will be big server farms.  The rest will be client nodes that only do transactions and don't generate.",
+    "text": "现在这种每个用户都是一个网络节点的模式，并不是为大规模设计的形态。那就好比每个 Usenet 用户都自己跑一台 NNTP 服务器。设计本身支持让用户只做用户。运行节点的负担越重，节点就会越少。剩下的少数节点会是大型服务器机房。其余的则是只做交易、不生成区块的客户端节点。",
     "post_id": 287,
     "date": "2010-07-29",
     "categories": ["nodes"]
   },
   {
-    "text": "For future reference, here's my public key.  It's the same one that's been there since the bitcoin.org site first went up in 2008.  Grab it now in case you need it later. http://www.bitcoin.org/Satoshi_Nakamoto.asc",
+    "text": "留档备用，这是我的公钥。从 2008 年 bitcoin.org 网站首次上线起，放的一直是这一把。现在就收好，以备日后需要。http://www.bitcoin.org/Satoshi_Nakamoto.asc",
     "post_id": 276,
     "date": "2010-07-25",
     "categories": ["general"]
   },
   {
-    "text": "By making some adjustments to the database settings, I was able to make the initial block download about 5 times faster.  It downloads in about 30 minutes. \n \nThe database default had it writing each block to disk synchronously, which is not necessary.  I changed the settings to let it cache the changes in memory and write them out in a batch.  Blocks are still written transactionally, so either the complete change occurs or none of it does, in either case the data is left in a valid state. \n \nI only enabled this change during the initial block download.  When you come within 2000 blocks of the latest block, these changes turn off and it slows down to the old way.",
+    "text": "通过调整数据库的一些设置，我把初始区块下载提速了约 5 倍，现在 30 分钟左右就能下载完。\n \n数据库默认会把每个区块同步写进磁盘，其实没必要。我改了设置，让它先把改动缓存在内存里，再批量写出。区块仍然是按事务写入的，所以要么改动完整发生，要么完全不发生，两种情况下数据都处于有效状态。\n \n我只在初始区块下载阶段启用了这项改动。当你距离最新区块不到 2000 个时，这些改动就会关闭，速度降回原来的方式。",
     "post_id": 258,
     "date": "2010-07-23",
     "categories": ["bitcoin-design"]
   },
   {
-    "text": "The timing is strange, just as we are getting a rapid increase in 3rd party coverage after getting slashdotted.  I hope there's not a big hurry to wrap the discussion and decide.  How long does Wikipedia typically leave a question like that open for comment? \nIt would help to condense the article and make it less promotional sounding as soon as possible.  Just letting people know what it is, where it fits into the electronic money space, not trying to convince them that it's good.  They probably want something that just generally identifies what it is, not tries to explain all about how it works.",
+    "text": "时间点很微妙，刚被 slashdot 报道、第三方报道正在快速增多的时候。我希望大家不至于急着收尾讨论、做出决定。维基百科这类问题通常公开征求意见多久？\n尽快把条目精简、让它听起来不那么像宣传，会有帮助。只要让人们知道它是什么、在电子货币领域处于什么位置就好，不用试图说服他们它很好。他们多半只想要一个大致说明它是什么的东西，而不是把运作原理全讲一遍。",
     "post_id": 249,
     "date": "2010-07-10",
     "categories": ["general"]
   },
   {
-    "text": "Right, the difficulty adjustment is trying to keep it so the network as a whole generates an average of 6 blocks per hour.  The time for your block to mature will always be around 20 hours.",
+    "text": "对，难度调整的目标是让全网平均每小时生成 6 个区块。你的区块成熟所需的时间始终会在 20 小时上下。",
     "post_id": 225,
     "date": "2010-07-16",
     "categories": ["difficulty"]
   },
   {
-    "text": "Difficulty just increased by 4 times, so now your cost is US$0.02/BTC.",
+    "text": "难度刚涨了 4 倍，所以现在你的成本是 0.02 美元/BTC。",
     "post_id": 223,
     "date": "2010-07-16",
     "categories": ["difficulty"]
   },
   {
-    "text": "The design outlines a lightweight client that does not need the full block chain.  In the design PDF it's called Simplified Payment Verification.  The lightweight client can send and receive transactions, it just can't generate blocks.  It does not need to trust a node to verify payments, it can still verify them itself. \nThe lightweight client is not implemented yet, but the plan is to implement it when it's needed.  For now, everyone just runs a full network node.",
+    "text": "设计稿勾勒了一种不需要完整区块链的轻量客户端。在设计 PDF 里它叫简化支付验证。轻量客户端可以收发交易，只是不能生成区块。它验证支付不需要信任某个节点，仍然可以自己验证。\n轻量客户端还没实现，计划是等需要时再做。眼下，大家跑的都是完整的网络节点。",
     "post_id": 188,
     "date": "2010-07-14",
     "categories": ["scalability", "nodes"]
   },
   {
-    "text": "I anticipate there will never be more than 100K nodes, probably less.  It will reach an equilibrium where it's not worth it for more nodes to join in.  The rest will be lightweight clients, which could be millions.",
+    "text": "我预计节点永远不会超过 10 万个，可能更少。它会达到一个均衡：再多节点加入就不值当了。其余的会是轻量客户端，那可以有上百万。",
     "post_id": 188,
     "date": "2010-07-14",
     "categories": ["scalability", "nodes"]
   },
   {
-    "text": "At equilibrium size, many nodes will be server farms with one or two network nodes that feed the rest of the farm over a LAN.",
+    "text": "达到均衡规模时，很多节点会是服务器机房：机房里只有一两个网络节点，通过局域网供给机房里其余的机器。",
     "post_id": 188,
     "date": "2010-07-14",
     "categories": ["nodes"]
   },
   {
-    "text": "When someone tries to buy all the world's supply of a scarce asset, the more they buy the higher the price goes.  At some point, it gets too expensive for them to buy any more.  It's great for the people who owned it beforehand because they get to sell it to the corner at crazy high prices.  As the price keeps going up and up, some people keep holding out for yet higher prices and refuse to sell.",
+    "text": "当有人想买断世界上某种稀缺资产的全部供给时，买得越多，价格就被抬得越高。到某个程度，价格贵到他再也买不动。这对早已持有的人非常有利，因为他们能把货以高得离谱的价格卖给那个囤积的人。价格一路走高，总有人捂着不卖、等着更高的价。",
     "post_id": 174,
     "date": "2010-07-09",
     "categories": ["economics"]
   },
   {
-    "text": "Announcing version 0.3 of Bitcoin, the P2P cryptocurrency!  Bitcoin is a digital currency using cryptography and a distributed network to replace the need for a trusted central server.  Escape the arbitrary inflation risk of centrally managed currencies!  Bitcoin's total circulation is limited to 21 million coins.  The coins are gradually released to the network's nodes based on the CPU power they contribute, so you can get a share of them by contributing your idle CPU time.",
+    "text": "宣布比特币 0.3 版发布，P2P 加密货币！比特币是一种数字货币，用密码学和分布式网络取代对受信任中央服务器的需求。摆脱中央管理货币那种任意的通胀风险！比特币的总流通量上限是 2100 万个币。币会根据各节点贡献的 CPU 算力逐步释放给网络节点，贡献你的闲置 CPU 时间就能分到一份。",
     "post_id": 168,
     "date": "2010-07-06",
     "categories": ["releases"]
   },
   {
-    "text": "Writing a description for this thing for general audiences is bloody hard.  There's nothing to relate it to.",
+    "text": "给普通读者写这东西的介绍真是难死了。找不到任何可以拿来做类比的东西。",
     "post_id": 167,
     "date": "2010-07-05",
     "categories": ["general"]
   },
   {
-    "text": "Lost coins only make everyone else's coins worth slightly more.  Think of it as a donation to everyone.",
+    "text": "丢失的币只会让其他所有人的币稍微更值钱一点。就当是捐给所有人吧。",
     "post_id": 131,
     "date": "2010-06-21",
     "categories": ["bitcoin-economics"]
   },
   {
-    "text": "Excellent choice of a first project, nice work.  I had planned to do this exact thing if someone else didn't do it, so when it gets too hard for mortals to generate 50BTC, new users could get some coins to play with right away.  Donations should be able to keep it filled.  The display showing the balance in the dispenser encourages people to top it up.\n\nYou should put a donation bitcoin address on the page for those who want to add funds to it, which ideally should update to a new address whenever it receives something.",
+    "text": "第一个项目选这个，眼光真好，干得漂亮。要是没人做，我本来就打算做一模一样的东西：这样等生成 50BTC 难到普通人做不动时，新用户能马上拿到一些币玩。靠捐款应该能把它填满。把余额显示在发放器上，能鼓励大家给它充值。\n\n你应该在页面上放一个捐款用的比特币地址，方便想往里加钱的人；理想情况下，每次一收到钱就换一个新地址。",
     "post_id": 129,
     "date": "2010-06-18",
     "categories": ["general"]
   },
   {
-    "text": "Since 2007.  At some point I became convinced there was a way to do this without any trust required at all and couldn't resist to keep thinking about it.  Much more of the work was designing than coding.\n\nFortunately, so far all the issues raised have been things I previously considered and planned for.",
+    "text": "从 2007 年开始。某一天我确信存在一种完全不需要任何信任的做法，从此就忍不住一直琢磨。设计的工作量远大于写代码。\n\n幸运的是，到目前为止提出的所有问题，都是我之前考虑过、做过规划的东西。",
     "post_id": 127,
     "date": "2010-06-18",
     "categories": ["bitcoin-design"]
   },
   {
-    "text": "The nature of Bitcoin is such that once version 0.1 was released, the core design was set in stone for the rest of its lifetime.  Because of that, I wanted to design it to support every possible transaction type I could think of.  The problem was, each thing required special support code and data fields whether it was used or not, and only covered one special case at a time.  It would have been an explosion of special cases.  The solution was script, which generalizes the problem so transacting parties can describe their transaction as a predicate that the node network evaluates.  The nodes only need to understand the transaction to the extent of evaluating whether the sender's conditions are met.",
+    "text": "比特币的性质决定了：0.1 版一发布，核心设计在它的余生里就板上钉钉。正因如此，我想把它设计成支持我能想到的每一种可能的交易类型。问题是，每一项无论用不用，都需要专门的支持代码和数据字段，而且每次只能覆盖一种特例。特例会爆炸式增长。解决办法是脚本：它把问题泛化，交易双方可以把自己的交易描述成一个谓词，由节点网络来求值。节点只需要理解到足以判断发送方条件是否满足的程度。",
     "post_id": 126,
     "date": "2010-06-17",
     "categories": ["bitcoin-design"]
   },
   {
-    "text": "The design supports a tremendous variety of possible transaction types that I designed years ago.  Escrow transactions, bonded contracts, third party arbitration, multi-party signature, etc.  If Bitcoin catches on in a big way, these are things we'll want to explore in the future, but they all had to be designed at the beginning to make sure they would be possible later.",
+    "text": "设计支持丰富多样的可能交易类型，都是我多年前设计的：托管交易、担保契约、第三方仲裁、多方签名等等。如果比特币大规模流行起来，这些就是我们以后会想去探索的东西，但它们都必须在最初就设计好，以确保日后有可能实现。",
     "post_id": 126,
     "date": "2010-06-17",
     "categories": ["transactions", "bitcoin-design"]
   },
   {
-    "text": "SHA-256 is very strong.  It's not like the incremental step from MD5 to SHA1.  It can last several decades unless there's some massive breakthrough attack.",
+    "text": "SHA-256 非常强。它不像从 MD5 到 SHA1 那种渐进式的小步改进。只要不出现什么重大突破性攻击，它可以用上几十年。",
     "post_id": 119,
     "date": "2010-06-14",
     "categories": ["encryption"]
   },
   {
-    "text": "If SHA-256 became completely broken, I think we could come to some agreement about what the honest block chain was before the trouble started, lock that in and continue from there with a new hash function.",
+    "text": "如果 SHA-256 被彻底攻破，我想大家可以就麻烦开始之前哪条是诚实区块链达成一致，把它锁定，然后用新的哈希函数从那里继续。",
     "post_id": 119,
     "date": "2010-06-14",
     "categories": ["encryption"]
   },
   {
-    "text": "Does anyone want to translate the Bitcoin client itself?  It would be great to have at least one other language in the 0.3 release.",
+    "text": "有人愿意翻译比特币客户端本身吗？0.3 版里能至少多一种语言就太好了。",
     "post_id": 111,
     "date": "2010-05-26",
     "categories": ["releases"]
   },
   {
-    "text": "Simplified Payment Verification is for lightweight client-only users who only do transactions and don't generate and don't participate in the node network.  They wouldn't need to download blocks, just the hash chain, which is currently about 2MB and very quick to verify (less than a second to verify the whole chain).  If the network becomes very large, like over 100,000 nodes, this is what we'll use to allow common users to do transactions without being full blown nodes.  At that stage, most users should start running client-only software and only the specialist server farms keep running full network nodes, kind of like how the usenet network has consolidated. \nSPV is not implemented yet, and won't be implemented until far in the future, but all the current implementation is designed around supporting it.",
+    "text": "简化支付验证是为纯客户端的轻量用户准备的：他们只做交易，不生成区块，也不参与节点网络。他们不需要下载区块，只需下载哈希链——目前大约 2MB，验证起来非常快（验证整条链不到一秒）。如果网络变得非常大，比如超过 10 万个节点，我们就靠它让普通用户不做完整节点也能交易。到那个阶段，大多数用户应该开始运行纯客户端软件，只有专业的服务器机房继续运行完整的网络节点，有点像 Usenet 网络整合后的样子。\nSPV 还没实现，短期内也不会实现，但当前的全部实现都是围绕支持它来设计的。",
     "post_id": 105,
     "date": "2010-05-18",
     "categories": ["bitcoin-design"]
   },
   {
-    "text": "Bitcoin addresses you generate are kept forever.  A bitcoin address must be kept to show ownership of anything sent to it.  If you were able to delete a bitcoin address and someone sent to it, the money would be lost.  They're only about 500 bytes.",
+    "text": "你生成的比特币地址会永久保存。必须保留比特币地址，才能证明发到它上面的东西归你所有。要是能删除比特币地址，而有人往它转了钱，钱就丢了。一个地址才 500 字节左右。",
     "post_id": 102,
     "date": "2010-05-16",
     "categories": ["bitcoin-design"]
   },
   {
-    "text": "When you generate a new bitcoin address, it only takes disk space on your own computer (like 500 bytes).  It's like generating a new PGP private key, but less CPU intensive because it's ECC.  The address space is effectively unlimited.  It doesn't hurt anyone, so generate all you want.",
+    "text": "生成新的比特币地址只占用你自己电脑的磁盘空间（大约 500 字节）。就像生成一把新的 PGP 私钥，但因为它用的是 ECC，对 CPU 的消耗更小。地址空间实际上无限。不妨碍任何人，想生成多少都行。",
     "post_id": 98,
     "date": "2010-05-16",
     "categories": ["bitcoin-design"]
   },
   {
-    "text": "The price of .com registrations is lower than it should be, therefore any good name you might think of is always already taken by some domain name speculator.  Fortunately, it's standard for open source projects to be .org.",
+    "text": ".com 域名的注册价低于它应有的水平，所以你能想到的好名字总是已经被某个域名投机者抢注了。好在开源项目用 .org 是惯例。",
     "post_id": 94,
     "date": "2010-03-23",
     "categories": ["general"]
   },
   {
-    "text": "How does everyone feel about the B symbol with the two lines through the outside?  Can we live with that as our logo?",
+    "text": "大家对那个带两道穿杠的 B 符号感觉如何？我们能接受它作为我们的标志吗？",
     "post_id": 83,
     "date": "2010-02-26",
     "categories": ["bitcoin-design"]
   },
   {
-    "text": "That would be nice at point-of-sale.  The cash register displays a QR-code encoding a bitcoin address and amount on a screen and you photo it with your mobile.",
+    "text": "这在收银台会很方便。收银机在屏幕上显示一个编码了比特币地址和金额的二维码，你用手机拍下来就行。",
     "post_id": 73,
     "date": "2010-02-24",
     "categories": ["transactions"]
   },
   {
-    "text": "A rational market price for something that is expected to increase in value will already reflect the present value of the expected future increases.  In your head, you do a probability estimate balancing the odds that it keeps increasing.",
+    "text": "对预期会升值的物品，理性的市场价格已经反映了预期未来涨幅的现值。你会在脑子里做一个概率估算，权衡它继续升值的可能性。",
     "post_id": 65,
     "date": "2010-02-21",
     "categories": ["economics"]
   },
   {
-    "text": "The price of any commodity tends to gravitate toward the production cost.  If the price is below cost, then production slows down.  If the price is above cost, profit can be made by generating and selling more.  At the same time, the increased production would increase the difficulty, pushing the cost of generating towards the price.",
+    "text": "任何商品的价格都趋向于向生产成本靠拢。价格低于成本，生产就会放缓。价格高于成本，多生成多卖就能赚钱。与此同时，产量的增加会推高难度，把生成成本推向价格。",
     "post_id": 65,
     "date": "2010-02-21",
     "categories": ["economics", "bitcoin-economics"]
   },
   {
-    "text": "At the moment, generation effort is rapidly increasing, suggesting people are estimating the present value to be higher than the current cost of production.",
+    "text": "眼下，投入生成的算力正在迅速增加，说明人们估算的现值高于当前的生产成本。",
     "post_id": 65,
     "date": "2010-02-21",
     "categories": ["bitcoin-economics"]
   },
   {
-    "text": "I'm sure that in 20 years there will either be very large transaction volume or no volume.",
+    "text": "我确信，20 年后要么交易量非常大，要么压根没有交易量。",
     "post_id": 57,
     "date": "2010-02-14",
     "categories": ["bitcoin-economics"]
   },
   {
-    "text": "In a few decades when the reward gets too small, the transaction fee will become the main compensation for nodes.",
+    "text": "几十年后，等奖励变得太小，交易手续费就会成为节点的主要报酬。",
     "post_id": 57,
     "date": "2010-02-14",
     "categories": ["bitcoin-economics", "fees"]
   },
   {
-    "text": "If you're sad about paying the fee, you could always turn the tables and run a node yourself and maybe someday rake in a 0.44 fee yourself.",
+    "text": "如果你为付手续费而难过，你随时可以反客为主，自己运行一个节点，说不定哪天你自己也能捞到一笔 0.44 的手续费。",
     "post_id": 56,
     "date": "2010-02-14",
     "categories": ["nodes", "mining", "fees"]
   },
   {
-    "text": "Eventually at most only 21 million coins for 6.8 billion people in the world if it really gets huge.\n\nBut don't worry, there are another 6 decimal places that aren't shown, for a total of 8 decimal places internally.  It shows 1.00 but internally it's 1.00000000.  If there's massive deflation in the future, the software could show more decimal places.",
+    "text": "就算它真的大获成功，到头来全世界 68 亿人也不过最多 2100 万个币。\n\n不过别担心，还有 6 位小数没显示出来，内部总共 8 位小数。界面上显示 1.00，内部其实是 1.00000000。如果将来出现大规模通货紧缩，软件可以显示更多小数位。",
     "post_id": 46,
     "date": "2010-02-06",
     "categories": ["bitcoin-economics", "bitcoin-design"]
   },
   {
-    "text": "If it gets tiresome working with small numbers, we could change where the display shows the decimal point.  Same amount of money, just different convention for where the \",\"'s and \".\"'s go.  e.g. moving the decimal place 3 places would mean if you had 1.00000 before, now it shows it as 1,000.00.",
+    "text": "如果用小数字太麻烦，我们可以改一下界面上小数点的位置。钱的总量不变，只是逗号和小数点放在哪里的约定不同。比如把小数点移 3 位，意味着你原来有 1.00000，现在显示成 1,000.00。",
     "post_id": 46,
     "date": "2010-02-06",
     "categories": ["bitcoin-design"]
   },
   {
-    "text": "Bitcoin is still very new and has not been independently analysed.  If you're serious about privacy, TOR is an advisable precaution.",
+    "text": "比特币还很新，尚未经过独立的安全分析。如果你很在意隐私，TOR 是个值得考虑的预防措施。",
     "post_id": 45,
     "date": "2010-02-06",
     "categories": ["privacy"]
   },
   {
-    "text": "You could use TOR if you don't want anyone to know you're even using Bitcoin.",
+    "text": "如果你不想让任何人知道你连比特币都在用，可以用 TOR。",
     "post_id": 45,
     "date": "2010-02-06",
     "categories": ["privacy"]
   },
   {
-    "text": "I very much wanted to find some way to include a short message, but the problem is, the whole world would be able to see the message.  As much as you may keep reminding people that the message is completely non-private, it would be an accident waiting to happen.",
+    "text": "我非常想找到某种附带短消息的办法，但问题在于，全世界都能看到这条消息。哪怕你不断提醒大家消息完全不具私密性，那也是一颗等着出事的地雷。",
     "post_id": 33,
     "date": "2010-01-28",
     "categories": ["bitcoin-design"]
   },
   {
-    "text": "The average total coins generated across the network per day stays the same.  Faster machines just get a larger share than slower machines.  If everyone bought faster machines, they wouldn't get more coins than before.",
+    "text": "全网每天生成的币的总量平均值不变。快机器只是比慢机器分到更大的份额。如果大家都买了更快的机器，谁也不会比以前拿到更多币。",
     "post_id": 20,
     "date": "2009-12-12",
     "categories": ["mining"]
   },
   {
-    "text": "We should have a gentleman's agreement to postpone the GPU arms race as long as we can for the good of the network.  It's much easer to get new users up to speed if they don't have to worry about GPU drivers and compatibility.  It's nice how anyone with just a CPU can compete fairly equally right now.",
+    "text": "为了网络好，我们应该达成君子协定，尽可能推迟 GPU 军备竞赛。如果新用户不用操心 GPU 驱动和兼容性，让他们上手会容易得多。现在只用 CPU 的人也能相当公平地参与竞争，这样很好。",
     "post_id": 20,
     "date": "2009-12-12",
     "categories": ["mining"]
   },
   {
-    "text": "Those coins can never be recovered, and the total circulation is less.  Since the effective circulation is reduced, all the remaining coins are worth slightly more.  It's the opposite of when a government prints money and the value of existing money goes down.",
+    "text": "那些币永远无法找回，总流通量因此变少。有效流通量减少后，剩下的所有币都略微更值钱。这和政府印钱、现有货币贬值的情形正好相反。",
     "post_id": 17,
     "date": "2009-12-10",
     "categories": ["bitcoin-economics"]
   },
   {
-    "text": "Being open source means anyone can independently review the code.  If it was closed source, nobody could verify the security.  I think it's essential for a program of this nature to be open source.",
+    "text": "开源意味着任何人都可以独立审查代码。如果是闭源，就没人能验证它的安全性。我认为这种性质的程序必须开源。",
     "post_id": 17,
     "date": "2009-12-10",
     "categories": ["trusted-third-parties"]
   },
   {
-    "text": "For greater privacy, it's best to use bitcoin addresses only once.",
+    "text": "为了更好的隐私，比特币地址最好只用一次。",
     "post_id": 11,
     "date": "2009-11-25",
     "categories": ["privacy", "transactions"]
   },
   {
-    "text": "Think of it as a cooperative effort to make a chain.  When you add a link, you must first find the current end of the chain.  If you were to locate the last link, then go off for an hour and forge your link, come back and link it to the link that was the end an hour ago, others may have added several links since then and they're not going to want to use your link that now branches off the middle.",
+    "text": "把它想成一场接力造链的合作。你要加一环，必须先找到链当前的末端。如果你找到最后一环，然后离开一个小时去打造你的那一环，回来再把它接到一小时前还是末端的那一环上，别人可能已经加了好几环，他们不会愿意用你这截从半中间岔出来的环。",
     "post_id": 8,
     "date": "2009-11-22",
     "categories": ["mining"]
   },
   {
-    "text": "It is a global distributed database, with additions to the database by consent of the majority, based on a set of rules they follow: \n\n- Whenever someone finds proof-of-work to generate a block, they get some new coins\n- The proof-of-work difficulty is adjusted every two weeks to target an average of 6 blocks per hour (for the whole network)\n- The coins given per block is cut in half every 4 years",
+    "text": "它是一个全球性的分布式数据库，数据库的增补要经多数人同意，大家遵循一套规则：\n\n- 每当有人找到生成区块的工作量证明，就能得到一些新币\n- 工作量证明难度每两周调整一次，目标是全网平均每小时 6 个区块\n- 每个区块给出的币每 4 年减半",
     "post_id": 3,
     "date": "2009-02-18",
     "categories": ["bitcoin-design"]
   },
   {
-    "text": "You could say coins are issued by the majority. They are issued in a limited, predetermined amount.",
+    "text": "可以说币是由多数人发行的。发行量有限，而且是预先确定的。",
     "post_id": 3,
     "date": "2009-02-18",
     "categories": ["bitcoin-economics"]
   },
   {
-    "text": "To Sepp's question, indeed there is nobody to act as central bank or federal reserve to adjust the money supply as the population of users grows. That would have required a trusted party to determine the value, because I don't know a way for software to know the real world value of things.",
+    "text": "回答 Sepp 的问题：确实，随着用户数量增长，没有任何人充当中央银行或美联储来调整货币供应量。那需要一个受信任方来确定价值，因为我不知道有什么办法让软件知道东西在现实世界中的价值。",
     "post_id": 3,
     "date": "2009-02-18",
     "categories": ["bitcoin-economics"]
   },
   {
-    "text": "In this sense, it's more typical of a precious metal. Instead of the supply changing to keep the value the same, the supply is predetermined and the value changes. As the number of users grows, the value per coin increases. It has the potential for a positive feedback loop; as users increase, the value goes up, which could attract more users to take advantage of the increasing value.",
+    "text": "从这个意义上说，它更像贵金属。不是改变供应量来维持价值不变，而是供应量预先确定、价值随之变动。用户数量增长，每个币的价值就上升。它有形成正反馈循环的潜力：用户增加，价值上涨，又可能吸引更多用户来分享升值的好处。",
     "post_id": 3,
     "date": "2009-02-18",
     "categories": ["bitcoin-economics"]
   },
   {
-    "text": "A lot of people automatically dismiss e-currency as a lost cause because of all the companies that failed since the 1990's. I hope it's obvious it was only the centrally controlled nature of those systems that doomed them. I think this is the first time we're trying a decentralized, non-trust-based system.",
+    "text": "因为 90 年代以来那么多公司的失败，很多人想都不想就把电子货币当成注定失败的事业。我希望有一点是显然的：让那些系统失败的不是别的，正是它们中心化控制的本质。我认为这是我们第一次尝试一个去中心化的、不依赖信任的系统。",
     "post_id": 2,
     "date": "2009-02-15",
     "categories": ["cryptocurrency"]
   },
   {
-    "text": "I've developed a new open source P2P e-cash system called Bitcoin. It's completely decentralized, with no central server or trusted parties, because everything is based on crypto proof instead of trust. Give it a try, or take a look at the screenshots and design paper: \n\nDownload Bitcoin v0.1 at http://www.bitcoin.org",
+    "text": "我开发了一个新的开源 P2P 电子现金系统，叫比特币。它完全去中心化，没有中央服务器，也没有受信任的参与方，因为一切都基于密码学证明而非信任。不妨试用一下，或者看看截图和设计论文：\n\n到 http://www.bitcoin.org 下载 Bitcoin v0.1",
     "post_id": 1,
     "date": "2009-02-11",
     "categories": ["releases", "bitcoin-design"]
   },
   {
-    "text": "The root problem with conventional currency is all the trust that's required to make it work. The central bank must be trusted not to debase the currency, but the history of fiat currencies is full of breaches of that trust.",
+    "text": "传统货币的根本问题，是让它运转所需的那一整套信任。人们必须相信中央银行不会让货币贬值，但法定货币的历史上充斥着对这种信任的背叛。",
     "post_id": 1,
     "date": "2009-02-11",
     "categories": ["economics"]
   },
   {
-    "text": "Banks must be trusted to hold our money and transfer it electronically, but they lend it out in waves of credit bubbles with barely a fraction in reserve. We have to trust them with our privacy, trust them not to let identity thieves drain our accounts. Their massive overhead costs make micropayments impossible.",
+    "text": "人们必须信任银行替我们保管钱、电子化地转账，可它们却以一波波信贷泡沫把钱贷出去，准备金几乎不留多少。我们不得不把隐私交给它们，还得相信它们不会放任身份窃贼掏空我们的账户。它们庞大的开销成本让微支付无从谈起。",
     "post_id": 1,
     "date": "2009-02-11",
     "categories": ["micropayments", "privacy", "banks"]
   },
   {
-    "text": "A generation ago, multi-user time-sharing computer systems had a similar problem. Before strong encryption, users had to rely on password protection to secure their files, placing trust in the system administrator to keep their information private. Privacy could always be overridden by the admin based on his judgment call weighing the principle of privacy against other concerns, or at the behest of his superiors. Then strong encryption became available to the masses, and trust was no longer required. Data could be secured in a way that was physically impossible for others to access, no matter for what reason, no matter how good the excuse, no matter what.",
+    "text": "一代人以前，多用户分时计算机系统也有类似的问题。在强加密出现之前，用户只能靠密码保护自己的文件，把信息隐私托付给系统管理员。管理员总能凭自己的判断推翻隐私——权衡隐私原则和其他顾虑，或者奉上司之命。后来强加密向大众普及，信任不再被需要。数据可以得到这样的保护：别人在物理上根本无法访问，无论出于什么理由，无论借口多好听，无论如何都不行。",
     "post_id": 1,
     "date": "2009-02-11",
     "categories": ["encryption"]
   },
   {
-    "text": "With e-currency based on cryptographic proof, without the need to trust a third party middleman, money can be secure and transactions effortless.",
+    "text": "有了基于密码学证明、无需信任第三方中介的电子货币，资金可以安全无忧，交易可以轻松完成。",
     "post_id": 1,
     "date": "2009-02-11",
     "categories": ["cryptocurrency"]
   },
   {
-    "text": "A digital coin contains the public key of its owner. To transfer it, the owner signs the coin together with the public key of the next owner. Anyone can check the signatures to verify the chain of ownership.",
+    "text": "一枚数字币包含其所有者的公钥。要转移它，所有者把币和下一位所有者的公钥一起签名。任何人都可以检查这些签名，核验所有权链。",
     "post_id": 1,
     "date": "2009-02-11",
     "categories": ["transactions"]
   },
   {
-    "text": "Any owner could try to re-spend an already spent coin by signing it again to another owner. The usual solution is for a trusted company with a central database to check for double-spending, but that just gets back to the trust model. In its central position, the company can override the users, and the fees needed to support the company make micropayments impractical. \nBitcoin's solution is to use a peer-to-peer network to check for double-spending. In a nutshell, the network works like a distributed timestamp server, stamping the first transaction to spend a coin. It takes advantage of the nature of information being easy to spread but hard to stifle.",
+    "text": "任何所有者都可以试着把已经花出去的币再次签名给另一位所有者，实现重复花费。常见的解决办法是让一家受信任的公司用中央数据库检查双重支付，但这又回到了信任模型。身处中央位置，这家公司可以凌驾于用户之上，而维持这家公司所需的手续费也让微支付变得不切实际。\n比特币的解法是用点对点网络来检查双重支付。简而言之，网络就像一台分布式时间戳服务器，给花费某枚币的第一笔交易盖上时间戳。它利用了信息易于传播、难以扼杀的特性。",
     "post_id": 1,
     "date": "2009-02-11",
     "categories": ["double-spending"]
   },
   {
-    "text": "The result is a distributed system with no single point of failure. Users hold the crypto keys to their own money and transact directly with each other, with the help of the P2P network to check for double-spending.",
+    "text": "最终得到的是一个没有单点故障的分布式系统。用户自己持有资金的密钥，彼此直接交易，由 P2P 网络帮忙检查双重支付。",
     "post_id": 1,
     "date": "2009-02-11",
     "categories": ["bitcoin-design"]
   },
   {
-    "text": "I am not Dorian Nakamoto.",
+    "text": "我不是 Dorian Nakamoto。",
     "post_id": 4,
     "date": "2014-03-07",
     "categories": ["identity"]
   },
   {
     "email_id": "1",
-    "text": "I've been working on a new electronic cash system that's fully peer-to-peer, with no trusted third party.",
+    "text": "我在研究一种全新的电子现金系统，完全点对点，没有受信任的第三方。",
     "date": "2008-11-01",
     "categories": ["bitcoin-design"]
   },
   {
     "email_id": "1",
-    "text": "The main properties: \n Double-spending is prevented with a peer-to-peer network.\n No mint or other trusted parties.\n Participants can be anonymous.\n New coins are made from Hashcash style proof-of-work.\n The proof-of-work for new coin generation also powers the network to prevent double-spending.",
+    "text": "主要特性：\n 用点对点网络防止双重支付。\n 没有造币厂或其他受信任方。\n 参与者可以匿名。\n 新币通过 Hashcash 风格的工作量证明产生。\n 生成新币的工作量证明同时驱动网络、防止双重支付。",
     "date": "2008-11-01",
     "categories": ["bitcoin-design"]
   },
   {
     "email_id": "2",
-    "text": "Long before the network gets anywhere near as large as that, it would be safe for users to use Simplified Payment Verification (section 8) to check for double spending, which only requires having the chain of block headers, or about 12KB per day.",
+    "text": "在网络还远远没发展到那么大规模之前，用户用简化支付验证（第 8 节）来检查双重支付就是安全的，这只需要保存区块头的链，大约每天 12KB。",
     "date": "2008-11-02",
     "categories": ["double-spending"]
   },
   {
     "email_id": "2",
-    "text": "Only people trying to create new coins would need to run network nodes.",
+    "text": "只有想生成新币的人才需要运行网络节点。",
     "date": "2008-11-02",
     "categories": ["nodes"]
   },
   {
     "email_id": "2",
-    "text": "At first, most users would run network nodes, but as the network grows beyond a certain point, it would be left more and more to specialists with server farms of specialized hardware. A server farm would only need to have one node on the network and the rest of the LAN connects with that one node.",
+    "text": "起初，大多数用户都会运行网络节点，但随着网络增长超过某个程度，这会越来越多地交给拥有专门硬件服务器机房的专业人士来做。一个服务器机房只需要一台机器作为网络节点，局域网里其余的机器都连到这一个节点就行。",
     "date": "2008-11-02",
     "categories": ["nodes"]
   },
   {
     "email_id": "3",
-    "text": "The requirement is that the good guys collectively have more CPU power than any single attacker.",
+    "text": "前提是好人一方的 CPU 算力加起来要比任何一个攻击者都多。",
     "date": "2008-11-03",
     "categories": ["mining"]
   },
   {
     "email_id": "3",
-    "text": "There would be many smaller zombie farms that are not big enough to overpower the network, and they could still make money by generating bitcoins. The smaller farms are then the \"honest nodes\". (I need a better term than \"honest\") The more smaller farms resort to generating bitcoins, the higher the bar gets to overpower the network, making larger farms also too small to overpower it so that they may as well generate bitcoins too. According to the \"long tail\" theory, the small, medium and merely large farms put together should add up to a lot more than the biggest zombie farm.",
+    "text": "还会有很多规模不够大、不足以压过整个网络的僵尸农场，它们照样可以通过生成比特币赚钱。这些较小的农场就是“诚实节点”。（我得找个比“诚实”更好的词）走生成比特币这条路的小农场越多，压过网络的门槛就越高，这会让更大的农场也变得不够大、压不过网络，那它们还不如也去生成比特币。按照“长尾”理论，小型、中型和一般大型农场加起来的算力，应该远超最大的那个僵尸农场。",
     "date": "2008-11-03",
     "categories": ["mining"]
   },
   {
     "email_id": "3",
-    "text": "Even if a bad guy does overpower the network, it's not like he's instantly rich. All he can accomplish is to take back money he himself spent, like bouncing a check. To exploit it, he would have to buy something from a merchant, wait till it ships, then overpower the network and try to take his money back. I don't think he could make as much money trying to pull a carding scheme like that as he could by generating bitcoins. With a zombie farm that big, he could generate more bitcoins than everyone else combined.",
+    "text": "就算坏人真能压过网络，他也不会一夜暴富。他能做的无非是把自己花出去的钱拿回来，就像让支票跳票一样。要想从中获利，他得先从商家买东西，等对方发货，然后再压过网络把钱弄回来。我觉得他靠这种盗卡骗局赚到的钱，不会比老实生成比特币多。以他那么大的僵尸农场，生成的比特币能比其他所有人加起来还多。",
     "date": "2008-11-03",
     "categories": ["mining"]
   },
   {
     "email_id": "3",
-    "text": "The Bitcoin network might actually reduce spam by diverting zombie farms to generating bitcoins instead.",
+    "text": "比特币网络说不定反而能减少垃圾邮件——把僵尸农场都引去生成比特币了。",
     "date": "2008-11-03",
     "categories": ["mining"]
   },
   {
     "email_id": "4",
-    "text": "Yes, but we can win a major battle in the arms race and gain a new territory of freedom for several years.",
+    "text": "是的，但我们能在这场军备竞赛中赢下一场重大战役，为自由开辟一块能坚守几年的新领地。",
     "date": "2008-11-07",
     "categories": ["motives"]
   },
   {
     "email_id": "4",
-    "text": "Governments are good at cutting off the heads of a centrally controlled networks like Napster, but pure P2P networks like Gnutella and Tor seem to be holding their own.",
+    "text": "政府很擅长砍掉 Napster 这类中心化控制网络的脑袋，但 Gnutella 和 Tor 这样的纯 P2P 网络似乎守得住自己的阵地。",
     "date": "2008-11-07",
     "categories": ["p2p-networks", "government"]
   },
   {
     "email_id": "5",
-    "text": "As computers get faster and the total computing power applied to creating bitcoins increases, the difficulty increases proportionally to keep the total new production constant. Thus, it is known in advance how many new bitcoins will be created every year in the future.",
+    "text": "随着计算机变快、投入生成比特币的总算力增加，难度也会成比例提高，以保持新增总量不变。因此，未来每年会产生多少新比特币是可以提前知道的。",
     "date": "2008-11-08",
     "categories": ["mining", "difficulty"]
   },
   {
     "email_id": "5",
-    "text": "The fact that new coins are produced means the money supply increases by a planned amount, but this does not necessarily result in inflation. If the supply of money increases at the same rate that the number of people using it increases, prices remain stable. If it does not increase as fast as demand, there will be deflation and early holders of money will see its value increase. Coins have to get initially distributed somehow, and a constant rate seems like the best formula.",
+    "text": "新币的产生意味着货币供应量按计划增加，但这不一定会导致通货膨胀。如果货币供应的增长速度和使用人数的增长速度相同，物价就会保持稳定。如果供应增长赶不上需求，就会出现通货紧缩，早期持币的人会看到手中货币升值。币总得有个最初分配的办法，固定速率看来是最好的方案。",
     "date": "2008-11-08",
     "categories": ["bitcoin-economics"]
   },
   {
     "email_id": "6",
-    "text": "Right, nodes keep transactions in their working set until they get into a block. If a transaction reaches 90% of nodes, then each time a new block is found, it has a 90% chance of being in it.",
+    "text": "没错，节点会把交易保存在自己的工作集里，直到它们进入区块。如果一笔交易到达了 90% 的节点，那么每次有新区块被挖出，它就有 90% 的概率被包含在内。",
     "date": "2008-11-09",
     "categories": ["nodes"]
   },
   {
     "email_id": "6",
-    "text": "Receivers of transactions will normally need to hold transactions for perhaps an hour or more to allow time for this kind of possibility to be resolved. They can still re-spend the coins immediately, but they should wait before taking an action such as shipping goods.",
+    "text": "交易的接收方通常需要把交易暂存一个小时左右甚至更久，好让这种可能性有时间得到解决。币可以立即再花出去，但在采取发货之类的行动之前应该等一等。",
     "date": "2008-11-09",
     "categories": ["transactions"]
   },
   {
     "email_id": "6",
-    "text": "The attacker isn't adding blocks to the end. He has to go back and redo the block his transaction is in and all the blocks after it, as well as any new blocks the network keeps adding to the end while he's doing that. He's rewriting history. Once his branch is longer, it becomes the new valid one.",
+    "text": "攻击者并不是在链尾追加区块。他必须回过头去重做他那笔交易所在的区块以及它后面的所有区块，同时还要应付网络在他重做期间不断加到链尾的新区块。他这是在改写历史。一旦他的分支更长，它就成了新的有效链。",
     "date": "2008-11-09",
     "categories": ["double-spending"]
   },
   {
     "email_id": "6",
-    "text": "It is strictly necessary that the longest chain is always considered the valid one. Nodes that were present may remember that one branch was there first and got replaced by another, but there would be no way for them to convince those who were not present of this. We can't have subfactions of nodes that cling to one branch that they think was first, others that saw another branch first, and others that joined later and never saw what happened. The CPU power proof-of-work vote must have the final say. The only way for everyone to stay on the same page is to believe that the longest chain is always the valid one, no matter what.",
+    "text": "最长链永远被视为有效链，这是严格必要的。当时在场的节点也许记得某个分支先出现、后来被另一个取代，但它们没办法说服不在场的人。我们不能让节点分裂成几派——有的死守自己认为先出现的分支，有的先看到的是另一个分支，还有的后加入、根本不知道发生过什么。必须由 CPU 算力的工作量证明投票说了算。让所有人保持一致的唯一办法，就是无条件相信最长链永远是有效的那条。",
     "date": "2008-11-09",
     "categories": ["nodes", "mining", "proof-of-work"]
   },
   {
     "email_id": "6",
-    "text": "The recipient just needs to verify it back to a depth that is sufficiently far back in the block chain, which will often only require a depth of 2 transactions. All transactions before that can be discarded.",
+    "text": "接收方只需把交易验证到区块链上足够深的位置，这通常只需要 2 笔交易的深度。在那之前的所有交易都可以丢弃。",
     "date": "2008-11-09",
     "categories": ["transactions"]
   },
   {
     "email_id": "6",
-    "text": "When a node receives a block, it checks the signatures of every transaction in it against previous transactions in blocks. Blocks can only contain transactions that depend on valid transactions in previous blocks or the same block. Transaction C could depend on transaction B in the same block and B depends on transaction A in an earlier block.",
+    "text": "节点收到区块时，会用此前区块中的交易来核验其中每笔交易的签名。区块只能包含依赖前序区块或同一区块内有效交易的交易。比如交易 C 可以依赖同一区块里的交易 B，而 B 又依赖更早区块里的交易 A。",
     "date": "2008-11-09",
     "categories": ["nodes"]
   },
   {
     "email_id": "7",
-    "text": "It's not a problem if transactions have to wait one or a few extra cycles to get into a block.",
+    "text": "如果交易要多等一两个周期才能进区块，那不是什么问题。",
     "date": "2008-11-09",
     "categories": ["transactions"]
   },
   {
     "email_id": "8",
-    "text": "The proof-of-work chain is the solution to the synchronisation problem, and to knowing what the globally shared view is without having to trust anyone.",
+    "text": "工作量证明链就是同步问题的解决方案，也是在不信任任何人的前提下得知全局共享视图的办法。",
     "date": "2008-11-09",
     "categories": ["proof-of-work"]
   },
   {
     "email_id": "8",
-    "text": "A transaction will quickly propagate throughout the network, so if two versions of the same transaction were reported at close to the same time, the one with the head start would have a big advantage in reaching many more nodes first. Nodes will only accept the first one they see, refusing the second one to arrive, so the earlier transaction would have many more nodes working on incorporating it into the next proof-of-work. In effect, each node votes for its viewpoint of which transaction it saw first by including it in its proof-of-work effort. If the transactions did come at exactly the same time and there was an even split, it's a toss up based on which gets into a proof-of-work first, and that decides which is valid.",
+    "text": "交易会很快传遍整个网络，所以如果同一交易的两个版本几乎同时被上报，先出发的那个会占很大优势，先到达多得多的节点。节点只接受最先看到的那一个，拒绝后到的那个，所以较早的交易会有多得多的节点把它纳入下一个工作量证明。实际上，每个节点都在用它的工作量计算投票，表达自己先看到的是哪笔交易。如果两笔交易真的同时到达、节点正好各占一半，那就看哪个先进入工作量证明，全凭运气，而结果就决定了哪笔有效。",
     "date": "2008-11-09",
     "categories": ["nodes"]
   },
   {
     "email_id": "8",
-    "text": "When a node finds a proof-of-work, the new block is propagated throughout the network and everyone adds it to the chain and starts working on the next block after it. Any nodes that had the other transaction will stop trying to include it in a block, since it's now invalid according to the accepted chain.",
+    "text": "当一个节点找到工作量证明后，新区块会传遍整个网络，大家把它加到链上，然后开始做它后面的下一个区块。原本拿到另一笔交易的节点会停止尝试把它打包进区块，因为按照已被接受的链，它现在是无效的。",
     "date": "2008-11-09",
     "categories": ["nodes", "proof-of-work"]
   },
   {
     "email_id": "8",
-    "text": "The proof-of-work chain is itself self-evident proof that it came from the globally shared view. Only the majority of the network together has enough CPU power to generate such a difficult chain of proof-of-work. Any user, upon receiving the proof-of-work chain, can see what the majority of the network has approved. Once a transaction is hashed into a link that's a few links back in the chain, it is firmly etched into the global history.",
+    "text": "工作量证明链本身就是自明的证据，证明它来自全局共享的视图。只有网络中的多数节点合力，才有足够的 CPU 算力生成这样一条难度极高的工作量证明链。任何用户收到工作量证明链，就能看出网络中的多数认可了什么。一笔交易一旦被哈希进链条上回溯若干环的环节里，就被牢牢刻进了全局历史。",
     "date": "2008-11-09",
     "categories": ["proof-of-work"]
   },
   {
     "email_id": "9",
-    "text": "If you're having trouble with the inflation issue, it's easy to tweak it for transaction fees instead. It's as simple as this: let the output value from any transaction be 1 cent less than the input value. Either the client software automatically writes transactions for 1 cent more than the intended payment value, or it could come out of the payee's side. The incentive value when a node finds a proof-of-work for a block could be the total of the fees in the block.",
+    "text": "如果你觉得通胀这个问题不好办，很容易改成改用交易手续费。简单来说就是：让任何交易的输出金额比输入金额少 1 美分。要么客户端自动把交易写成应付金额外加 1 美分，要么从收款方那边扣。节点为区块找到工作量证明时的激励金额，可以是该区块内手续费的总和。",
     "date": "2008-11-10",
     "categories": ["fees", "bitcoin-economics"]
   },
   {
     "email_id": "10",
-    "text": "When there are multiple double-spent versions of the same transaction, one and only one will become valid.",
+    "text": "当同一笔交易存在多个双重支付版本时，有且只有一个会成为有效版本。",
     "date": "2008-11-11",
     "categories": ["double-spending"]
   },
   {
     "email_id": "10",
-    "text": "The receiver of a payment must wait an hour or so before believing that it's valid. The network will resolve any possible double-spend races by then.",
+    "text": "收款方必须等一个小时左右才能认为款项有效。到那时，网络会把任何可能的双重支付竞争都解决掉。",
     "date": "2008-11-11",
     "categories": ["double-spending"]
   },
   {
     "email_id": "10",
-    "text": "The guy who received the double-spend that became invalid never thought he had it in the first place. His software would have shown the transaction go from \"unconfirmed\" to \"invalid\". If necessary, the UI can be made to hide transactions until they're sufficiently deep in the block chain.",
+    "text": "收到后来失效的那笔双重支付的人，从头到尾都没真正认为自己拿到过钱。他的软件会把这笔交易从“未确认”显示成“无效”。如果有必要，可以让界面把交易隐藏起来，直到它们在区块链中足够深。",
     "date": "2008-11-11",
     "categories": ["double-spending"]
   },
   {
     "email_id": "10",
-    "text": "The target time between blocks will probably be 10 minutes. Every block includes its creation time. If the time is off by more than 36 hours, other nodes won't work on it. If the timespan over the last 6*24*30 blocks is less than 15 days, blocks are being generated too fast and the proof-of-work difficulty doubles. Everyone does the same calculation with the same chain data, so they all get the same result at the same link in the chain.",
+    "text": "区块之间的目标时间大概是 10 分钟。每个区块都带有创建时间。如果时间偏差超过 36 小时，其他节点就不会在它上面继续工作。如果最近 6*24*30 个区块的时间跨度不足 15 天，就说明区块生成得太快，工作量证明难度会翻倍。所有人用同样的链上数据做同样的计算，所以在链上同一位置大家得到的结果相同。",
     "date": "2008-11-11",
     "categories": ["difficulty"]
   },
   {
     "email_id": "10",
-    "text": "Instantant non-repudiability is not a feature, but it's still much faster than existing systems. Paper cheques can bounce up to a week or two later. Credit card transactions can be contested up to 60 to 180 days later. Bitcoin transactions can be sufficiently irreversible in an hour or two.",
+    "text": "即时不可抵赖并不是我们的特性，但它仍然比现有系统快得多。纸质支票可能一两周后才被退票，信用卡交易可以在 60 到 180 天后被拒付，而比特币交易在一两个小时内就足够不可逆了。",
     "date": "2008-11-11",
     "categories": ["transactions"]
   },
   {
     "email_id": "10",
-    "text": "With the transaction fee based incentive system I recently posted, nodes would have an incentive to include all the paying transactions they receive.",
+    "text": "采用我最近发布的基于交易手续费的激励系统后，节点就有动力把它们收到的所有付费交易都打包进来。",
     "date": "2008-11-11",
     "categories": ["nodes"]
   },
   {
     "email_id": "11",
-    "text": "The proof-of-work chain is a solution to the Byzantine Generals' Problem. I'll try to rephrase it in that context.\nA number of Byzantine Generals each have a computer and want to attack the King's wi-fi by brute forcing the password, which they've learned is a certain number of characters in length. Once they stimulate the network to generate a packet, they must crack the password within a limited time to break in and erase the logs, otherwise they will be discovered and get in trouble. They only have enough CPU power to crack it fast enough if a majority of them attack at the same time. \n They don't particularly care when the attack will be, just that they all agree. It has been decided that anyone who feels like it will announce a time, and whatever time is heard first will be the official attack time. The problem is that the network is not instantaneous, and if two generals announce different attack times at close to the same time, some may hear one first and others hear the other first. They use a proof-of-work chain to solve the problem. Once each general receives whatever attack time he hears first, he sets his computer to solve an extremely difficult proof-of-work problem that includes the attack time in its hash. The proof-of-work is so difficult, it's expected to take 10 minutes of them all working at once before one of them finds a solution. Once one of the generals finds a proof-of-work, he broadcasts it to the network, and everyone changes their current proof-of-work computation to include that proof-of-work in the hash they're working on. If anyone was working on a different attack time, they switch to this one, because its proof-of-work chain is now longer.\n After two hours, one attack time should be hashed by a chain of 12 proofs-of-work. Every general, just by verifying the difficulty of the proof-of-work chain, can estimate how much parallel CPU power per hour was expended on it and see that it must have required the majority of the computers to produce that much proof-of-work in the allotted time. They had to all have seen it because the proof-of-work is proof that they worked on it. If the CPU power exhibited by the proof-of-work chain is sufficient to crack the password, they can safely attack at the agreed time.\n The proof-of-work chain is how all the synchronisation, distributed database and global view problems you've asked about are solved.",
+    "text": "工作量证明链就是拜占庭将军问题的一个解法。我试着放在这个语境里重新讲一遍。\n若干位拜占庭将军每人有一台电脑，想用暴力破解密码的方式进攻国王的 Wi-Fi，他们打听到密码的长度是若干个字符。一旦他们触发网络生成一个数据包，就必须在限定时间内破解密码、攻入并抹掉日志，否则就会被发现、惹上麻烦。只有当他们中的多数人同时进攻时，他们的 CPU 算力才够在足够短的时间内破解。\n 他们并不特别在意进攻定在什么时候，只要大家达成一致就行。已经商定：谁想宣布时间就宣布，最先被听到的那个时间就是正式的进攻时间。问题是网络不是即时的，如果两位将军几乎同时宣布了不同的进攻时间，有些人先听到一个，另一些人先听到另一个。他们用工作量证明链来解决这个问题。每位将军一收到他最先听到的进攻时间，就让自己的电脑去解一道极难的工作量证明题，这道题的哈希里包含那个进攻时间。工作量证明难度极高，预计要所有人同时算上 10 分钟才会有人找到解。一旦某位将军找到工作量证明，就向全网广播，所有人都把自己当前的工作量证明计算改为把这份工作量证明包含进自己正在算的哈希里。如果之前有人在算别的进攻时间，也会切换到这个，因为它的证明链现在更长。\n 两小时后，应该会有一个进攻时间被一条包含 12 个工作量证明的链哈希在内。每位将军只要验证一下这条工作量证明链的难度，就能估算出每小时投入了多少并行 CPU 算力，从而看出在规定时间内产出这么多工作量证明必然需要多数电脑参与。他们必定都见过它，因为工作量证明就是他们参与计算过的证明。如果这条工作量证明链展现出的 CPU 算力足以破解密码，他们就可以放心在约定时间进攻。\n 你问到的同步、分布式数据库和全局视图这些问题，都是靠工作量证明链解决的。",
     "date": "2008-11-13",
     "categories": ["proof-of-work"]
   },
   {
     "email_id": "12",
-    "text": "Broadcasts will probably be almost completely reliable. TCP transmissions are rarely ever dropped these days, and the broadcast protocol has a retry mechanism to get the data from other nodes after a while. If broadcasts turn out to be slower in practice than expected, the target time between blocks may have to be increased to avoid wasting resources. We want blocks to usually propagate in much less time than it takes to generate them, otherwise nodes would spend too much time working on obsolete blocks.",
+    "text": "广播应该几乎是完全可靠的。如今 TCP 传输很少丢包，而且广播协议带有重试机制，稍后可以从其他节点取回数据。如果广播实际上比预期慢，可能就得调大区块间的目标时间，以免浪费资源。我们希望区块的传播时间通常远小于生成一个区块所需的时间，否则节点会花太多时间在过时区块上白干。",
     "date": "2008-11-14",
     "categories": ["nodes", "mining"]
   },
   {
     "email_id": "12",
-    "text": "It's very attractive to the libertarian viewpoint if we can explain it properly. I'm better with code than with words though.",
+    "text": "只要我们能把它解释清楚，这对自由意志主义的立场会非常有吸引力。不过比起言辞，我更擅长代码。",
     "date": "2008-11-13",
     "categories": ["motives"]
   },
   {
     "email_id": "13",
-    "text": "I'll try and hurry up and release the sourcecode as soon as possible to serve as a reference to help clear up all these implementation questions.",
+    "text": "我会抓紧尽快把源代码发布出来，作为参考，帮大家澄清所有这些实现问题。",
     "date": "2008-11-17",
     "categories": ["releases"]
   },
   {
     "email_id": "13",
-    "text": "A basic transaction is just what you see in the figure in section 2. A signature (of the buyer) satisfying the public key of the previous transaction, and a new public key (of the seller) that must be satisfied to spend it the next time.",
+    "text": "一笔基本交易就是你在第 2 节图里看到的样子：一个（买方的）签名，满足上一笔交易的公钥；再加一个新公钥（卖方的），下次花这笔钱时必须满足。",
     "date": "2008-11-17",
     "categories": ["transactions"]
   },
   {
     "email_id": "13",
-    "text": "There's no need for reporting of \"proof of double spending\" like that. If the same chain contains both spends, then the block is invalid and rejected. \n Same if a block didn't have enough proof-of-work. That block is invalid and rejected. There's no need to circulate a report about it. Every node could see that and reject it before relaying it.",
+    "text": "不需要什么“双重支付证明”之类的报告。如果同一条链上包含了两次花费，这个区块就是无效的，会被拒绝。\n 区块的工作量证明不足也一样，该区块无效、被拒绝。没必要为此传发什么报告。每个节点都能自己看出来，并在转发之前就把它拒掉。",
     "date": "2008-11-17",
     "categories": ["double-spending"]
   },
   {
     "email_id": "13",
-    "text": "We're not \"on the lookout\" for double spends to sound the alarm and catch the cheater. We merely adjudicate which one of the spends is valid. Receivers of transactions must wait a few blocks to make sure that resolution has had time to complete. Would be cheaters can try and simultaneously double-spend all they want, and all they accomplish is that within a few blocks, one of the spends becomes valid and the others become invalid. Any later double-spends are immediately rejected once there's already a spend in the main chain.",
+    "text": "我们不是靠“盯梢”双重支付来拉响警报、抓住骗子的。我们只是裁决哪一次花费有效。交易的接收方必须等上几个区块，确保裁决有时间完成。想作弊的人尽管同时双重支付好了，结果无非是：几个区块之内，其中一次花费生效，其余的统统无效。主链上已经存在一次花费之后，再来的双重支付会被立即拒绝。",
     "date": "2008-11-17",
     "categories": ["double-spending"]
   },
   {
     "email_id": "13",
-    "text": "The proof-of-work is a Hashcash style SHA-256 collision finding. It's a memoryless process where you do millions of hashes a second, with a small chance of finding one each time. The 3 or 4 fastest nodes' dominance would only be proportional to their share of the total CPU power. Anyone's chance of finding a solution at any time is proportional to their CPU power.",
+    "text": "工作量证明是 Hashcash 风格的 SHA-256 碰撞寻找。这是一个无记忆的过程：每秒做几百万次哈希，每次只有很小的概率命中。速度最快的 3、4 个节点，其优势也只与它们占总 CPU 算力的份额成正比。任何人任何时候找到解的概率都与他的 CPU 算力成正比。",
     "date": "2008-11-17",
     "categories": ["proof-of-work", "mining"]
   },
   {
     "email_id": "13",
-    "text": "There will be transaction fees, so nodes will have an incentive to receive and include all the transactions they can. Nodes will eventually be compensated by transaction fees alone when the total coins created hits the pre-determined ceiling.",
+    "text": "交易会有手续费，所以节点有动力接收并尽量多打包交易。当铸币总量达到预设上限后，节点最终将只靠手续费获得报酬。",
     "date": "2008-11-17",
     "categories": ["bitcoin-economics"]
   },
   {
     "email_id": "14",
-    "text": "The credential that establishes someone as real is the ability to supply CPU power.",
+    "text": "能证明一个人真实存在的凭据，就是提供 CPU 算力的能力。",
     "date": "2008-11-17",
     "categories": ["proof-of-work"]
   },
   {
     "email_id": "14",
-    "text": "The race is to spread your transaction on the network first. Think 6 degrees of freedom -- it spreads exponentially. It would only take something like 2 minutes for a transaction to spread widely enough that a competitor starting late would have little chance of grabbing very many nodes before the first one is overtaking the whole network. During those 2 minutes, the merchant's nodes can be watching for a double-spent transaction. The double-spender would not be able to blast his alternate transaction out to the world without the merchant getting it, so he has to wait before starting. \n If the real transaction reaches 90% and the double-spent tx reaches 10%, the double-spender only gets a 10% chance of not paying, and 90% chance his money gets spent. For almost any type of goods, that's not going to be worth it for the scammer.",
+    "text": "比拼的是谁能先把交易扩散到网络上。想想六度分隔——它是指数级传播的。大约只要 2 分钟，一笔交易就能扩散得足够广，让后出发的竞争者几乎没机会抢到多少节点，而先发的那个已经席卷整个网络。在这 2 分钟里，商家的节点可以盯着有没有双重支付的交易出现。双重支付者没法在不让商家收到的情况下把他那笔替代交易广播出去，所以他只能等着再动手。\n 如果真实交易到达了 90% 的节点，双重支付的交易只到达 10%，那双重支付者只有 10% 的概率赖掉账，90% 的概率钱照付。对几乎任何商品来说，这对骗子都不划算。",
     "date": "2008-11-17",
     "categories": ["double-spending"]
   },
   {
     "email_id": "14",
-    "text": "If a merchant actually has a problem with theft, they can make the customer wait 2 minutes, or wait for something in e-mail, which many already do. If they really want to optimize, and it's a large download, they could cancel the download in the middle if the transaction comes back double-spent. If it's website access, typically it wouldn't be a big deal to let the customer have access for 5 minutes and then cut off access if it's rejected. Many such sites have a free trial anyway.",
+    "text": "如果商家真的担心被盗，可以让客户等 2 分钟，或者等一封邮件什么的，很多商家本来就是这么做的。如果真想优化，而且是大文件下载，可以在交易被双重支付退回时中途取消下载。如果是网站访问，一般让客户先访问 5 分钟、发现被拒付再切断访问，也没什么大不了。反正这类网站很多本来就有免费试用。",
     "date": "2008-11-17",
     "categories": ["transactions"]
   },
   {
     "email_id": "15",
-    "text": "I believe I've worked through all those little details over the last year and a half while coding it, and there were a lot of them. The functional details are not covered in the paper, but the sourcecode is coming soon. I sent you the main files. (available by request at the moment, full release soon)",
+    "text": "我相信在写代码这一年半里，我已经把所有这些小细节都想透了——细节还不少。功能细节论文里没有讲，但源代码很快就会出来。主文件我已经发给你了。（现阶段可按需索取，完整版即将发布）",
     "date": "2008-11-17",
     "categories": ["releases", "bitcoin-design"]
   },
   {
     "email_id": "16",
-    "text": "Announcing the first release of Bitcoin, a new electronic cash system that uses a peer-to-peer network to prevent double-spending. It's completely decentralized with no server or central authority.",
+    "text": "宣布比特币首个版本发布：一种新的电子现金系统，用点对点网络防止双重支付。它完全去中心化，没有服务器，也没有中央权威。",
     "date": "2009-01-09",
     "categories": ["releases"]
   },
   {
     "email_id": "16",
-    "text": "If you can keep a node running that accepts incoming connections, you'll really be helping the network a lot. Port 8333 on your firewall needs to be open to receive incoming connections.",
+    "text": "如果你能让一个接受入站连接的节点保持运行，那你真的是在帮网络大忙。防火墙上的 8333 端口需要打开才能接收入站连接。",
     "date": "2009-01-09",
     "categories": ["nodes"]
   },
   {
     "email_id": "16",
-    "text": "You can get coins by getting someone to send you some, or turn on Options->Generate Coins to run a node and generate blocks. I made the proof-of-work difficulty ridiculously easy to start with, so for a little while in the beginning a typical PC will be able to generate coins in just a few hours. It'll get a lot harder when competition makes the automatic adjustment drive up the difficulty. Generated coins must wait 120 blocks to mature before they can be spent.",
+    "text": "你可以让别人转一些币给你，或者打开“选项->生成币”来运行节点、生成区块。我把初期的工作量证明难度设得低得离谱，所以最初的一小段时间里，一台普通 PC 几个小时就能生成出币。等竞争推动自动调整把难度抬上去，就会难得多。新生成的币必须等 120 个区块成熟后才能花。",
     "date": "2009-01-09",
     "categories": ["mining"]
   },
   {
     "email_id": "16",
-    "text": "There are two ways to send money. If the recipient is online, you can enter their IP address and it will connect, get a new public key and send the transaction with comments. If the recipient is not online, it is possible to send to their Bitcoin address, which is a hash of their public key that they give you. They'll receive the transaction the next time they connect and get the block it's in. This method has the disadvantage that no comment information is sent, and a bit of privacy may be lost if the address is used multiple times, but it is a useful alternative if both users can't be online at the same time or the recipient can't receive incoming connections.",
+    "text": "寄钱有两种方式。如果收款方在线，你可以输入对方的 IP 地址，程序会连接上去、取一个新公钥，并把带备注的交易发出去。如果收款方不在线，可以发到对方的比特币地址——即对方给你的、其公钥的哈希。对方下次连上并收到那个区块时就会拿到这笔交易。这种方式的缺点是不发送备注信息，而且地址多次使用会损失一点隐私；但如果双方无法同时在线，或收款方无法接受入站连接，它是个有用的替代办法。",
     "date": "2009-01-09",
     "categories": ["transactions"]
   },
   {
     "email_id": "16",
-    "text": "Total circulation will be 21,000,000 coins. It'll be distributed to network nodes when they make blocks, with the amount cut in half every 4 years.\n\nfirst 4 years: 10,500,000 coins\nnext 4 years: 5,250,000 coins\nnext 4 years: 2,625,000 coins\nnext 4 years: 1,312,500 coins\netc...\n\nWhen that runs out, the system can support transaction fees if needed. It's based on open market competition, and there will probably always be nodes willing to process transactions for free.",
+    "text": "总流通量将是 21,000,000 个币。它们会在节点生成区块时分配给节点，数量每 4 年减半。\n\n头 4 年：10,500,000 个币\n下个 4 年：5,250,000 个币\n再下个 4 年：2,625,000 个币\n再下个 4 年：1,312,500 个币\n以此类推……\n\n等这些发完，如果需要，系统可以靠交易手续费支撑。这基于开放市场的竞争，而且很可能永远都会有节点愿意免费处理交易。",
     "date": "2009-01-09",
     "categories": ["bitcoin-economics"]
   },
   {
     "email_id": "17",
-    "text": "I would be surprised if 10 years from now we're not using electronic currency in some way, now that we know a way to do it that won't inevitably get dumbed down when the trusted third party gets cold feet.",
+    "text": "如果 10 年后我们还没有以某种方式用上电子货币，我会很意外——毕竟我们现在已经知道了一种做法，它不会因为受信任的第三方临阵退缩而不可避免地被弱化。",
     "date": "2009-01-17",
     "categories": ["cryptocurrency"]
   },
   {
     "email_id": "17",
-    "text": "It can already be used for pay-to-send e-mail. The send dialog is resizeable and you can enter as long of a message as you like. It's sent directly when it connects. The recipient doubleclicks on the transaction to see the full message. If someone famous is getting more e-mail than they can read, but would still like to have a way for fans to contact them, they could set up Bitcoin and give out the IP address on their website. \"Send X bitcoins to my priority hotline at this IP and I'll read the message personally.\"",
+    "text": "它现在就能用来做付费发邮件。发送对话框可以调整大小，消息想写多长都行，一连上就直接发出。收件人双击那笔交易就能看到完整消息。如果某位名人邮件多得看不过来，但仍想让粉丝有办法联系到他，可以装上比特币，把 IP 地址公布在网站上：“往这个 IP 上我的优先热线发 X 个比特币，我会亲自读这条消息。”",
     "date": "2009-01-17",
     "categories": ["micropayments"]
   },
   {
     "email_id": "17",
-    "text": "Subscription sites that need some extra proof-of-work for their free trial so it doesn't cannibalize subscriptions could charge bitcoins for the trial.",
+    "text": "订阅类网站如果想让免费试用多一道工作量证明门槛、以免蚕食订阅收入，可以对试用收取比特币。",
     "date": "2009-01-17",
     "categories": ["micropayments"]
   },
   {
     "email_id": "17",
-    "text": "It might make sense just to get some in case it catches on. If enough people think the same way, that becomes a self fulfilling prophecy. Once it gets bootstrapped, there are so many applications if you could effortlessly pay a few cents to a website as easily as dropping coins in a vending machine.",
+    "text": "也许应该先弄一些，以防它真的流行起来。如果足够多的人都这么想，那就会成为自我实现的预言。一旦它完成冷启动，应用会多得很——只要你能像往自动售货机里投币那样，毫不费力地给网站付上几分钱。",
     "date": "2009-01-17",
     "categories": ["micropayments", "bitcoin-economics"]
   },
   {
-    "text": "A purely peer-to-peer version of electronic cash would allow online payments to be sent directly from one party to another without going through a financial institution.",
+    "text": "一种纯粹的点对点电子现金，可以让在线支付直接从一方发到另一方，无需经过金融机构。",
     "whitepaper": true,
     "date": "2008-10-31",
     "categories": ["cryptocurrency"]
   },
   {
-    "text": "We propose a solution to the double-spending problem using a peer-to-peer network. The network timestamps transactions by hashing them into an ongoing chain of hash-based proof-of-work, forming a record that cannot be changed without redoing the proof-of-work. The longest chain not only serves as proof of the sequence of events witnessed, but proof that it came from the largest pool of CPU power. As long as a majority of CPU power is controlled by nodes that are not cooperating to attack the network, they'll generate the longest chain and outpace attackers. The network itself requires minimal structure.",
+    "text": "我们提出一种用点对点网络解决双重支付问题的方案。网络通过把交易哈希进一条持续延伸的、基于哈希的工作量证明链来为交易加盖时间戳，形成一条不重做工作量证明就无法更改的记录。最长的链不仅是所见证事件顺序的证明，也是它来自最大 CPU 算力池的证明。只要多数 CPU 算力掌握在不合谋攻击网络的节点手中，它们就会生成最长的链、跑在攻击者前面。网络本身只需要极简单的结构。",
     "whitepaper": true,
     "date": "2008-10-31",
     "categories": ["proof-of-work", "double-spending"]
   },
   {
-    "text": "Commerce on the Internet has come to rely almost exclusively on financial institutions serving as trusted third parties to process electronic payments. While the system works well enough for most transactions, it still suffers from the inherent weaknesses of the trust based model.",
+    "text": "互联网上的商业，几乎已完全依赖金融机构充当受信任的第三方来处理电子支付。尽管这套系统对大多数交易来说运行得足够好，但它仍然带有基于信任的模型的固有缺陷。",
     "whitepaper": true,
     "date": "2008-10-31",
     "categories": ["trusted-third-parties"]
   },
   {
-    "text": "Completely non-reversible transactions are not really possible, since financial institutions cannot avoid mediating disputes. The cost of mediation increases transaction costs, limiting the minimum practical transaction size and cutting off the possibility for small casual transactions, and there is a broader cost in the loss of ability to make non-reversible payments for non-reversible services. With the possibility of reversal, the need for trust spreads.",
+    "text": "完全不可逆的交易实际上并不可能，因为金融机构无法回避调解纠纷。调解成本推高了交易成本，抬高了最小实际交易规模，断绝了小额零星交易的可能；而且，丧失为不可逆的服务支付不可逆款项的能力，还带来了更广泛的代价。由于存在可撤销的可能，对信任的需求便随之蔓延。",
     "whitepaper": true,
     "date": "2008-10-31",
     "categories": ["trusted-third-parties"]
   },
   {
-    "text": "What is needed is an electronic payment system based on cryptographic proof instead of trust, allowing any two willing parties to transact directly with each other without the need for a trusted third party. Transactions that are computationally impractical to reverse would protect sellers from fraud, and routine escrow mechanisms could easily be implemented to protect buyers.",
+    "text": "我们需要的是一种基于密码学证明而非信任的电子支付系统，让任何愿意交易的双方直接交易，无需受信任的第三方。计算上难以逆转的交易可以保护卖家免受欺诈；要保护买家，也很容易实现常规的担保托管机制。",
     "whitepaper": true,
     "date": "2008-10-31",
     "categories": ["trusted-third-parties", "cryptocurrency"]
   },
   {
-    "text": "In this paper, we propose a solution to the double-spending problem using a peer-to-peer distributed timestamp server to generate computational proof of the chronological order of transactions. The system is secure as long as honest nodes collectively control more CPU power than any cooperating group of attacker nodes.",
+    "text": "本文提出一种解决双重支付问题的方案：使用点对点的分布式时间戳服务器，生成交易时间顺序的计算性证明。只要诚实节点总体控制的 CPU 算力超过任何一组合谋的攻击节点，系统就是安全的。",
     "whitepaper": true,
     "date": "2008-10-31",
     "categories": ["double-spending", "proof-of-work"]
   },
   {
-    "text": "We define an electronic coin as a chain of digital signatures. Each owner transfers the coin to the next by digitally signing a hash of the previous transaction and the public key of the next owner and adding these to the end of the coin. A payee can verify the signatures to verify the chain of ownership.",
+    "text": "我们把一枚电子币定义为一串数字签名构成的链。每位持有者把币转给下一位时，通过对上一笔交易的哈希和下一位持有者的公钥进行数字签名，并把它们附加到这枚币的末尾。收款人可以验证这些签名，从而核验所有权链。",
     "whitepaper": true,
     "date": "2008-10-31",
     "categories": ["transactions"]
   },
   {
-    "text": "The problem of course is the payee can't verify that one of the owners did not double-spend the coin. A common solution is to introduce a trusted central authority, or mint, that checks every transaction for double spending. After each transaction, the coin must be returned to the mint to issue a new coin, and only coins issued directly from the mint are trusted not to be double-spent. The problem with this solution is that the fate of the entire money system depends on the company running the mint, with every transaction having to go through them, just like a bank.",
+    "text": "问题当然在于收款人无法验证之前的某个持有者没有对这枚币双重支付。常见的解决办法是引入一个受信任的中央机构，即造币厂，由它检查每笔交易是否存在双重支付。每笔交易之后，这枚币必须交回造币厂，由它重新发行一枚新币，且只有造币厂直接发行的币才被信任未遭双重支付。这种办法的问题在于：整个货币体系的命运都取决于运营造币厂的那家公司，每笔交易都得经过它，就像银行一样。",
     "whitepaper": true,
     "date": "2008-10-31",
     "categories": ["economics", "double-spending"]
   },
   {
-    "text": "We need a way for the payee to know that the previous owners did not sign any earlier transactions. For our purposes, the earliest transaction is the one that counts, so we don't care about later attempts to double-spend. The only way to confirm the absence of a transaction is to be aware of all transactions. In the mint based model, the mint was aware of all transactions and decided which arrived first. To accomplish this without a trusted party, transactions must be publicly announced, and we need a system for participants to agree on a single history of the order in which they were received. The payee needs proof that at the time of each transaction, the majority of nodes agreed it was the first received.",
+    "text": "我们需要一种办法，让收款人知道先前的持有者没有签署过更早的交易。就我们的目的而言，最早的那笔交易才算数，所以我们不关心后来的双重支付企图。确认一笔交易不存在的唯一办法，是知晓所有交易。在基于造币厂的模型里，造币厂知晓所有交易，并裁定哪笔最先到达。要在没有受信任方的情况下做到这一点，交易必须公开宣布，而且我们需要一种系统，让参与者就交易接收顺序的唯一历史达成一致。收款人需要证明：在每笔交易发生之时，多数节点都认可它是最先收到的。",
     "whitepaper": true,
     "date": "2008-10-31",
     "categories": ["nodes", "cryptocurrency", "transactions"]
   },
   {
-    "text": "The solution we propose begins with a timestamp server. A timestamp server works by taking a hash of a block of items to be timestamped and widely publishing the hash, such as in a newspaper or Usenet post. The timestamp proves that the data must have existed at the time, obviously, in order to get into the hash. Each timestamp includes the previous timestamp in its hash, forming a chain, with each additional timestamp reinforcing the ones before it.",
+    "text": "我们提出的方案从一个时间戳服务器开始。时间戳服务器的工作方式是：对一批要加盖时间戳的数据取哈希，然后广泛发布这个哈希，比如登在报纸上或发在 Usenet 帖子里。时间戳证明数据在当时必然已经存在，显然，否则它进不了那个哈希。每个时间戳的哈希里都包含前一个时间戳，形成一条链，每多一个时间戳都会加固它前面的那些。",
     "whitepaper": true,
     "date": "2008-10-31",
     "categories": ["transactions"]
   },
   {
-    "text": "To implement a distributed timestamp server on a peer-to-peer basis, we will need to use a proof-of-work system similar to Adam Back's Hashcash, rather than newspaper or Usenet posts. The proof-of-work involves scanning for a value that when hashed, such as with SHA-256, the hash begins with a number of zero bits. The average work required is exponential in the number of zero bits required and can be verified by executing a single hash.",
+    "text": "要在点对点的基础上实现分布式时间戳服务器，我们需要用类似 Adam Back 的 Hashcash 那样的工作量证明系统，而不是报纸或 Usenet 帖子。工作量证明要做的是扫描一个值，使它经过哈希（比如 SHA-256）后，哈希值以若干个零比特开头。所需平均工作量随所需零比特个数呈指数增长，而验证只需执行一次哈希。",
     "whitepaper": true,
     "date": "2008-10-31",
     "categories": ["proof-of-work"]
   },
   {
-    "text": "For our timestamp network, we implement the proof-of-work by incrementing a nonce in the block until a value is found that gives the block's hash the required zero bits. Once the CPU effort has been expended to make it satisfy the proof-of-work, the block cannot be changed without redoing the work. As later blocks are chained after it, the work to change the block would include redoing all the blocks after it.",
+    "text": "对我们的时间戳网络来说，我们在区块中递增一个 nonce 来实现工作量证明，直到找到一个使区块哈希满足所需零比特的值。一旦已经花费 CPU 算力使区块满足工作量证明，不重做这项工作就无法更改它。由于后续区块都链接在它之后，要改这个区块，就得连它后面的所有区块一起重做。",
     "whitepaper": true,
     "date": "2008-10-31",
     "categories": ["proof-of-work"]
   },
   {
-    "text": "The proof-of-work also solves the problem of determining representation in majority decision making. If the majority were based on one-IP-address-one-vote, it could be subverted by anyone able to allocate many IPs. Proof-of-work is essentially one-CPU-one-vote. The majority decision is represented by the longest chain, which has the greatest proof-of-work effort invested in it. If a majority of CPU power is controlled by honest nodes, the honest chain will grow the fastest and outpace any competing chains. To modify a past block, an attacker would have to redo the proof-of-work of the block and all blocks after it and then catch up with and surpass the work of the honest nodes. We will show later that the probability of a slower attacker catching up diminishes exponentially as subsequent blocks are added.",
+    "text": "工作量证明还解决了多数决策中如何确定代表权的问题。如果多数按一个 IP 地址一票来算，能搞到大量 IP 的人就能破坏它。工作量证明本质上是一个 CPU 一票。多数决策由最长的链代表，因为它投入了最大的工作量证明算力。如果多数 CPU 算力由诚实节点控制，诚实链就会增长得最快，把任何竞争链甩在后面。要修改过去的某个区块，攻击者必须重做该区块及其后所有区块的工作量证明，然后追上并超越诚实节点的工作量。我们稍后会证明：随着后续区块不断增加，较慢的攻击者追上来的概率呈指数级减小。",
     "whitepaper": true,
     "date": "2008-10-31",
     "categories": ["proof-of-work"]
   },
   {
-    "text": "To compensate for increasing hardware speed and varying interest in running nodes over time, the proof-of-work difficulty is determined by a moving average targeting an average number of blocks per hour. If they're generated too fast, the difficulty increases.",
+    "text": "为了补偿硬件速度不断提升以及人们运行节点的意愿随时间变化，工作量证明难度由一个移动平均值决定，目标是维持每小时平均的区块数量。如果区块生成得太快，难度就会提高。",
     "whitepaper": true,
     "date": "2008-10-31",
     "categories": ["proof-of-work", "difficulty"]
   },
   {
-    "text": "The steps to run the network are as follows:\n\n1. New transactions are broadcast to all nodes.\n2. Each node collects new transactions into a block.\n3. Each node works on finding a difficult proof-of-work for its block.\n4. When a node finds a proof-of-work, it broadcasts the block to all nodes.\n5. Nodes accept the block only if all transactions in it are valid and not already spent.\n6. Nodes express their acceptance of the block by working on creating the next block in the chain, using the hash of the accepted block as the previous hash.",
+    "text": "运行网络的步骤如下：\n\n1. 新交易向所有节点广播。\n2. 每个节点把新交易收集进一个区块。\n3. 每个节点为自己的区块寻找一个困难的工作量证明。\n4. 当某个节点找到工作量证明，它就把该区块向所有节点广播。\n5. 节点只有在该区块中的所有交易都有效且未曾被花过时才接受它。\n6. 节点通过在链上创建下一个区块来表达对该区块的接受——把已接受区块的哈希用作前一个哈希。",
     "whitepaper": true,
     "date": "2008-10-31",
     "categories": ["bitcoin-design", "nodes", "proof-of-work"]
   },
   {
-    "text": "Nodes always consider the longest chain to be the correct one and will keep working on extending it. If two nodes broadcast different versions of the next block simultaneously, some nodes may receive one or the other first. In that case, they work on the first one they received, but save the other branch in case it becomes longer. The tie will be broken when the next proof-of-work is found and one branch becomes longer; the nodes that were working on the other branch will then switch to the longer one.",
+    "text": "节点总是把最长的链视为正确的链，并持续在这条链上扩展。如果两个节点同时广播了下一个区块的不同版本，有的节点可能先收到其中一个。这时它们会在先收到的那条上工作，同时保存另一条分支，以防它日后变得更长。等下一个工作量证明被找到、其中一条分支变得更长时，平局就被打破；原本在另一条分支上工作的节点随即切换到更长的那条。",
     "whitepaper": true,
     "date": "2008-10-31",
     "categories": ["nodes", "proof-of-work"]
   },
   {
-    "text": "New transaction broadcasts do not necessarily need to reach all nodes. As long as they reach many nodes, they will get into a block before long. Block broadcasts are also tolerant of dropped messages. If a node does not receive a block, it will request it when it receives the next block and realizes it missed one.",
+    "text": "新交易的广播不一定非要到达所有节点。只要到达很多节点，不久之后它们就会进入某个区块。区块广播也能容忍消息丢失。如果某个节点没收到某个区块，它会在收到下一个区块、意识到自己漏了一个时去请求补齐。",
     "whitepaper": true,
     "date": "2008-10-31",
     "categories": ["transactions"]
   },
   {
-    "text": "By convention, the first transaction in a block is a special transaction that starts a new coin owned by the creator of the block. This adds an incentive for nodes to support the network, and provides a way to initially distribute coins into circulation, since there is no central authority to issue them. The steady addition of a constant of amount of new coins is analogous to gold miners expending resources to add gold to circulation. In our case, it is CPU time and electricity that is expended.",
+    "text": "按惯例，区块中的第一笔交易是一笔特殊交易，它会生成一枚归区块创建者所有的新币。这为节点支持网络增添了激励，也提供了一种把币初次投入流通的途径，因为没有中央权威来发行它们。以恒定数量稳定地新增币，就好比黄金矿工耗费资源把黄金注入流通。在我们的场景里，耗费的是 CPU 时间和电力。",
     "whitepaper": true,
     "date": "2008-10-31",
     "categories": ["mining", "bitcoin-economics"]
   },
   {
-    "text": "The incentive can also be funded with transaction fees. If the output value of a transaction is less than its input value, the difference is a transaction fee that is added to the incentive value of the block containing the transaction. Once a predetermined number of coins have entered circulation, the incentive can transition entirely to transaction fees and be completely inflation free.",
+    "text": "激励还可以来自交易手续费。如果一笔交易的输出金额小于输入金额，差额就是一笔交易手续费，会被加进包含该交易的区块的激励值里。一旦预定数量的币都已进入流通，激励就可以完全转为交易手续费，从而彻底实现零通胀。",
     "whitepaper": true,
     "date": "2008-10-31",
     "categories": ["fees", "bitcoin-economics"]
   },
   {
-    "text": "The incentive may help encourage nodes to stay honest. If a greedy attacker is able to assemble more CPU power than all the honest nodes, he would have to choose between using it to defraud people by stealing back his payments, or using it to generate new coins. He ought to find it more profitable to play by the rules, such rules that favour him with more new coins than everyone else combined, than to undermine the system and the validity of his own wealth.",
+    "text": "这种激励或许有助于促使节点保持诚实。如果一个贪婪的攻击者能聚集起比所有诚实节点加起来还多的 CPU 算力，他就必须在两者之间做选择：是用它来骗人、把自己已支付的钱偷回来，还是用它来生成新币。他应当会发现，遵守规则更有利可图——这些规则让他拿到的新币比其他所有人加起来还多——总好过破坏系统、连自己财富的有效性也一并毁掉。",
     "whitepaper": true,
     "date": "2008-10-31",
     "categories": ["mining", "bitcoin-economics"]
   },
   {
-    "text": "Once the latest transaction in a coin is buried under enough blocks, the spent transactions before it can be discarded to save disk space. To facilitate this without breaking the block's hash, transactions are hashed in a Merkle Tree, with only the root included in the block's hash. Old blocks can then be compacted by stubbing off branches of the tree. The interior hashes do not need to be stored.",
+    "text": "当一枚币的最新交易被足够多的区块掩埋之后，它之前的已花费交易就可以丢弃，以节省磁盘空间。为了在不破坏区块哈希的前提下做到这一点，交易被哈希进一棵 Merkle 树，只有树根被纳入区块哈希。之后就可以通过截掉树的分支来压缩旧区块。树内部的哈希无需保存。",
     "whitepaper": true,
     "date": "2008-10-31",
     "categories": ["bitcoin-design"]
   },
   {
-    "text": "A block header with no transactions would be about 80 bytes. If we suppose blocks are generated every 10 minutes, 80 bytes * 6 * 24 * 365 = 4.2MB per year. With computer systems typically selling with 2GB of RAM as of 2008, and Moore's Law predicting current growth of 1.2GB per year, storage should not be a problem even if the block headers must be kept in memory.",
+    "text": "一个不含交易的区块头大约 80 字节。假设每 10 分钟生成一个区块，80 字节 * 6 * 24 * 365 = 每年 4.2MB。2008 年时电脑系统通常标配 2GB 内存，而摩尔定律预测内存正以每年 1.2GB 的速度增长，所以即使区块头必须保存在内存里，存储也不成问题。",
     "whitepaper": true,
     "date": "2008-10-31",
     "categories": ["bitcoin-design"]
   },
   {
-    "text": "It is possible to verify payments without running a full network node. A user only needs to keep a copy of the block headers of the longest proof-of-work chain, which he can get by querying network nodes until he's convinced he has the longest chain, and obtain the Merkle branch linking the transaction to the block it's timestamped in. He can't check the transaction for himself, but by linking it to a place in the chain, he can see that a network node has accepted it, and blocks added after it further confirm the network has accepted it. \nAs such, the verification is reliable as long as honest nodes control the network, but is more vulnerable if the network is overpowered by an attacker. While network nodes can verify transactions for themselves, the simplified method can be fooled by an attacker's fabricated transactions for as long as the attacker can continue to overpower the network. One strategy to protect against this would be to accept alerts from network nodes when they detect an invalid block, prompting the user's software to download the full block and alerted transactions to confirm the inconsistency. Businesses that receive frequent payments will probably still want to run their own nodes for more independent security and quicker verification.",
+    "text": "不运行完整网络节点也可以验证支付。用户只需保存最长工作量证明链的区块头副本——他可以通过查询网络节点获得，直到确信自己拿到的是最长的链——并获取把该交易链接到它所在时间戳区块的 Merkle 分支。他无法亲自核验这笔交易，但把它链接到链上的某个位置后，他就能看到某个网络节点已经接受了它，而在其后新增的区块进一步确认了网络对它的接受。\n因此，只要诚实节点控制着网络，这种验证就是可靠的；但如果攻击者压过了网络，它就更脆弱。虽然网络节点可以自己核验交易，但只要攻击者能持续压过网络，这种简化方法就可能被攻击者伪造的交易蒙骗。防范它的一种策略是：接受网络节点在检测到无效区块时发出的警报，提示用户的软件下载完整区块和被警报的交易，确认不一致之处。经常收款的商家可能仍想运行自己的节点，以获得更独立的安全性和更快的验证。",
     "whitepaper": true,
     "date": "2008-10-31",
     "categories": ["bitcoin-design", "nodes"]
   },
   {
-    "text": "Although it would be possible to handle coins individually, it would be unwieldy to make a separate transaction for every cent in a transfer. To allow value to be split and combined, transactions contain multiple inputs and outputs. Normally there will be either a single input from a larger previous transaction or multiple inputs combining smaller amounts, and at most two outputs: one for the payment, and one returning the change, if any, back to the sender.",
+    "text": "虽然也可以一枚一枚地处理币，但一笔转账里每一分钱都单做一笔交易就太笨拙了。为了让金额可以拆分与合并，交易包含多个输入和输出。通常要么是来自一笔较大的前序交易的单一输入，要么是把多个较小金额合并起来的多个输入；输出至多两个：一个用于支付，一个把找零（如果有的话）退回给发送者。",
     "whitepaper": true,
     "date": "2008-10-31",
     "categories": ["transactions", "bitcoin-design"]
   },
   {
-    "text": "It should be noted that fan-out, where a transaction depends on several transactions, and those transactions depend on many more, is not a problem here. There is never the need to extract a complete standalone copy of a transaction's history.",
+    "text": "需要指出的是，扇出——即一笔交易依赖若干笔交易、而那些交易又依赖更多交易——在这里不构成问题。从来不需要提取某笔交易历史的完整独立副本。",
     "whitepaper": true,
     "date": "2008-10-31",
     "categories": ["transactions"]
   },
   {
-    "text": "The traditional banking model achieves a level of privacy by limiting access to information to the parties involved and the trusted third party. The necessity to announce all transactions publicly precludes this method, but privacy can still be maintained by breaking the flow of information in another place: by keeping public keys anonymous. The public can see that someone is sending an amount to someone else, but without information linking the transaction to anyone. This is similar to the level of information released by stock exchanges, where the time and size of individual trades, the \"tape\", is made public, but without telling who the parties were.",
+    "text": "传统银行模式通过把信息的接触范围限制在相关各方与受信任的第三方之内，实现了一定程度的隐私。必须公开宣布所有交易这一点排除了这种做法，但隐私仍然可以通过在另一处切断信息流来维持：让公钥保持匿名。公众可以看到某人在向另一个人支付某个金额，但没有任何信息把这笔交易与具体某人联系起来。这类似于证券交易所公布的信息水平：单笔交易的时间和规模，即“行情 tape”，是公开的，但不透露交易双方是谁。",
     "whitepaper": true,
     "date": "2008-10-31",
     "categories": ["transactions", "privacy", "trusted-third-parties"]
   },
   {
-    "text": "As an additional firewall, a new key pair should be used for each transaction to keep them from being linked to a common owner. Some linking is still unavoidable with multi-input transactions, which necessarily reveal that their inputs were owned by the same owner. The risk is that if the owner of a key is revealed, linking could reveal other transactions that belonged to the same owner.",
+    "text": "作为一道额外的防火墙，每笔交易都应使用新的密钥对，以免它们被关联到同一个所有者。多输入交易仍难免暴露其输入出自同一个所有者，因此一些关联无法完全避免。风险在于：如果某个密钥的所有者身份被识破，关联就可能暴露属于同一所有者的其他交易。",
     "whitepaper": true,
     "date": "2008-10-31",
     "categories": ["addresses", "privacy"]
   },
   {
-    "text": "We consider the scenario of an attacker trying to generate an alternate chain faster than the honest chain. Even if this is accomplished, it does not throw the system open to arbitrary changes, such as creating value out of thin air or taking money that never belonged to the attacker. Nodes are not going to accept an invalid transaction as payment, and honest nodes will never accept a block containing them. An attacker can only try to change one of his own transactions to take back money he recently spent.",
+    "text": "我们考虑这样一种情形：攻击者试图以快于诚实链的速度生成一条替代链。即使做到了这一点，系统也不会因此任人摆布，比如凭空创造价值，或拿走本不属于攻击者的钱。节点不会接受无效交易作为支付，诚实节点也绝不会接受包含无效交易的区块。攻击者只能尝试改写自己的某笔交易，拿回他最近花掉的钱。",
     "whitepaper": true,
     "date": "2008-10-31",
     "categories": ["mining", "proof-of-work"]
   },
   {
-    "text": "We have proposed a system for electronic transactions without relying on trust. We started with the usual framework of coins made from digital signatures, which provides strong control of ownership, but is incomplete without a way to prevent double-spending. To solve this, we proposed a peer-to-peer network using proof-of-work to record a public history of transactions that quickly becomes computationally impractical for an attacker to change if honest nodes control a majority of CPU power.",
+    "text": "我们提出了一种不依赖信任的电子交易系统。我们从由数字签名构成的币这一常见框架出发，它提供了很强的所有权控制，但缺少防止双重支付的手段，仍不完整。为解决这个问题，我们提出一个点对点网络，利用工作量证明记录一份公开的交易历史；只要诚实节点控制着多数 CPU 算力，攻击者想改动它很快就会在计算上变得不切实际。",
     "whitepaper": true,
     "date": "2008-10-31",
     "categories": ["bitcoin-design", "trusted-third-parties"]
   },
   {
-    "text": "The network is robust in its unstructured simplicity. Nodes work all at once with little coordination. They do not need to be identified, since messages are not routed to any particular place and only need to be delivered on a best effort basis. Nodes can leave and rejoin the network at will, accepting the proof-of-work chain as proof of what happened while they were gone. They vote with their CPU power, expressing their acceptance of valid blocks by working on extending them and rejecting invalid blocks by refusing to work on them. Any needed rules and incentives can be enforced with this consensus mechanism.",
+    "text": "网络的健壮源于其无结构的简单。节点同时工作，几乎无需协调。它们无需表明身份，因为消息不会路由到任何特定位置，只需尽力投递即可。节点可以随意离开并重新加入网络，把工作量证明链当作它们离开期间所发生之事的证明。它们用 CPU 算力投票：通过在有效区块上继续扩展来表达接受，通过拒绝在其上工作来否决无效区块。任何所需的规则和激励，都可以通过这种共识机制来执行。",
     "whitepaper": true,
     "date": "2008-10-31",
     "categories": ["nodes", "mining"]
