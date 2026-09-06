@@ -13,13 +13,19 @@
 
 | 内容 | 位置 | 状态 |
 | --- | --- | --- |
-| UI 字符串（141 个 key） | `client/locales/zh-CN/common.json` | ✅ 完成 |
+| UI 字符串 | `client/locales/zh-CN/common.json` | ✅ 完成 |
 | 默认语言已切换为简体中文 | `client/i18n.ts`（`defaultLocale = "zh-cn"`） | ✅ 完成 |
 | 核心页面 8 篇（关于、速成课程、RPOW、Hal Finney 等） | `client/content/pages/zh-CN/` | ✅ 完成 |
-| Mempool 文章（127 篇待译） | `server/content/mempool/*.zh-cn.md` | ⏳ 已有 2 篇 |
-| 图书馆藏书（139 本待译） | `server/content/library/*.zh-cn.md` | ⏳ 已有 1 本 |
-| 播客节目说明 | `server/content/podcast_episodes/` | ⏳ 未开始 |
-| 中本聪语录（quotes.json） | `server/data/quotes.json` | ⏳ 未开始 |
+| Mempool 文章（76 篇） | `server/content/mempool/*.zh-cn.md` | ✅ 全部完成（含抽检校对） |
+| 图书馆藏书 140 篇（含白皮书全文） | `server/content/library/*.zh-cn.md` | ✅ 全部完成 |
+| 图书馆两本书（《渐进，然后突然》《货币生产的伦理学》） | `server/content/library_books/*/zh-cn/` | ✅ 全部完成（新增 `<书>/<locale>/` 目录约定） |
+| 播客节目（2 档 29 集） | `server/content/podcasts/`、`server/content/podcast_episodes/` | ✅ 完成 |
+| 中本聪语录（162 条）与分类 | `server/data/quotes.json`、`quote_categories.json` | ✅ 完成 |
+| "致敬大胆断言"（47 条） | `server/data/skeptics.json` | ✅ 完成 |
+| Mempool 系列简介 | `server/content/mempool_series/*.zh-cn.md` | ✅ 完成 |
+| 剩余 QA 校对（对照英文源逐批复核已恢复的译文） | `server/content/{mempool,library}/` | ⏳ 进行中（约 12/158 篇已校） |
+
+**范围说明**：中本聪的邮件（72 封）与论坛帖（3845 条）为历史原始文献，遵循学术惯例保留英文原文，不提供翻译；这两类内容在上游站也没有翻译机制。作者页只有姓名（上游即如此），无需翻译。
 
 ## 本地开发环境
 
@@ -57,19 +63,22 @@ pnpm dev       # http://localhost:3000，默认语言已是简体中文
 
 ## 部署到 Cloudflare
 
-前端通过 [`@opennextjs/cloudflare`](https://opennext.js.org/cloudflare) 适配器部署为 Cloudflare Worker。
+前端通过 [`@opennextjs/cloudflare`](https://opennext.js.org/cloudflare) 适配器部署为**全静态** Cloudflare Worker：所有页面在构建时预渲染，Worker 只负责从静态资产与预渲染缓存中返回页面（`staticAssetsIncrementalCache`），无需 R2/KV/DO。
 
 ```bash
 cd client
-pnpm build     # 需要先启动本地 API（见上）
-pnpm deploy    # opennextjs-cloudflare build && wrangler deploy
+pnpm run deploy   # 清空 .next -> opennextjs-cloudflare build -> 复制预渲染缓存 -> wrangler deploy
+pnpm run preview  # 本地 wrangler dev 验证
 ```
 
-首次部署前：
+要点（踩过的坑，改动前必读）：
 
-1. `npx wrangler login` 登录 Cloudflare 账号；
-2. 如需绑定自定义域名，在 `client/wrangler.jsonc` 中添加 `routes` 或在 Cloudflare 控制台配置；
-3. 构建时务必保证 API 可访问（数据在构建时固化进静态页面）。
+1. **构建前必须启动本地 API**（数据在构建时固化进静态页面）；
+2. **`pnpm build` 会先清空 `.next`**：Next.js 的 fetch 缓存（`.next/cache/fetch-cache`）会在多次构建间复用陈旧的 API 响应，导致预渲染页面停留在旧内容——这是本项目曾经"中文页面只有 5 篇"的根因；
+3. `scripts/copy-cache-assets.mjs` 会把 `.open-next/cache/<BUILD_ID>/` 复制进静态资产并**清理旧构建的缓存目录**，勿删；
+4. `client/.env.local` 使用 `VERCEL_ENV=preview`：`production` 值会把 `/satoshi/*` 重定向到 `satoshi.<域名>` 子域名（上游多域名架构），在 workers.dev 单域部署下必须用 `preview`，satoshi 版块才直接由 Worker 服务；
+5. **绑定正式域名**：在 Cloudflare 控制台为该 Worker 添加自定义域名（或 `client/wrangler.jsonc` 加 `routes`）；届时若想启用 satoshi 子域名架构，再把 `.env.local` 的 `VERCEL_ENV` 改回 `production` 并设置 `VERCEL_PROJECT_PRODUCTION_URL`；
+6. CI 部署：`.github/workflows/deploy.yml` 支持在 GitHub Actions 中构建并部署，需在仓库变量中设 `DEPLOY_VIA_CI=true` 并配置 `CLOUDFLARE_API_TOKEN`/`CLOUDFLARE_ACCOUNT_ID` secrets；默认关闭，本地 `pnpm run deploy` 是主要途径。
 
 ## 翻译协作指南
 
@@ -79,7 +88,20 @@ pnpm deploy    # opennextjs-cloudflare build && wrangler deploy
 
 ### 翻译图书馆藏书
 
-同理：复制 `server/content/library/<slug>.en.md` 为 `<slug>.zh-cn.md`。书籍为长篇内容，建议按章节（node）逐步翻译。
+同理：复制 `server/content/library/<slug>.en.md` 为 `<slug>.zh-cn.md`。
+
+**两本多章节书**（`gradually-then-suddenly`、`the-ethics-of-money-production`）使用目录约定：
+
+```
+server/content/library_books/<书名>/
+├── manifest.md            # 英文 manifest（canonical，不动）
+├── content/<node>.md      # 英文章节
+└── zh-cn/
+    ├── manifest.md        # 中文 manifest（title + 完整 nodes 列表 + translators）
+    └── content/<node>.md  # 中文章节；缺失的章节自动回退英文
+```
+
+导入器会为每个 locale 子目录建一份 `DocumentTranslation` 及其全部章节节点，为其他语言（如 `ja/`）翻译新书时沿用此结构即可。
 
 ### 翻译固定页面
 
