@@ -40,7 +40,22 @@ def load_manifest_based_fs_state(directory):
                     "manifest": manifest_file,
                     "content_dir": content_dir,
                     "directory": entry.path,
+                    "translations": {},
                 }
+                # Locale subdirectories: <slug>/<locale>/manifest.md + content/
+                for sub in os.scandir(entry.path):
+                    if not sub.is_dir() or sub.name == "content":
+                        continue
+                    translated_manifest = os.path.join(sub.path, "manifest.md")
+                    translated_content = os.path.join(sub.path, "content")
+                    if os.path.isfile(translated_manifest) and os.path.isdir(
+                        translated_content
+                    ):
+                        slug_map[slug]["translations"][sub.name] = {
+                            "manifest": translated_manifest,
+                            "content_dir": translated_content,
+                            "directory": sub.path,
+                        }
     return slug_map
 
 

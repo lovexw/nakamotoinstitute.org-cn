@@ -354,6 +354,10 @@ class ManifestBasedTranslatedHandler:
         # Insert nodes
         self._insert_nodes(manifest_data.nodes, None, en_translation.id, 1, content_dir)
 
+        # Locale subdirectory translations (e.g. <book>/<locale>/manifest.md)
+        for locale, record in fs_record.get("translations", {}).items():
+            self._create_translation(slug, locale, en_translation, record)
+
     def handle_deleted(self, db_entry):
         self.session.delete(db_entry["canonical"])
         self.metadata_manager.record_action(Actions.DELETED)
@@ -370,55 +374,169 @@ class ManifestBasedTranslatedHandler:
         action, new_metadata = self.metadata_manager.update_metadata(
             directory, old_metadata
         )
-        if action != Actions.UPDATED:
-            return
 
-        results, html_content, file_content = process_file(manifest_file, self.schemas)
+        if action == Actions.UPDATED:
+            results, html_content, file_content = process_file(
+                manifest_file, self.schemas
+            )
+            manifest_data = results["manifest"].model
+            canonical_data = results["canonical"].data
+            translation_data = results["translation"].data
+
+            # Update canonical entry
+            canonical_data = self.process_canonical_data(canonical_data, fs_record)
+            for k, v in canonical_data.items():
+                setattr(canonical_entry, k, v)
+            self.session.add(canonical_entry)
+
+            # Update English translation entry
+            if en_translation:
+                en_translation.content.file_content = file_content
+                en_translation.content.html_content = html_content
+                en_translation.content.file_metadata = new_metadata
+
+                translation_data = self.process_translation_data(
+                    translation_data, "en", None, fs_record
+                )
+                translation_data.pop("slug", None)
+
+                for k, v in translation_data.items():
+                    setattr(en_translation, k, v)
+                self.session.add(en_translation)
+            else:
+                # Create new English translation
+                new_content = MarkdownContent(
+                    file_content=file_content,
+                    html_content=html_content,
+                    file_metadata=new_metadata,
+                )
+                self.session.add(new_content)
+                en_translation = self.translation_model(
+                    slug=slug,
+                    locale="en",
+                    content=new_content,
+                    **{self.content_key: canonical_entry},
+                    **translation_data,
+                )
+                self.session.add(en_translation)
+                self.session.flush()
+
+            # Delete and recreate nodes
+            self._delete_existing_nodes(en_translation.id)
+            self._insert_nodes(
+                manifest_data.nodes, None, en_translation.id, 1, content_dir
+            )
+
+        self._sync_translations(slug, fs_record, db_entry)
+
+    def _sync_translations(self, slug, fs_record, db_entry):
+        translations = db_entry["translations"]
+        en_translation = translations.get("en")
+        fs_translations = fs_record.get("translations", {})
+
+        for locale in set(translations) - {"en"} - set(fs_translations):
+            self.session.delete(translations[locale])
+            self.metadata_manager.record_action(Actions.DELETED)
+
+        for locale, record in fs_translations.items():
+            db_translation = translations.get(locale)
+            if db_translation is None:
+                self._create_translation(
+                    slug, locale, en_translation, record, fs_record.get("content_dir")
+                )
+                continue
+            old_metadata = db_translation.content.file_metadata
+            action, new_metadata = self.metadata_manager.update_metadata(
+                record["directory"], old_metadata
+            )
+            if action == Actions.UPDATED:
+                self._update_translation(
+                    slug,
+                    locale,
+                    en_translation,
+                    db_translation,
+                    record,
+                    new_metadata,
+                    fs_record.get("content_dir"),
+                )
+
+    def _create_translation(
+        self, slug, locale, en_translation, record, fallback_content_dir
+    ):
+        schemas = select_schemas(self.schemas, "manifest", "translation")
+        results, html_content, file_content = process_file(record["manifest"], schemas)
         manifest_data = results["manifest"].model
-        canonical_data = results["canonical"].data
         translation_data = results["translation"].data
 
-        # Update canonical entry
-        canonical_data = self.process_canonical_data(canonical_data, fs_record)
-        for k, v in canonical_data.items():
-            setattr(canonical_entry, k, v)
-        self.session.add(canonical_entry)
+        new_metadata = self.metadata_manager.create_metadata(record["directory"])
+        new_content = MarkdownContent(
+            file_content=file_content,
+            html_content=html_content,
+            file_metadata=new_metadata,
+        )
+        self.session.add(new_content)
 
-        # Update English translation entry
-        if en_translation:
-            en_translation.content.file_content = file_content
-            en_translation.content.html_content = html_content
-            en_translation.content.file_metadata = new_metadata
+        translation_data = self.process_translation_data(
+            translation_data, locale, en_translation, record
+        )
+        translation_data.pop("slug", None)
 
-            translation_data = self.process_translation_data(
-                translation_data, "en", None, fs_record
-            )
-            translation_data.pop("slug", None)
+        translation = self.translation_model(
+            slug=slug,
+            locale=locale,
+            content=new_content,
+            **{self.content_key: getattr(en_translation, self.content_key)},
+            **translation_data,
+        )
+        self.session.add(translation)
+        self.session.flush()
 
-            for k, v in translation_data.items():
-                setattr(en_translation, k, v)
-            self.session.add(en_translation)
-        else:
-            # Create new English translation
-            new_content = MarkdownContent(
-                file_content=file_content,
-                html_content=html_content,
-                file_metadata=new_metadata,
-            )
-            self.session.add(new_content)
-            en_translation = self.translation_model(
-                slug=slug,
-                locale="en",
-                content=new_content,
-                **{self.content_key: canonical_entry},
-                **translation_data,
-            )
-            self.session.add(en_translation)
-            self.session.flush()
+        self._insert_nodes(
+            manifest_data.nodes,
+            None,
+            translation.id,
+            1,
+            record["content_dir"],
+            fallback_content_dir=fallback_content_dir,
+        )
 
-        # Delete and recreate nodes
-        self._delete_existing_nodes(en_translation.id)
-        self._insert_nodes(manifest_data.nodes, None, en_translation.id, 1, content_dir)
+    def _update_translation(
+        self,
+        slug,
+        locale,
+        en_translation,
+        db_translation,
+        record,
+        new_metadata,
+        fallback_content_dir,
+    ):
+        schemas = select_schemas(self.schemas, "manifest", "translation")
+        results, html_content, file_content = process_file(record["manifest"], schemas)
+        manifest_data = results["manifest"].model
+        translation_data = results["translation"].data
+
+        db_translation.content.file_content = file_content
+        db_translation.content.html_content = html_content
+        db_translation.content.file_metadata = new_metadata
+
+        translation_data = self.process_translation_data(
+            translation_data, locale, en_translation, record
+        )
+        translation_data.pop("slug", None)
+
+        for k, v in translation_data.items():
+            setattr(db_translation, k, v)
+        self.session.add(db_translation)
+
+        self._delete_existing_nodes(db_translation.id)
+        self._insert_nodes(
+            manifest_data.nodes,
+            None,
+            db_translation.id,
+            1,
+            record["content_dir"],
+            fallback_content_dir=fallback_content_dir,
+        )
 
     def process_canonical_data(self, canonical_data, fs_record):
         return canonical_data
@@ -439,31 +557,71 @@ class ManifestBasedTranslatedHandler:
         self.session.flush()
 
     def _insert_nodes(
-        self, node_data, parent_id, content_reference_id, order, content_dir
+        self,
+        node_data,
+        parent_id,
+        content_reference_id,
+        order,
+        content_dir,
+        fallback_content_dir=None,
     ):
         if isinstance(node_data, list):
             for idx, child in enumerate(node_data, start=1):
                 self._insert_nodes(
-                    child, parent_id, content_reference_id, idx, content_dir
+                    child,
+                    parent_id,
+                    content_reference_id,
+                    idx,
+                    content_dir,
+                    fallback_content_dir,
                 )
         elif isinstance(node_data, str):
             node = self._insert_node(
-                node_data, order, parent_id, content_reference_id, content_dir
+                node_data,
+                order,
+                parent_id,
+                content_reference_id,
+                content_dir,
+                fallback_content_dir,
             )
             return node.id
         elif hasattr(node_data, "slug") and hasattr(node_data, "children"):
             node = self._insert_node(
-                node_data.slug, order, parent_id, content_reference_id, content_dir
+                node_data.slug,
+                order,
+                parent_id,
+                content_reference_id,
+                content_dir,
+                fallback_content_dir,
             )
             node_id = node.id
             for idx, child in enumerate(node_data.children, start=1):
                 self._insert_nodes(
-                    child, node_id, content_reference_id, idx, content_dir
+                    child,
+                    node_id,
+                    content_reference_id,
+                    idx,
+                    content_dir,
+                    fallback_content_dir,
                 )
             return node_id
 
-    def _insert_node(self, slug, order, parent_id, content_reference_id, content_dir):
+    def _insert_node(
+        self,
+        slug,
+        order,
+        parent_id,
+        content_reference_id,
+        content_dir,
+        fallback_content_dir=None,
+    ):
         md_file = os.path.join(content_dir, f"{slug}.md")
+        if fallback_content_dir and not os.path.isfile(md_file):
+            print(
+                f"Node '{slug}' not found in {content_dir},"
+                f" falling back to {fallback_content_dir}"
+            )
+            md_file = os.path.join(fallback_content_dir, f"{slug}.md")
         schemas = select_schemas(self.schemas, "node_content")
         results, html_content, file_content = process_file(md_file, schemas)
         node_data = results["node_content"].data
