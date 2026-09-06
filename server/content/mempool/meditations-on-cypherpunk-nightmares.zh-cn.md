@@ -11,9 +11,9 @@ excerpt: 为了保护自己免于加密无政府主义的危险，我们需要�
 
 <figure>
   <blockquote>
-    <p>Some things are in our control and others not.</p>
+    <p>有些事物在我们掌控之中，有些则否。</p>
   </blockquote>
-  <figcaption>Epictetus, <em>The Enchiridion</em></figcaption>
+  <figcaption>爱比克泰德（Epictetus），《手册》（<em>The Enchiridion</em>）</figcaption>
 </figure>
 
 ## 密码学无政府的传播
@@ -41,13 +41,13 @@ _生活在 2014 年的任何人不仅应该假设他们的秘密将被泄露，�
 
 解决这个问题不容易，因为我们都曾说过现在后悔的话，或者做过不想公开的事情。然而，这些问题并不是互联网新造成的。互联网使得我们从隐私的幻觉中摆脱出来。
 
-### On change
+### 论变化
 
 <figure>
   <blockquote>
-    <p>The universe is change: life is judgement.</p>
+    <p>宇宙就是变化：人生就是判断。</p>
   </blockquote>
-  <figcaption>Marcus Aurelius, <em>Meditations</em> (Book IV, 3.4)</figcaption>
+  <figcaption>马可·奥勒留（Marcus Aurelius），《沉思录》（<em>Meditations</em>）（卷四，3.4）</figcaption>
 </figure>
 
 如果我们认真对待 Tim May 的话和经验数据，他所描述的加密无政府主义正在发生，而且将继续发生。技术是一把双刃剑，从罪犯到好人都能使用它。然而，这应该被认为是技术本性，希望有一种方法可以阻止技术是一种乌托邦。当 Cody Wilson 和[Defense Distributed](https://defdist.org/)给世界带来解救者，我们被迫面对这一事实：技术不是民主的。对于 3D 打印枪支、公钥密码学、比特币或者 BitTorrent 是否应该存在的问题，不是投票决定的。以上每一种技术分别是 Cody Wilson, Whitfield Diffie & Martin Hellman, Satoshi Nakamoto 和 Bram Cohen 的作品。它们已经存在了，我们必须应对这种结果。如果坏人能够使用这些技术，我们必须更好的使用这些技术。
@@ -58,9 +58,9 @@ _生活在 2014 年的任何人不仅应该假设他们的秘密将被泄露，�
 
 <figure>
   <blockquote>
-    <p>\[I\]n the sequence of your thoughts you must avoid all that is casual or aimless, and most particularly anything prying or malicious. Train yourself to think only those thoughts such that in answer to the sudden question “What is in your mind now?” you could say with immediate frankness whatever it is, this or that: and so your answer can agive direct evidence that all your thoughts are straightforward and kindly, the thoughts of a social being who has no regard for the fancies of pleasure or wider indulgence, for rivalry, malice, suspicion, or anything else that one would blush to admit was in one’s mind.</p>
+    <p>\[在\]思想的流转之中，你必须避免一切随意与漫无目的的念头，尤其要避免一切窥探他人或心存恶意的想法。训练自己只去想这样的念头：当被突然问起"你现在在想什么？"时，你可以即刻坦率地回答，无论所想是这个还是那个；这样，你的回答就能直接证明你的一切念头都正直而友善——那是一个社会性的存在者的念头，他不迷恋声色犬马的享乐、不贪图更放纵的沉溺，也不在意攀比、恶意与猜忌，没有任何一旦承认便会令自己羞愧的念头。</p>
   </blockquote>
-  <figcaption>Marcus Aurelius, <em>Meditations</em> (Book III, 4.2)</figcaption>
+  <figcaption>马可·奥勒留（Marcus Aurelius），《沉思录》（<em>Meditations</em>）（卷三，4.2）</figcaption>
 </figure>
 
 强大的密码学在保护信息，防止被偷窥方面，效果显著，但是密码学的使用是一种风险管理，而不是发现万能药。期待加密或者匿名的信息可以永远保持保密状态，几乎不可能，因为人是会犯错的。没有加密的通信就像发送明信片，接触到明信片的任何人都可以读到信息。
@@ -71,9 +71,9 @@ _生活在 2014 年的任何人不仅应该假设他们的秘密将被泄露，�
 
 <figure>
   <blockquote>
-    <p>\[I\]f you consider any man a friend whom you do not trust as you trust yourself, you are mightily mistaken and you do not sufficiently understand what true friendship means. Indeed, I would have you discuss everything with a friend; but first of all discuss the man himself. When friendship is settled, you must trust; before friendship is formed, you must pass judgment. Those persons indeed put last first and confound their duties, who, violating the rules of Theophrastus, judge a man after they have made him their friend, instead of making him their friend after they have judged him. Ponder for a long time whether you shall admit a given person to your friendship; but when you have decided to admit him, welcome him with all your heart and soul. Speak as boldly with him as with yourself.</p>
+    <p>\[如\]果你把一个不像信任自己那样信任的人当作朋友，那你就大错特错了，也完全没有理解真正的友谊意味着什么。诚然，我愿你与朋友无所不谈；但首先要谈谈这个人本身。当友谊已定，你必须信任；在友谊缔结之前，你必须先行判断。那些本末倒置、混淆了先后之责的人，违背了泰奥弗拉斯托斯的规则：他们先与人交了朋友，然后才去评判他，而不是先评判他，再与他交朋友。是否接纳某人为友，请长久地斟酌；而一旦决定接纳，就全心全意地欢迎他，与他交谈如同与自己交谈一样坦率。</p>
   </blockquote>
-  <figcaption>Seneca, <a href="https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_3">“On True and False Friendship”</a></figcaption>
+  <figcaption>塞涅卡（Seneca），<a href="https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_3">《论真友谊与假友谊》</a></figcaption>
 </figure>
 
 正如我上面所说的，[强大的密码学并不是万能药](/zh-cn/mempool/bitcoin-is-great-but-it-wont-fix-our-monkey-brains)。即使最强大的端对端加密，也不能保护你的信息安全，因为另一端可能泄密。因此，了解和信任和你通信的对方是非常重要的。你应该对对方有信心和理解他们的脆弱性。好人也可能被攻击。
