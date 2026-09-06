@@ -38,7 +38,7 @@ excerpt: 我们原本不得不信任垄断势力，比特币给我们提供了�
 
 [分布式市场](http://trilema.com/2013/why-i-nixed-p2p-colored-coins-and-all-that-jazz/)的案例说明：客观功能可以锚定规范性原则。上个月，我和老朋友 Ümlauteer [Jerry Brito](http://jerrybrito.com/), [HoumanShadab](http://www.nyls.edu/faculty/faculty-profiles/faculty_profiles/houman_shadab/)发布了比特币金融产品和平台监管威胁的论文工作草案，论文名为“[比特币金融监管](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2423461)：证券、衍生工具、预测市场、和赌博。”我们描述了企业家和金融精英们正在接纳比特币，用它进行高端金融活动。也描述了美国法规将如何监管或者“是否”能监管。
 
-作为一个点对点的交换媒介，比特币可以在不需要第三方记账者的前提下转移资金。但不幸的是，它没有提供[足够信息的平台或者兑价中心](http://trilema.com/2014/a-complete-theory-of-economics/)。换句话说，比特币提供了一个理想的转账机制，但没有提供发现交易对手或进行谈判的途径。在这个世界里[没人知道你是只狗](http://upload.wikimedia.org/wikipedia/en/f/f8/Internet_dog.jpg)。中心化的交易所填补了这一空白，但它有要害，监管机构可以轻松地把它干掉。各种团队正在积极创造一类平台，无需许可、匿名、点对点的进行交易（还要防止讨厌的政府监管）。[分布式的信用评级系统](https://github.com/goshakkk/decentralized-anonymous-marketplace-concept/issues/11)可以为比特币提供这种功能，虽然用起来不太方便。
+作为一个点对点的交换媒介，比特币可以在不需要第三方记账者的前提下转移资金。但不幸的是，它没有提供[足够信息的平台或者定价中心](http://trilema.com/2014/a-complete-theory-of-economics/)。换句话说，比特币提供了一个理想的转账机制，但没有提供发现交易对手或进行谈判的途径。在这个世界里[没人知道你是只狗](http://upload.wikimedia.org/wikipedia/en/f/f8/Internet_dog.jpg)。中心化的交易所填补了这一空白，但它有要害，监管机构可以轻松地把它干掉。各种团队正在积极创造一类平台，无需许可、匿名、点对点的进行交易（还要防止讨厌的政府监管）。[分布式的信用评级系统](https://github.com/goshakkk/decentralized-anonymous-marketplace-concept/issues/11)可以为比特币提供这种功能，虽然用起来不太方便。
 
 [狗屎三角](http://thecurioustask.tumblr.com/post/88277407744/the-shit-triangle)的形态已经很明显了，但我不认为分布式市场将主导比特币经济。在过渡期间，分布式市场对黑市和灰色市场很有吸引力，原因显而易见。但对于明面上的专业投资，现有的比特币信誉系统相对传统的评级方式就略逊一筹了。
 

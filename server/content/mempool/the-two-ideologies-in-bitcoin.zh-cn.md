@@ -12,7 +12,7 @@ image_alt: 沙丘之战
 
 比特币世界存在[两种意识形态](http://bitcoinist.net/just-shut-up-and-get-rich/ "闭嘴等着变富")。它们不是政治意识形态；而是对比特币在世界上的位置以及采纳将如何发生的不同愿景。其中一方主要将比特币视为一种工具，期望用比特币构建的应用是人们想要的东西，而对应用和服务的需求是比特币采纳的主要驱动力。这种观点的一个完美例子见[这篇近期文章](https://medium.com/zapchain-magazine/stop-what-youre-doing-and-start-a-bitcoin-company-665ecfd395d0)，它说"为了让比特币成为主流，需要有人做出一个所有人都使用的病毒式比特币产品。可能，使用这个产品的人甚至不会意识到它是由比特币驱动的"。另一个好例子见[这个视频](http://vimeo.com/92864854)，它称比特币为"糟糕的货币"并说"比特币的真正革命在于它是一种新型支付网络"。
 
-我把这一方称为创业者。典型的比特币创业者博客，参见 [Two Bit Idiot](http://two-bit-idiot.tumblr.com/ "Two Bit Idiot")。另一方是投资者，他们有着几乎相反的观点。对他们来说，比特币才是人们想要的东西，而比特币应用只是获取它的工具。比特币采纳意味着拥有比特币，而不是花费比特币。创业者认为投资是相对少数人的事。投资者认为[最终所有人](/mempool/hyperbitcoinization/ "超级比特币化")都将成为比特币投资者，这才是比特币采纳的主要驱动力。关于投资意识形态的著作，我推荐 [Oleg Andreev](http://blog.oleganza.com/ "Oleg Andreev") 的博客、[Pete Dushenski](http://contravex.com/ "Pete Dushenski") 的、Mircea Popescu 的 [Trilema](http://trilema.com/ "Trilema.com")，以及[中本聪研究所](/mempool/ "The Satoshi Nakamoto Institute")。
+我把这一方称为创业者。典型的比特币创业者博客，参见 [Two Bit Idiot](http://two-bit-idiot.tumblr.com/ "Two Bit Idiot")。另一方是投资者，他们有着几乎相反的观点。对他们来说，比特币才是人们想要的东西，而比特币应用只是获取它的工具。比特币采纳意味着拥有比特币，而不是花费比特币。创业者认为投资是相对少数人的事。投资者认为[最终所有人](/mempool/hyperbitcoinization/ "超级比特币化")都将成为比特币投资者，这才是比特币采纳的主要驱动力。关于投资意识形态的著作，我推荐 [Oleg Andreev](http://blog.oleganza.com/ "Oleg Andreev") 的博客、[Pete Dushenski](http://contravex.com/ "Pete Dushenski") 的、Mircea Popescu 的 [Trilema](http://trilema.com/ "Trilema.com")，以及[中本聪研究院](/mempool/ "The Satoshi Nakamoto Institute")。
 
 创业者强调消费和商家采纳，因为如果商家没兴趣接受比特币，比特币支付应用就没有存在的必要。另一方面，投资者认为商家采纳是采纳的副产品，而非驱动力。当人们对拥有比特币的渴望足够强时，商家采纳会自然发生。对投资者来说，比特币采纳发生在越来越多的人开始设想比特币未来是什么样子的时候。这就是每个人采纳比特币的方式。驱动采纳的不是在不久的将来用比特币在 [Overstock.com](http://www.overstock.com/ "Overstock.com") 上购物的预期——而是现在买入就能变得更富、持有美元就会变得更穷的预期。
 
