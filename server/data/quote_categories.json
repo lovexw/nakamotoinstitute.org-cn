@@ -1,102 +1,102 @@
 [
   {
     "slug": "micropayments",
-    "name": "Micropayments"
+    "name": "微支付"
   },
   {
     "slug": "bitcoin-economics",
-    "name": "Bitcoin Economics"
+    "name": "比特币经济学"
   },
   {
     "slug": "cryptocurrency",
-    "name": "Cryptocurrency"
+    "name": "加密货币"
   },
   {
     "slug": "transactions",
-    "name": "Transactions"
+    "name": "交易"
   },
   {
     "slug": "mining",
-    "name": "Mining"
+    "name": "挖矿"
   },
   {
     "slug": "releases",
-    "name": "Releases"
+    "name": "版本发布"
   },
   {
     "slug": "bitcoin-design",
-    "name": "Bitcoin Design"
+    "name": "比特币设计"
   },
   {
     "slug": "double-spending",
-    "name": "Double Spending"
+    "name": "双重支付"
   },
   {
     "slug": "proof-of-work",
-    "name": "Proof-of-Work"
+    "name": "工作量证明"
   },
   {
     "slug": "motives",
-    "name": "Motives"
+    "name": "动机"
   },
   {
     "slug": "difficulty",
-    "name": "Difficulty"
+    "name": "难度"
   },
   {
     "slug": "fees",
-    "name": "Fees"
+    "name": "手续费"
   },
   {
     "slug": "government",
-    "name": "Government"
+    "name": "政府"
   },
   {
     "slug": "p2p-networks",
-    "name": "P2P Networks"
+    "name": "P2P 网络"
   },
   {
     "slug": "identity",
-    "name": "Identity"
+    "name": "身份"
   },
   {
     "slug": "encryption",
-    "name": "Encryption"
+    "name": "加密"
   },
   {
     "slug": "banks",
-    "name": "Banks"
+    "name": "银行"
   },
   {
     "slug": "privacy",
-    "name": "Privacy"
+    "name": "隐私"
   },
   {
     "slug": "economics",
-    "name": "Economics"
+    "name": "经济学"
   },
   {
     "slug": "general",
-    "name": "General"
+    "name": "综合"
   },
   {
     "slug": "scalability",
-    "name": "Scalability"
+    "name": "可扩展性"
   },
   {
     "slug": "trusted-third-parties",
-    "name": "Trusted Third Parties"
+    "name": "受信任的第三方"
   },
   {
     "slug": "nodes",
-    "name": "Nodes"
+    "name": "节点"
   },
   {
     "slug": "addresses",
-    "name": "Addresses"
+    "name": "地址"
   },
   {
     "slug": "zero-knowledge",
-    "name": "Zero-Knowledge Proofs"
+    "name": "零知识证明"
   }
 ]
