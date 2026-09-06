@@ -18,7 +18,7 @@ image_alt: 不要恐慌
 
 每隔一两个月，就会出现一场新的危机。Mt. Gox 死了，它要毁掉比特币。中国禁止比特币，它要毁掉比特币。一个矿池获得了太多算力，它要[毁掉比特币](http://bitcoinist.net/the-centralization-of-mining-pools/)！时不时地，一个新的超级反派从石头下面跳出来。不久前，Mike Hearn 要用红名单[毁掉比特币](https://bitcointalk.org/index.php?topic=333824.0)。然后是 [CoinValidation](http://coinvalidation.com/) 背后的邪恶军团，他们想要追踪所有比特币用户。最近，Ben Lawsky 带着他的[bitlicense 超级武器](http://www.dfs.ny.gov/about/press2014/pr1407171-vc.pdf)成为了最新一个要毁掉比特币的留着小胡子的反派。
 
-任何人都能够禁止比特币这种想法是一个笑话。任何这样做的尝试都将是极大的傲慢。好像警察 somehow 能阻止人们随身携带私钥并连接互联网一样。比特币太有用了，以至于人们不必担心它是否合法，而且它也太[有用](/mempool/bitcoins-shroud-of-subtlety-and-allure)了，以至于政府代理人不会认真努力去阻止它。
+任何人都能够禁止比特币这种想法是一个笑话。任何这样做的尝试都将是极大的傲慢。好像警察不知怎么就能阻止人们随身携带私钥并连接互联网一样。比特币太有用了，以至于人们不必担心它是否合法，而且它也太[有用](/mempool/bitcoins-shroud-of-subtlety-and-allure)了，以至于政府代理人不会认真努力去阻止它。
 
 你知道什么会毁掉比特币吗？什么都不会。也许核战争或一颗巨大的陨石可以做到，但其他东西不太行。比特币爱好者的问题在于他们认为比特币是脆弱的，而实际上它是反脆弱的。比特币在每一次危机中都存活下来*不是巧合*。它存活是因为它是不朽的。
 

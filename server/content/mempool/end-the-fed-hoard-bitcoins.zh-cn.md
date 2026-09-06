@@ -9,7 +9,7 @@ image: bitcoin.png
 image_alt: 比特币
 ---
 
-自由意志主义者削弱[法定货币](http://en.wikipedia.org/wiki/Fiat_money)的策略一直围绕着[使金银成为可行的替代品](http://constitution.org/mon/greenspan_gold.htm)。这种努力失败了，因为用实物商品去与美元这样的数字货币竞争是不可能的，后者的交易成本更低。金属能成功的唯一途径是法定货币自己失败。虽然法定货币从长远来看不可避免地会崩溃，但考虑到中央银行正在对[人类资本的积累](http://mises.org/efandi/ch4.asp)造成的损害，等待这种可能性的到来是不可接受的。
+自由意志主义者削弱[法定货币](http://en.wikipedia.org/wiki/Fiat_money)的策略一直围绕着[使金银成为可行的替代品](http://constitution.org/mon/greenspan_gold.htm)。这种努力失败了，因为实物商品交易成本高昂，用它去与美元这样的数字货币竞争是不可能的。金属能成功的唯一途径是法定货币自己失败。虽然法定货币从长远来看不可避免地会崩溃，但考虑到中央银行正在对[人类资本的积累](http://mises.org/efandi/ch4.asp)造成的损害，等待这种可能性的到来是不可接受的。
 
 通过[审计美联储法案](http://en.wikipedia.org/wiki/Federal_Reserve_Transparency_Act)、将其陷入丑闻、以及"[合法化货币竞争](http://www.freedomworks.org/blog/jborowski/legalize-competing-currencies)"的口号，忽视了[公共选择经济学](http://en.wikipedia.org/wiki/Public_choice_theory)，也忽视了一个事实：数字法定货币已经在与金属的竞争中获胜，而且会再次获胜。我们不需要又一个政治解决方案来解决经济问题，我们需要的是一个更具竞争力的市场货币。登场的是[比特币](http://en.wikipedia.org/wiki/Bitcoin)。
 
